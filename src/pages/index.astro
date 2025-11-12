@@ -1,9 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import papers from '../../data/papers.normalized.json';
+import { getPaperUrl } from '~/utils/format';
+import { resolveWithBase } from '~/utils/paths';
 import type { Paper } from '~/utils/types';
 const typedPapers = papers as Paper[];
 const featured = typedPapers.slice(0, 3);
+const browseHref = resolveWithBase('/browse');
+const aboutHref = resolveWithBase('/about');
 ---
 
 <BaseLayout
@@ -22,8 +26,8 @@ const featured = typedPapers.slice(0, 3);
           to support multidisciplinary care.
         </p>
         <div class="flex flex-wrap gap-3">
-          <a class="btn-primary" href="/browse">Browse the repository</a>
-          <a class="btn-secondary" href="/about">Learn about the project</a>
+          <a class="btn-primary" href={browseHref}>Browse the repository</a>
+          <a class="btn-secondary" href={aboutHref}>Learn about the project</a>
         </div>
       </div>
       <div
@@ -58,7 +62,7 @@ const featured = typedPapers.slice(0, 3);
           featured.map((paper) => (
             <article class="card" key={paper.id}>
               <h3 class="text-lg font-semibold text-blue-700 dark:text-blue-300">
-                <a href={`/paper/${paper.id}`}>{paper.title}</a>
+                <a href={getPaperUrl(paper)}>{paper.title}</a>
               </h3>
               <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
                 {paper.normalizedAuthors.slice(0, 3).join(', ')} et al.

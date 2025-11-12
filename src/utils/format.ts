@@ -1,4 +1,5 @@
 import type { Paper } from './types';
+import { resolveWithBase } from './paths';
 
 export const truncateAuthors = (
   authors: string[],
@@ -21,6 +22,6 @@ export const formatYearRange = (papers: Paper[]): [number, number] => {
   return [Math.min(...years), Math.max(...years)];
 };
 
-export const getPaperUrl = (paper: Paper): string => `/paper/${paper.id}`;
+export const getPaperUrl = (paper: Paper): string => resolveWithBase(`/paper/${paper.id}`);
 
 export const isAbstractTruncated = (abstract: string): boolean => /\.\.\.$/.test(abstract.trim());

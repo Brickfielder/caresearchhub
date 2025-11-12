@@ -1,10 +1,17 @@
 ---
 import ThemeToggle from '../components/ThemeToggle.astro';
+import { resolveWithBase } from '~/utils/paths';
 import '../styles/global.css';
 const {
   title = 'OHCA Survivorship Repository',
   description = 'Knowledge hub for survivorship after cardiac arrest'
 } = Astro.props;
+const homeHref = resolveWithBase('/');
+const browseHref = resolveWithBase('/browse');
+const aboutHref = resolveWithBase('/about');
+const rssHref = resolveWithBase('/feed.xml');
+const jsonFeedHref = resolveWithBase('/feed.json');
+const apiHref = resolveWithBase('/api/papers.json');
 ---
 
 <!doctype html>
@@ -26,10 +33,10 @@ const {
       class="border-b border-slate-200 bg-white/80 backdrop-blur dark:border-slate-800 dark:bg-slate-950/80"
     >
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a class="text-lg font-semibold" href="/">OHCA Survivorship Repository</a>
+        <a class="text-lg font-semibold" href={homeHref}>OHCA Survivorship Repository</a>
         <nav class="hidden gap-6 text-sm font-medium sm:flex" aria-label="Primary">
-          <a href="/browse">Browse</a>
-          <a href="/about">About</a>
+          <a href={browseHref}>Browse</a>
+          <a href={aboutHref}>About</a>
         </nav>
         <div class="flex items-center gap-3">
           <ThemeToggle />
@@ -41,8 +48,8 @@ const {
       aria-label="Mobile"
     >
       <div class="mx-auto flex max-w-6xl gap-4">
-        <a href="/browse">Browse</a>
-        <a href="/about">About</a>
+        <a href={browseHref}>Browse</a>
+        <a href={aboutHref}>About</a>
       </div>
     </nav>
     <main id="main">
@@ -56,9 +63,9 @@ const {
       >
         <p>&copy; {new Date().getFullYear()} OHCA Survivorship Repository</p>
         <div class="flex gap-4">
-          <a href="/feed.xml">RSS</a>
-          <a href="/feed.json">JSON Feed</a>
-          <a href="/api/papers.json">API</a>
+          <a href={rssHref}>RSS</a>
+          <a href={jsonFeedHref}>JSON Feed</a>
+          <a href={apiHref}>API</a>
         </div>
       </div>
     </footer>
