@@ -43,14 +43,14 @@ export default function BrowseClient({ papers }: Props) {
   const facets = useMemo(() => buildFacets(papers), [papers]);
   const [state, setState] = useSearchState(papers);
   const results = useMemo(() => applySearch(papers, fuse, state), [papers, fuse, state]);
+  const currentYear = useMemo(() => new Date().getFullYear(), []);
   const yearRange = useMemo(() => {
     const years = Object.keys(facets.years).map((y) => Number.parseInt(y, 10));
     if (!years.length) {
-      const current = new Date().getFullYear();
-      return [current, current] as [number, number];
+      return [currentYear, currentYear] as [number, number];
     }
     return [Math.min(...years), Math.max(...years)] as [number, number];
-  }, [facets.years]);
+  }, [facets.years, currentYear]);
 
   const handleYearChange = (index: 0 | 1) => (event: Event) => {
     const value = Number.parseInt((event.target as HTMLInputElement).value, 10);
@@ -142,7 +142,7 @@ export default function BrowseClient({ papers }: Props) {
             <div class="space-y-3">
               <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-300">
                 <span>{state.years[0]}</span>
-                <span>{state.years[1]}</span>
+                <span>{state.years[1] === currentYear ? 'Current' : state.years[1]}</span>
               </div>
               <div class="space-y-2">
                 <input
