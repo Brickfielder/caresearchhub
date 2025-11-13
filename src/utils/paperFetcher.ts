@@ -130,9 +130,17 @@ const toArray = <T>(value: T | T[] | undefined): T[] => {
   return Array.isArray(value) ? value : [value];
 };
 
-const monthToNumber = (month?: string): string | undefined => {
-  if (!month) return undefined;
-  const normalized = month.toLowerCase();
+const monthToNumber = (month?: string | number): string | undefined => {
+  if (month === undefined || month === null) return undefined;
+  if (typeof month === 'number') {
+    return String(month).padStart(2, '0');
+  }
+  const trimmed = month.trim();
+  if (!trimmed) return undefined;
+  if (/^\d{1,2}$/.test(trimmed)) {
+    return trimmed.padStart(2, '0');
+  }
+  const normalized = trimmed.toLowerCase();
   const mapping: Record<string, string> = {
     jan: '01',
     january: '01',

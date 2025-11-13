@@ -104,6 +104,7 @@ describe('paper fetcher utilities', () => {
   </PubmedArticleSet>`;
 
   const pubmedXmlAlternate = pubmedXml.replace(/10\.1000\/example/g, '10.2000/example');
+  const pubmedXmlNumericMonths = pubmedXml.replace(/<Month>Jul<\/Month>/g, '<Month>7</Month>');
 
   const expectBasicFields = (record: RawPaper) => {
     expect(record.title).toBe('Example cardiac arrest study');
@@ -154,6 +155,14 @@ describe('paper fetcher utilities', () => {
     });
     expect(record.flags).toEqual({ open_access: true, has_fulltext: true });
     expectBasicFields(record);
+  });
+
+  it('handles numeric month nodes in PubMed payloads', async () => {
+    const fetcher = jest
+      .fn()
+      .mockResolvedValue(createXmlResponse(pubmedXmlNumericMonths));
+    const record = await fetchPubMedMetadata('12345678', fetcher);
+    expect(record.date).toBe('2024-07-15');
   });
 
   it('merges PubMed details when looking up by DOI', async () => {
