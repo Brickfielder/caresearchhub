@@ -1,5 +1,47 @@
 [
   {
+    "id": "40648804",
+    "pmid": "40648804",
+    "doi": "10.3390/jcm14134429",
+    "title": "V-CARE (Virtual Care After REsuscitation): Protocol for a Randomized Feasibility Study of a Virtual Psychoeducational Intervention After Cardiac Arrest-A STEPCARE Sub-Study.",
+    "authors": [
+      "Mion M",
+      "Lilja G",
+      "Bohm M",
+      "Nordstr&#xf6;m EB",
+      "T&#xf6;niste D",
+      "Heimburg K",
+      "Swindell P",
+      "Dankiewicz J",
+      "Skrifvars MB",
+      "Nielsen N",
+      "Jakobsen JC",
+      "White J",
+      "Wise MP",
+      "Gorgoraptis N",
+      "Keenan M",
+      "Hopkins P",
+      "Pareek N",
+      "Maccaroni M",
+      "Keeble TR"
+    ],
+    "journal": "Journal of clinical medicine",
+    "year": 2025,
+    "date": "2025-06-22",
+    "abstract": "Out-of-hospital cardiac arrest (OHCA) survivors and their relatives may face challenges following hospital discharge, relating to mood, cognition, and returning to normal day-to-day activities. Identified research gaps include a lack of knowledge around what type of intervention is needed to best navigate recovery. In this study, we investigate the feasibility and patient acceptability of a new virtual psychoeducational group intervention for OHCA survivors and their relatives and compare it to a control group receiving a digital information booklet.V-CARE is a comparative, single-blind randomized pilot trial including participants at selected sites of the STEPCARE trial, in the United Kingdom and Sweden. Inclusion criteria are a modified Rankin Scale (mRS) &#x2264; 3 at 30-day follow-up; no diagnosis of dementia; and not experiencing an acute psychiatric episode. One caregiver per patient is invited to participate optionally. The intervention group in V-CARE receives four semi-structured, one-hour-long, psychoeducational sessions delivered remotely via video call by a trained clinician once a week, 2-3 months after hospital discharge. The sessions cover understanding cardiac arrest; coping with fatigue and memory problems; managing low mood and anxiety; and returning to daily life. The control group receives an information booklet focused on fatigue, memory/cognitive problems, mental health, and practical coping strategies.Primary: feasibility (number of patients consented) and acceptability (retention rate); secondary: satisfaction with care (Client Satisfaction Questionnaire 8 item), self-management skills (Self-Management Assessment Scale) and, where available, health-related outcomes assessed in the STEPCARE Extended Follow-up sub-study including cognition, fatigue, mood, quality of life, and return to work.If preliminary insights from the V-CARE trial suggest the intervention to be feasible and acceptable, the results will be used to design a larger trial aimed at informing future interventions to support OHCA recovery.",
+    "links": {
+      "doi": "https://doi.org/10.3390/jcm14134429",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40648804",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12249823"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12249823",
+    "country": "Switzerland"
+  },
+  {
     "id": "10.1016/j.resuscitation.2024.110265",
     "doi": "10.1016/j.resuscitation.2024.110265",
     "title": "Long-term survival following out-of-hospital cardiac arrest in women and men: Influence of comorbidities, social characteristics, and resuscitation characteristics",
