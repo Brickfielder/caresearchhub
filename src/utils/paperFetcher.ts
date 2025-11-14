@@ -29,6 +29,24 @@ export class PaperLookupError extends Error {
   }
 }
 
+/**
+ * Decode HTML / numeric entities so "Nordstr&#xf6;m" → "Nordström"
+ */
+const decodeHtmlEntities = (value?: string): string => {
+  if (!value) return '';
+  return value
+    // decimal entities: &#246;
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(Number(dec)))
+    // hex entities: &#xF6;
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    // a few common named entities
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'");
+};
+
 export const resolvePmidFromPmcid = async (
   pmcid: string,
   fetcher: Fetcher = defaultFetch
@@ -117,10 +135,11 @@ export const resolvePmidFromDoi = async (
 
 const stripHtml = (value?: string): string => {
   if (!value) return '';
-  return value
+  const noTags = value
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+  return decodeHtmlEntities(noTags);
 };
 
 const toArray = <T>(value: T | T[] | undefined): T[] => {
@@ -218,16 +237,16 @@ interface CrossrefMessage {
 /**
  * Crossref authors → full names.
  * Prefer "given family" (e.g. "Victoria Louise Joshi").
- * Fall back to whatever Crossref gives in `name`, or either part alone.
+ * Decode any HTML entities first.
  */
 const extractCrossrefAuthors = (authors?: CrossrefAuthor[]): string[] => {
   if (!authors) return [];
   return authors
     .map((author) => {
-      if (author.name) return author.name.trim();
+      if (author.name) return decodeHtmlEntities(author.name.trim());
 
-      const given = author.given?.trim();
-      const family = author.family?.trim();
+      const given = author.given ? decodeHtmlEntities(author.given.trim()) : '';
+      const family = author.family ? decodeHtmlEntities(author.family.trim()) : '';
 
       if (given && family) return `${given} ${family}`;
       if (family) return family;
@@ -276,7 +295,8 @@ export const fetchCrossrefMetadata = async (
   if (!message) {
     throw new PaperLookupError('Crossref response did not include work metadata.');
   }
-  const title = message.title?.[0]?.trim();
+  const rawTitle = message.title?.[0]?.trim();
+  const title = decodeHtmlEntities(rawTitle);
   if (!title) {
     throw new PaperLookupError('Crossref response is missing a title.');
   }
@@ -288,7 +308,7 @@ export const fetchCrossrefMetadata = async (
   const pmid = message['pub-med-id'] ? String(message['pub-med-id']) : undefined;
   const abstract = stripHtml(message.abstract);
   const keywordSeed = message.subject
-    ?.map((subject) => subject.trim())
+    ?.map((subject) => decodeHtmlEntities(subject.trim()))
     .filter((subject): subject is string => Boolean(subject));
   const keywords = keywordSeed && keywordSeed.length ? keywordSeed : undefined;
   const links = cleanLinks({
@@ -305,7 +325,7 @@ export const fetchCrossrefMetadata = async (
     doi: doiValue,
     title,
     authors: extractCrossrefAuthors(message.author),
-    journal: message['container-title']?.[0]?.trim() ?? '',
+    journal: decodeHtmlEntities(message['container-title']?.[0]?.trim() ?? ''),
     year: dateInfo.year,
     date: dateInfo.date,
     abstract: abstract || '',
@@ -315,9 +335,8 @@ export const fetchCrossrefMetadata = async (
   };
 };
 
-interface PubMedArticleId {
-  text?: string | number;
-  IdType?: string;
+interface PubMedAffiliationInfo {
+  Affiliation?: string | { text?: string };
 }
 
 interface PubMedAuthor {
@@ -325,6 +344,7 @@ interface PubMedAuthor {
   ForeName?: string;
   Initials?: string;
   CollectiveName?: string;
+  AffiliationInfo?: PubMedAffiliationInfo | PubMedAffiliationInfo[];
 }
 
 type PubMedKeyword = { text?: string } | string;
@@ -349,6 +369,7 @@ interface PubMedArticleNode {
 
 interface PubMedCitationNode {
   Article?: PubMedArticleNode;
+  // MedlineJournalInfo?: { Country?: string };  // no longer used for "country" field
 }
 
 const parser = new XMLParser({
@@ -363,15 +384,19 @@ const parser = new XMLParser({
 /**
  * PubMed authors → full names.
  * Prefer "ForeName LastName" (e.g. "Victoria Louise Joshi").
- * Fall back gracefully to initials or last name only when needed.
+ * Decode entities on the way in.
  */
 const buildAuthorName = (author: PubMedAuthor): string | undefined => {
   // Group authors (e.g. "The TTM2 Investigators")
-  if (author.CollectiveName) return author.CollectiveName.trim();
+  if (author.CollectiveName) return decodeHtmlEntities(author.CollectiveName.trim());
 
-  const last = author.LastName?.trim();
-  const fore = author.ForeName?.trim();
-  const initials = author.Initials?.trim();
+  const lastRaw = author.LastName?.trim();
+  const foreRaw = author.ForeName?.trim();
+  const initialsRaw = author.Initials?.trim();
+
+  const last = lastRaw ? decodeHtmlEntities(lastRaw) : '';
+  const fore = foreRaw ? decodeHtmlEntities(foreRaw) : '';
+  const initials = initialsRaw ? decodeHtmlEntities(initialsRaw) : '';
 
   // Prefer full ForeName + LastName
   if (fore && last) {
@@ -394,7 +419,7 @@ const buildAuthorName = (author: PubMedAuthor): string | undefined => {
 
 const buildAbstract = (abstractNode: unknown): string => {
   if (!abstractNode) return '';
-  if (typeof abstractNode === 'string') return abstractNode.trim();
+  if (typeof abstractNode === 'string') return decodeHtmlEntities(abstractNode.trim());
   if (Array.isArray(abstractNode)) {
     return abstractNode
       .map((node) => buildAbstract(node))
@@ -403,8 +428,9 @@ const buildAbstract = (abstractNode: unknown): string => {
   }
   if (typeof abstractNode === 'object') {
     const node = abstractNode as { text?: string; Label?: string };
-    const text = node.text?.trim();
-    if (!text) return '';
+    const raw = node.text?.trim();
+    if (!raw) return '';
+    const text = decodeHtmlEntities(raw);
     return node.Label ? `${node.Label.trim()}: ${text}` : text;
   }
   return '';
@@ -434,6 +460,75 @@ const extractPubDate = (
       return { year: Number(match[1]), date: match[1] };
     }
   }
+  return undefined;
+};
+
+/**
+ * Normalise some country strings (UK → United Kingdom, etc.)
+ */
+const COUNTRY_NORMALISATION: Record<string, string> = {
+  uk: 'United Kingdom',
+  'u.k.': 'United Kingdom',
+  england: 'United Kingdom',
+  scotland: 'United Kingdom',
+  wales: 'United Kingdom',
+  'northern ireland': 'United Kingdom',
+  usa: 'United States',
+  'u.s.a.': 'United States',
+  'u.s.': 'United States'
+};
+
+const normaliseCountry = (raw: string): string => {
+  const key = raw.toLowerCase();
+  return COUNTRY_NORMALISATION[key] ?? raw;
+};
+
+const extractAffiliationsFromAuthor = (author: PubMedAuthor): string[] => {
+  const infos = toArray<PubMedAffiliationInfo>(author.AffiliationInfo);
+  return infos
+    .map((info) => {
+      if (!info) return '';
+      const affValue = info.Affiliation;
+      if (typeof affValue === 'string') return affValue.trim();
+      if (typeof affValue === 'object' && affValue.text) return affValue.text.trim();
+      return '';
+    })
+    .filter(Boolean);
+};
+
+/**
+ * Infer country from the *last author*'s affiliation.
+ * If the last author has no affiliation, fall back to the closest
+ * previous author with an affiliation.
+ */
+const inferCountryFromLastAuthor = (authors: PubMedAuthor[]): string | undefined => {
+  if (!authors.length) return undefined;
+
+  const pickCountryFromAffStrings = (affStrings: string[]): string | undefined => {
+    for (const rawAff of affStrings) {
+      const decoded = decodeHtmlEntities(rawAff);
+      const parts = decoded.split(',').map((p) => p.trim().replace(/\.$/, ''));
+      const tail = parts[parts.length - 1];
+      if (!tail) continue;
+      if (!/[a-zA-Z]/.test(tail)) continue;
+      return normaliseCountry(tail);
+    }
+    return undefined;
+  };
+
+  // Try last author first
+  let affStrings = extractAffiliationsFromAuthor(authors[authors.length - 1]);
+  let country = pickCountryFromAffStrings(affStrings);
+  if (country) return country;
+
+  // Fallback: walk backwards until we find an affiliation
+  for (let i = authors.length - 2; i >= 0; i--) {
+    affStrings = extractAffiliationsFromAuthor(authors[i]);
+    if (!affStrings.length) continue;
+    country = pickCountryFromAffStrings(affStrings);
+    if (country) return country;
+  }
+
   return undefined;
 };
 
@@ -472,29 +567,39 @@ export const fetchPubMedMetadata = async (
   }
   const pmidRaw = citation.PMID?.text ?? citation.PMID;
   const pmidValue = pmidRaw ? String(pmidRaw) : undefined;
-  const title =
+
+  const rawTitle =
     typeof articleInfo.ArticleTitle === 'string'
       ? articleInfo.ArticleTitle.trim()
       : stripHtml(articleInfo.ArticleTitle?.text);
+  const title = decodeHtmlEntities(rawTitle);
   if (!title) {
     throw new PaperLookupError('PubMed record is missing a title.');
   }
+
   const abstractText = buildAbstract(articleInfo.Abstract?.AbstractText ?? articleInfo.Abstract);
-  const authorList = toArray<PubMedAuthor>(articleInfo.AuthorList?.Author).map(buildAuthorName);
-  const authors = authorList.filter(Boolean) as string[];
+
+  const authorListRaw = toArray<PubMedAuthor>(articleInfo.AuthorList?.Author);
+  const authorList = authorListRaw.map(buildAuthorName);
+  const authors = (authorList.filter(Boolean) as string[]).map((name) => decodeHtmlEntities(name));
+
   const keywords = toArray(articleInfo.KeywordList?.Keyword)
     .map((keyword: PubMedKeyword) => (typeof keyword === 'string' ? keyword : keyword?.text))
     .filter((keyword): keyword is string => Boolean(keyword))
-    .map((keyword) => keyword.trim());
+    .map((keyword) => decodeHtmlEntities(keyword.trim()));
+
   const mesh = toArray(entry.MedlineCitation?.MeshHeadingList?.MeshHeading)
     .map((heading: PubMedDescriptor) => {
       if (!heading) return undefined;
-      if (typeof heading === 'string') return heading.trim();
+      if (typeof heading === 'string') return decodeHtmlEntities(heading.trim());
       const descriptor = heading.DescriptorName;
       if (!descriptor) return undefined;
-      return typeof descriptor === 'string' ? descriptor.trim() : descriptor.text?.trim();
+      const raw =
+        typeof descriptor === 'string' ? descriptor.trim() : descriptor.text?.trim();
+      return raw ? decodeHtmlEntities(raw) : undefined;
     })
     .filter((name): name is string => Boolean(name));
+
   const articleIds = toArray<PubMedArticleId | string | number>(
     entry.PubmedData?.ArticleIdList?.ArticleId
   ).map((entryId) => {
@@ -511,7 +616,12 @@ export const fetchPubMedMetadata = async (
   if (!dateInfo?.year) {
     throw new PaperLookupError('PubMed record is missing a publication year.');
   }
-  const journal = articleInfo.Journal?.Title?.trim?.() ?? '';
+  const journalRaw = articleInfo.Journal?.Title?.trim?.() ?? '';
+  const journal = decodeHtmlEntities(journalRaw);
+
+  // 🔴 KEY CHANGE: country from last author affiliation, not MedlineJournalInfo.Country
+  const country = inferCountryFromLastAuthor(authorListRaw);
+
   const links = cleanLinks({
     pubmed: pmidValue ? `https://pubmed.ncbi.nlm.nih.gov/${pmidValue}` : undefined,
     doi: doi ? `https://doi.org/${doi}` : undefined,
@@ -534,7 +644,7 @@ export const fetchPubMedMetadata = async (
     abstract: abstractText,
     mesh: mesh.length ? mesh : undefined,
     keywords: keywords.length ? keywords : undefined,
-    country: citation.MedlineJournalInfo?.Country?.trim?.(),
+    country, // now based on last author affiliation
     links,
     flags
   };
