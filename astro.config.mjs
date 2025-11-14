@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import preact from '@astrojs/preact';
+import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 
 const repository = process.env.GITHUB_REPOSITORY?.split('/') ?? [];
@@ -18,7 +19,15 @@ const site =
 export default defineConfig({
   site,
   base: normalizedBase,
-  integrations: [tailwind(), preact()],
+  integrations: [
+    tailwind(),
+    preact({
+      exclude: ['src/components/CountryHeatmap.tsx']
+    }),
+    react({
+      include: ['src/components/CountryHeatmap.tsx']
+    })
+  ],
   output: 'static',
   experimental: {
     contentLayer: false
