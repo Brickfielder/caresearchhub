@@ -37,8 +37,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install deps
-        run: npm ci
+      - name: Install deps (runtime only)
+        run: npm ci --omit=dev
 
       - name: Prepare DOI list
         id: doi_inputs
