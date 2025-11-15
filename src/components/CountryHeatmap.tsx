@@ -43,7 +43,15 @@ const CountryHeatmap: React.FC = () => {
         locationmode: 'country names',
         locations,
         z,
-        colorbar: { title: 'Papers' }
+        colorbar: {
+          title: 'Papers',
+          orientation: 'h',
+          x: 0.5,
+          xanchor: 'center',
+          y: -0.25,
+          len: 0.7,
+          thickness: 16
+        }
       } as Partial<Plotly.PlotData>
     ];
 
@@ -52,7 +60,7 @@ const CountryHeatmap: React.FC = () => {
       geo: {
         projection: { type: 'natural earth' }
       },
-      margin: { t: 40, r: 0, b: 0, l: 0 }
+      margin: { t: 40, r: 0, b: 80, l: 0 }
     };
 
     Plotly.newPlot(containerRef.current, data, layout, { responsive: true });
