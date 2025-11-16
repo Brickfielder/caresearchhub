@@ -27,97 +27,81 @@ const stats = [
   description="Evidence summaries for life after cardiac arrest"
 >
   <section class="space-y-12">
-    <div
-      class="page-hero relative overflow-hidden rounded-3xl border border-white/70 bg-white/90 p-8 shadow-2xl ring-1 ring-indigo-100 backdrop-blur"
-    >
-      <div class="grid gap-10 lg:grid-cols-[1.1fr,0.9fr] lg:items-center">
-        <div class="space-y-6">
-          <p
-            class="inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-1 text-sm font-semibold text-indigo-700"
-          >
-            <span
-              class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 text-white shadow-md"
-            >
-              <svg aria-hidden="true" class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                ></path>
-              </svg>
-            </span>
-            Survivor-centered evidence hub
-          </p>
-          <section id="survivorship-hero" class="space-y-4">
-            <h1 class="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-              Survivorship After Cardiac Arrest: A Living Research Repository
-            </h1>
-            <p class="text-lg leading-relaxed text-slate-600">
-              <strong>Mapping the evidence that tells us what life looks like <em>after</em> survival.</strong><br />
-              A regularly updated collection of studies on cognitive, psychological, social, and
-              quality-of-life outcomes following cardiac arrest.
-            </p>
-          </section>
-          <div class="page-hero-actions flex flex-wrap gap-3">
-            <a
-              class="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-500 hover:shadow-xl"
-              href={browseHref}
-            >
-              <svg
-                aria-hidden="true"
-                class="h-4 w-4"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-3.35z"></path>
-              </svg>
-              Browse the repository
-            </a>
-            <a
-              class="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-indigo-200 hover:text-indigo-700"
-              href={aboutHref}
-            >
-              Learn about the project
-            </a>
-            <a
-              class="inline-flex items-center gap-2 rounded-xl border border-indigo-100 bg-indigo-50 px-5 py-2.5 text-sm font-semibold text-indigo-700 transition hover:-translate-y-0.5 hover:border-indigo-300 hover:bg-white"
-              href={heatmapHref}
-            >
-              Heat Map
-            </a>
-            <a
-              class="inline-flex items-center gap-2 rounded-xl border border-rose-100 bg-rose-50 px-5 py-2.5 text-sm font-semibold text-rose-700 transition hover:-translate-y-0.5 hover:border-rose-300 hover:bg-white"
-              href={collaborateHref}
-            >
-              Collaborate
-            </a>
-          </div>
+    <div class="overflow-hidden rounded-[28px] border border-white/60 bg-white shadow-2xl ring-1 ring-indigo-100">
+      <div class="bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-600 px-8 py-10 text-center text-white sm:px-10">
+        <div class="mx-auto inline-flex items-center gap-3 rounded-full bg-white/20 px-5 py-2 text-sm font-semibold backdrop-blur">
+          <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-indigo-600 shadow">
+            💙
+          </span>
+          Survivor-centered evidence hub
         </div>
-        <div
-          class="rounded-2xl border border-indigo-100 bg-gradient-to-br from-indigo-50 via-white to-slate-50 p-6 shadow-inner"
-        >
-          <h2 class="text-lg font-semibold text-slate-900">Key themes we curate</h2>
-          <ul class="mt-5 space-y-4 text-sm text-slate-600">
-            <li class="flex items-start gap-3">
-              <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-indigo-500"></span>
-              Cognitive screening, neuropsychology, and rehabilitation
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-purple-500"></span>
-              Emotional recovery, fatigue, and psychological well-being
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
-              Participation, return-to-work, and quality of life
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-amber-500"></span>
-              Caregiver support, peer networks, and shared decision making
-            </li>
-          </ul>
+        <section id="survivorship-hero" class="mx-auto mt-6 max-w-4xl space-y-3">
+          <h1 class="text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+            Survivorship After Cardiac Arrest
+          </h1>
+          <p class="text-lg font-medium text-white/90">A Living Research Repository</p>
+        </section>
+      </div>
+      <div class="p-8 sm:p-10">
+        <div class="grid gap-10 lg:grid-cols-[1.15fr,0.85fr] lg:items-start">
+          <div class="space-y-6">
+            <p class="text-base leading-relaxed text-slate-600">
+              <strong class="text-slate-900">Mapping the evidence that tells us what life looks like <em>after</em> survival.</strong>
+              <br />
+              A regularly updated collection of studies on cognitive, psychological, social, and quality-of-life outcomes following cardiac arrest.
+            </p>
+
+            <div class="grid gap-4 sm:grid-cols-2">
+              <a
+                class="col-span-1 inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl sm:col-span-2"
+                href={browseHref}
+              >
+                <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-3.35z" />
+                </svg>
+                Browse the repository
+              </a>
+              <a
+                class="inline-flex items-center justify-center rounded-2xl border-2 border-indigo-200 px-5 py-3 text-sm font-semibold text-indigo-600 transition hover:-translate-y-0.5 hover:border-indigo-400 hover:text-indigo-700"
+                href={aboutHref}
+              >
+                Learn about the project
+              </a>
+              <a
+                class="inline-flex items-center justify-center rounded-2xl border-2 border-indigo-100 bg-indigo-50/70 px-5 py-3 text-sm font-semibold text-indigo-600 transition hover:-translate-y-0.5 hover:border-indigo-300 hover:bg-white"
+                href={heatmapHref}
+              >
+                Heat Map
+              </a>
+              <a
+                class="inline-flex items-center justify-center rounded-2xl border-2 border-rose-200 px-5 py-3 text-sm font-semibold text-rose-600 transition hover:-translate-y-0.5 hover:border-rose-400 hover:text-rose-700"
+                href={collaborateHref}
+              >
+                Collaborate
+              </a>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-slate-100 bg-gradient-to-br from-slate-50 via-white to-indigo-50 p-6 shadow-inner">
+            <h2 class="text-lg font-semibold text-slate-900">Key themes we curate</h2>
+            <div class="mt-4 space-y-3 text-sm text-slate-600">
+              <div class="flex gap-3 rounded-xl bg-white/80 p-3 shadow-sm ring-1 ring-slate-100">
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-indigo-500"></span>
+                <span>Cognitive screening, neuropsychology, and rehabilitation</span>
+              </div>
+              <div class="flex gap-3 rounded-xl bg-white/80 p-3 shadow-sm ring-1 ring-slate-100">
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-purple-500"></span>
+                <span>Emotional recovery, fatigue, and psychological well-being</span>
+              </div>
+              <div class="flex gap-3 rounded-xl bg-white/80 p-3 shadow-sm ring-1 ring-slate-100">
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+                <span>Participation, return-to-work, and quality of life</span>
+              </div>
+              <div class="flex gap-3 rounded-xl bg-white/80 p-3 shadow-sm ring-1 ring-slate-100">
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-amber-500"></span>
+                <span>Caregiver support, peer networks, and shared decision making</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
