@@ -80,10 +80,19 @@ const designs = Array.from(
       </div>
     </div>
 
+    {
+      /*
+        IMPORTANT:
+        - Below this comment, KEEP the existing code that renders the survivorship papers list,
+          filters, tables, or cards. Do not remove or change that logic.
+        - Only the hero + methods explanation above should be new.
+      */
+    }
+
     <div
       class="rounded-3xl border border-white/70 bg-white/95 p-6 shadow-2xl ring-1 ring-indigo-100 backdrop-blur"
     >
       <BrowseClient client:load papers={typedPapers} />
     </div>
-  </section>
+  </main>
 </BaseLayout>
