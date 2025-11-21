@@ -27,16 +27,6 @@ on:
         description: 'Country'
         required: true
         type: string
-      interests:
-        description: 'Focus areas (optional)'
-        required: false
-        type: string
-        default: ''
-      tags:
-        description: 'Comma or newline separated tags (optional)'
-        required: false
-        type: string
-        default: ''
       offer:
         description: 'What I can offer (optional)'
         required: false
@@ -94,8 +84,6 @@ jobs:
           PERSON_ORG: ${{ inputs.org }}
           PERSON_CITY: ${{ inputs.city }}
           PERSON_COUNTRY: ${{ inputs.country }}
-          PERSON_INTERESTS: ${{ inputs.interests }}
-          PERSON_TAGS: ${{ inputs.tags }}
           PERSON_OFFER: ${{ inputs.offer }}
           PERSON_LOOKING_TO_COLLABORATE_ON: ${{ inputs.looking_to_collaborate_on }}
         run: |
@@ -107,8 +95,6 @@ jobs:
             --org "$PERSON_ORG" \
             --city "$PERSON_CITY" \
             --country "$PERSON_COUNTRY" \
-            --interests "$PERSON_INTERESTS" \
-            --tags "$PERSON_TAGS" \
             --offer "$PERSON_OFFER" \
             --looking_to_collaborate_on "$PERSON_LOOKING_TO_COLLABORATE_ON"
 
