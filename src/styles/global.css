@@ -57,6 +57,63 @@ main {
   margin-right: auto;
 }
 
+.page--ongoing-studies {
+  @apply space-y-14;
+}
+
+.page--ongoing-studies .container {
+  @apply mx-auto max-w-5xl space-y-4;
+}
+
+.section--table .table-wrapper {
+  @apply overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900;
+}
+
+.table--studies {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table--studies th,
+.table--studies td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border-subtle, #e0e0e0);
+}
+
+.study-card {
+  border: 1px solid var(--border-subtle, #e0e0e0);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  box-shadow: 0 10px 25px -20px rgba(15, 23, 42, 0.35);
+  @apply dark:border-slate-800 dark:bg-slate-900;
+}
+
+.study-card h3 {
+  @apply text-xl font-semibold text-slate-900 dark:text-slate-100;
+}
+
+.study-meta {
+  font-size: 0.95rem;
+  color: var(--text-muted, #666);
+}
+
+.study-tags {
+  margin-top: 0.75rem;
+}
+
+.study-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle, #e0e0e0);
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  @apply dark:border-slate-700;
+}
+
 @media (max-width: 640px) {
   .page-hero {
     text-align: center;
