@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Ongoing Studies in Cardiac Arrest Survivorship"
+  description="Snapshot of survivorship-focused clinical studies and trials in progress"
+>
+  <div class="page page--ongoing-studies">
+    <section class="section section--intro">
+      <div class="container">
+        <h1>Ongoing Studies in Cardiac Arrest Survivorship</h1>
+        <p>
+          This page highlights selected ongoing research projects focused on life after cardiac arrest –
+          including rehabilitation, psychoeducation, self-management and support for survivors and
+          their families. It is for information only and does not provide medical advice or a direct
+          route into any study.
+        </p>
+        <p class="page-meta" id="ongoing-studies-updated"></p>
+      </div>
+    </section>
+
+    <section class="section section--table">
+      <div class="container">
+        <h2>At a glance</h2>
+        <p>
+          Use this overview to quickly compare populations, focus and format across studies. Click on
+          a study name to jump to its detailed summary.
+        </p>
+        <div class="table-wrapper">
+          <table class="table table--studies">
+            <thead>
+              <tr>
+                <th>Study</th>
+                <th>Countries / setting</th>
+                <th>Target group</th>
+                <th>Main focus</th>
+                <th>Format</th>
+                <th>Status</th>
+                <th>Links</th>
+              </tr>
+            </thead>
+            <tbody id="studies-table-body">
+              <!-- Filled by ongoing-studies.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--studies">
+      <div class="container">
+        <h2>Study summaries</h2>
+        <div id="studies-cards">
+          <!-- Study cards injected here -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--notes">
+      <div class="container">
+        <h2>Notes &amp; disclaimer</h2>
+        <p>
+          This list focuses on survivorship-oriented studies and is not exhaustive of all cardiac
+          arrest research. Study status and eligibility criteria may change; please refer to the
+          linked protocol or trial registry pages for the most up-to-date information.
+        </p>
+        <p>
+          If you are interested in taking part in research, please discuss this with your clinical
+          team or follow the instructions on the linked study or registry pages.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src={Astro.resolve('../scripts/ongoing-studies.ts')} />
+</BaseLayout>
