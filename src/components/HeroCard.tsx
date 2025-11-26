@@ -28,7 +28,7 @@ export default function HeroCard({
   const isSlate = variant === 'slate';
 
   const containerClasses = [
-    'relative w-full overflow-hidden rounded-3xl p-8 sm:p-10 shadow-2xl transition',
+    'relative w-full overflow-hidden rounded-3xl p-6 sm:p-8 lg:p-10 shadow-2xl transition',
     isGradient
       ? 'border border-white/60 bg-gradient-to-br from-indigo-600 via-violet-500 to-rose-400 text-white'
       : isSlate
@@ -43,16 +43,16 @@ export default function HeroCard({
       : 'inline-flex items-center gap-2 rounded-full bg-indigo-50 px-4 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-indigo-700 ring-1 ring-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-100 dark:ring-indigo-800/60';
 
   const titleClasses = isGradient
-    ? 'text-4xl font-semibold leading-tight text-white sm:text-5xl'
+    ? 'text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl'
     : isSlate
-      ? 'text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl'
+      ? 'text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl'
       : 'text-2xl font-semibold leading-tight text-slate-900 sm:text-3xl md:text-4xl dark:text-white';
 
   const subtitleClasses = isGradient
-    ? 'text-lg text-white/90'
+    ? 'text-base text-white/90 sm:text-lg'
     : isSlate
-      ? 'text-lg text-slate-300 sm:text-xl sm:leading-relaxed'
-      : 'text-lg text-slate-600 dark:text-slate-200';
+      ? 'text-base text-slate-300 sm:text-lg sm:leading-relaxed'
+      : 'text-base text-slate-600 sm:text-lg dark:text-slate-200';
 
   const renderedTitle = Array.isArray(title)
     ? title.map((line, index) => (
@@ -80,12 +80,12 @@ export default function HeroCard({
         </div>
       ) : null}
       <div className={rightSlot ? 'relative grid gap-10 lg:grid-cols-[1.1fr,0.9fr]' : 'relative space-y-6'}>
-        <div className="space-y-6">
+        <div className="space-y-5 sm:space-y-6">
           {eyebrow ? <p className={eyebrowClasses}>{eyebrow}</p> : null}
           <h1 className={titleClasses}>{renderedTitle}</h1>
           <p className={subtitleClasses}>{subtitle}</p>
           {primaryCta || secondaryCta ? (
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               {primaryCta}
               {secondaryCta}
             </div>
