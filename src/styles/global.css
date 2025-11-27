@@ -190,14 +190,14 @@ main {
   font-size: clamp(2.25rem, 3.5vw + 1rem, 3.25rem);
   line-height: 1.1;
   font-weight: 800;
+  font-family: 'Inter var', system-ui, sans-serif;
   color: #ffffff;
   letter-spacing: -0.02em;
   margin: 0.5rem 0 0.25rem;
 }
 
 .hero-title {
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100%;
   line-height: 1.2;
 }
 
