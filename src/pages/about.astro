@@ -1,30 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getBrowseUrl, getSiteUrl } from '~/utils/siteUrls';
-import HeroCard from '~/components/HeroCard';
-import { h } from 'preact';
-const browseHref = getBrowseUrl();
+import { getSiteUrl } from '~/utils/siteUrls';
 const imageBase = getSiteUrl('assets/images/');
 const marcoMionSrc = `${imageBase}marco-mion.jpg`;
 const vickyJoshiSrc = `${imageBase}vicky-joshi.jpg`;
-const aboutPrimaryCta = h(
-  'a',
-  {
-    class:
-      'inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-500 hover:shadow-xl',
-    href: browseHref
-  },
-  'Explore the papers'
-);
-const aboutSecondaryCta = h(
-  'a',
-  {
-    class:
-      'inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-indigo-200 hover:text-indigo-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-50',
-    href: 'mailto:info@ohca-repo.org'
-  },
-  'Contact the team'
-);
 ---
 
 <BaseLayout
@@ -32,15 +11,6 @@ const aboutSecondaryCta = h(
   description="Background and update cadence for the OHCA Survivorship Repository"
 >
   <section class="mx-auto max-w-6xl space-y-10 px-4 py-10 sm:space-y-12 sm:px-6 lg:px-8">
-    <HeroCard
-      eyebrow="Our purpose & process"
-      title="About the cardiac arrest survivorship research hub"
-      subtitle="The repository organizes peer-reviewed research on life after out-of-hospital cardiac arrest, highlighting cognition, psychological health, quality of life, participation, and caregiver-focused work. Each paper is reviewed for relevance, tagged with a shared schema, and linked to external sources to help clinicians, researchers, and survivor partners act on the evidence."
-      primaryCta={aboutPrimaryCta}
-      secondaryCta={aboutSecondaryCta}
-      variant="surface"
-    />
-
     <nav
       class="sticky top-4 z-10 -mx-2 rounded-2xl bg-white/85 p-3 shadow-sm ring-1 ring-slate-200 backdrop-blur sm:-mx-0 sm:p-4 md:static"
       aria-label="About page quick links"
@@ -56,8 +26,20 @@ const aboutSecondaryCta = h(
     </nav>
 
     <section class="card" id="about-creators">
-      <h2 class="card-title">Project Leads</h2>
-      <p>
+      <div class="space-y-3">
+        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-indigo-700">
+          Our purpose & process
+        </p>
+        <h2 class="card-title text-2xl sm:text-3xl">
+          About the cardiac arrest survivorship research hub
+        </h2>
+      </div>
+
+      <p class="mt-4 font-semibold">
+        <strong>Project Leads</strong>
+      </p>
+
+      <p class="mt-4">
         This repository was created and is maintained by Dr Marco Mion and Dr Vicky Joshi, who work
         together to improve survivorship and follow-up care after cardiac arrest.
       </p>

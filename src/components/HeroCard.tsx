@@ -7,7 +7,7 @@ export type HeroCardTitleLine = {
 
 export type HeroCardProps = {
   eyebrow?: string;
-  title: string | HeroCardTitleLine[];
+  title?: string | HeroCardTitleLine[];
   subtitle: string;
   primaryCta?: ReactNode;
   secondaryCta?: ReactNode;
@@ -72,6 +72,8 @@ export default function HeroCard({
       ))
     : title;
 
+  const hasTitle = Boolean(title);
+
   return (
     <div className={containerClasses}>
       {isGradient ? (
@@ -86,7 +88,7 @@ export default function HeroCard({
       >
         <div className="space-y-5 sm:space-y-6">
           {eyebrow ? <p className={eyebrowClasses}>{eyebrow}</p> : null}
-          <h1 className={titleClasses}>{renderedTitle}</h1>
+          {hasTitle ? <h1 className={titleClasses}>{renderedTitle}</h1> : null}
           <p className={subtitleClasses}>{subtitle}</p>
           {primaryCta || secondaryCta ? (
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
