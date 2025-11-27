@@ -353,6 +353,8 @@ type PubMedKeyword = { text?: string } | string;
 
 type PubMedDescriptor = { DescriptorName?: { text?: string } | string } | string;
 
+type PubMedArticleId = { IdType?: string; text?: string };
+
 interface PubMedDateNode {
   Year?: string | number;
   Month?: string;

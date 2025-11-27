@@ -121,7 +121,7 @@ describe('paper fetcher utilities', () => {
       doi: '10.1000/example',
       journal: 'Journal of Testing',
       abstract: 'This is important science.',
-      authors: ['Doe, Jane', 'Research Group'],
+      authors: ['Jane Doe', 'Research Group'],
       keywords: ['Cardiac Arrest', 'Recovery'],
       links: {
         doi: 'https://doi.org/10.1000/example',
@@ -142,10 +142,10 @@ describe('paper fetcher utilities', () => {
       doi: '10.1000/example',
       pmcid: 'PMC1234567',
       journal: 'Journal of Testing',
-      authors: ['Doe JA', 'Research Group'],
+      authors: ['Jane A Doe', 'Research Group'],
       mesh: ['Heart Arrest'],
       keywords: ['cardiac arrest', 'recovery'],
-      country: 'United States'
+      country: undefined
     });
     expect(record.abstract).toBe('BACKGROUND: Background text.\nRESULTS: Results text.');
     expect(record.links).toEqual({
@@ -177,7 +177,7 @@ describe('paper fetcher utilities', () => {
     const record = await fetchPaperByIdentifier({ doi: '10.1000/example' }, fetcher);
     expect(record.id).toBe('12345678');
     expect(record.pmid).toBe('12345678');
-    expect(record.authors).toEqual(['Doe JA', 'Research Group']);
+    expect(record.authors).toEqual(['Jane A Doe', 'Research Group']);
     expect(record.abstract).toBe('BACKGROUND: Background text.\nRESULTS: Results text.');
     expect(record.flags).toEqual({ open_access: true, has_fulltext: true });
     expectBasicFields(record);

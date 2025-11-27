@@ -64,18 +64,18 @@ const networkStats = [
 >
   <Fragment slot="hero">
     <div class="relative left-1/2 w-screen -translate-x-1/2 px-4 sm:px-6 lg:px-8">
-        <HeroCard
-          eyebrow="COLLABORATOR HUB"
-          title={[
-            { text: 'Connecting the people improving life' },
-            {
-              text: 'after cardiac arrest',
-              gradient: true
-            }
-          ]}
-          subtitle="Discover researchers, clinicians, survivors, and co-survivors. Find collaborators, share ideas, and accelerate survivorship science and services across borders."
-          variant="slate"
-        />
+      <HeroCard
+        eyebrow="COLLABORATOR HUB"
+        title={[
+          { text: 'Connecting the people improving life' },
+          {
+            text: 'after cardiac arrest',
+            gradient: true
+          }
+        ]}
+        subtitle="Discover researchers, clinicians, survivors, and co-survivors. Find collaborators, share ideas, and accelerate survivorship science and services across borders."
+        variant="slate"
+      />
     </div>
   </Fragment>
 
@@ -84,12 +84,18 @@ const networkStats = [
       <div
         class="flex flex-col gap-6 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl ring-1 ring-slate-200/80"
       >
-        <div class="flex flex-col gap-4 border-b border-slate-100 px-6 pt-6 pb-4 md:flex-row md:items-center md:justify-between">
+        <div
+          class="flex flex-col gap-4 border-b border-slate-100 px-6 pt-6 pb-4 md:flex-row md:items-center md:justify-between"
+        >
           <div>
-            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Network snapshot</p>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">
+              Network snapshot
+            </p>
             <p class="text-sm text-slate-500">Updated {meta?.updated_at ?? '—'}</p>
           </div>
-          <span class="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-700">
+          <span
+            class="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-700"
+          >
             <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Live feed
           </span>
@@ -99,7 +105,9 @@ const networkStats = [
             networkStats.map((stat) => (
               <div class="rounded-2xl bg-slate-50 p-4 text-center shadow-sm" key={stat.label}>
                 <div class="text-3xl font-bold text-slate-900">{stat.value}</div>
-                <div class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">{stat.label}</div>
+                <div class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+                  {stat.label}
+                </div>
               </div>
             ))
           }
@@ -153,8 +161,8 @@ const networkStats = [
           </p>
           <ul class="list-disc space-y-2 pl-6">
             <li>
-              <strong>"What I can offer"</strong> – specific resources, datasets, expertise, or
-              services others may find useful.
+              <strong>"What I can offer"</strong> – specific resources, datasets, expertise, or services
+              others may find useful.
             </li>
             <li>
               <strong>"Looking to collaborate on"</strong> – areas where you’d welcome partners, data
@@ -165,7 +173,7 @@ const networkStats = [
             These short entries help people spot synergy quickly and build collaborations that would
             be hard to find otherwise.
           </p>
-          <details class="rounded-2xl border border-slate-200 bg-slate-50/80 p-4 text-sm" role="group">
+          <details class="rounded-2xl border border-slate-200 bg-slate-50/80 p-4 text-sm">
             <summary class="cursor-pointer text-base font-semibold text-slate-800">
               Examples of “What I can offer”
             </summary>
@@ -177,7 +185,7 @@ const networkStats = [
               <li>AI tools for semi-automated literature screening</li>
             </ul>
           </details>
-          <details class="rounded-2xl border border-slate-200 bg-slate-50/80 p-4 text-sm" role="group">
+          <details class="rounded-2xl border border-slate-200 bg-slate-50/80 p-4 text-sm">
             <summary class="cursor-pointer text-base font-semibold text-slate-800">
               Examples of “Looking to collaborate on”
             </summary>

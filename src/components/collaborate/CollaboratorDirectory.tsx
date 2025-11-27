@@ -60,7 +60,7 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
           <input
             type="search"
             value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            onChange={(event) => setQuery(event.currentTarget.value)}
             placeholder="Search by name, organization, interest, or country"
             className="mt-1 w-full rounded-2xl border-2 border-slate-200 bg-white px-5 py-3 text-base text-slate-800 shadow-inner focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
           />

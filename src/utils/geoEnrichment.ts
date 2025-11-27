@@ -34,7 +34,7 @@ const COUNTRY_ALIASES: { code: string; name: string; aliases: string[] }[] = [
   { code: 'CZ', name: 'Czech Republic', aliases: ['Czech Republic', 'Czechia', 'Česko'] },
 
   // Asia-Pacific, large research contributors
-  { code: 'CN', name: 'China', aliases: ['China', "People\'s Republic of China", 'PR China'] },
+  { code: 'CN', name: 'China', aliases: ['China', "People's Republic of China", 'PR China'] },
   { code: 'JP', name: 'Japan', aliases: ['Japan', 'Nippon'] },
   { code: 'KR', name: 'South Korea', aliases: ['South Korea', 'Republic of Korea', 'Korea'] },
   { code: 'IN', name: 'India', aliases: ['India', 'Bharat'] },

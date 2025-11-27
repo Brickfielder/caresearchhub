@@ -15,7 +15,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier'
   ],
-  ignorePatterns: ['dist/', '.astro/'],
+  ignorePatterns: ['dist/', '.astro/', 'public/'],
   overrides: [
     {
       files: ['*.astro'],

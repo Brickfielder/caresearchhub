@@ -11,6 +11,8 @@ interface NetworkPerson {
   country: string;
   lat: number;
   lng: number;
+  interests?: string;
+  tags?: string[];
   offer?: string;
   looking_to_collaborate_on?: string;
   id: string;
@@ -152,6 +154,8 @@ const main = async () => {
 
   const offer = (args.offer ?? '').trim();
   const lookingToCollaborateOn = (args.looking_to_collaborate_on ?? '').trim();
+  const interests = args.interests?.trim();
+  const tags = parseTags(args.tags);
 
   const latArg = parseNumber(args.lat, 'Latitude');
   const lngArg = parseNumber(args.lng, 'Longitude');
@@ -179,8 +183,8 @@ const main = async () => {
     country: values.country,
     lat: coordinates.lat,
     lng: coordinates.lng,
-    interests,
-    tags,
+    ...(interests ? { interests } : {}),
+    ...(tags.length ? { tags } : {}),
     ...(offer ? { offer } : {}),
     ...(lookingToCollaborateOn ? { looking_to_collaborate_on: lookingToCollaborateOn } : {}),
     id,

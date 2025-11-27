@@ -58,7 +58,8 @@ const aboutSecondaryCta = h(
     <section class="card" id="about-creators">
       <h2 class="card-title">Project Leads</h2>
       <p>
-        This repository was created and is maintained by Dr Marco Mion and Dr Vicky Joshi, who work together to improve survivorship and follow-up care after cardiac arrest.
+        This repository was created and is maintained by Dr Marco Mion and Dr Vicky Joshi, who work
+        together to improve survivorship and follow-up care after cardiac arrest.
       </p>
 
       <div class="creators-grid">
@@ -79,7 +80,13 @@ const aboutSecondaryCta = h(
               Principal Clinical Psychologist, Essex Cardiothoracic Centre & King’s College Hospital
             </p>
             <p>
-              Based at the Essex Cardiothoracic Centre and King's College Hospital (UK), Dr Marco Mion is a Clinical Psychologist and an Honorary Clinical Lecturer at Anglia Ruskin University. His research focuses on psychological, cognitive, and quality of life outcomes after out-of-hospital cardiac arrest, and the development of patient-centred care pathways. Dr Marco coordinated the UK neuropsychology arm of the TTM2 trial and currently leads a multi-site psychoeducational feasibility interventional study embedded within the STEPCARE trial (V-CARE).
+              Based at the Essex Cardiothoracic Centre and King's College Hospital (UK), Dr Marco
+              Mion is a Clinical Psychologist and an Honorary Clinical Lecturer at Anglia Ruskin
+              University. His research focuses on psychological, cognitive, and quality of life
+              outcomes after out-of-hospital cardiac arrest, and the development of patient-centred
+              care pathways. Dr Marco coordinated the UK neuropsychology arm of the TTM2 trial and
+              currently leads a multi-site psychoeducational feasibility interventional study
+              embedded within the STEPCARE trial (V-CARE).
             </p>
           </div>
         </article>
@@ -97,11 +104,15 @@ const aboutSecondaryCta = h(
           </div>
           <div class="creator-body">
             <h3>Dr Vicky Joshi</h3>
-            <p class="creator-role">
-              Lecturer in Physiotherapy, Glasgow Caledonian University
-            </p>
+            <p class="creator-role">Lecturer in Physiotherapy, Glasgow Caledonian University</p>
             <p>
-              Dr Vicky Joshi is a Lecturer in Physiotherapy at Glasgow Caledonian University. Vicky is an internationally recognised researcher in cardiac arrest aftercare. She previously worked in Denmark researching the needs of survivors and families after cardiac arrest and currently leads the Save A Life for Scotland Recovery group (SALFS-R). She is the chief investigator on the Bystander aftercare research project investigating experiences of bystanders and is the co-ordinator for the SABRE interventional collaboration (Support After Bystander Resuscitation).
+              Dr Vicky Joshi is a Lecturer in Physiotherapy at Glasgow Caledonian University. Vicky
+              is an internationally recognised researcher in cardiac arrest aftercare. She
+              previously worked in Denmark researching the needs of survivors and families after
+              cardiac arrest and currently leads the Save A Life for Scotland Recovery group
+              (SALFS-R). She is the chief investigator on the Bystander aftercare research project
+              investigating experiences of bystanders and is the co-ordinator for the SABRE
+              interventional collaboration (Support After Bystander Resuscitation).
             </p>
           </div>
         </article>
@@ -119,10 +130,11 @@ const aboutSecondaryCta = h(
             <summary class="accordion-summary">Identification</summary>
             <div class="accordion-body">
               <p>
-                A tailored search strategy—published in full for transparency and replicability—was applied to each database
-                (PubMed, CINAHL, and Web of Science). Together, these searches returned a large pool of records spanning
-                medical, nursing, psychological, and rehabilitation sciences. For each record, titles and abstracts were
-                retrieved, except in cases where the abstract was unavailable in the source database.
+                A tailored search strategy—published in full for transparency and replicability—was
+                applied to each database (PubMed, CINAHL, and Web of Science). Together, these
+                searches returned a large pool of records spanning medical, nursing, psychological,
+                and rehabilitation sciences. For each record, titles and abstracts were retrieved,
+                except in cases where the abstract was unavailable in the source database.
               </p>
               <p>
                 You can access the full search strategy here:
@@ -143,9 +155,10 @@ const aboutSecondaryCta = h(
             <summary class="accordion-summary">Deduplication</summary>
             <div class="accordion-body">
               <p>
-                All records were merged into a single dataset. Using a custom Python-based deduplication script, duplicate
-                entries were identified and removed through a combination of DOI matching, fuzzy title comparison, and
-                metadata harmonisation. The deduplicated set represented the total pool of unique publications eligible for
+                All records were merged into a single dataset. Using a custom Python-based
+                deduplication script, duplicate entries were identified and removed through a
+                combination of DOI matching, fuzzy title comparison, and metadata harmonisation. The
+                deduplicated set represented the total pool of unique publications eligible for
                 initial screening.
               </p>
               <p>
@@ -167,16 +180,18 @@ const aboutSecondaryCta = h(
             <summary class="accordion-summary">Semantic prioritisation</summary>
             <div class="accordion-body space-y-2">
               <p>
-                To support efficient human review, abstracts were processed using a sentence-transformer semantic model
-                (all-MiniLM-L6-v2). Each record received a semantic relevance score reflecting its conceptual proximity to the
-                defined survivorship domain. Papers were then rank-ordered from most to least semantically aligned, but no
-                automatic exclusions were made; this step was designed purely to structure workflow, not to determine
-                eligibility.
+                To support efficient human review, abstracts were processed using a
+                sentence-transformer semantic model (all-MiniLM-L6-v2). Each record received a
+                semantic relevance score reflecting its conceptual proximity to the defined
+                survivorship domain. Papers were then rank-ordered from most to least semantically
+                aligned, but no automatic exclusions were made; this step was designed purely to
+                structure workflow, not to determine eligibility.
               </p>
               <p>
-                In practice, this semantic system tends to rank down studies focused exclusively on neuroprognostication,
-                bystander interventions, survival-only registry analyses, or simulation/education studies, while prioritising
-                work addressing cognitive, psychological, social, and quality-of-life outcomes.
+                In practice, this semantic system tends to rank down studies focused exclusively on
+                neuroprognostication, bystander interventions, survival-only registry analyses, or
+                simulation/education studies, while prioritising work addressing cognitive,
+                psychological, social, and quality-of-life outcomes.
               </p>
               <p>
                 The semantic screening script is available here:
@@ -197,9 +212,10 @@ const aboutSecondaryCta = h(
             <summary class="accordion-summary">Screening</summary>
             <div class="accordion-body">
               <p>
-                Two independent reviewers manually screened every abstract one by one, starting from the highest-ranked
-                records. Eligibility was determined based on predefined Population / Intervention / Outcomes (P/I/O) criteria
-                specific to survivorship after cardiac arrest, covering cognitive, psychological, social, and quality-of-life
+                Two independent reviewers manually screened every abstract one by one, starting from
+                the highest-ranked records. Eligibility was determined based on predefined
+                Population / Intervention / Outcomes (P/I/O) criteria specific to survivorship after
+                cardiac arrest, covering cognitive, psychological, social, and quality-of-life
                 domains. Where needed, full texts were consulted to clarify eligibility.
               </p>
             </div>
@@ -209,11 +225,12 @@ const aboutSecondaryCta = h(
             <summary class="accordion-summary">Inclusion</summary>
             <div class="accordion-body">
               <p>
-                Studies meeting inclusion criteria were added to the Survivorship Repository, with metadata harmonised across
-                all sources. Links to full texts (where available), DOIs, and abstracts were preserved to maximise
-                accessibility. For methodological transparency, we provide the Python scripts used for deduplication and
-                semantic scoring, along with the search strategy documents, so that other groups can replicate or adapt this
-                workflow for their own contexts.
+                Studies meeting inclusion criteria were added to the Survivorship Repository, with
+                metadata harmonised across all sources. Links to full texts (where available), DOIs,
+                and abstracts were preserved to maximise accessibility. For methodological
+                transparency, we provide the Python scripts used for deduplication and semantic
+                scoring, along with the search strategy documents, so that other groups can
+                replicate or adapt this workflow for their own contexts.
               </p>
             </div>
           </details>
