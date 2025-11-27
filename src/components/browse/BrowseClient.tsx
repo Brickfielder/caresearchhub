@@ -157,7 +157,9 @@ export default function BrowseClient({ papers }: Props) {
             </div>
 
             <div>
-              <p class="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">Year range</p>
+              <p class="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
+                Year range
+              </p>
               <div class="space-y-3">
                 <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-300">
                   <span>{state.years[0]}</span>
@@ -267,7 +269,9 @@ export default function BrowseClient({ papers }: Props) {
                   <p class="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-200">
                     {paper.abstract}
                     {paper.isAbstractTruncated && (
-                      <span class="ml-1 text-xs uppercase text-orange-600">(Abstract truncated)</span>
+                      <span class="ml-1 text-xs uppercase text-orange-600">
+                        (Abstract truncated)
+                      </span>
                     )}
                   </p>
                   <div class="mt-4 flex flex-wrap gap-2">

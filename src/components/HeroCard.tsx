@@ -79,7 +79,11 @@ export default function HeroCard({
           <div className="h-full w-full bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.2),_transparent_70%)]" />
         </div>
       ) : null}
-      <div className={rightSlot ? 'relative grid gap-10 lg:grid-cols-[1.1fr,0.9fr]' : 'relative space-y-6'}>
+      <div
+        className={
+          rightSlot ? 'relative grid gap-10 lg:grid-cols-[1.1fr,0.9fr]' : 'relative space-y-6'
+        }
+      >
         <div className="space-y-5 sm:space-y-6">
           {eyebrow ? <p className={eyebrowClasses}>{eyebrow}</p> : null}
           <h1 className={titleClasses}>{renderedTitle}</h1>

@@ -75,7 +75,10 @@ const basePathJson = JSON.stringify(normalizedBasePath);
     </section>
   </div>
 
-  <script is:inline set:html={`// Expose the resolved base path so the client script can build absolute URLs
-window.__BASE_PATH__ = ${basePathJson};`}></script>
+  <script
+    is:inline
+    set:html={`// Expose the resolved base path so the client script can build absolute URLs
+window.__BASE_PATH__ = ${basePathJson};`}
+  />
   <script src={`${normalizedBasePath}assets/js/ongoing-studies.js`} defer></script>
 </BaseLayout>
