@@ -58,7 +58,9 @@ const COUNTRY_CORRECTIONS: CountryCorrection[] = [
     code: 'US',
     name: 'United States'
   },
-  { match: /^mi$/i, code: 'US', name: 'United States' }
+  { match: /^mi$/i, code: 'US', name: 'United States' },
+  { match: /^the netherlands$/i, code: 'NL', name: 'the Netherlands' },
+  { match: /^netherlands$/i, code: 'NL', name: 'the Netherlands' }
 ];
 
 const applyCountryCorrections = (country?: string | null): Partial<RawPaper> | undefined => {
