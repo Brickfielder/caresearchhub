@@ -87,6 +87,37 @@
         "study_page": "",
         "lay_summary": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/caressf-v11/"
       }
+    },
+    {
+      "id": "effects-of-an-online-support-programme-for-cardiac-arrest-survivors-cardis",
+      "short_name": "CARDIS",
+      "name": "Effects of an Online Support Programme for Cardiac Arrest Survivors (CARDIS)",
+      "status": "Not yet recruiting",
+      "countries": ["Sweden"],
+      "setting": [
+        "Multi-region follow-up clinics",
+        "Web-based support programme + standard care (parallel-group RCT)"
+      ],
+      "population": "Adult cardiac arrest survivors (≥18 years), 1–3 months post-discharge with access to digital devices and sufficient Swedish",
+      "focus": [
+        "Wellbeing",
+        "Self-management",
+        "Quality of life",
+        "Mood and anxiety",
+        "Sleep",
+        "Fatigue"
+      ],
+      "design": "Randomized controlled trial with pilot phase and process evaluation",
+      "intervention": "Co-created digital support programme with psychoeducation, recovery planning tools, exercises and moderated peer forum alongside usual follow-up",
+      "comparator": "Standard care (control group offered programme access after trial)",
+      "follow_up": "Digital consent and questionnaires at baseline, 3 months and 6 months",
+      "tags": ["Survivor", "Online", "Self-management", "Psychoeducation", "Wellbeing"],
+      "links": {
+        "protocol": "",
+        "registry": "https://ichgcp.net/clinical-trials-registry/NCT07240714",
+        "study_page": "https://ctv.veeva.com/study/effects-of-an-online-support-programme-for-cardiac-arrest-survivors",
+        "lay_summary": ""
+      }
     }
   ]
 }
