@@ -1,2 +1,751 @@
 [
+  {
+    "id": "39970976",
+    "pmid": "39970976",
+    "doi": "10.1016/j.resuscitation.2025.110550",
+    "title": "Cardiac arrest survivors' self-reported cognitive function, and its association with self-reported health status, psychological distress, and life satisfaction-a Swedish nationwide registry study.",
+    "authors": [
+      "Karin Larsson",
+      "Carina Hjelm",
+      "Anna Strömberg",
+      "Johan Israelsson",
+      "Anders Bremer",
+      "Jens Agerström",
+      "Nina Carlsson",
+      "Dionysia Tsoukala",
+      "Erik Blennow Nordström",
+      "Kristofer Årestedt"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-02-17",
+    "abstract": "AIM: Self-reported cognitive function has been described as an important complement to performance-based measurements but has seldom been investigated in cardiac arrest (CA) survivors. Therefore, the aim was to describe self-reported cognitive function and its association with health status, psychological distress, and life satisfaction.\nMETHODS: This study utilised data from the Swedish Register of Cardiopulmonary Resuscitation (2018-2021), registered 3-6 months post-CA. Cognitive function was assessed by a single question: \"How do you experience your memory, concentration, and/or planning abilities today compared to before the cardiac arrest?\". Health status was measured using the EQ VAS, psychological distress with the Hospital Anxiety and Depression Scale, and overall life satisfaction with the Life Satisfaction checklist. Data were analysed using binary logistic regression.\nRESULTS: Among 4026 identified survivors, 1254 fulfilled the inclusion criteria. The mean age was 65.9 years (SD = 13.4) and 31.7% were female. Self-reported cognitive function among survivors was reported as: 'Much worse' by 3.1%, 'Worse' by 23.8%, 'Unchanged' by 68.3%, 'Better' by 3.3%, and 'Much better' by 1.5%. Declined cognitive function was associated with lower health status (OR = 2.76, 95% CI = 2.09-3.64), symptoms of anxiety (OR = 3.84, 95% CI = 2.80-5.24) and depression (OR = 4.52, 95% CI = 3.22-6.32), and being dissatisfied with overall life (OR = 2.74, 95% CI = 2.11-3.54). These associations remained significant after age, sex, place of CA, aetiology, initial rhythm, initial witnessed status, and cerebral performance were controlled.\nCONCLUSIONS: Survivors experiencing declined cognitive function post-CA are at a higher risk of poorer health status, increased psychological distress, and reduced life satisfaction, and these risks should be acknowledged by healthcare professionals.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110550",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39970976"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Female",
+      "Male",
+      "Sweden",
+      "Aged",
+      "Registries",
+      "Self Report",
+      "Survivors",
+      "Health Status",
+      "Middle Aged",
+      "Cognition",
+      "Personal Satisfaction",
+      "Psychological Distress",
+      "Cardiopulmonary Resuscitation",
+      "Heart Arrest"
+    ],
+    "country": "Sweden"
+  },
+  {
+    "id": "40409672",
+    "pmid": "40409672",
+    "doi": "10.1016/j.resuscitation.2025.110653",
+    "title": "Early ADL ability assessment and cognitive screening as markers of post-discharge outcomes after surviving an out-of-hospital cardiac arrest. A prospective cohort study.",
+    "authors": [
+      "Lola Qvist Kristensen",
+      "Hans Eiskjær",
+      "Maurits van Tulder",
+      "Eva Elisabet Ejlersen Wæhrens",
+      "Lotte Sørensen",
+      "John Bro-Jeppesen",
+      "Glenn Eastwood",
+      "Lisa Gregersen Oestergaard"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-05-21",
+    "abstract": "Background Assessment of activities of daily living (ADL) and cognitive screening are widely used in the care of out-of-hospital cardiac arrest (OHCA) survivors. Evidence linking them to post-discharge outcomes is limited, but could support targeted rehabilitation efforts. Aim To assess whether ADL ability measures and cognitive screening at hospital discharge were associated with post-discharge ADL ability, health-related quality of life (HRQoL) and return to work. Methods This prospective cohort study included 200 OHCA survivors admitted to Aarhus University Hospital. Self-reported ADL ability was measured using the Activities of Daily Living Interview (ADL-I). Observed ADL ability was measured with the Assessment of Motor and Process Skills (AMPS), dichotomised into age-matched or below-ability. Cognitive function was assessed with Montreal Cognitive Assessment (MoCA). Multivariable regressions, with multiple imputation, analysed associations between variables and outcomes, adjusting for age, sex, and comorbidities. Results Adjusted analyses showed significant associations between personal ADL-I (βadjusted = 0.3, 95%CI: 0.2;0.5) and AMPS (βadjusted = -0.6, 95%CI:-1.2;-0.03) at discharge and self-reported ADL ability six months after cardiac arrest. Baseline AMPS was statistically significantly associated with age-matched ADL ability six months after cardiac arrest (ORadjusted 5.5, 95%CI: 1.5;10.0), and personal ADL-I (VAS: βadjusted = 3.00, 95%CI: 1.3;4.6/index score: βadjusted = 0.03, 95%CI 0.01;0.05) and MoCA (index: βadjusted = -0.09, 95%CI: -0.2;-0.02) with HRQoL. The association between MoCA and return to work one-year after cardiac arrest showed an OR of 3.0 (95%CI: 0.5;9.0), although not statistically significant (p = 0.06). Conclusions Decreased ADL ability at hospital discharge was associated with poorer post-discharge outcomes in OHCA survivors, while cognitive screening was also associated with certain aspects of recovery.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110653",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40409672"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Male",
+      "Female",
+      "Out-of-Hospital Cardiac Arrest",
+      "Activities of Daily Living",
+      "Prospective Studies",
+      "Middle Aged",
+      "Patient Discharge",
+      "Aged",
+      "Quality of Life",
+      "Cognition",
+      "Cognitive Dysfunction",
+      "Cardiopulmonary Resuscitation",
+      "Mental Status and Dementia Tests",
+      "Return to Work",
+      "Survivors",
+      "Denmark"
+    ],
+    "country": "Denmark"
+  },
+  {
+    "id": "40499675",
+    "pmid": "40499675",
+    "doi": "10.1016/j.resuscitation.2025.110672",
+    "title": "Long-term functional outcome and quality of life 5-8 years after out of hospital cardiac arrest.",
+    "authors": [
+      "Lars Evald",
+      "Markus B Skrifvars",
+      "Jyri J Virta",
+      "Marjaana Tiainen",
+      "Timo Laitio",
+      "Christoph Leithner",
+      "Eldar Søreide",
+      "Christian Hassager",
+      "Bodil Rasmussen",
+      "Anders Morten Grejs",
+      "Anni Nørgaard Jeppesen",
+      "Hans Kirkegaard",
+      "Jørgen Feldbæk Nielsen"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-06-09",
+    "abstract": "AIMS: To determine functional outcomes and quality of life several years post OHCA and identify associated factors.\nMETHODS: This is a long-term follow-up sub-study of the TTH48 multicentre trial. OHCA survivors from participating sites were contacted 5-8 years post OHCA. Survival rates were collected from medical registries. Telephone interviews were performed to collect basic outcomes and quality of life. Questionnaires surveyed patients and relatives levels of anxiety, depression, post-traumatic stress disorder, sleep, fatigue, cognitive decline and everyday life participation.\nRESULTS: 279 patients were included at the participating sites, 161 (58%) were still alive. A vast majority of the participating survivors (97.8%) had favourable outcomes (CPC 1-2) and quality of life was comparable to the background population. Among the participating OHCA survivors, 5.5% met the criteria for anxiety, 2.7% for depression, 4.5% for PTSD, 24.5% reported sleep problems, 45.5% reported fatigue, and 40.7% were working full- or part-time. Among the participating relatives, 7.0% met the criteria for anxiety, 1.2% for depression, 3.5% for PTSD, and 52.3% of the relatives reported that the patient had suffered cognitive decline post OHCA. ROSC delay, higher age, and female sex were negatively associated with several long-term outcomes. Treatment allocation was not associated with better outcomes.\nCONCLUSIONS: Long-term OHCA survivors had acceptable outcomes, though self-reported sleep and fatigue problems and relatives-reported cognitive decline were prevalent. Higher age and longer ROSC delay were risk factors of poorer outcome, primarily driven by mortality. Female sex was a risk factor of worse self-reported outcomes.\nTRIAL REGISTRATION: ClinicalTrials.gov: NCT01689077.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110672",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40499675"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Anxiety",
+      "Cardiopulmonary Resuscitation",
+      "Depression",
+      "Fatigue",
+      "Follow-Up Studies",
+      "Out-of-Hospital Cardiac Arrest",
+      "Quality of Life",
+      "Stress Disorders, Post-Traumatic",
+      "Surveys and Questionnaires",
+      "Survivors"
+    ],
+    "country": "Denmark"
+  },
+  {
+    "id": "40241994",
+    "pmid": "40241994",
+    "doi": "10.1016/j.resplu.2025.100938",
+    "title": "Physical, psychological, cognitive, social health outcomes, and health-related quality of life in out-of-hospital cardiac arrest survivors and their caregivers: Protocol of the quality cardiac arrest survivorship cohort study (QualiCAS).",
+    "authors": [
+      "Pin Pin Pek",
+      "Megan Chua",
+      "Le Xuan Liew",
+      "Christina Chen",
+      "Shir-Lynn Lim",
+      "Felix Maverick Rubillar Uy",
+      "Vui Kian Ho",
+      "Yew Woon Chia",
+      "Jia Min Chua",
+      "Ee Ling Goh",
+      "Lai Peng Tham",
+      "Pei Lin Koh",
+      "Kai Lee Woo",
+      "Cheryl Ting Zhen Woo",
+      "Iylia Muhammad Afiq",
+      "Kexin Fang",
+      "Han Nee Gan",
+      "Benjamin Sieu-Hon Leong",
+      "Desmond Ren-Hao Mao",
+      "Nausheen Edwin Doctor",
+      "Wei Ming Ng",
+      "Ying Zi Oh",
+      "Kah Hua Peck",
+      "Ruth Weixian Chen",
+      "Michael Yih-Chong Chia",
+      "Wei Ling Tay",
+      "Shun Yee Low",
+      "Andrew Yunkai Li",
+      "Shu-Ling Chong",
+      "Jia Min Kang",
+      "S Priyalatha",
+      "Audrey Qing Qing Chia",
+      "Nur Shahidah",
+      "Benny Jun Heng Ng",
+      "Kai Yi Lee",
+      "Nan Luo",
+      "Marcus Eng Hock Ong",
+      "Andrew Fu Wah Ho"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2025,
+    "date": "2025-03-20",
+    "abstract": "BACKGROUND: Out-of-hospital cardiac arrest (OHCA) is an emergency with historically low survival rates. Advances in resuscitation and post-resuscitation care have improved survival, precipitating greater scientific interest in OHCA patients' survivorship. However, there is insufficient high-quality population-based long-term survivorship data and limited research on the impact of OHCA sequelae on survivors' caregivers.\nOBJECTIVE: Our primary aim is to determine neurological function, physical, psychological, cognitive, social outcomes, and health-related quality of life (HRQoL) of OHCA survivors in Singapore. Secondary aims are to quantify caregivers' burden and its association with their HRQoL, and psychological well-being.\nMETHODS: The Quality Cardiac Arrest Survivorship Cohort Study (QualiCAS) is a prospective population-based cohort study of OHCA survivors and their caregivers in Singapore. Participants aged ≥18 years and caregivers aged ≥21 years will be recruited from all public hospitals in Singapore. Health outcomes will be evaluated at 3, 6, and 12 months, and 3 and 5 years using the Hospital Anxiety and Depression Scale, PTSD Checklist for DSM-5, Fatigue Severity Scale, Montreal Cognitive Assessment Tool, EQ-5D-5L, Community Integration Questionnaire-Revised, Barthel Index, Lawton's Instrumental Activities of Daily Living, Timed Up and Go Test, Handgrip strength assessment, and Zarit Burden Interview.\nDISCUSSION: This study allows us to understand the natural history of OHCA survivorship and quantify the burdens on patients and their caregivers. Findings can guide clinical follow-up, identify high-risk patients, intervention targets, and inform rehabilitation strategies for OHCA sequelae.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2025.100938",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40241994",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12002988"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12002988",
+    "country": "Singapore"
+  },
+  {
+    "id": "40507392",
+    "pmid": "40507392",
+    "doi": "10.3390/jcm14113631",
+    "title": "The REVIVE Project: From Survival to Holistic Recovery-A Prospective Multicentric Evaluation of Cognitive, Emotional, and Quality-of-Life Outcomes in Out-of-Hospital Cardiac Arrest Survivors.",
+    "authors": [
+      "Alice Mandrini",
+      "Marco Mion",
+      "Roberto Primi",
+      "Sara Bendotti",
+      "Alessia Currao",
+      "Leila Ulmanova",
+      "Carlo Arnò",
+      "Filippo Dossi",
+      "Cristian Fava",
+      "Daniele Ghiraldin",
+      "Davide Pegorin",
+      "Paola Genoni",
+      "Diego Maffeo",
+      "Cinzia Dossena",
+      "Silvia Affinito",
+      "Giovanni Bertazzoli",
+      "Francesco Cipullo",
+      "Cecilia Fantoni",
+      "Matteo Della Torre",
+      "Silvia Frattini",
+      "Gioele Papi",
+      "Angelica Praderio",
+      "Luca Tarantino",
+      "Simone Savastano",
+      "Enrico Baldi",
+      "All The LombardiaCARe Researchers"
+    ],
+    "journal": "Journal of clinical medicine",
+    "year": 2025,
+    "date": "2025-05-22",
+    "abstract": ": Most survivors of out-of-hospital cardiac arrest (OHCA) may suffer from cognitive, mental difficulties, and fatigue, which negatively impact their quality of life, despite a good physical recovery. However, no definitive data are available on this topic, so this study aims to assess the feasibility and acceptability of a centralized, sub-regional screening system for OHCA survivors in Italy and the prevalence of these disorders.: OHCA survivors discharged with good neurological outcomes (Cerebral Performance Category (CPC) ≤ 2 and modified Ranking Scale (mRS) ≤ 3) from hospitals in the \"Lombardia CARe\" registry will be evaluated by a clinical psychologist using the Montreal Cognitive Assessment (MoCA), Hospital Anxiety and Depression Scale (HADS), EQ-5D-5L for quality of life, and the Impact of Event Scale-Revised (IES-R) at pre-discharge or within 15 days and then at 1, 3, 6, and 12 months. Patients with clinical issues will be referred for psychological support or to a community rehabilitation program. Feasibility will be defined as a recruitment rate ≥ 80% and acceptability as a retention rate ≥ 50% over 12 months.: Based on historical data from the Lombardia CARe, an estimated 350 eligible survivors are expected, which will allow estimation of a prevalence ranging between 20% and 30% with 5% precision and 95% confidence.: This study will be the first in Italy to evaluate the feasibility and acceptability of a centralized, sub-regional system for pre-/post-discharge evaluation of cognitive impairment, mental health, and quality of life in a large cohort of OHCA survivors, documenting the prevalence of these disorders.",
+    "links": {
+      "doi": "https://doi.org/10.3390/jcm14113631",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40507392",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12155715"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12155715",
+    "country": "Italy"
+  },
+  {
+    "id": "38452994",
+    "pmid": "38452994",
+    "doi": "10.1016/j.resuscitation.2024.110166",
+    "title": "Emotional distress, social support, and functional dependence predict readiness for hospital discharge in a prospective sample of cognitively intact cardiac arrest survivors.",
+    "authors": [
+      "Alexander M Presciutti",
+      "Nomin Enkhtsetseg",
+      "Katharyn L Flickinger",
+      "Patrick J Coppler",
+      "Cecelia Ratay",
+      "Ankur A Doshi",
+      "Sarah M Perman",
+      "Ana-Maria Vranceanu",
+      "Jonathan Elmer"
+    ],
+    "journal": "Resuscitation",
+    "year": 2024,
+    "date": "2024-03-06",
+    "abstract": "AIM: To inform screening, referral and treatment initiatives, we tested the hypothesis that emotional distress, social support, functional dependence, and cognitive impairment within 72 hours prior to discharge predict readiness for discharge in awake and alert cardiac arrest (CA) survivors.\nMETHODS: This was a secondary analysis of a prospective single-center cohort of CA survivors enrolled between 4/2021 and 9/2022. We quantified emotional distress using the Posttraumatic Stress Disorder Checklist-5 and PROMIS Emotional Distress - Anxiety and Depression Short Forms 4a; perceived social support using the ENRICHD Social Support Inventory; functional dependence using the modified Rankin Scale; and cognitive impairment using the Telephone Interview for Cognitive Status. Our primary outcome was readiness for discharge, measured using the Readiness for Hospital Discharge Scale. We used multivariable linear regression to test the independent association of each survivorship factor and readiness for discharge.\nRESULTS: We included 110 patients (64% male, 88% white, mean age 59 [standard deviation ± 13.1 years]). Emotional distress, functional dependence, and social support were independently associated with readiness for discharge (adjusted β's [absolute value]: 0.25-0.30, all p < 0.05).\nCONCLUSIONS: Hospital systems should consider implementing routine in-hospital screening for emotional distress, social support, and functional dependence for CA survivors who are awake, alert and approaching hospital discharge, and prioritize brief in hospital treatment or post-discharge referrals.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2024.110166",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38452994",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11088514"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC11088514",
+    "mesh": [
+      "Humans",
+      "Male",
+      "Female",
+      "Patient Discharge",
+      "Social Support",
+      "Middle Aged",
+      "Prospective Studies",
+      "Psychological Distress",
+      "Survivors",
+      "Aged",
+      "Heart Arrest",
+      "Cognitive Dysfunction"
+    ],
+    "country": "United States"
+  },
+  {
+    "id": "38996907",
+    "pmid": "38996907",
+    "doi": "10.1016/j.resuscitation.2024.110310",
+    "title": "Evaluating neurocognitive outcomes in out-of-hospital cardiac arrest survivors: A comparative study of performance-based and reported measures.",
+    "authors": [
+      "Mie Klarskov Jensen",
+      "Jan Christensen",
+      "Pardis Zarifkar",
+      "Lau Caspar Thygesen",
+      "Anders Wieghorst",
+      "Selina Kikkenborg Berg",
+      "Christian Hassager",
+      "Dea Siggaard Stenbæk",
+      "Mette Kirstine Wagner"
+    ],
+    "journal": "Resuscitation",
+    "year": 2024,
+    "date": "2024-07-10",
+    "abstract": "AIMS: To (1) describe the prevalence of cognitive dysfunctions using performance-based and reported measures, and (2) explore the correlations between selected performance-based, patient-reported, and observer-reported neurocognitive outcome measures three months after hospital discharge in a population of out-of-hospital cardiac arrest (OHCA) survivors.\nMETHODS: Data from 193 OHCA survivors was derived from the Danish multicenter REVIVAL cohort study. At three months, four subtests of the performance-based Delis-Kaplan Executive Function System (D-KEFS) (Trail making, Color-word interference, Verbal fluency, and Figure design), the patient-reported Behavior Rating Inventory of Executive Function - Adult (BRIEF-A), and the observer-reported 16-item Short Form (SF) Informant Questionnaire on Cognitive Decline after Cardiac Arrest (SF-16 IQCODE-CA) were collected. Spearman's rank coefficient correlation analysis was performed to examine correlations between D-KEFS, BRIEF-A, and SF-16 IQCODE-CA.\nRESULTS: Overall, 21% of survivors exhibited impairment in executive functioning using the D-KEFS subtest Color-word interference, while only 9% self-reported executive impairment (BRIEF-A) and 7% of relatives reported cognitive decline (SF-16 IQCODE-CA) in survivors at three months post-arrest. All correlations between D-KEFS, BRIEF-A and SF-16 IQCODE-CA were negligible to low.\nCONCLUSION: The results of this REVIVAL substudy suggest that although the performance-based and reported measures did not correlate, dual neurocognitive screening tools containing both a self-reported and an informant-reported version may have the potential to detect executive discrepancies in the return to everyday life and guide targeted neurorehabilitation after OHCA.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2024.110310",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38996907"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Cardiopulmonary Resuscitation",
+      "Cognitive Dysfunction",
+      "Denmark",
+      "Executive Function",
+      "Neuropsychological Tests",
+      "Out-of-Hospital Cardiac Arrest",
+      "Self Report",
+      "Survivors",
+      "Observational Studies as Topic",
+      "Multicenter Studies as Topic"
+    ],
+    "country": "Denmark. Electronic address: mette.kirstine.wagner@regionh.dk"
+  },
+  {
+    "id": "38452993",
+    "pmid": "38452993",
+    "doi": "10.1016/j.resuscitation.2024.110162",
+    "title": "Observer-reported cognitive decline in out-of-hospital cardiac arrest survivors and its association with long-term survivor and relative outcomes.",
+    "authors": [
+      "Vicky L Joshi",
+      "Britt Borregaard",
+      "Tina Broby Mikkelsen",
+      "Lars H Tang",
+      "Erik Blennow Nordström",
+      "Sofie Moesgaard Bruvik",
+      "Anders Wieghorst",
+      "Ann-Dorthe Zwisler",
+      "Mette Kirstine Wagner"
+    ],
+    "journal": "Resuscitation",
+    "year": 2024,
+    "date": "2024-03-06",
+    "abstract": "AIM: Long-term cognitive decline after out-of-hospital cardiac arrest (OHCA) is still poorly understood. This study describes long-term observer-reported cognitive decline among Danish OHCA survivors, including differences in years since the event, and investigates characteristics and self-reported outcomes associated with observer-reported cognitive decline.\nMETHODS: Adults who survived an OHCA from 2016 to 2019, and their relatives, completed the national DANish Cardiac Arrest Survivorship survey. Relatives completed the Informant Questionnaire on Cognitive Decline in the Elderly, Cardiac Arrest version (IQCODE-CA), the Hospital Anxiety and Depression Scale (HADS) and the World Health Organisation-Five Well-being index; and survivors completed the Two Simple Questions (everyday activities and mental recovery), the Modified Fatigue Impact Scale, HADS, and the Short World Health Organisation Disability Assessment Schedule 2.0. Potential associations between survivor characteristics and the IQCODE-CA were investigated using a multivariable logistic regression model. Self-reported outcomes among survivors and relatives, and the association with IQCODE-CA scores were investigated using separate logistic regression models.\nRESULTS: Total median IQCODE-CA score was 3.04 (IQR: 3.00-3.27), with 47% having possible cognitive decline (score ≥ 3.04), consistent across time groups. Increasing age (OR 0.98, 95% CI: 0.97-0.99) and worse self-reported mental and physical outcomes for survivors and relatives, except 'everyday activities' were significantly associated with possible cognitive decline among survivors.\nCONCLUSIONS: Nearly half of OHCA survivors may suffer long-term cognitive decline. Worse self-reported mental and physical outcomes among survivors and their relatives are associated with potential cognitive decline emphasising the need for post-OHCA care to include systematic neurocognitive assessment, tailored support and effective rehabilitation.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2024.110162",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38452993"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Adult",
+      "Humans",
+      "Aged",
+      "Out-of-Hospital Cardiac Arrest",
+      "Cognitive Dysfunction",
+      "Surveys and Questionnaires",
+      "Self Report",
+      "Survivors"
+    ],
+    "country": "Denmark"
+  },
+  {
+    "id": "35801906",
+    "pmid": "35801906",
+    "doi": "10.1093/eurjcn/zvac056",
+    "title": "Caught between competing emotions and tensions while adjusting to a new everyday life: a focus group study with family caregivers of out-of-hospital cardiac arrest survivors.",
+    "authors": [
+      "Siri Rosenkilde",
+      "Malene Missel",
+      "Mette Kirstine Wagner",
+      "Camilla Dichman",
+      "Anne Sofie Hermansen",
+      "Malene K Larsen",
+      "Vicky L Joshi",
+      "Ann Dorthe Zwisler",
+      "Britt Borregaard"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2023,
+    "date": "2023-04-12",
+    "abstract": "AIMS: Caring for an out-of-hospital cardiac arrest (OHCA) survivor may impact family caregivers' lives due to the sudden onset of the illness and possible secondary cognitive, emotional, and physical challenges. However, experiences of caring for an OHCA survivor are sparsely described. Thus, this study aimed to explore how family caregivers of OHCA survivors experience the potential burden.\nMETHODS AND RESULTS: Using an explorative qualitative approach, six focus group interviews were conducted with a sample of 25 family caregivers of OHCA survivors and analysed using a phenomenological hermeneutic approach inspired by the philosophy of Ricoeur. The OHCA survivors attended a rehabilitation course, and the family caregivers were interviewed as part of the course.Based on the analysis, three themes emerged: (i) feeling unexpectedly alone and invisible; the family caregivers experienced an emotional burden that could not be shared-leading to caregiving being a lonely experience, (ii) fear of loss; the fear of losing a loved one was a constant companion contributing to the burden, and (iii) adjusting to a new everyday life; the family caregivers had difficulties adjusting to living their lives on the premise of the survivors' needs.\nCONCLUSION: The findings of this study emphasize the burden experienced by family caregivers and how they can be trapped in competing emotions and tensions. The possible caregiver burden following OHCA should be acknowledged. Interventions to reduce the burden should be tested and implemented as part of the clinical care of OHCA survivors and their families.",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvac056",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35801906"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Focus Groups",
+      "Caregivers",
+      "Out-of-Hospital Cardiac Arrest",
+      "Emotions",
+      "Survivors"
+    ],
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark"
+  },
+  {
+    "id": "37662640",
+    "pmid": "37662640",
+    "doi": "10.1016/j.resplu.2023.100451",
+    "title": "Life satisfaction in cardiac arrest survivors: A nationwide Swedish registry study.",
+    "authors": [
+      "Stefan Aregger Lundh",
+      "Johan Israelsson",
+      "Peter Hagell",
+      "Petra Lilja Andersson",
+      "Kristofer Årestedt"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2023,
+    "date": "2023-08-19",
+    "abstract": "INTRODUCTION: Most cardiac arrest (CA) survivors report good health and quality of life. Life satisfaction on the other hand has not yet been studied in a large scale in the CA population. We aimed to explore life satisfaction as perceived by CA survivors with three research questions addressed: (1) how do CA survivors report their life satisfaction, (2) how are different domains of life satisfaction associated with overall life satisfaction, and (3) how are demographic and medical factors associated with overall life satisfaction?\nMETHODS: This registry study had a cross-sectional design. Life satisfaction was assessed using the 11-item Life Satisfaction checklist (LiSat-11). The sample included 1435 survivors ≥18 years of age. Descriptive statistics and binary logistic regression analyses were used.\nRESULTS: Survivors were most satisfied with partner relation (85.6%), family life (82.2%), and self-care (77.8%), while 60.5% were satisfied with overall life. Satisfaction with psychological health was strongest associated with overall life satisfaction. Among medical and demographic factors, female sex and poor cerebral performance were associated with less overall life satisfaction.\nCONCLUSIONS: Generally, CA survivors seem to perceive similar levels of overall life satisfaction as general populations, while survivors tend to be significantly less satisfied with their sexual life. Satisfaction with psychological health is of special interest to identify and treat. Additionally, female survivors and survivors with poor neurological outcome are at risk for poorer overall life satisfaction and need special attention by healthcare professionals.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2023.100451",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37662640",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10470084"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC10470084",
+    "country": "Sweden"
+  },
+  {
+    "id": "35766177",
+    "pmid": "35766177",
+    "doi": "10.1093/eurjcn/zvac039",
+    "title": "Return-to-work and rehabilitation needs in cardiac arrest survivors: an exploratory cross-sectional study.",
+    "authors": [
+      "Jan Christensen",
+      "Bo Gregers Winkel",
+      "Signe Janum Eskildsen",
+      "Rikke Gottlieb",
+      "Christian Hassager",
+      "Mette Kirstine Wagner"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2023,
+    "date": "2023-04-12",
+    "abstract": "Patient-reported return-to-work and job functioning 6 and 12 months after hospital discharge and received rehabilitation interventions and unmet rehabilitation needs were explored in a consecutive population of out-of-hospital cardiac arrest survivors. Patients working prior to cardiac arrest were invited to participate in a telephone administered survey. Thirty-eight surveys were conducted and included for analysis, equivalent to a minimum response rate of 95%. Survivors of out-of-hospital cardiac arrest had extensive challenges returning to work. Six- and 12-months post-arrest, 58% and 45% were respectively on full time sick leave or working notably less (>10 h/week) and with extensive unmet rehabilitation needs.",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvac039",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/35766177"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Return to Work",
+      "Cross-Sectional Studies",
+      "Out-of-Hospital Cardiac Arrest",
+      "Survivors",
+      "Sick Leave"
+    ],
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark"
+  },
+  {
+    "id": "37872205",
+    "pmid": "37872205",
+    "doi": "10.1038/s41598-023-44963-1",
+    "title": "Telephone-based evaluation of cognitive impairment and mood disorders in cardiac arrest survivors with good neurologic outcomes: a retrospective cohort study.",
+    "authors": [
+      "June-Sung Kim",
+      "Youn-Jung Kim",
+      "Seung Mok Ryoo",
+      "Shin Ahn",
+      "Won Young Kim"
+    ],
+    "journal": "Scientific reports",
+    "year": 2023,
+    "date": "2023-10-23",
+    "abstract": "This study determined the occurrence of cognitive impairment and mood disorders in out-of-hospital cardiac arrest (OHCA) survivors with good neurologic outcomes. We performed a retrospective, cross-sectional, single-center study with a total of 97 patients. We evaluated cognitive dysfunction via the Montreal Cognitive Assessment and Alzheimer's disease-8 mood disorders via the Patient Health Questionnaire-9 and the Hospital Anxiety and Depression Scale. We measured quality of life with the European Quality of Life 5-Dimension 5-Levels questionnaire. Cognitive impairment and mood disorders were common among patients with good neurologic recovery. There were 23 patients who experienced cognitive impairments (23.7%) and 28 who suffered from mood disorders (28.9%). Age (adjusted OR 1.07, 95% CI 1.02-1.12), mood disorders (adjusted OR 22.80, 95% CI 4.84-107.49) and hospital length of stay (adjusted OR 1.05, 95% CI 1.02-1.09) were independent risk factors for cognitive impairment. The occurrence of cognitive impairments (adjusted OR 9.94, 95% CI 2.83-35.97) and non-cardiac causes of cardiac arrest (adjusted OR 11.51, 95% CI 3.15-42.15) were risk factors for mood disorders. Quality of life was significantly lower in the OHCA survivors with each disorder than the healthy individuals. Routine screening and intervention are needed for OHCA survivors.",
+    "links": {
+      "doi": "https://doi.org/10.1038/s41598-023-44963-1",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37872205",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10593735"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC10593735",
+    "mesh": [
+      "Humans",
+      "Retrospective Studies",
+      "Mood Disorders",
+      "Quality of Life",
+      "Cross-Sectional Studies",
+      "Cognitive Dysfunction",
+      "Out-of-Hospital Cardiac Arrest",
+      "Survivors",
+      "Cardiopulmonary Resuscitation"
+    ],
+    "country": "South Korea. wonpia73@naver.com"
+  },
+  {
+    "id": "36402118",
+    "pmid": "36402118",
+    "doi": "10.1016/j.hrtlng.2022.11.004",
+    "title": "Return to work and everyday life following out-of-hospital cardiac arrest. Results from the national survey, DenHeart.",
+    "authors": [
+      "Maiken Hedegaard Nielsen",
+      "Trine Bernholdt Rasmussen",
+      "Mette Kirstine Wagner",
+      "Ditte Bekker",
+      "Sofie Moesgaard Bruvik",
+      "Ola Ekholm",
+      "Selina Kikkenborg Berg",
+      "Anne Vinggaard Christensen",
+      "Rikke Elmose Mols",
+      "Charlotte Brun Thorup",
+      "Lars Thrysoee",
+      "Britt Borregaard"
+    ],
+    "journal": "Heart & lung : the journal of critical care",
+    "year": 2022,
+    "date": "2022-11-16",
+    "abstract": "BACKGROUND: With increasing survival rates following out-of-hospital cardiac arrest (OHCA), knowledge on return to everyday life, including return to work, should be getting increasing attention.\nOBJECTIVES: To i) describe patterns of labor market affiliation up to 12 months after discharge among a workforce population and to, ii) investigate the association between clinical and sociodemographic characteristics, self-reported health at discharge and a composite endpoint of prolonged sick leave and leaving the workforce after 3 and 12 months.\nMETHODS: Data from the national survey, DenHeart, were used, including measures of self-reported health: HeartQoL and the Hospital Anxiety and Depression Scale (HADS), combined with register-based follow-up.\nRESULTS: During the study period, n = 572 OHCA patients were discharged from five Heart centres, n = 184 were part of the workforce. At discharge, 60% were on paid sick leave, and 20% at 12 months. Age (per one year older) increased the odds of experiencing the composite endpoint at 3 and 12 months (3 months: OR 1.06 95%CI 1.03-1.10, 12 months: OR 1.06 95%CI 1.03-1.09) among the total population (n = 184). Self-reported health at discharge was not associated with the endpoint.\nCONCLUSION: One-fifth of the OHCA survivors at a working-age prior to the OHCA was still on paid sick leave after 12 months. Increasing age was the only characteristic associated with a composite endpoint of prolonged sick leave or leaving the workforce at 3 and 12 months after discharge. With increasing survival rates, healthcare professionals need to support the population in resuming daily life, including returning to the workforce, when relevant.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.hrtlng.2022.11.004",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36402118"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Infant",
+      "Return to Work",
+      "Out-of-Hospital Cardiac Arrest",
+      "Patient Discharge",
+      "Self Report"
+    ],
+    "country": "Denmark. Electronic address: britt.borregaard@rsyd.dk"
+  },
+  {
+    "id": "33993238",
+    "pmid": "33993238",
+    "doi": "10.1093/eurjcn/zvab002",
+    "title": "Feeling understood for the first time: experiences of participation in rehabilitation after out-of-hospital sudden cardiac arrest.",
+    "authors": [
+      "Mette Kirstine Wagner",
+      "Selina Kikkenborg Berg",
+      "Christian Hassager",
+      "Victoria Louise Joshi",
+      "Dea Siggaard Stenbæk",
+      "Malene Missel"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2021,
+    "date": "2021-11-28",
+    "abstract": "AIMS: Survivors of out-of-hospital sudden cardiac arrest (SCA) may suffer from long-term cognitive, psychological, or physical post-arrest consequences impacting and disrupting daily life. To adjust to and manage daily life is critical, and therefore a tailored rehabiliation programme was introduced to the participants. The study aimed to explore the lived experience among cardiac arrest survivors.\nMETHODS AND RESULTS: Data were gathered through six focus group interviews during a cardiac arrest rehabilitation programme. Thirty-three out-of-hospital SCA survivors (8 women and 25 men) participated. Time since cardiac arrest was on average 12-57 months. An exploratory qualitative design inspired by Ricoeur's phenomenological hermeneutics was applied. Two main themes emerged from the analysis and interpretation: (i) a lack of support from the health system in the transition from hospital to daily life; and (ii) feeling understood for the first time. The findings revealed that out-of-hospital SCA survivors experience a knowledge gap struggling for support. Attending the programme, gaining knowledge and experiencing peer support was described as a revelation for them.\nCONCLUSION: The findings suggest that out-of-hospital SCA survivors felt understood for the first time when attending a cardiac arrest rehabilitation programme. A post-arrest pathway is needed led by a coordinating cardiac arrest specialist nursing service together with allied healthcare professionals. Focus on hypoxic brain injuries, emotional burdens, and supportive strategies are essential in the transition to daily life. Facilitated peer support is warranted.",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvab002",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33993238"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Death, Sudden, Cardiac",
+      "Emotions",
+      "Female",
+      "Hospitals",
+      "Humans",
+      "Male",
+      "Out-of-Hospital Cardiac Arrest",
+      "Survivors"
+    ],
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark"
+  },
+  {
+    "id": "36089989",
+    "pmid": "36089989",
+    "doi": "10.1016/j.ssmqr.2021.100002",
+    "title": "Getting better or getting by?: A qualitative study of in-hospital cardiac arrest survivors long-term recovery experiences.",
+    "authors": [
+      "Molly Harrod",
+      "Lee A Kamphuis",
+      "Katrina Hauschildt",
+      "Claire Seigworth",
+      "Peggy R Korpela",
+      "Marylena Rouse",
+      "Brenda M Vincent",
+      "Brahmajee K Nallamothu",
+      "Theodore J Iwashyna"
+    ],
+    "journal": "SSM. Qualitative research in health",
+    "year": 2021,
+    "date": "2021-08-23",
+    "abstract": "In the United States, approximately 292,000 adults (>18 years old) per year suffer an in-hospital cardiac arrest (IHCA). Survival rates have increased over the last decade and many survivors return to their communities. IHCA has been recognized as a unique disease entity because the arrest happens in a medical care setting and survivors often have more medical co-morbidities. Although more individuals are surviving IHCA, very little is known about their long-term recovery experiences. Semi-structured interviews with 19 IHCA survivors were conducted to better understand their recovery experiences and identify strategies of adaptation that they felt aided their recovery. Thematic analysis indicated that IHCA survivors experience ongoing challenges to recovery. Reconceptualization of independence was necessary for some participants to re-engage in social and physical activities and a few were able to engage in new activities. Our findings suggest that IHCA survivors often develop their own strategies for adaptation in order to continue participation in their social lives and that their recovery experiences are ongoing. Intervention programs and follow-up care should continuously ask survivors what is important to them and identify resources that will support their goals. Questions should include physical, cognitive, psychological and social goals that extend beyond those specifically related to IHCA since our findings indicate that the effects of IHCA are long-lasting and encompass all aspects of survivors' lives.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.ssmqr.2021.100002",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36089989",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9453782"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC9453782",
+    "country": "United States"
+  },
+  {
+    "id": "34856490",
+    "pmid": "34856490",
+    "doi": "10.1016/j.jcrc.2021.11.008",
+    "title": "In-depth assessment of health-related quality of life after in-hospital cardiac arrest.",
+    "authors": [
+      "M Schluep",
+      "H Endeman",
+      "B Y Gravesteijn",
+      "C Kuijs",
+      "M J Blans",
+      "B van den Bogaard",
+      "A W M M Koopman Van Gemert",
+      "C J Hukshorn",
+      "B J M van der Meer",
+      "A H M Knook",
+      "T van Melsen",
+      "R Peters",
+      "K S Simons",
+      "G Spijkers",
+      "J W Vermeijden",
+      "E-J Wils",
+      "R J Stolker",
+      "S E Hoeks"
+    ],
+    "journal": "Journal of critical care",
+    "year": 2021,
+    "date": "2021-11-30",
+    "abstract": "INTRODUCTION: Evidence on physical and psychological well-being of in-hospital cardiac arrest (IHCA) survivors is scarce. The aim of this study is to describe long-term health-related quality of life (HRQoL), functional independence and psychological distress 3 and 12 months post-IHCA.\nMETHODS: A multicenter prospective cohort study in 25 hospitals between January 2017 - May 2018. Adult IHCA survivors were included. HRQoL (EQ-5D-5L, SF-12), psychological distress (HADS, CSI) and functional independence (mRS) were assessed at 3 and 12 months post-IHCA.\nRESULTS: At 3-month follow-up 136 of 212 survivors responded to the questionnaire and at 12 months 110 of 198 responded. The median (IQR) EQ-utility Index score was 0.77 (0.65-0.87) at 3 months and 0.81 (0.70-0.91) at 12 months. At 3 months, patients reported a median SF-12 (IQR) physical component scale (PCS) of 38.9 (32.8-46.5) and mental component scale (MCS) of 43.5 (34.0-39.7) and at 12 months a PCS of 43.1 (34.6-52.3) and MCS 46.9 (38.5-54.5).\nDISCUSSION: Using various tools most IHCA survivors report an acceptable HRQoL and a substantial part experiences lower HRQoL compared to population norms. Our data suggest that younger (male) patients and those with poor functional status prior to admission are at highest risk of impaired HRQoL.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.jcrc.2021.11.008",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34856490"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Adult",
+      "Heart Arrest",
+      "Hospitals",
+      "Humans",
+      "Male",
+      "Prospective Studies",
+      "Quality of Life",
+      "Surveys and Questionnaires",
+      "Survivors"
+    ],
+    "country": "the Netherlands"
+  },
+  {
+    "id": "34223295",
+    "pmid": "34223295",
+    "doi": "10.1016/j.resplu.2020.100008",
+    "title": "Modifiable provider-patient relationship factors and illness perceptions are associated with quality of life in survivors of cardiac arrest with good neurologic recovery.",
+    "authors": [
+      "Alex Presciutti",
+      "Jonathan A Shaffer",
+      "Mary Newman",
+      "Sarah M Perman"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2020,
+    "date": "2020-06-12",
+    "abstract": "AIM: To evaluate associations between provider-patient communication, readiness for discharge, and patients' illness perceptions with post-arrest quality of life (QoL).\nMETHODS: We distributed an online survey to survivors of cardiac arrest who were members of the Sudden Cardiac Arrest Foundation. Survivors completed the Questionnaire for the Quality of Provider-Patient Interactions (QQPPI), Readiness for Hospital Discharge Scale (RHDS), and the Brief Illness Perception Questionnaire (B-IPQ). When completing the QQPPI and RHDS, survivors were asked to think back to their hospitalization and discharge. QoL domains (physical, psychological, social) were measured via the WHO-QOL BREF. Three multiple regression models examined associations between QQPPI, RHDS, and B-IPQ scores with QoL domains, adjusted for age, sex, months since arrest, self-reported understanding of cardiac arrest and potential post-arrest symptoms at discharge, self-reported memory at discharge, and functional status as defined by the Lawton Instrumental Activities of Daily Living scale.\nRESULTS: A total of 163 survivors (mean age: 50.1 years, 50.3% women, 95.5% white, mean time since arrest: 63.9 months) provided complete survey data. More threatening illness perceptions (β: -0.45, p ​< ​0.001) and lower readiness for discharge (β: 0.21, p ​= ​0.01) were associated with worse physical QoL. More threatening illness perceptions (β: -0.47, p ​< ​0.001) was associated with worse psychological QoL. More threatening illness perceptions (β: -0.28, p ​= ​0.001) and poor provider-patient communication (β: 0.35, p ​< ​0.001) were associated with worse social QoL.\nCONCLUSIONS: Modifiable provider-patient relationship factors and illness perceptions were associated with quality of life in survivors of cardiac arrest with good neurologic recovery.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2020.100008",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34223295",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8244500"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC8244500",
+    "country": "United States"
+  },
+  {
+    "id": "34223328",
+    "pmid": "34223328",
+    "doi": "10.1016/j.resplu.2020.100055",
+    "title": "Moving from physical survival to psychologic recovery: a qualitative study of survivor perspectives on long-term outcome after sudden cardiac arrest.",
+    "authors": [
+      "Katie N Dainty",
+      "M Bianca Seaton",
+      "P Richard Verbeek"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2020,
+    "date": "2020-12-31",
+    "abstract": "BACKGROUND: Over 400,000 adults suffer out-of-hospital cardiac arrests (OHCA) each year in North America. Despite a very high mortality rate, even 10% survival means that a minimum of 3500 people return to their lives and their families. However, their experience of living and their health-related quality of life after such a life-changing event are quite variable, much more complex than just having lived or died, and should not be reduced to crude measures of neurological functioning.\nMETHODS: We conducted 32 in-depth qualitative interviews with survivor/family member dyads at various stages of survival. The interviews focused on the recovery journey, long-term issues most important to them and how measuring such concepts could help. Interviews were audio-taped, transcribed verbatim and analyzed using constant comparative thematic analysis techniques.\nRESULTS: During in-depth interviews with more than 30 survivors and caregivers we have heard that despite being a relatively high functioning group, their lives have been deeply affected by their cardiac arrest experience. They speak about the importance of both psychologic and physical recovery, the impact of return to work or changes in work identity and the necessity of support from family members in the recovery process. Spouses/family members also mentioned differences in perspective on their loved one's recovery and how they manage the fear of recurrence.\nCONCLUSIONS: This work purposively brings a unique lens to the concept of cardiac arrest outcomes by placing priority on what is important to survivors and their families and what we may be missing in standard outcomes measures. There is a clear need for a more patient-centred outcome set for this population and our work indicates that psychologic assessment, return to work status and family input are key domains to be considered.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2020.100055",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34223328",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8244397"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC8244397",
+    "country": "Canada"
+  }
 ]
