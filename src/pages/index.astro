@@ -15,7 +15,7 @@ const getFilterHref = (filters: { domain?: string; quick?: string }) => {
   const query = params.toString();
   return query ? `${browseHref}?${query}#papers` : browseResultsHref;
 };
-const aboutHref = getAboutUrl();
+const aboutHref = `${getAboutUrl()}#search-strategy`;
 const totalPapers = typedPapers.length;
 const latestYear = typedPapers.reduce((max, paper) => Math.max(max, paper.year), 0);
 const recentlyAdded = Math.min(typedPapers.length, 15);
@@ -213,8 +213,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
         <div class="bg-slate-900 rounded-2xl p-6 text-white shadow-lg">
           <h3 class="font-semibold mb-2">How we build this</h3>
           <p class="text-sm text-slate-300 leading-relaxed mb-4">
-            We use a sentence-transformer model to semantic rank papers from PubMed, CINAHL, and Web
-            of Science.
+We retrieve studies through a structured, pre-defined search strategy applied across PubMed, CINAHL, and Web of Science.
           </p>
           <a
             href={aboutHref}
