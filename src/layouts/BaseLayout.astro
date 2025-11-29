@@ -92,38 +92,62 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
         </div>
       </nav>
       <nav
-        class="relative hidden flex-col gap-3 border-b border-white/10 bg-slate-900/90 px-6 pb-5 pt-4 text-sm font-semibold text-white shadow-lg backdrop-blur lg:px-8 md:hidden"
+        class="pointer-events-none fixed inset-0 z-40 hidden bg-slate-950/60 opacity-0 backdrop-blur-sm transition-opacity duration-200 md:hidden"
         aria-label="Mobile"
         data-mobile-panel
       >
-        <div class="grid grid-cols-1 gap-3">
-          <a
-            class="w-full rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/20"
-            href={aboutHref}>About the Team</a
-          >
-          <a
-            class="w-full rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/20"
-            href={browseHref}>Browse</a
-          >
-          <a
-            class="w-full rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/20"
-            href={collaborateHref}>Collaborate</a
-          >
-          <a
-            class="w-full rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/20"
-            href={heatmapHref}>Research Heat Map</a
-          >
-          <a
-            class="w-full rounded-2xl border border-white/15 bg-white/10 px-5 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/20"
-            href={ongoingStudiesHref}>Ongoing Studies</a
-          >
+        <div class="h-full w-full" data-mobile-overlay></div>
+        <div
+          class="absolute right-0 top-0 flex h-full w-72 translate-x-full flex-col gap-2 border-l border-white/10 bg-slate-900 px-6 py-6 text-sm font-semibold text-white shadow-2xl transition-transform duration-300 ease-out will-change-transform sm:w-80"
+          data-mobile-drawer
+        >
+          <div class="mb-2 flex items-center justify-between">
+            <span class="text-base font-semibold text-white">Menu</span>
+            <button
+              class="rounded-full border border-white/15 bg-white/5 p-2 text-white transition hover:border-white/30 hover:bg-white/10"
+              type="button"
+              aria-label="Close navigation"
+              data-mobile-close
+            >
+              <svg
+                aria-hidden="true"
+                class="h-4 w-4"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M6 18L18 6"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div class="flex flex-col divide-y divide-white/10">
+            <a class="px-1 py-3 text-left transition hover:text-teal-200" href={aboutHref}
+              >About the Team</a
+            >
+            <a class="px-1 py-3 text-left transition hover:text-teal-200" href={browseHref}
+              >Browse</a
+            >
+            <a class="px-1 py-3 text-left transition hover:text-teal-200" href={collaborateHref}
+              >Collaborate</a
+            >
+            <a class="px-1 py-3 text-left transition hover:text-teal-200" href={heatmapHref}
+              >Research Heat Map</a
+            >
+            <a class="px-1 py-3 text-left transition hover:text-teal-200" href={ongoingStudiesHref}
+              >Ongoing Studies</a
+            >
+          </div>
         </div>
       </nav>
-      {Astro.slots.has('hero') && (
-        <div class="relative mx-auto max-w-5xl px-6 pb-20 pt-16 text-center lg:px-8">
-          <slot name="hero" />
-        </div>
-      )}
+      {
+        Astro.slots.has('hero') && (
+          <div class="relative mx-auto max-w-5xl px-6 pb-20 pt-16 text-center lg:px-8">
+            <slot name="hero" />
+          </div>
+        )
+      }
     </header>
     <main id="main" class="bg-slate-50 text-slate-600 dark:bg-slate-950 dark:text-slate-100">
       <slot />
@@ -148,10 +172,38 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
     <script is:inline>
       const mobileToggle = document.querySelector('[data-mobile-nav]');
       const mobilePanel = document.querySelector('[data-mobile-panel]');
-      mobileToggle?.addEventListener('click', () => {
-        mobilePanel?.classList.toggle('hidden');
-        const expanded = mobileToggle.getAttribute('aria-expanded') === 'true';
-        mobileToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      const mobileDrawer = document.querySelector('[data-mobile-drawer]');
+      const mobileOverlay = document.querySelector('[data-mobile-overlay]');
+      const mobileClose = document.querySelector('[data-mobile-close]');
+
+      const openMobileNav = () => {
+        if (!mobilePanel || !mobileDrawer || !mobileToggle) return;
+        mobilePanel.classList.remove('hidden');
+        window.requestAnimationFrame(() => {
+          mobilePanel.classList.remove('opacity-0');
+          mobilePanel.classList.remove('pointer-events-none');
+          mobileDrawer.classList.remove('translate-x-full');
+          mobileToggle.setAttribute('aria-expanded', 'true');
+        });
+      };
+
+      const closeMobileNav = () => {
+        if (!mobilePanel || !mobileDrawer || !mobileToggle) return;
+        mobilePanel.classList.add('opacity-0');
+        mobilePanel.classList.add('pointer-events-none');
+        mobileDrawer.classList.add('translate-x-full');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        window.setTimeout(() => mobilePanel.classList.add('hidden'), 200);
+      };
+
+      mobileToggle?.addEventListener('click', openMobileNav);
+      mobileOverlay?.addEventListener('click', closeMobileNav);
+      mobileClose?.addEventListener('click', closeMobileNav);
+      mobilePanel?.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', closeMobileNav);
+      });
+      mobilePanel?.addEventListener('keyup', (event) => {
+        if (event.key === 'Escape') closeMobileNav();
       });
     </script>
   </body>
