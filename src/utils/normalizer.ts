@@ -52,6 +52,7 @@ const COUNTRY_CORRECTIONS: CountryCorrection[] = [
   { match: /österreich/i, code: 'AT', name: 'Austria' },
   { match: /\bm\.c\.k\.\)/i, code: 'US', name: 'United States' },
   { match: /\br\.n\.\)/i, code: 'US', name: 'United States' },
+  { match: /\br\.m\.\)/i, code: 'US', name: 'United States' },
   { match: /^alabama$/i, code: 'US', name: 'United States' },
   { match: /lieutenant colonel charles s\. kettles/i, code: 'US', name: 'United States' },
   {

@@ -6297,7 +6297,9 @@
       "Registries",
       "Retrospective Studies"
     ],
-    "country": "R.M.)",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
