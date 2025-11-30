@@ -7,6 +7,9 @@ import { isInCurrentMonth } from '~/utils/dates';
 
 const typedPapers = papers as Paper[];
 const totalPapers = typedPapers.length;
+const totalCountries = Array.from(
+  new Set(typedPapers.map((paper) => paper.country).filter(Boolean))
+).length;
 const countriesThisMonth = Array.from(
   new Set(
     typedPapers
@@ -107,12 +110,17 @@ const highlightCards = [
             </div>
           </div>
           <div class="rounded-2xl bg-slate-50 p-4 text-center shadow-sm dark:bg-slate-800/60">
-            <div class="text-3xl font-bold text-slate-900 dark:text-white">{countriesThisMonth}</div>
+            <div class="text-3xl font-bold text-slate-900 dark:text-white">
+              {totalCountries.toLocaleString()}
+            </div>
             <div
               class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-300"
             >
-              Countries (this month)
+              Countries
             </div>
+            <p class="mt-1 text-xs text-slate-600 dark:text-slate-300">
+              This month: {countriesThisMonth.toLocaleString()}
+            </p>
           </div>
           <div class="rounded-2xl bg-slate-50 p-4 text-center shadow-sm dark:bg-slate-800/60">
             <div class="text-xl font-semibold text-slate-900 dark:text-white">
