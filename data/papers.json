@@ -1057,6 +1057,50 @@
     "country": "Italy"
   },
   {
+    "id": "40648804",
+    "pmid": "40648804",
+    "doi": "10.3390/jcm14134429",
+    "title": "V-CARE (Virtual Care After REsuscitation): Protocol for a Randomized Feasibility Study of a Virtual Psychoeducational Intervention After Cardiac Arrest-A STEPCARE Sub-Study.",
+    "authors": [
+      "Marco Mion",
+      "Gisela Lilja",
+      "Mattias Bohm",
+      "Erik Blennow Nordström",
+      "Dorit Töniste",
+      "Katarina Heimburg",
+      "Paul Swindell",
+      "Josef Dankiewicz",
+      "Markus B Skrifvars",
+      "Niklas Nielsen",
+      "Janus C Jakobsen",
+      "Judith White",
+      "Matt P Wise",
+      "Nikos Gorgoraptis",
+      "Meadbh Keenan",
+      "Philip Hopkins",
+      "Nilesh Pareek",
+      "Maria Maccaroni",
+      "Thomas R Keeble"
+    ],
+    "journal": "Journal of clinical medicine",
+    "year": 2025,
+    "date": "2025-06-22",
+    "abstract": "Out-of-hospital cardiac arrest (OHCA) survivors and their relatives may face challenges following hospital discharge, relating to mood, cognition, and returning to normal day-to-day activities. Identified research gaps include a lack of knowledge around what type of intervention is needed to best navigate recovery. In this study, we investigate the feasibility and patient acceptability of a new virtual psychoeducational group intervention for OHCA survivors and their relatives and compare it to a control group receiving a digital information booklet.V-CARE is a comparative, single-blind randomized pilot trial including participants at selected sites of the STEPCARE trial, in the United Kingdom and Sweden. Inclusion criteria are a modified Rankin Scale (mRS) ≤ 3 at 30-day follow-up; no diagnosis of dementia; and not experiencing an acute psychiatric episode. One caregiver per patient is invited to participate optionally. The intervention group in V-CARE receives four semi-structured, one-hour-long, psychoeducational sessions delivered remotely via video call by a trained clinician once a week, 2-3 months after hospital discharge. The sessions cover understanding cardiac arrest; coping with fatigue and memory problems; managing low mood and anxiety; and returning to daily life. The control group receives an information booklet focused on fatigue, memory/cognitive problems, mental health, and practical coping strategies.Primary: feasibility (number of patients consented) and acceptability (retention rate); secondary: satisfaction with care (Client Satisfaction Questionnaire 8 item), self-management skills (Self-Management Assessment Scale) and, where available, health-related outcomes assessed in the STEPCARE Extended Follow-up sub-study including cognition, fatigue, mood, quality of life, and return to work.If preliminary insights from the V-CARE trial suggest the intervention to be feasible and acceptable, the results will be used to design a larger trial aimed at informing future interventions to support OHCA recovery.",
+    "links": {
+      "doi": "https://doi.org/10.3390/jcm14134429",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40648804",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12249823"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12249823",
+    "country": "United Kingdom",
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom"
+  },
+  {
     "id": "39947823",
     "pmid": "39947823",
     "doi": "10.1136/bmjopen-2024-093913",
@@ -1422,6 +1466,40 @@
       "Cognitive Dysfunction"
     ],
     "country": "United States"
+  },
+  {
+    "id": "39328897",
+    "pmid": "39328897",
+    "doi": "10.1016/j.resplu.2024.100772",
+    "title": "ENFORCER, internet-based interventions for cardiac arrest survivors: A study protocol for a randomised, parallel-group, multicentre clinical trial.",
+    "authors": [
+      "Lorenzo Gamberini",
+      "Paola Rucci",
+      "Camilla Dolcini",
+      "Martina Masi",
+      "Laura Simoncini",
+      "Marco Tartaglione",
+      "Donatella Del Giudice",
+      "Rosa Domina",
+      "Andrea Fagiolini",
+      "Pamela Salucci",
+      "Collaborators"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2024,
+    "date": "2024-09-18",
+    "abstract": "BACKGROUND: Out-of-hospital cardiac arrest (OHCA) is a major health concern in Europe, leading to significant morbidity and mortality. Survivors often suffer from cognitive deficits, anxiety, and depression, that affect significantly their quality of life. Current post-discharge care is inconsistent and frequently overlooks subtle but disabling symptoms. The ENFORCER trial aims to significantly enhance the health and quality of life of OHCA survivors by providing a comprehensive, accessible, and user-friendly internet-based lifestyle intervention.\nMETHODS: ENFORCER is a multicentre, parallel group randomized controlled trial involving OHCA survivors aged 18-80 years with cognitive impairment or anxiety/depression measured through validated instruments.Participants will be randomized 1:1 to the intervention or the control group. The intervention group will receive a one-year program via a secure web application, offering cognitive, emotional, and physical rehabilitation support. The control group will receive standard care.The primary outcome is the difference in the proportion of patients without cognitive or emotional symptoms between the two groups after one year.Secondary outcomes include changes in the level of patients' cognitive and emotional symptoms, quality of life, sleep quality, sexual interest and satisfaction, and caregivers' burden, quality of life, sleep quality and emotional symptoms in the two groups.\nDISCUSSION: The trial addresses the need for consistent post-discharge care, and the timely detection and treatment of cognitive and emotional problems. The internet-based approach allows to potentially reach many patients, ensuring cost-effectiveness and high adherence rates.The study results could establish a standard for post-OHCA care, improving long-term recovery and quality of life for survivors.Trial registration.The trial is registered at clinicaltrials.gov (NCT06395558).",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2024.100772",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39328897",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11426058"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC11426058",
+    "country": "Italy"
   },
   {
     "id": "38996907",
