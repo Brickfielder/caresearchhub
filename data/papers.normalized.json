@@ -3133,7 +3133,7 @@
       "Cardiopulmonary Resuscitation",
       "Retrospective Studies"
     ],
-    "country": "Department of Cardiology Rigshospitalet Copenhagen Denmark",
+    "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
     "domains": [
@@ -3453,7 +3453,7 @@
     ],
     "country": "Republic of Korea",
     "corrCountryCode": "KR",
-    "corrCountryName": "South Korea",
+    "corrCountryName": "Republic of Korea",
     "domains": [
       "Psychological"
     ],
@@ -5074,7 +5074,9 @@
       "Survivors",
       "Cardiopulmonary Resuscitation"
     ],
-    "country": "South Korea",
+    "country": "Republic of Korea",
+    "corrCountryCode": "KR",
+    "corrCountryName": "Republic of Korea",
     "domains": [
       "Cognitive",
       "Psychological",
@@ -6295,7 +6297,9 @@
       "Registries",
       "Retrospective Studies"
     ],
-    "country": "R.M.)",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -6491,7 +6495,9 @@
       "has_fulltext": true
     },
     "pmcid": "PMC9662149",
-    "country": "University of Plymouth; Royal Devon and Exeter NHS Foundation Trust / University of Plymouth Clinical School; Monash University",
+    "country": "United Kingdom",
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom",
     "domains": [
       "Qol"
     ],
@@ -8560,6 +8566,8 @@
       "Registries"
     ],
     "country": "Republic of Korea",
+    "corrCountryCode": "KR",
+    "corrCountryName": "Republic of Korea",
     "domains": [],
     "setting": "IHCA",
     "design": "Prospective cohort",
@@ -9576,7 +9584,9 @@
       "United Kingdom",
       "United States"
     ],
-    "country": "MD",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Psychological",
       "Caregiver"

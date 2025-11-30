@@ -51,6 +51,8 @@ const COUNTRY_CORRECTIONS: CountryCorrection[] = [
   },
   { match: /österreich/i, code: 'AT', name: 'Austria' },
   { match: /\bm\.c\.k\.\)/i, code: 'US', name: 'United States' },
+  { match: /\br\.n\.\)/i, code: 'US', name: 'United States' },
+  { match: /\br\.m\.\)/i, code: 'US', name: 'United States' },
   { match: /^alabama$/i, code: 'US', name: 'United States' },
   { match: /lieutenant colonel charles s\. kettles/i, code: 'US', name: 'United States' },
   {
@@ -58,9 +60,21 @@ const COUNTRY_CORRECTIONS: CountryCorrection[] = [
     code: 'US',
     name: 'United States'
   },
+  { match: /^md$/i, code: 'US', name: 'United States' },
   { match: /^mi$/i, code: 'US', name: 'United States' },
+  {
+    match: /department of cardiology rigshospitalet copenhagen denmark/i,
+    code: 'DK',
+    name: 'Denmark'
+  },
+  {
+    match: /university of plymouth; royal devon and exeter nhs foundation trust/i,
+    code: 'GB',
+    name: 'United Kingdom'
+  },
   { match: /^the netherlands$/i, code: 'NL', name: 'the Netherlands' },
-  { match: /^netherlands$/i, code: 'NL', name: 'the Netherlands' }
+  { match: /^netherlands$/i, code: 'NL', name: 'the Netherlands' },
+  { match: /^(south korea|republic of korea)$/i, code: 'KR', name: 'Republic of Korea' }
 ];
 
 const applyCountryCorrections = (country?: string | null): Partial<RawPaper> | undefined => {
