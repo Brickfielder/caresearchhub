@@ -13,23 +13,44 @@ export const QUICK_FILTERS: Record<string, string[]> = {
 };
 
 const fuseOptions: IFuseOptions<Paper> = {
-  includeScore: true,
   keys: [
-    { name: 'title', weight: 3 },
-    { name: 'abstract', weight: 2 },
-    'keywords',
-    'authors',
-    'journal'
+    { name: 'title', weight: 0.5 },
+    { name: 'abstract', weight: 0.3 },
+    { name: 'keywords', weight: 0.15 },
+    { name: 'authors', weight: 0.03 },
+    { name: 'journal', weight: 0.02 }
   ],
-  threshold: 0.35,
+  includeScore: true,
+  includeMatches: true,
+  shouldSort: true,
+  useExtendedSearch: true,
+  threshold: 0.3,
   ignoreLocation: true,
-  useExtendedSearch: true
+  minMatchCharLength: 3
 };
 
 export const createFuse = (papers: Paper[]): Fuse<Paper> => new Fuse(papers, fuseOptions);
 
 const withinYearRange = (paper: Paper, years: [number, number]) =>
   paper.year >= years[0] && paper.year <= years[1];
+
+const hasContentMatch = (result: Fuse.FuseResult<Paper>): boolean => {
+  const matches = result.matches;
+
+  if (!matches || matches.length === 0) return true;
+
+  return matches.some(
+    (match) => match.key === 'title' || match.key === 'abstract' || match.key === 'keywords'
+  );
+};
+
+const isRelevant = (result: Fuse.FuseResult<Paper>): boolean => {
+  const score = result.score ?? 1;
+
+  if (score > 0.6) return false;
+
+  return hasContentMatch(result);
+};
 
 const matchesFilter = (paper: Paper, state: SearchState): boolean => {
   if (!withinYearRange(paper, state.years)) {
@@ -61,19 +82,46 @@ const matchesFilter = (paper: Paper, state: SearchState): boolean => {
 };
 
 export const applySearch = (papers: Paper[], fuse: Fuse<Paper>, state: SearchState): Paper[] => {
-  const base = state.query
-    ? fuse.search(state.query).map((item) => ({ paper: item.item, score: item.score ?? 1 }))
-    : papers.map((paper) => ({ paper, score: 1 }));
+  const query = state.query?.trim();
+  const hasQuery = Boolean(query);
 
-  const filtered = base.filter(({ paper }) => matchesFilter(paper, state));
-  return filtered
-    .sort((a, b) => {
-      if (a.score === b.score) {
-        return b.paper.year - a.paper.year;
-      }
-      return a.score - b.score;
-    })
-    .map(({ paper }) => paper);
+  let results: Fuse.FuseResult<Paper>[];
+
+  if (hasQuery) {
+    const rawResults = fuse.search(query!);
+    results = rawResults.filter(isRelevant);
+  } else {
+    results = papers.map((paper) => ({ item: paper, refIndex: 0, score: 0 }));
+  }
+
+  const scoreLookup = new Map<Paper, number>(results.map((result) => [result.item, result.score ?? 1]));
+
+  const filteredItems = results
+    .filter(({ item }) => matchesFilter(item, state))
+    .map(({ item }) => item);
+
+  if (hasQuery) {
+    return filteredItems.sort((a, b) => {
+      const sa = scoreLookup.get(a) ?? 1;
+      const sb = scoreLookup.get(b) ?? 1;
+
+      if (sa !== sb) return sa - sb;
+
+      const ya = a.year ?? 0;
+      const yb = b.year ?? 0;
+      if (ya !== yb) return yb - ya;
+
+      return a.title.localeCompare(b.title);
+    });
+  }
+
+  return filteredItems.sort((a, b) => {
+    const ya = a.year ?? 0;
+    const yb = b.year ?? 0;
+    if (ya !== yb) return yb - ya;
+
+    return a.title.localeCompare(b.title);
+  });
 };
 
 export interface FacetBuckets {
