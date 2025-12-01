@@ -1,9 +1,3 @@
-const REPO_BASE_URL = 'https://github.com/Brickfielder/codex-experiments';
-
-const SITE_BASE_URL = ensureTrailingSlash(
-  import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
-);
-
 const ensureTrailingSlash = (value: string): string => (value.endsWith('/') ? value : `${value}/`);
 
 const joinUrl = (base: string, path = ''): string => {
@@ -11,6 +5,12 @@ const joinUrl = (base: string, path = ''): string => {
   const normalizedPath = path.replace(/^\/+/, '');
   return normalizedPath ? `${normalizedBase}${normalizedPath}` : normalizedBase;
 };
+
+const REPO_BASE_URL = 'https://github.com/Brickfielder/codex-experiments';
+
+const SITE_BASE_URL = ensureTrailingSlash(
+  import.meta.env.SITE ?? import.meta.env.BASE_URL ?? '/'
+);
 
 const hasBuffer = typeof Buffer !== 'undefined';
 
