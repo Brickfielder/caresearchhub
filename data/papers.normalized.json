@@ -1337,6 +1337,57 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41308659",
+    "pmid": "41308659",
+    "doi": "10.1080/09602011.2025.2591784",
+    "title": "Psychometric properties of the Dysexecutive Questionnaire (DEX) in individuals with a previous cardiac event.",
+    "authors": [
+      "Amáta Vig",
+      "Susanna Vestberg",
+      "Lars Evald",
+      "Marco Mion",
+      "Magnus Segerström",
+      "Susann Ullén",
+      "Kristofer Årestedt",
+      "Niklas Nielsen",
+      "Tobias Cronberg",
+      "Gisela Lilja",
+      "Erik Blennow Nordström"
+    ],
+    "journal": "Neuropsychological rehabilitation",
+    "year": 2025,
+    "date": "2025-11-27",
+    "abstract": "This psychometric study aimed to evaluate the psychometric properties of the Dysexecutive Questionnaire (DEX) following a cardiac event, and to examine the relationship between self- and informant-ratings. Approximately 7 months post-cardiac event, 196 participants and their informants ( = 179) completed the DEX. Reliability was assessed by confirmatory factor analysis and internal consistency estimates. Construct validity was evaluated using two performance-based neuropsychological tests, the Colour-Word Interference Test and the Trail Making Test (TMT), along with the Hospital Anxiety and Depression Scale (HADS). A one-factor model showed acceptable fit for the self-assessed DEX (RMSEA = 0.062) with excellent internal consistency ( > 0.90). Slight positive associations were found between the DEX and the performance-based executive function measures, while strong positive associations emerged between the self-assessed DEX and the HADS. Overall, self-assessed and informant-reported scores did not differ significantly (self-assessed DEX median = 11,- = 5.75-20; informant-reported DEX median = 11,- = 4-19, = 0.924). However, participants with severe executive dysfunction (TMT-B-scores ≤-2) rated their own symptoms as less severe than informants ( = .001), indicating impaired self-awareness in a subgroup of participants. In conclusion, the DEX provides a useful perspective into general executive dysfunction in daily life but should be complemented with performance-based measures.ClinicalTrials.gov identifier: NCT03543371.",
+    "links": {
+      "doi": "https://doi.org/10.1080/09602011.2025.2591784",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41308659"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Sweden",
+    "domains": [
+      "Cognitive",
+      "Psychological"
+    ],
+    "setting": "Unclear",
+    "normalizedAuthors": [
+      "Vig A",
+      "Vestberg S",
+      "Evald L",
+      "Mion M",
+      "Segerström M",
+      "Ullén S",
+      "Årestedt K",
+      "Nielsen N",
+      "Cronberg T",
+      "Lilja G",
+      "Nordström EB"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "40561517",
     "pmid": "40561517",
     "doi": "10.1093/ehjacc/zuaf092",
