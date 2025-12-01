@@ -10,7 +10,13 @@ const typedPapers = papers as Paper[];
 const getPublicationTimestamp = (paper: Paper) =>
   new Date(paper.date ?? `${paper.year}-01-01`).getTime();
 const browseHref = getBrowseUrl();
-const browseResultsHref = `${browseHref}#papers`;
+const buildBrowseHref = (query?: string) => {
+  const params = new URLSearchParams();
+  if (query) params.set('q', query);
+  const serialized = params.toString();
+  return `${browseHref}${serialized ? `?${serialized}` : ''}#papers`;
+};
+const browseResultsHref = buildBrowseHref();
 const getFilterHref = (filters: { domain?: string; quick?: string }) => {
   const params = new URLSearchParams();
   if (filters.domain) params.append('domain', filters.domain);
@@ -152,7 +158,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
         {
           topicSuggestions.map((topic) => (
             <a
-              href={`${browseResultsHref}?q=${encodeURIComponent(topic)}`}
+              href={buildBrowseHref(topic)}
               class="hover:text-teal-300 border-b border-dotted border-slate-600 hover:border-teal-300"
             >
               {topic}
