@@ -193,7 +193,7 @@ export default function BrowseClient({ papers }: Props) {
   const FacetSection = ({
     title,
     children,
-    defaultOpen = true
+    defaultOpen = false
   }: {
     title: string;
     children: ComponentChildren;
