@@ -59,7 +59,7 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
       </form>
 
       {query.trim() ? (
-        <div class="rounded-2xl border border-slate-200 bg-white/95 p-4 shadow-lg">
+        <div class="rounded-2xl border border-slate-200 bg-white/95 p-4 shadow-lg text-left">
           <div class="mb-3 flex items-center justify-between">
             <p class="text-sm font-semibold text-slate-700">Top matches</p>
             <a class="text-xs font-semibold text-indigo-600 hover:text-indigo-800" href={repositoryLink}>
