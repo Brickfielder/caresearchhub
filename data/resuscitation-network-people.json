@@ -10,6 +10,8 @@
       "org",
       "city",
       "country",
+      "research_areas",
+      "research_keywords",
       "lat",
       "lng",
       "interests",
