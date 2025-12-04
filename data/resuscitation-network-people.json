@@ -23,6 +23,22 @@
   },
   "people": [
     {
+      "name": "Marco Mion",
+      "email": "m.mion@nhs.net",
+      "role": "Principal Clinical Psychologist - Honorary Clinical Lecturer, Anglia Ruskin University",
+      "org": "Mid & South Essex NHS Foundation Trust; King’s College Hospital, London.",
+      "city": "Basildon",
+      "country": "United Kingdom",
+      "lat": 51.572,
+      "lng": 0.47,
+      "research_areas": "Development and evaluation of aftercare interventions; scare/digital system design and implementation",
+      "research_keywords": "cognitive outcomes; psychological recovery; neurorehabilitation; quality of life; feedback systems; implementation science",
+      "offer": "Experience coordinating multi-site studies and RCT sub-studies; Thematic analysis and mixed-methods expertise",
+      "looking_to_collaborate_on": "International  registries focused on aftercare research; harmonising survivorship measures, datasets",
+      "id": "marco-mion",
+      "updated_at": "2025-12-04"
+    },
+    {
       "name": "Vicky Joshi",
       "email": "Vicky.Joshi@gcu.ac.uk",
       "role": "Research Fellow, Lecturer in Physiotherapy",
