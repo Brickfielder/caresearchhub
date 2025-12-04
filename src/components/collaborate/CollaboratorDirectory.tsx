@@ -12,6 +12,8 @@ const textFields: (keyof Collaborator)[] = [
   'city',
   'country',
   'interests',
+  'research_areas',
+  'research_keywords',
   'offer',
   'looking_to_collaborate_on'
 ];
@@ -125,6 +127,18 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
             </p>
             {person.interests ? (
               <p className="mt-3 text-sm text-slate-600">{person.interests}</p>
+            ) : null}
+            {person.research_areas ? (
+              <div className="mt-3 space-y-1">
+                <p className="text-sm font-semibold text-slate-700">Research areas</p>
+                <p className="text-sm text-slate-600">{person.research_areas}</p>
+              </div>
+            ) : null}
+            {person.research_keywords ? (
+              <div className="mt-3 space-y-1">
+                <p className="text-sm font-semibold text-slate-700">Key words for your research area</p>
+                <p className="text-sm text-slate-600">{person.research_keywords}</p>
+              </div>
             ) : null}
             {person.offer ? (
               <div className="mt-3 space-y-1">

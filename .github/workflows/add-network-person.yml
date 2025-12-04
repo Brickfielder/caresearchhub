@@ -27,6 +27,16 @@ on:
         description: 'Country'
         required: true
         type: string
+      research_areas:
+        description: 'Research areas (optional)'
+        required: false
+        type: string
+        default: ''
+      research_keywords:
+        description: 'Key words for your research area (optional)'
+        required: false
+        type: string
+        default: ''
       offer:
         description: 'What I can offer (optional)'
         required: false
@@ -84,6 +94,8 @@ jobs:
           PERSON_ORG: ${{ inputs.org }}
           PERSON_CITY: ${{ inputs.city }}
           PERSON_COUNTRY: ${{ inputs.country }}
+          PERSON_RESEARCH_AREAS: ${{ inputs.research_areas }}
+          PERSON_RESEARCH_KEYWORDS: ${{ inputs.research_keywords }}
           PERSON_OFFER: ${{ inputs.offer }}
           PERSON_LOOKING_TO_COLLABORATE_ON: ${{ inputs.looking_to_collaborate_on }}
         run: |
@@ -95,6 +107,8 @@ jobs:
             --org "$PERSON_ORG" \
             --city "$PERSON_CITY" \
             --country "$PERSON_COUNTRY" \
+            --research_areas "$PERSON_RESEARCH_AREAS" \
+            --research_keywords "$PERSON_RESEARCH_KEYWORDS" \
             --offer "$PERSON_OFFER" \
             --looking_to_collaborate_on "$PERSON_LOOKING_TO_COLLABORATE_ON"
 
