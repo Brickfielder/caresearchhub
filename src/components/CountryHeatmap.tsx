@@ -44,6 +44,7 @@ const CountryHeatmap: React.FC = () => {
         locations,
         z,
         colorscale: 'Viridis',
+        reversescale: true,
         colorbar: {
           title: 'Papers',
           orientation: 'h',
