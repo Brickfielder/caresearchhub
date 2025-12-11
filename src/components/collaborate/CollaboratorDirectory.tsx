@@ -7,6 +7,7 @@ interface CollaboratorDirectoryProps {
 
 const textFields: (keyof Collaborator)[] = [
   'name',
+  'email',
   'role',
   'org',
   'city',
@@ -146,6 +147,16 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
             </div>
             {expandedIds.has(person.id) ? (
               <div className="mt-4 space-y-3 border-t border-slate-100 pt-4">
+                {person.email ? (
+                  <p className="text-sm text-slate-600">
+                    <a
+                      className="font-semibold text-indigo-700 hover:text-indigo-600"
+                      href={`mailto:${person.email}`}
+                    >
+                      {person.email}
+                    </a>
+                  </p>
+                ) : null}
                 <p className="text-sm text-slate-600">{person.org}</p>
                 <p className="text-sm text-slate-500">
                   {[person.city, person.country].filter(Boolean).join(', ')}
