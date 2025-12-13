@@ -405,6 +405,87 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "39999023",
+    "pmid": "39999023",
+    "doi": "10.1093/eurjcn/zvaf032",
+    "title": "Comparison of self-reported physical activity between survivors of out-of-hospital cardiac arrest and patients with myocardial infarction without cardiac arrest: a case-control study.",
+    "authors": [
+      "Katarina Heimburg",
+      "Erik Blennow Nordström",
+      "Hans Friberg",
+      "Lisa G Oestergaard",
+      "Anders M Grejs",
+      "Thomas R Keeble",
+      "Hans Kirkegaard",
+      "Marco Mion",
+      "Niklas Nielsen",
+      "Christian Rylander",
+      "Magnus Segerström",
+      "Åsa B Tornberg",
+      "Susann Ullén",
+      "Johan Undén",
+      "Matt P Wise",
+      "Tobias Cronberg",
+      "Gisela Lilja"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2025,
+    "date": "2025-07-21",
+    "abstract": "AIMS: To investigate whether out-of-hospital cardiac arrest (OHCA) survivors had lower levels of self-reported physical activity compared to a non-cardiac arrest control group with myocardial infarction (MI), and to explore if symptoms of anxiety, depression, kinesiophobia (fear of movement), and fatigue were associated with a low level of physical activity.\nMETHODS AND RESULTS: Pre-defined case-control sub-study within the international Targeted Hypothermia versus Targeted Normothermia after Out-of-Hospital Cardiac Arrest (TTM2) trial. Out-of-hospital cardiac arrest survivors at 8 of 61 TTM2 sites in Sweden, Denmark, and the UK were invited. Participants were matched 1:1 to MI controls. Both OHCA survivors and MI controls answered two questions on self-reported physical activity, categorized as a low, moderate, or high level of physical activity, and questionnaires on anxiety and depression symptoms, kinesiophobia, and fatigue 7 months after the cardiac event. Overall, 106 of 184 (58%) eligible OHCA survivors were included and matched to 91 MI controls. In total, 25% of OHCA survivors and 20% of MI controls reported a low level of physical activity, with no significant difference (P = 0.13). Symptoms of kinesiophobia and fatigue were significantly associated with a low level of physical activity in both groups. Out-of-hospital cardiac arrest survivors had significantly more kinesiophobia compared to MI controls (18% vs. 9%, P = 0.04), while levels of anxiety and depression symptoms and fatigue were similar.\nCONCLUSION: Out-of-hospital cardiac arrest survivors had similar levels of physical activity compared to matched MI controls. High level of kinesiophobia and fatigue were associated with a low level of physical activity in both groups.\nREGISTRATION: ClinicalTrials.gov: NCT03543332.",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvaf032",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39999023"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Anxiety",
+      "Case-Control Studies",
+      "Denmark",
+      "Depression",
+      "Exercise",
+      "Fatigue",
+      "Myocardial Infarction",
+      "Out-of-Hospital Cardiac Arrest",
+      "Self Report",
+      "Survivors",
+      "Sweden",
+      "United Kingdom"
+    ],
+    "country": "Sweden",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Heimburg K",
+      "Nordström EB",
+      "Friberg H",
+      "Oestergaard LG",
+      "Grejs AM",
+      "Keeble TR",
+      "Kirkegaard H",
+      "Mion M",
+      "Nielsen N",
+      "Rylander C",
+      "Segerström M",
+      "Tornberg ÅB",
+      "Ullén S",
+      "Undén J",
+      "Wise MP",
+      "Cronberg T",
+      "Lilja G"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "40486102",
     "pmid": "40486102",
     "doi": "10.1016/j.resplu.2025.100970",
@@ -3568,6 +3649,51 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "38492715",
+    "pmid": "38492715",
+    "doi": "10.1016/j.resuscitation.2024.110182",
+    "title": "Not just surviving: Towards a quality standard which meets the care and rehabilitation needs of cardiac arrest survivors and their key supporters.",
+    "authors": [
+      "M Bradfield",
+      "K L Haywood",
+      "M Mion",
+      "A Kayani",
+      "S Leckey",
+      "RCUK Quality Standards Group for Care, Rehabilitation of Cardiac Arrest Survivors, Key Supporters"
+    ],
+    "journal": "Resuscitation",
+    "year": 2024,
+    "date": "2024-03-15",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2024.110182",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/38492715"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Heart Arrest",
+      "Survivors",
+      "Cardiopulmonary Resuscitation",
+      "Quality of Health Care"
+    ],
+    "country": "United Kingdom",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Bradfield M",
+      "Haywood KL",
+      "Mion M",
+      "Kayani A",
+      "Leckey S",
+      "RCUK Quality Standards Group for Care ROCAS"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "38452993",
     "pmid": "38452993",
     "doi": "10.1016/j.resuscitation.2024.110162",
@@ -3794,6 +3920,52 @@
       "Vargas W",
       "Karas M",
       "Agarwal S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "39709245",
+    "pmid": "39709245",
+    "doi": "10.1016/j.neurot.2024.e00509",
+    "title": "Psychological and behavioral dimensions in cardiac arrest survivors and their families: A state-of-the-art review.",
+    "authors": [
+      "Sachin Agarwal",
+      "Mette Kirstine Wagner",
+      "Marco Mion"
+    ],
+    "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+    "year": 2024,
+    "date": "2024-12-20",
+    "abstract": "This article aims to highlight high-quality observational and intervention studies focused on promoting psychological well-being among cardiac arrest (CA) survivors and their families. Following CA, many patients experience significant psychological distress, including depression, generalized anxiety, and post-traumatic stress. Recent studies indicate that this distress can narrow patients' focus, resulting in heightened awareness of cardiac signals-such as fluctuations in heart rate or blood pressure-that lead to constant monitoring and increased anxiety. This anxiety, compounded by behavioral avoidance toward cardioprotective behaviors and physiological hyperarousal, may elevate the risk of secondary cardiovascular diseases and adversely affect the quality of life. Current research is exploring behavioral interventions aimed at reducing this psychological distress, strategies to enhance coping mechanisms, and improving overall health in the survivor-family dyad. Unlike other cardiovascular conditions, no clinical practice guidelines exist for assessing or treating the psychological consequences of CA. Future research should prioritize identifying and treating modifiable psychological factors using targeted therapies and behavioral interventions.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neurot.2024.e00509",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39709245",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11840352"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC11840352",
+    "mesh": [
+      "Humans",
+      "Heart Arrest",
+      "Survivors",
+      "Family",
+      "Adaptation, Psychological",
+      "Anxiety",
+      "Stress, Psychological"
+    ],
+    "country": "United Kingdom",
+    "domains": [
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Agarwal S",
+      "Wagner MK",
+      "Mion M"
     ],
     "isAbstractTruncated": false
   },
