@@ -40,7 +40,8 @@ type CountryCorrection = {
 // conservative to avoid accidentally overriding legitimate country names.
 const COUNTRY_CORRECTIONS: CountryCorrection[] = [
   {
-    match: /department of physiotherapy and occupational therapy aarhus university hospital aarhus denmark/i,
+    match:
+      /department of physiotherapy and occupational therapy aarhus university hospital aarhus denmark/i,
     code: 'AT',
     name: 'Austria'
   },
@@ -173,7 +174,10 @@ export const normalizeRecords = (papers: RawPaper[]): NormalizedPaper[] => {
       const country = sanitizeCountry(paper.country) ?? paper.country;
       const correctedCountry = applyCountryCorrections(country);
       const corrCountryCode = paper.corrCountryCode ?? correctedCountry?.corrCountryCode;
-      const corrCountryName = sanitizeCountry(paper.corrCountryName) ?? paper.corrCountryName ?? correctedCountry?.corrCountryName;
+      const corrCountryName =
+        sanitizeCountry(paper.corrCountryName) ??
+        paper.corrCountryName ??
+        correctedCountry?.corrCountryName;
       const canonicalCorrCountry = applyCountryCorrections(corrCountryName ?? country);
       const canonicalCorrCountryCode = canonicalCorrCountry?.corrCountryCode ?? corrCountryCode;
       const canonicalCorrCountryName = canonicalCorrCountry?.corrCountryName ?? corrCountryName;
@@ -183,7 +187,7 @@ export const normalizeRecords = (papers: RawPaper[]): NormalizedPaper[] => {
         country: effectiveCountry,
         ...(canonicalCorrCountryCode || canonicalCorrCountryName
           ? { corrCountryCode: canonicalCorrCountryCode, corrCountryName: canonicalCorrCountryName }
-          : canonicalCorrCountry ?? correctedCountry ?? {}),
+          : (canonicalCorrCountry ?? correctedCountry ?? {})),
         domains,
         setting,
         design,

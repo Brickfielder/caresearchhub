@@ -4,12 +4,7 @@
     "pmid": "40241996",
     "doi": "10.1016/j.resplu.2025.100944",
     "title": "\"I can’t unsee him lying in my kitchen\": Understanding the trauma of family members who witness a loved one’s cardiac arrest.",
-    "authors": [
-      "Katie N Dainty",
-      "Krystle Amog",
-      "Sachin Agarwal",
-      "M Bianca Seaton"
-    ],
+    "authors": ["Katie N Dainty", "Krystle Amog", "Sachin Agarwal", "M Bianca Seaton"],
     "journal": "Resuscitation plus",
     "year": 2025,
     "date": "2025-03-27",
@@ -27,12 +22,7 @@
     "country": "Canada",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Dainty KN",
-      "Amog K",
-      "Agarwal S",
-      "Seaton MB"
-    ],
+    "normalizedAuthors": ["Dainty KN", "Amog K", "Agarwal S", "Seaton MB"],
     "isAbstractTruncated": false
   },
   {
@@ -65,12 +55,7 @@
     },
     "pmcid": "PMC11757219",
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol", "Caregiver"],
     "setting": "Mixed",
     "design": "Mixed methods",
     "normalizedAuthors": [
@@ -90,10 +75,7 @@
     "pmid": "40551397",
     "doi": "10.1177/13674935251355323",
     "title": "A pilot study to explore children's experiences of intensive care post-cardiac arrest using art-based participatory methods.",
-    "authors": [
-      "Donna Thomas",
-      "Graeme O'Connor"
-    ],
+    "authors": ["Donna Thomas", "Graeme O'Connor"],
     "journal": "Journal of child health care : for professionals working with children in the hospital and community",
     "year": 2025,
     "date": "2025-06-23",
@@ -109,14 +91,9 @@
     "country": "United Kingdom",
     "corrCountryCode": "GB",
     "corrCountryName": "United Kingdom",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Thomas D",
-      "O'Connor G"
-    ],
+    "normalizedAuthors": ["Thomas D", "O'Connor G"],
     "isAbstractTruncated": false
   },
   {
@@ -212,10 +189,7 @@
       "Heart Arrest"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Larsson K",
@@ -272,9 +246,7 @@
       "Follow-Up Studies"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -390,10 +362,7 @@
     "country": "Austria",
     "corrCountryCode": "AT",
     "corrCountryName": "Austria",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -461,9 +430,7 @@
       "United Kingdom"
     ],
     "country": "Sweden",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Heimburg K",
@@ -634,9 +601,7 @@
       "Mass Screening"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Wieghorst A",
@@ -697,11 +662,7 @@
       "Denmark"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Qol",
-      "Participation"
-    ],
+    "domains": ["Cognitive", "Qol", "Participation"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -746,10 +707,7 @@
     },
     "pmcid": "PMC12149412",
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Dichman C",
@@ -809,11 +767,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -831,10 +785,7 @@
     "id": "10.1016/s0300-9572(25)00402-2",
     "doi": "10.1016/s0300-9572(25)00402-2",
     "title": "Experiences and Aftercare Needs of Bystanders Involved in Out-of-Hospital Cardiopulmonary Resuscitation",
-    "authors": [
-      "Vicky Joshi",
-      "Gareth Clegg"
-    ],
+    "authors": ["Vicky Joshi", "Gareth Clegg"],
     "journal": "Resuscitation",
     "year": 2025,
     "date": "2025-10",
@@ -848,10 +799,7 @@
     },
     "domains": [],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Joshi V",
-      "Clegg G"
-    ],
+    "normalizedAuthors": ["Joshi V", "Clegg G"],
     "isAbstractTruncated": false,
     "country": "United Kingdom"
   },
@@ -860,12 +808,7 @@
     "pmid": "40597994",
     "doi": "10.1186/s12909-025-07475-2",
     "title": "Exploring nursing students' emotional experiences of patient cardiac arrest in the operating room: a descriptive phenomenological study.",
-    "authors": [
-      "Fatemeh Hesami",
-      "Zahra Yousefi",
-      "Mobin Mottahedi",
-      "Hossein Bagheri"
-    ],
+    "authors": ["Fatemeh Hesami", "Zahra Yousefi", "Mobin Mottahedi", "Hossein Bagheri"],
     "journal": "BMC medical education",
     "year": 2025,
     "date": "2025-07-01",
@@ -899,26 +842,14 @@
     "country": "Iran",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hesami F",
-      "Yousefi Z",
-      "Mottahedi M",
-      "Bagheri H"
-    ],
+    "normalizedAuthors": ["Hesami F", "Yousefi Z", "Mottahedi M", "Bagheri H"],
     "isAbstractTruncated": false
   },
   {
     "id": "10.1093/eurjcn/zvaf122.133",
     "doi": "10.1093/eurjcn/zvaf122.133",
     "title": "Fatigue across age groups following out-of-hospital cardiac arrest: results from the DANCAS survey",
-    "authors": [
-      "S Ebsen",
-      "A Wieghorst",
-      "V Joshi",
-      "N Petersson",
-      "A Zwisler",
-      "B Borregaard"
-    ],
+    "authors": ["S Ebsen", "A Wieghorst", "V Joshi", "N Petersson", "A Zwisler", "B Borregaard"],
     "journal": "European Journal of Cardiovascular Nursing",
     "year": 2025,
     "date": "2025-07-24",
@@ -930,10 +861,7 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -973,9 +901,7 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Mandrini A",
@@ -1087,9 +1013,7 @@
       "Functional Status"
     ],
     "country": "Sweden",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -1165,11 +1089,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Evald L",
@@ -1215,18 +1135,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "mesh": [
-      "Humans",
-      "Quality of Life",
-      "Heart Arrest",
-      "Cardiopulmonary Resuscitation"
-    ],
+    "mesh": ["Humans", "Quality of Life", "Heart Arrest", "Cardiopulmonary Resuscitation"],
     "country": "Australia",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "IHCA",
     "normalizedAuthors": [
       "Pound GM",
@@ -1291,9 +1202,7 @@
       "Victoria"
     ],
     "country": "Australia",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
     "normalizedAuthors": [
@@ -1390,11 +1299,7 @@
     "country": "United Kingdom",
     "corrCountryCode": "GB",
     "corrCountryName": "United Kingdom",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Caregiver"],
     "setting": "OHCA",
     "design": "Randomized controlled trial",
     "normalizedAuthors": [
@@ -1488,9 +1393,7 @@
       "Adult"
     ],
     "country": "France",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Behouche A",
@@ -1537,9 +1440,7 @@
     "country": "Sweden",
     "corrCountryCode": "SE",
     "corrCountryName": "Sweden",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Randomized controlled trial",
     "normalizedAuthors": [
@@ -1613,12 +1514,7 @@
     },
     "pmcid": "PMC12002988",
     "country": "Singapore",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol", "Caregiver"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -1688,20 +1584,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "mesh": [
-      "Humans",
-      "Heart Arrest",
-      "Aftercare",
-      "Survivors",
-      "Quality of Life",
-      "Male"
-    ],
+    "mesh": ["Humans", "Heart Arrest", "Aftercare", "Survivors", "Quality of Life", "Male"],
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Qol", "Caregiver"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Beekman R",
@@ -1743,10 +1628,7 @@
     },
     "pmcid": "PMC12148449",
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -1765,12 +1647,7 @@
     "id": "10.33678/cor.2025.031",
     "doi": "10.33678/cor.2025.031",
     "title": "Prevalence of Near-Death Experiences (NDE) in Patients with Refractory Cardiac Arrest Treated with Conventional and Extracorporeal Cardiopulmonary Resuscitation",
-    "authors": [
-      "Jaroslava Tereza Kovářová",
-      "Daniel Rob",
-      "František Trantina",
-      "Jan Bělohlávek"
-    ],
+    "authors": ["Jaroslava Tereza Kovářová", "Daniel Rob", "František Trantina", "Jan Bělohlávek"],
     "journal": "Cor et Vasa",
     "year": 2025,
     "date": "2025-06-20",
@@ -1784,12 +1661,7 @@
     },
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Kovářová JT",
-      "Rob D",
-      "Trantina F",
-      "Bělohlávek J"
-    ],
+    "normalizedAuthors": ["Kovářová JT", "Rob D", "Trantina F", "Bělohlávek J"],
     "isAbstractTruncated": false,
     "country": "Czech Republic"
   },
@@ -1864,10 +1736,7 @@
       "has_fulltext": false
     },
     "country": "Sweden",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Unclear",
     "normalizedAuthors": [
       "Vig A",
@@ -1911,13 +1780,7 @@
     "country": "Norway",
     "domains": [],
     "setting": "Unclear",
-    "normalizedAuthors": [
-      "Joshi VL",
-      "Øvstebø AMM",
-      "Lindner TW",
-      "Clegg G",
-      "Bjørshol CA"
-    ],
+    "normalizedAuthors": ["Joshi VL", "Øvstebø AMM", "Lindner TW", "Clegg G", "Bjørshol CA"],
     "isAbstractTruncated": false
   },
   {
@@ -2008,10 +1871,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -2073,11 +1933,7 @@
       "Psychological Distress"
     ],
     "country": "United States",
-    "domains": [
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Qol", "Caregiver"],
     "setting": "Mixed",
     "design": "Randomized controlled trial",
     "normalizedAuthors": [
@@ -2140,11 +1996,7 @@
     },
     "pmcid": "PMC12155715",
     "country": "Italy",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -2203,11 +2055,7 @@
       "has_fulltext": false
     },
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -2247,13 +2095,7 @@
     "country": "United Kingdom",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Mion M",
-      "Joshi VL",
-      "Swindell P",
-      "Keeble TR",
-      "Faculty 1YTCH"
-    ],
+    "normalizedAuthors": ["Mion M", "Joshi VL", "Swindell P", "Keeble TR", "Faculty 1YTCH"],
     "isAbstractTruncated": false
   },
   {
@@ -2261,10 +2103,7 @@
     "pmid": "40523597",
     "doi": "10.1016/j.resuscitation.2025.110685",
     "title": "Time for consensus: establishing core outcomes meaningful to survivors of out-of-hospital cardiac arrest.",
-    "authors": [
-      "Marco Mion",
-      "Vicky L Joshi"
-    ],
+    "authors": ["Marco Mion", "Vicky L Joshi"],
     "journal": "Resuscitation",
     "year": 2025,
     "date": "2025-06-14",
@@ -2280,10 +2119,7 @@
     "country": "United Kingdom",
     "domains": [],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Mion M",
-      "Joshi VL"
-    ],
+    "normalizedAuthors": ["Mion M", "Joshi VL"],
     "isAbstractTruncated": false
   },
   {
@@ -2459,13 +2295,7 @@
     "country": "United Kingdom",
     "corrCountryCode": "GB",
     "corrCountryName": "United Kingdom",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol",
-      "Participation",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol", "Participation", "Caregiver"],
     "setting": "OHCA",
     "design": "Randomized controlled trial",
     "normalizedAuthors": [
@@ -2599,10 +2429,7 @@
     "country": "Austria",
     "corrCountryCode": "AT",
     "corrCountryName": "Austria",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -2699,10 +2526,7 @@
       "Heart Rate"
     ],
     "country": "Sweden",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Årestedt K",
@@ -2746,10 +2570,7 @@
     "country": "United States",
     "corrCountryCode": "US",
     "corrCountryName": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -2809,10 +2630,7 @@
       "Depression"
     ],
     "country": "Denmark",
-    "domains": [
-      "Psychological",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Caregiver"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -2877,9 +2695,7 @@
       "Multicenter Studies as Topic"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Nordström EB",
@@ -2923,9 +2739,7 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -2985,10 +2799,7 @@
       "Cognitive Dysfunction"
     ],
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "IHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -3037,12 +2848,7 @@
     },
     "pmcid": "PMC11426058",
     "country": "Italy",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol", "Caregiver"],
     "setting": "OHCA",
     "design": "Randomized controlled trial",
     "normalizedAuthors": [
@@ -3106,9 +2912,7 @@
       "Multicenter Studies as Topic"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Jensen MK",
@@ -3128,12 +2932,7 @@
     "pmid": "38583740",
     "doi": "10.1016/j.resuscitation.2024.110208",
     "title": "Follow up of cardiac arrest survivors: Survey of French intensivists practices.",
-    "authors": [
-      "Marine Paul",
-      "Julie Paquereau",
-      "Stéphane Legriel",
-      "Alain Cariou"
-    ],
+    "authors": ["Marine Paul", "Julie Paquereau", "Stéphane Legriel", "Alain Cariou"],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-04-05",
@@ -3162,12 +2961,7 @@
     "country": "France",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Paul M",
-      "Paquereau J",
-      "Legriel S",
-      "Cariou A"
-    ],
+    "normalizedAuthors": ["Paul M", "Paquereau J", "Legriel S", "Cariou A"],
     "isAbstractTruncated": false
   },
   {
@@ -3220,9 +3014,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -3277,13 +3069,7 @@
     "country": "United Kingdom",
     "domains": [],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Simpson RFG",
-      "Mion M",
-      "Sajjad U",
-      "Swindell P",
-      "Keeble TR"
-    ],
+    "normalizedAuthors": ["Simpson RFG", "Mion M", "Sajjad U", "Swindell P", "Keeble TR"],
     "isAbstractTruncated": false
   },
   {
@@ -3314,10 +3100,7 @@
     },
     "pmcid": "PMC10825523",
     "country": "Norway",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -3335,12 +3118,7 @@
     "pmid": "39174000",
     "doi": "10.1016/j.resuscitation.2024.110375",
     "title": "Long term functioning with poor neurologic outcome after cardiac arrest.",
-    "authors": [
-      "Sjoukje Nutma",
-      "Ozzy Roesink",
-      "Caroline M van Heugten",
-      "Jeannette Hofmeijer"
-    ],
+    "authors": ["Sjoukje Nutma", "Ozzy Roesink", "Caroline M van Heugten", "Jeannette Hofmeijer"],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-08-21",
@@ -3372,18 +3150,10 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
-    "normalizedAuthors": [
-      "Nutma S",
-      "Roesink O",
-      "Heugten CMV",
-      "Hofmeijer J"
-    ],
+    "normalizedAuthors": ["Nutma S", "Roesink O", "Heugten CMV", "Hofmeijer J"],
     "isAbstractTruncated": false
   },
   {
@@ -3391,13 +3161,7 @@
     "pmid": "38328751",
     "doi": "10.1016/j.resplu.2024.100563",
     "title": "Long-term multidisciplinary follow-up programs in pediatric cardiac arrest survivors.",
-    "authors": [
-      "M Hunfeld",
-      "K Dulfer",
-      "J Del Castillo",
-      "M Vázquez",
-      "C M P Buysse"
-    ],
+    "authors": ["M Hunfeld", "K Dulfer", "J Del Castillo", "M Vázquez", "C M P Buysse"],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-02-01",
@@ -3415,19 +3179,9 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Qol", "Caregiver"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hunfeld M",
-      "Dulfer K",
-      "Castillo JD",
-      "Vázquez M",
-      "Buysse CMP"
-    ],
+    "normalizedAuthors": ["Hunfeld M", "Dulfer K", "Castillo JD", "Vázquez M", "Buysse CMP"],
     "isAbstractTruncated": false
   },
   {
@@ -3435,14 +3189,7 @@
     "pmid": "39816674",
     "doi": "10.1016/j.ccrj.2024.08.008",
     "title": "Long-term outcomes of patients who received extracorporeal cardiopulmonary resuscitation (ECPR) following in-hospital cardiac arrest: Analysis of EXCEL registry data.",
-    "authors": [
-      "G Pound",
-      "D Jones",
-      "G M Eastwood",
-      "E Paul",
-      "A Serpa Neto",
-      "C L Hodgson"
-    ],
+    "authors": ["G Pound", "D Jones", "G M Eastwood", "E Paul", "A Serpa Neto", "C L Hodgson"],
     "journal": "Critical care and resuscitation : journal of the Australasian Academy of Critical Care Medicine",
     "year": 2024,
     "date": "2024-11-21",
@@ -3458,19 +3205,10 @@
     },
     "pmcid": "PMC11734221",
     "country": "Australia",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "IHCA",
     "design": "Prospective cohort",
-    "normalizedAuthors": [
-      "Pound G",
-      "Jones D",
-      "Eastwood GM",
-      "Paul E",
-      "Neto AS",
-      "Hodgson CL"
-    ],
+    "normalizedAuthors": ["Pound G", "Jones D", "Eastwood GM", "Paul E", "Neto AS", "Hodgson CL"],
     "isAbstractTruncated": false
   },
   {
@@ -3742,10 +3480,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Joshi VL",
@@ -3765,12 +3500,7 @@
     "pmid": "39643265",
     "doi": "10.1016/j.resuscitation.2024.110458",
     "title": "Perspective on cardiac arrest survivorship: Findings from an Italian landmark survey.",
-    "authors": [
-      "Erga Cerchiari",
-      "Giuseppe Ristagno",
-      "Federico Semeraro",
-      "Andrea Scapigliati"
-    ],
+    "authors": ["Erga Cerchiari", "Giuseppe Ristagno", "Federico Semeraro", "Andrea Scapigliati"],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-12-04",
@@ -3786,12 +3516,7 @@
     "country": "Italy",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Cerchiari E",
-      "Ristagno G",
-      "Semeraro F",
-      "Scapigliati A"
-    ],
+    "normalizedAuthors": ["Cerchiari E", "Ristagno G", "Semeraro F", "Scapigliati A"],
     "isAbstractTruncated": false
   },
   {
@@ -3844,10 +3569,7 @@
       "Critical Illness"
     ],
     "country": "Switzerland",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -3914,9 +3636,7 @@
       "Functional Status"
     ],
     "country": "United States",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -3938,11 +3658,7 @@
     "pmid": "39709245",
     "doi": "10.1016/j.neurot.2024.e00509",
     "title": "Psychological and behavioral dimensions in cardiac arrest survivors and their families: A state-of-the-art review.",
-    "authors": [
-      "Sachin Agarwal",
-      "Mette Kirstine Wagner",
-      "Marco Mion"
-    ],
+    "authors": ["Sachin Agarwal", "Mette Kirstine Wagner", "Marco Mion"],
     "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
     "year": 2024,
     "date": "2024-12-20",
@@ -3967,16 +3683,9 @@
       "Stress, Psychological"
     ],
     "country": "United Kingdom",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Agarwal S",
-      "Wagner MK",
-      "Mion M"
-    ],
+    "normalizedAuthors": ["Agarwal S", "Wagner MK", "Mion M"],
     "isAbstractTruncated": false
   },
   {
@@ -3984,9 +3693,7 @@
     "pmid": "38370314",
     "doi": "10.1016/j.resplu.2024.100568",
     "title": "Qualitative research in cardiac arrest research: A narrative review.",
-    "authors": [
-      "Katie N Dainty"
-    ],
+    "authors": ["Katie N Dainty"],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-02-09",
@@ -4004,9 +3711,7 @@
     "country": "Canada",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Dainty KN"
-    ],
+    "normalizedAuthors": ["Dainty KN"],
     "isAbstractTruncated": false
   },
   {
@@ -4037,9 +3742,7 @@
     },
     "pmcid": "PMC11745946",
     "country": "United Kingdom",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Potter M",
@@ -4097,9 +3800,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -4157,9 +3858,7 @@
       "Survivors"
     ],
     "country": "France",
-    "domains": [
-      "Participation"
-    ],
+    "domains": ["Participation"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -4229,9 +3928,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Participation"
-    ],
+    "domains": ["Participation"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Gregers E",
@@ -4258,12 +3955,7 @@
     "pmid": "39185281",
     "doi": "10.1016/j.resplu.2024.100736",
     "title": "Sex-specific health-related quality of life in survivors of cardiac arrest.",
-    "authors": [
-      "Kaitlyn Ghassemi",
-      "Kyndaron Reinier",
-      "Sumeet S Chugh",
-      "Faye L Norby"
-    ],
+    "authors": ["Kaitlyn Ghassemi", "Kyndaron Reinier", "Sumeet S Chugh", "Faye L Norby"],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-08-06",
@@ -4279,16 +3971,9 @@
     },
     "pmcid": "PMC11343050",
     "country": "United States",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Ghassemi K",
-      "Reinier K",
-      "Chugh SS",
-      "Norby FL"
-    ],
+    "normalizedAuthors": ["Ghassemi K", "Reinier K", "Chugh SS", "Norby FL"],
     "isAbstractTruncated": false
   },
   {
@@ -4349,11 +4034,7 @@
     "pmid": "39010273",
     "doi": "10.1097/JCN.0000000000001119",
     "title": "The Lived Experience of Cardiac Arrest Survivors: A Scoping Review.",
-    "authors": [
-      "Mohamed Toufic El Hussein",
-      "Simreen Dhaliwal",
-      "Jonah Hakkola"
-    ],
+    "authors": ["Mohamed Toufic El Hussein", "Simreen Dhaliwal", "Jonah Hakkola"],
     "journal": "The Journal of cardiovascular nursing",
     "year": 2024,
     "date": "2024-07-16",
@@ -4374,16 +4055,9 @@
       "Cardiopulmonary Resuscitation",
       "Qualitative Research"
     ],
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hussein MTE",
-      "Dhaliwal S",
-      "Hakkola J"
-    ],
+    "normalizedAuthors": ["Hussein MTE", "Dhaliwal S", "Hakkola J"],
     "isAbstractTruncated": false,
     "country": "Canada"
   },
@@ -4418,10 +4092,7 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Yonis HGH",
@@ -4528,10 +4199,7 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "domains": [
-      "Psychological",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Caregiver"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -4589,9 +4257,7 @@
     "country": "Republic of Korea",
     "corrCountryCode": "KR",
     "corrCountryName": "Republic of Korea",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Lee J",
@@ -4642,19 +4308,10 @@
       "Surveys and Questionnaires"
     ],
     "country": "Sweden",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "IHCA",
     "design": "Cross-sectional study",
-    "normalizedAuthors": [
-      "Israelsson J",
-      "Koistinen L",
-      "Årestedt K",
-      "Rooth M",
-      "Bremer A"
-    ],
+    "normalizedAuthors": ["Israelsson J", "Koistinen L", "Årestedt K", "Rooth M", "Bremer A"],
     "isAbstractTruncated": false
   },
   {
@@ -4725,9 +4382,7 @@
       "Out-of-Hospital Cardiac Arrest"
     ],
     "country": "United Kingdom",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "IHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -4866,10 +4521,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Caregiver"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Rosenkilde S",
@@ -4931,11 +4583,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Gils PCWV",
@@ -4989,10 +4637,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Wagner MK",
@@ -5010,11 +4655,7 @@
     "pmid": "38085507",
     "doi": "10.1007/s12471-023-01838-4",
     "title": "Cognitive screening and rehabilitation after cardiac arrest: only a few hurdles to take.",
-    "authors": [
-      "Janine A van Til",
-      "Martin E W Hemels",
-      "Jeannette Hofmeijer"
-    ],
+    "authors": ["Janine A van Til", "Martin E W Hemels", "Jeannette Hofmeijer"],
     "journal": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
     "year": 2023,
     "date": "2023-12-12",
@@ -5032,15 +4673,9 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "IHCA",
-    "normalizedAuthors": [
-      "Til JAV",
-      "Hemels MEW",
-      "Hofmeijer J"
-    ],
+    "normalizedAuthors": ["Til JAV", "Hemels MEW", "Hofmeijer J"],
     "isAbstractTruncated": false
   },
   {
@@ -5048,12 +4683,7 @@
     "pmid": "37963682",
     "doi": "10.1136/openhrt-2023-002308",
     "title": "Comorbidities prior to out-of-hospital cardiac arrest and diagnoses at discharge among survivors.",
-    "authors": [
-      "Nellie Hjärtstam",
-      "Araz Rawshani",
-      "Gustaf Hellsén",
-      "Truls Råmunddal"
-    ],
+    "authors": ["Nellie Hjärtstam", "Araz Rawshani", "Gustaf Hellsén", "Truls Råmunddal"],
     "journal": "Open heart",
     "year": 2023,
     "date": "2023-11",
@@ -5087,12 +4717,7 @@
     "corrCountryName": "Sweden",
     "domains": [],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Hjärtstam N",
-      "Rawshani A",
-      "Hellsén G",
-      "Råmunddal T"
-    ],
+    "normalizedAuthors": ["Hjärtstam N", "Rawshani A", "Hellsén G", "Råmunddal T"],
     "isAbstractTruncated": false
   },
   {
@@ -5292,10 +4917,7 @@
     "country": "United States",
     "corrCountryCode": "US",
     "corrCountryName": "United States",
-    "domains": [
-      "Cognitive",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Caregiver"],
     "setting": "IHCA",
     "normalizedAuthors": [
       "Harrod M",
@@ -5313,12 +4935,7 @@
     "pmid": "37300340",
     "doi": "10.1111/jocn.16788",
     "title": "Experiences of family-witnessed cardiopulmonary resuscitation in hospital and its impact on life: An interview study with cardiac arrest survivors and their family members.",
-    "authors": [
-      "Annette Waldemar",
-      "Anna Strömberg",
-      "Ingela Thylén",
-      "Anders Bremer"
-    ],
+    "authors": ["Annette Waldemar", "Anna Strömberg", "Ingela Thylén", "Anders Bremer"],
     "journal": "Journal of clinical nursing",
     "year": 2023,
     "date": "2023-06-09",
@@ -5343,16 +4960,9 @@
     "country": "Sweden",
     "corrCountryCode": "SE",
     "corrCountryName": "Sweden",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "IHCA",
-    "normalizedAuthors": [
-      "Waldemar A",
-      "Strömberg A",
-      "Thylén I",
-      "Bremer A"
-    ],
+    "normalizedAuthors": ["Waldemar A", "Strömberg A", "Thylén I", "Bremer A"],
     "isAbstractTruncated": false
   },
   {
@@ -5387,17 +4997,9 @@
       "Emergency Medical Services"
     ],
     "country": "Switzerland",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Beck S",
-      "Phillipps M",
-      "Degel A",
-      "Mochmann H",
-      "Breckwoldt J"
-    ],
+    "normalizedAuthors": ["Beck S", "Phillipps M", "Degel A", "Mochmann H", "Breckwoldt J"],
     "isAbstractTruncated": false
   },
   {
@@ -5428,9 +5030,7 @@
     },
     "pmcid": "PMC10560841",
     "country": "Norway",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Isern CB",
@@ -5470,10 +5070,7 @@
     },
     "pmcid": "PMC10474489",
     "country": "Sweden",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -5491,12 +5088,7 @@
     "pmid": "36902754",
     "doi": "10.3390/jcm12051968",
     "title": "Lapses of the Heart: Frequency and Subjective Salience of Impressions Reported by Patients after Cardiac Arrest.",
-    "authors": [
-      "Fritz Sterz",
-      "Michael L Berger",
-      "Gerhard Ruzicka",
-      "Roland Beisteiner"
-    ],
+    "authors": ["Fritz Sterz", "Michael L Berger", "Gerhard Ruzicka", "Roland Beisteiner"],
     "journal": "Journal of clinical medicine",
     "year": 2023,
     "date": "2023-03-02",
@@ -5517,12 +5109,7 @@
     "domains": [],
     "setting": "Mixed",
     "design": "Prospective cohort",
-    "normalizedAuthors": [
-      "Sterz F",
-      "Berger ML",
-      "Ruzicka G",
-      "Beisteiner R"
-    ],
+    "normalizedAuthors": ["Sterz F", "Berger ML", "Ruzicka G", "Beisteiner R"],
     "isAbstractTruncated": false
   },
   {
@@ -5552,18 +5139,10 @@
     },
     "pmcid": "PMC10470084",
     "country": "Sweden",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
-    "normalizedAuthors": [
-      "Lundh SA",
-      "Israelsson J",
-      "Hagell P",
-      "Andersson PL",
-      "Årestedt K"
-    ],
+    "normalizedAuthors": ["Lundh SA", "Israelsson J", "Hagell P", "Andersson PL", "Årestedt K"],
     "isAbstractTruncated": false
   },
   {
@@ -5674,9 +5253,7 @@
       "Survivors"
     ],
     "country": "United States",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Hickson MR",
@@ -5742,10 +5319,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Yonis H",
@@ -5864,10 +5438,7 @@
       "Heart Arrest"
     ],
     "country": "Colombia",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -5963,19 +5534,10 @@
     "country": "Australia",
     "corrCountryCode": "AU",
     "corrCountryName": "Australia",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Haskins B",
-      "Nehme Z",
-      "Andrew E",
-      "Bernard S",
-      "Cameron P",
-      "Smith K"
-    ],
+    "normalizedAuthors": ["Haskins B", "Nehme Z", "Andrew E", "Bernard S", "Cameron P", "Smith K"],
     "isAbstractTruncated": false
   },
   {
@@ -5983,11 +5545,7 @@
     "pmid": "38661968",
     "doi": "10.1353/nib.2023.a909673",
     "title": "Physician Family Conflict Following Cardiac Arrest: A Qualitative Study.",
-    "authors": [
-      "Rachel Caplan",
-      "Sachin Agarwal",
-      "Joyeeta G Dastidar"
-    ],
+    "authors": ["Rachel Caplan", "Sachin Agarwal", "Joyeeta G Dastidar"],
     "journal": "Narrative inquiry in bioethics",
     "year": 2023,
     "date": "2023",
@@ -6019,11 +5577,7 @@
     ],
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Caplan R",
-      "Agarwal S",
-      "Dastidar JG"
-    ],
+    "normalizedAuthors": ["Caplan R", "Agarwal S", "Dastidar JG"],
     "isAbstractTruncated": false,
     "country": "United States"
   },
@@ -6032,10 +5586,7 @@
     "pmid": "36702337",
     "doi": "10.1016/j.resuscitation.2023.109701",
     "title": "Post-resuscitation care following cardiac arrest in intensive care units: A French national survey.",
-    "authors": [
-      "Kahaia de Longeaux",
-      "Pierre Bailly"
-    ],
+    "authors": ["Kahaia de Longeaux", "Pierre Bailly"],
     "journal": "Resuscitation",
     "year": 2023,
     "date": "2023-01-23",
@@ -6059,10 +5610,7 @@
     "country": "France",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Longeaux KD",
-      "Bailly P"
-    ],
+    "normalizedAuthors": ["Longeaux KD", "Bailly P"],
     "isAbstractTruncated": false
   },
   {
@@ -6108,9 +5656,7 @@
       "Heart Arrest"
     ],
     "country": "United States",
-    "domains": [
-      "Caregiver"
-    ],
+    "domains": ["Caregiver"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -6179,13 +5725,7 @@
     "pmid": "37872205",
     "doi": "10.1038/s41598-023-44963-1",
     "title": "Telephone-based evaluation of cognitive impairment and mood disorders in cardiac arrest survivors with good neurologic outcomes: a retrospective cohort study.",
-    "authors": [
-      "June-Sung Kim",
-      "Youn-Jung Kim",
-      "Seung Mok Ryoo",
-      "Shin Ahn",
-      "Won Young Kim"
-    ],
+    "authors": ["June-Sung Kim", "Youn-Jung Kim", "Seung Mok Ryoo", "Shin Ahn", "Won Young Kim"],
     "journal": "Scientific reports",
     "year": 2023,
     "date": "2023-10-23",
@@ -6214,20 +5754,10 @@
     "country": "Republic of Korea",
     "corrCountryCode": "KR",
     "corrCountryName": "Republic of Korea",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Kim J",
-      "Kim Y",
-      "Ryoo SM",
-      "Ahn S",
-      "Kim WY"
-    ],
+    "normalizedAuthors": ["Kim J", "Kim Y", "Ryoo SM", "Ahn S", "Kim WY"],
     "isAbstractTruncated": false
   },
   {
@@ -6376,10 +5906,7 @@
       "Survivors"
     ],
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -6595,10 +6122,7 @@
     },
     "pmcid": "PMC9437904",
     "country": "United Kingdom",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
     "design": "Mixed methods",
     "normalizedAuthors": [
@@ -6640,18 +6164,9 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "IHCA",
-    "normalizedAuthors": [
-      "Jonsson H",
-      "Piscator E",
-      "Israelsson J",
-      "Wimo A",
-      "Lila G",
-      "Djarv T"
-    ],
+    "normalizedAuthors": ["Jonsson H", "Piscator E", "Israelsson J", "Wimo A", "Lila G", "Djarv T"],
     "isAbstractTruncated": false,
     "country": "Sweden"
   },
@@ -6660,12 +6175,7 @@
     "pmid": "35223692",
     "doi": "10.3389/fped.2022.780251",
     "title": "Cognitive and Psychological Outcomes Following Pediatric Cardiac Arrest.",
-    "authors": [
-      "Nathan A Huebschmann",
-      "Nathan E Cook",
-      "Sarah Murphy",
-      "Grant L Iverson"
-    ],
+    "authors": ["Nathan A Huebschmann", "Nathan E Cook", "Sarah Murphy", "Grant L Iverson"],
     "journal": "Frontiers in pediatrics",
     "year": 2022,
     "date": "2022-02-09",
@@ -6681,17 +6191,9 @@
     },
     "pmcid": "PMC8865388",
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Caregiver"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Huebschmann NA",
-      "Cook NE",
-      "Murphy S",
-      "Iverson GL"
-    ],
+    "normalizedAuthors": ["Huebschmann NA", "Cook NE", "Murphy S", "Iverson GL"],
     "isAbstractTruncated": false
   },
   {
@@ -6784,10 +6286,7 @@
       "Cognition"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Joshi VL",
@@ -6852,9 +6351,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Secher N",
@@ -6895,12 +6392,7 @@
     "country": "Norway",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hardeland C",
-      "Leonardsen AL",
-      "Isern CB",
-      "Berge HM"
-    ],
+    "normalizedAuthors": ["Hardeland C", "Leonardsen AL", "Isern CB", "Berge HM"],
     "isAbstractTruncated": false
   },
   {
@@ -6927,18 +6419,10 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
-    "normalizedAuthors": [
-      "Carlsson N",
-      "Årestedt K",
-      "Alvariza A",
-      "Axelsson L",
-      "Bremer A"
-    ],
+    "normalizedAuthors": ["Carlsson N", "Årestedt K", "Alvariza A", "Axelsson L", "Bremer A"],
     "isAbstractTruncated": false,
     "country": "Sweden"
   },
@@ -6972,9 +6456,7 @@
       "has_fulltext": false
     },
     "country": "Australia",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "Mixed",
     "design": "Mixed methods",
     "normalizedAuthors": [
@@ -7046,11 +6528,7 @@
       "Registries"
     ],
     "country": "Germany",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -7106,17 +6584,9 @@
     },
     "pmcid": "PMC9589205",
     "country": "Sweden",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Carlsson N",
-      "Alvariza A",
-      "Axelsson L",
-      "Bremer A",
-      "Årestedt K"
-    ],
+    "normalizedAuthors": ["Carlsson N", "Alvariza A", "Axelsson L", "Bremer A", "Årestedt K"],
     "isAbstractTruncated": false
   },
   {
@@ -7154,17 +6624,9 @@
       "Sweden"
     ],
     "country": "Sweden",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "IHCA",
-    "normalizedAuthors": [
-      "Jonsson H",
-      "Piscator E",
-      "Israelsson J",
-      "Lilja G",
-      "Djärv T"
-    ],
+    "normalizedAuthors": ["Jonsson H", "Piscator E", "Israelsson J", "Lilja G", "Djärv T"],
     "isAbstractTruncated": false
   },
   {
@@ -7278,11 +6740,7 @@
       "Survivors"
     ],
     "country": "Australia",
-    "domains": [
-      "Psychological",
-      "Qol",
-      "Participation"
-    ],
+    "domains": ["Psychological", "Qol", "Participation"],
     "setting": "IHCA",
     "normalizedAuthors": [
       "Pound GM",
@@ -7381,9 +6839,7 @@
     "country": "United Kingdom",
     "corrCountryCode": "GB",
     "corrCountryName": "United Kingdom",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Ng ZHC",
@@ -7490,19 +6946,10 @@
       "Time Factors"
     ],
     "country": "Japan",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Naito H",
-      "Nojima T",
-      "Yorifuji T",
-      "Fujisaki N",
-      "Nakao A"
-    ],
+    "normalizedAuthors": ["Naito H", "Nojima T", "Yorifuji T", "Fujisaki N", "Nakao A"],
     "isAbstractTruncated": false
   },
   {
@@ -7547,10 +6994,7 @@
       "Survivors"
     ],
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -7640,9 +7084,7 @@
     "country": "United Kingdom",
     "corrCountryCode": "GB",
     "corrCountryName": "United Kingdom",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Coppola A",
@@ -7710,11 +7152,7 @@
       "Stress Disorders, Post-Traumatic"
     ],
     "country": "Switzerland",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -7773,10 +7211,7 @@
       "Quality of Life"
     ],
     "country": "Denmark",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -7832,9 +7267,7 @@
     "country": "United States",
     "corrCountryCode": "US",
     "corrCountryName": "United States",
-    "domains": [
-      "Caregiver"
-    ],
+    "domains": ["Caregiver"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Presciutti A",
@@ -7854,11 +7287,7 @@
     "pmid": "36712770",
     "doi": "10.7759/cureus.32927",
     "title": "Rehabilitation Outcomes of Cortical Blindness and Characteristics Secondary to Cardiac Arrest: A Review.",
-    "authors": [
-      "Deklerk A Ngankam",
-      "Kelley Crozier",
-      "Anh-Thu Vu"
-    ],
+    "authors": ["Deklerk A Ngankam", "Kelley Crozier", "Anh-Thu Vu"],
     "journal": "Cureus",
     "year": 2022,
     "date": "2022-12-25",
@@ -7874,16 +7303,10 @@
     },
     "pmcid": "PMC9873452",
     "country": "United States",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Ngankam DA",
-      "Crozier K",
-      "Vu A"
-    ],
+    "normalizedAuthors": ["Ngankam DA", "Crozier K", "Vu A"],
     "isAbstractTruncated": false
   },
   {
@@ -7926,10 +7349,7 @@
       "Self Report"
     ],
     "country": "Denmark",
-    "domains": [
-      "Psychological",
-      "Participation"
-    ],
+    "domains": ["Psychological", "Participation"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Nielsen MH",
@@ -7952,12 +7372,7 @@
     "pmid": "36168674",
     "doi": "10.1111/nicc.12843",
     "title": "Sleep in cardiac arrest survivors.",
-    "authors": [
-      "Amanda Hellström",
-      "Anders Bremer",
-      "Lise-Lotte Gunnarsson",
-      "Carina Hjelm"
-    ],
+    "authors": ["Amanda Hellström", "Anders Bremer", "Lise-Lotte Gunnarsson", "Carina Hjelm"],
     "journal": "Nursing in critical care",
     "year": 2022,
     "date": "2022-09-27",
@@ -7985,12 +7400,7 @@
     "corrCountryName": "Sweden",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hellström A",
-      "Bremer A",
-      "Gunnarsson L",
-      "Hjelm C"
-    ],
+    "normalizedAuthors": ["Hellström A", "Bremer A", "Gunnarsson L", "Hjelm C"],
     "isAbstractTruncated": false
   },
   {
@@ -8023,13 +7433,7 @@
     "domains": [],
     "setting": "OHCA",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Mørk SR",
-      "Bøtker MT",
-      "Christensen S",
-      "Tang M",
-      "Terkelsen CJ"
-    ],
+    "normalizedAuthors": ["Mørk SR", "Bøtker MT", "Christensen S", "Tang M", "Terkelsen CJ"],
     "isAbstractTruncated": false
   },
   {
@@ -8037,9 +7441,7 @@
     "pmid": "35653245",
     "doi": "10.1097/MCC.0000000000000935",
     "title": "Surviving cardiac arrest - what do we know about recovery & survivorship?",
-    "authors": [
-      "Kelly N Sawyer"
-    ],
+    "authors": ["Kelly N Sawyer"],
     "journal": "Current opinion in critical care",
     "year": 2022,
     "date": "2022-06-01",
@@ -8065,9 +7467,7 @@
     "domains": [],
     "setting": "Mixed",
     "design": "Prospective cohort",
-    "normalizedAuthors": [
-      "Sawyer KN"
-    ],
+    "normalizedAuthors": ["Sawyer KN"],
     "isAbstractTruncated": false
   },
   {
@@ -8111,9 +7511,7 @@
       "Treatment Outcome"
     ],
     "country": "Australia",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -8163,17 +7561,9 @@
       "Norway"
     ],
     "country": "Norway",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Hardeland C",
-      "Leonardsen AL",
-      "Isern CB",
-      "Berge HM"
-    ],
+    "normalizedAuthors": ["Hardeland C", "Leonardsen AL", "Isern CB", "Berge HM"],
     "isAbstractTruncated": false
   },
   {
@@ -8327,9 +7717,7 @@
       "Treatment Outcome"
     ],
     "country": "Austria",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
     "normalizedAuthors": [
@@ -8376,10 +7764,7 @@
       "Survivors",
       "Anxiety"
     ],
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Larsen MK",
@@ -8438,11 +7823,7 @@
     "id": "10.1016/j.colegn.2020.06.008",
     "doi": "10.1016/j.colegn.2020.06.008",
     "title": "A narrative inquiry of survivors’ experiences of the time just before and after a cardiac arrest",
-    "authors": [
-      "Gunilla Haydon",
-      "Pamela van der Riet",
-      "Kerry Inder"
-    ],
+    "authors": ["Gunilla Haydon", "Pamela van der Riet", "Kerry Inder"],
     "journal": "Collegian",
     "year": 2021,
     "date": "2021-04",
@@ -8456,11 +7837,7 @@
     },
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Haydon G",
-      "Riet PVD",
-      "Inder K"
-    ],
+    "normalizedAuthors": ["Haydon G", "Riet PVD", "Inder K"],
     "isAbstractTruncated": false,
     "country": "Australia"
   },
@@ -8547,9 +7924,7 @@
       "Heart Arrest",
       "Linear Models"
     ],
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -8570,12 +7945,7 @@
     "pmid": "33849060",
     "doi": "10.1177/1474515120946313",
     "title": "Are survivors of cardiac arrest provided with standard cardiac rehabilitation? - Results from a national survey of hospitals and municipalities in Denmark.",
-    "authors": [
-      "Lars H Tang",
-      "Vicky Joshi",
-      "Cecilie Lindström Egholm",
-      "Ann-Dorthe Zwisler"
-    ],
+    "authors": ["Lars H Tang", "Vicky Joshi", "Cecilie Lindström Egholm", "Ann-Dorthe Zwisler"],
     "journal": "European journal of cardiovascular nursing",
     "year": 2021,
     "date": "2021-02-01",
@@ -8601,17 +7971,10 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "Mixed",
     "design": "Cross-sectional study",
-    "normalizedAuthors": [
-      "Tang LH",
-      "Joshi V",
-      "Egholm CL",
-      "Zwisler A"
-    ],
+    "normalizedAuthors": ["Tang LH", "Joshi V", "Egholm CL", "Zwisler A"],
     "isAbstractTruncated": false
   },
   {
@@ -8642,11 +8005,7 @@
     },
     "pmcid": "PMC8244463",
     "country": "United States",
-    "domains": [
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Qol", "Caregiver"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Presciutti A",
@@ -8698,11 +8057,7 @@
       "Survivors"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Qol", "Caregiver"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Bohm M",
@@ -8780,9 +8135,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Joshi VL",
@@ -8964,12 +8317,7 @@
     "pmid": "33638939",
     "doi": "10.1002/nop2.779",
     "title": "Feeling responsible but unsupported: How relatives of out-of-hospital cardiac arrest survivors experience the transition from hospital to daily life - A focus group study.",
-    "authors": [
-      "Camilla Dichman",
-      "Mette Kirstine Wagner",
-      "Vicky L Joshi",
-      "Camilla Bernild"
-    ],
+    "authors": ["Camilla Dichman", "Mette Kirstine Wagner", "Vicky L Joshi", "Camilla Bernild"],
     "journal": "Nursing open",
     "year": 2021,
     "date": "2021-02-27",
@@ -8995,16 +8343,9 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Dichman C",
-      "Wagner MK",
-      "Joshi VL",
-      "Bernild C"
-    ],
+    "normalizedAuthors": ["Dichman C", "Wagner MK", "Joshi VL", "Bernild C"],
     "isAbstractTruncated": false
   },
   {
@@ -9045,9 +8386,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Wagner MK",
@@ -9096,9 +8435,7 @@
     },
     "pmcid": "PMC8342775",
     "country": "United Kingdom",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Mion M",
@@ -9156,18 +8493,9 @@
     "country": "United States",
     "corrCountryCode": "US",
     "corrCountryName": "United States",
-    "domains": [
-      "Cognitive",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Caregiver"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Presciutti A",
-      "Newman MM",
-      "Sawyer KN",
-      "Agarwal S",
-      "Perman SM"
-    ],
+    "normalizedAuthors": ["Presciutti A", "Newman MM", "Sawyer KN", "Agarwal S", "Perman SM"],
     "isAbstractTruncated": false
   },
   {
@@ -9201,9 +8529,7 @@
     },
     "pmcid": "PMC9453782",
     "country": "United States",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "IHCA",
     "normalizedAuthors": [
       "Harrod M",
@@ -9255,17 +8581,9 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Bak MAR",
-      "Veeken R",
-      "Blom MT",
-      "Tan HL",
-      "Willems DL"
-    ],
+    "normalizedAuthors": ["Bak MAR", "Veeken R", "Blom MT", "Tan HL", "Willems DL"],
     "isAbstractTruncated": false
   },
   {
@@ -9319,10 +8637,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "IHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -9391,11 +8706,7 @@
       "Surveys and Questionnaires"
     ],
     "country": "United Kingdom",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Haywood KL",
@@ -9457,9 +8768,7 @@
       "Social Class"
     ],
     "country": "Denmark",
-    "domains": [
-      "Participation"
-    ],
+    "domains": ["Participation"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Møller S",
@@ -9518,12 +8827,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol", "Caregiver"],
     "setting": "OHCA",
     "design": "Cross-sectional study",
     "normalizedAuthors": [
@@ -9591,9 +8895,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "IHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -9659,9 +8961,7 @@
     "country": "the Netherlands",
     "corrCountryCode": "NL",
     "corrCountryName": "the Netherlands",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -9718,13 +9018,7 @@
     "domains": [],
     "setting": "OHCA",
     "design": "Prospective cohort",
-    "normalizedAuthors": [
-      "Christensen J",
-      "Eskildsen SJ",
-      "Winkel BG",
-      "Dichman CK",
-      "Wagner MK"
-    ],
+    "normalizedAuthors": ["Christensen J", "Eskildsen SJ", "Winkel BG", "Dichman CK", "Wagner MK"],
     "isAbstractTruncated": false
   },
   {
@@ -9763,9 +9057,7 @@
       "Out-of-Hospital Cardiac Arrest"
     ],
     "country": "United Kingdom",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Zook N",
@@ -9926,10 +9218,7 @@
       "Stress Disorders, Post-Traumatic"
     ],
     "country": "Singapore",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Yaow CYL",
@@ -9976,11 +9265,7 @@
       "open_access": false,
       "has_fulltext": true
     },
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Psychological", "Caregiver"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Košir M",
@@ -10062,11 +9347,7 @@
     "id": "10.1111/ncn3.12512",
     "doi": "10.1111/ncn3.12512",
     "title": "Temporal recovery and delayed decline of cognitive functions in patients with hypoxic encephalopathy after cardiac arrest",
-    "authors": [
-      "Yuki Uno",
-      "Chifumi Iseki",
-      "Kyoko Suzuki"
-    ],
+    "authors": ["Yuki Uno", "Chifumi Iseki", "Kyoko Suzuki"],
     "journal": "Neurology and Clinical Neuroscience",
     "year": 2021,
     "date": "2021-07",
@@ -10081,17 +9362,10 @@
     "corrCountryCode": "JP",
     "corrCountryName": "Japan",
     "country": "Japan",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "Mixed",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Uno Y",
-      "Iseki C",
-      "Suzuki K"
-    ],
+    "normalizedAuthors": ["Uno Y", "Iseki C", "Suzuki K"],
     "isAbstractTruncated": false
   },
   {
@@ -10128,9 +9402,7 @@
       "has_fulltext": false
     },
     "country": "Australia",
-    "domains": [
-      "Participation"
-    ],
+    "domains": ["Participation"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Paratz ED",
@@ -10244,10 +9516,7 @@
       "Victoria"
     ],
     "country": "Australia",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -10312,11 +9581,7 @@
     "pmid": "34223307",
     "doi": "10.1016/j.resplu.2020.100024",
     "title": "\"We don't talk about his heart\": Narrative sense-making and long-term readjustment among older out-of-hospital cardiac arrest survivors and their spouses.",
-    "authors": [
-      "Andrea Nedergaard Jensen",
-      "Katrine Bruun Bonnén",
-      "Maria Kristiansen"
-    ],
+    "authors": ["Andrea Nedergaard Jensen", "Katrine Bruun Bonnén", "Maria Kristiansen"],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-09-16",
@@ -10332,15 +9597,9 @@
     },
     "pmcid": "PMC8244505",
     "country": "Denmark",
-    "domains": [
-      "Psychological"
-    ],
+    "domains": ["Psychological"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Jensen AN",
-      "Bonnén KB",
-      "Kristiansen M"
-    ],
+    "normalizedAuthors": ["Jensen AN", "Bonnén KB", "Kristiansen M"],
     "isAbstractTruncated": false
   },
   {
@@ -10348,12 +9607,7 @@
     "pmid": "33310659",
     "doi": "10.1016/j.archger.2020.104317",
     "title": "Age, pre-arrest neurological condition, and functional status as outcome predictors in out-of-hospital cardiac arrest: Secondary analysis of the Jerusalem Cohort Study data.",
-    "authors": [
-      "Esther-Lee Marcus",
-      "Pavel Chigrinskiy",
-      "Lisa Deutsch",
-      "Sharon Einav"
-    ],
+    "authors": ["Esther-Lee Marcus", "Pavel Chigrinskiy", "Lisa Deutsch", "Sharon Einav"],
     "journal": "Archives of gerontology and geriatrics",
     "year": 2020,
     "date": "2020-12-02",
@@ -10378,16 +9632,9 @@
       "Treatment Outcome"
     ],
     "country": "Israel",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Marcus E",
-      "Chigrinskiy P",
-      "Deutsch L",
-      "Einav S"
-    ],
+    "normalizedAuthors": ["Marcus E", "Chigrinskiy P", "Deutsch L", "Einav S"],
     "isAbstractTruncated": false
   },
   {
@@ -10486,10 +9733,7 @@
       "Survivors"
     ],
     "country": "Denmark",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -10511,11 +9755,7 @@
     "pmid": "32898368",
     "doi": "10.11124/JBISRIR-D-19-00291",
     "title": "Experiences of family members of patients treated with targeted temperature management post cardiac arrest: a qualitative systematic review protocol.",
-    "authors": [
-      "Susan Morris",
-      "Lisa Keeping-Burke",
-      "Alison Manley"
-    ],
+    "authors": ["Susan Morris", "Lisa Keeping-Burke", "Alison Manley"],
     "journal": "JBI evidence synthesis",
     "year": 2020,
     "date": "2020-08",
@@ -10541,11 +9781,7 @@
     "country": "Canada",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Morris S",
-      "Keeping-Burke L",
-      "Manley A"
-    ],
+    "normalizedAuthors": ["Morris S", "Keeping-Burke L", "Manley A"],
     "isAbstractTruncated": false
   },
   {
@@ -10585,10 +9821,7 @@
       "Sweden"
     ],
     "country": "Sweden",
-    "domains": [
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Djärv T",
@@ -10651,11 +9884,7 @@
       "Survivors"
     ],
     "country": "France",
-    "domains": [
-      "Cognitive",
-      "Psychological",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Psychological", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Peskine A",
@@ -10721,9 +9950,7 @@
       "Quality of Life"
     ],
     "country": "Denmark",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "IHCA",
     "normalizedAuthors": [
       "Yonis H",
@@ -10777,13 +10004,7 @@
     "corrCountryName": "Sweden",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Carlsson N",
-      "Bremer A",
-      "Alvariza A",
-      "Årestedt K",
-      "Axelsson L"
-    ],
+    "normalizedAuthors": ["Carlsson N", "Bremer A", "Alvariza A", "Årestedt K", "Axelsson L"],
     "isAbstractTruncated": false
   },
   {
@@ -10842,10 +10063,7 @@
     "country": "United States",
     "corrCountryCode": "US",
     "corrCountryName": "United States",
-    "domains": [
-      "Psychological",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Caregiver"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
     "normalizedAuthors": [
@@ -10865,12 +10083,7 @@
     "pmid": "34223295",
     "doi": "10.1016/j.resplu.2020.100008",
     "title": "Modifiable provider-patient relationship factors and illness perceptions are associated with quality of life in survivors of cardiac arrest with good neurologic recovery.",
-    "authors": [
-      "Alex Presciutti",
-      "Jonathan A Shaffer",
-      "Mary Newman",
-      "Sarah M Perman"
-    ],
+    "authors": ["Alex Presciutti", "Jonathan A Shaffer", "Mary Newman", "Sarah M Perman"],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-06-12",
@@ -10886,16 +10099,9 @@
     },
     "pmcid": "PMC8244500",
     "country": "United States",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Presciutti A",
-      "Shaffer JA",
-      "Newman M",
-      "Perman SM"
-    ],
+    "normalizedAuthors": ["Presciutti A", "Shaffer JA", "Newman M", "Perman SM"],
     "isAbstractTruncated": false
   },
   {
@@ -10903,11 +10109,7 @@
     "pmid": "34223328",
     "doi": "10.1016/j.resplu.2020.100055",
     "title": "Moving from physical survival to psychologic recovery: a qualitative study of survivor perspectives on long-term outcome after sudden cardiac arrest.",
-    "authors": [
-      "Katie N Dainty",
-      "M Bianca Seaton",
-      "P Richard Verbeek"
-    ],
+    "authors": ["Katie N Dainty", "M Bianca Seaton", "P Richard Verbeek"],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-12-31",
@@ -10923,18 +10125,9 @@
     },
     "pmcid": "PMC8244397",
     "country": "Canada",
-    "domains": [
-      "Psychological",
-      "Qol",
-      "Participation",
-      "Caregiver"
-    ],
+    "domains": ["Psychological", "Qol", "Participation", "Caregiver"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Dainty KN",
-      "Seaton MB",
-      "Verbeek PR"
-    ],
+    "normalizedAuthors": ["Dainty KN", "Seaton MB", "Verbeek PR"],
     "isAbstractTruncated": false
   },
   {
@@ -10997,9 +10190,7 @@
       "Treatment Outcome"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -11084,10 +10275,7 @@
       "Treatment Outcome"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive",
-      "Qol"
-    ],
+    "domains": ["Cognitive", "Qol"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Lilja G",
@@ -11125,11 +10313,7 @@
     "pmid": "34223329",
     "doi": "10.1016/j.resplu.2020.100057",
     "title": "Subjective factors of depressive symptoms, ambulation, pain, and fatigue are associated with physical activity participation in cardiac arrest survivors with fatigue.",
-    "authors": [
-      "Young Joo Kim",
-      "Vicky Joshi",
-      "Qiang Wu"
-    ],
+    "authors": ["Young Joo Kim", "Vicky Joshi", "Qiang Wu"],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-12-15",
@@ -11145,16 +10329,9 @@
     },
     "pmcid": "PMC8244480",
     "country": "United States",
-    "domains": [
-      "Cognitive",
-      "Psychological"
-    ],
+    "domains": ["Cognitive", "Psychological"],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Kim YJ",
-      "Joshi V",
-      "Wu Q"
-    ],
+    "normalizedAuthors": ["Kim YJ", "Joshi V", "Wu Q"],
     "isAbstractTruncated": false
   },
   {
@@ -11199,10 +10376,7 @@
       "Survivorship",
       "United States"
     ],
-    "domains": [
-      "Cognitive",
-      "Caregiver"
-    ],
+    "domains": ["Cognitive", "Caregiver"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Sawyer KN",
@@ -11229,11 +10403,7 @@
     "id": "10.1177/2057158520932348",
     "doi": "10.1177/2057158520932348",
     "title": "The experience of returning home after surviving cardiac arrest: A narrative inquiry",
-    "authors": [
-      "Gunilla Haydon",
-      "Pamela van der Riet",
-      "Kerry Inder"
-    ],
+    "authors": ["Gunilla Haydon", "Pamela van der Riet", "Kerry Inder"],
     "journal": "Nordic Journal of Nursing Research",
     "year": 2020,
     "date": "2020-12",
@@ -11250,11 +10420,7 @@
     "country": "Australia",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Haydon G",
-      "Riet PVD",
-      "Inder K"
-    ],
+    "normalizedAuthors": ["Haydon G", "Riet PVD", "Inder K"],
     "isAbstractTruncated": false
   },
   {
@@ -11294,10 +10460,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Psychological",
-      "Participation"
-    ],
+    "domains": ["Psychological", "Participation"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Wagner MK",
@@ -11344,9 +10507,7 @@
       "Sweden"
     ],
     "country": "Sweden",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Larsson K",
@@ -11404,9 +10565,7 @@
     "country": "Denmark",
     "corrCountryCode": "DK",
     "corrCountryName": "Denmark",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Grand J",
@@ -11426,13 +10585,7 @@
     "pmid": "31539607",
     "doi": "10.1016/j.resuscitation.2019.09.006",
     "title": "Factors associated with return to work among survivors of out-of-hospital cardiac arrest.",
-    "authors": [
-      "Jason Kearney",
-      "Kylie Dyson",
-      "Emily Andrew",
-      "Stephen Bernard",
-      "Karen Smith"
-    ],
+    "authors": ["Jason Kearney", "Kylie Dyson", "Emily Andrew", "Stephen Bernard", "Karen Smith"],
     "journal": "Resuscitation",
     "year": 2019,
     "date": "2019-09-17",
@@ -11463,18 +10616,9 @@
       "Work Performance"
     ],
     "country": "Australia",
-    "domains": [
-      "Qol",
-      "Participation"
-    ],
+    "domains": ["Qol", "Participation"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Kearney J",
-      "Dyson K",
-      "Andrew E",
-      "Bernard S",
-      "Smith K"
-    ],
+    "normalizedAuthors": ["Kearney J", "Dyson K", "Andrew E", "Bernard S", "Smith K"],
     "isAbstractTruncated": false
   },
   {
@@ -11639,10 +10783,7 @@
     "pmid": "31664859",
     "doi": "10.1080/02699052.2019.1680866",
     "title": "Gender differences in cognitive outcome after cardiac arrest: A retrospective cohort study.",
-    "authors": [
-      "Antje Fillbrandt",
-      "Bernd Frank"
-    ],
+    "authors": ["Antje Fillbrandt", "Bernd Frank"],
     "journal": "Brain injury",
     "year": 2019,
     "date": "2019-10-30",
@@ -11670,15 +10811,10 @@
     "country": "Germany",
     "corrCountryCode": "DE",
     "corrCountryName": "Germany",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "Mixed",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Fillbrandt A",
-      "Frank B"
-    ],
+    "normalizedAuthors": ["Fillbrandt A", "Frank B"],
     "isAbstractTruncated": false
   },
   {
@@ -11726,9 +10862,7 @@
       "Survivors"
     ],
     "country": "France",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "Mixed",
     "design": "Prospective cohort",
     "normalizedAuthors": [
@@ -11788,9 +10922,7 @@
       "Out-of-Hospital Cardiac Arrest"
     ],
     "country": "Denmark",
-    "domains": [
-      "Participation"
-    ],
+    "domains": ["Participation"],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Sondergaard KB",
@@ -11850,18 +10982,10 @@
       "Urban Population"
     ],
     "country": "Switzerland",
-    "domains": [
-      "Qol"
-    ],
+    "domains": ["Qol"],
     "setting": "OHCA",
     "design": "Retrospective cohort",
-    "normalizedAuthors": [
-      "Ruch R",
-      "Stoessel L",
-      "Stein P",
-      "Ganter MT",
-      "Button DA"
-    ],
+    "normalizedAuthors": ["Ruch R", "Stoessel L", "Stein P", "Ganter MT", "Button DA"],
     "isAbstractTruncated": false
   },
   {
@@ -11869,9 +10993,7 @@
     "pmid": "31697980",
     "doi": "10.1016/j.resuscitation.2019.10.027",
     "title": "Reintegration & recovery after surviving cardiac arrest: Learning from the VACAR registry.",
-    "authors": [
-      "Kelly N Sawyer"
-    ],
+    "authors": ["Kelly N Sawyer"],
     "journal": "Resuscitation",
     "year": 2019,
     "date": "2019-11-05",
@@ -11895,9 +11017,7 @@
     "country": "United States",
     "domains": [],
     "setting": "Mixed",
-    "normalizedAuthors": [
-      "Sawyer KN"
-    ],
+    "normalizedAuthors": ["Sawyer KN"],
     "isAbstractTruncated": false
   },
   {
@@ -11934,17 +11054,9 @@
       "Survivors"
     ],
     "country": "United Kingdom",
-    "domains": [
-      "Cognitive"
-    ],
+    "domains": ["Cognitive"],
     "setting": "OHCA",
-    "normalizedAuthors": [
-      "Whitehead L",
-      "Tierney S",
-      "Biggerstaff D",
-      "Perkins GD",
-      "Haywood KL"
-    ],
+    "normalizedAuthors": ["Whitehead L", "Tierney S", "Biggerstaff D", "Perkins GD", "Haywood KL"],
     "isAbstractTruncated": false
   }
 ]

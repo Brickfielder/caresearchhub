@@ -62,7 +62,10 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
         <div class="rounded-2xl border border-slate-200 bg-white/95 p-4 shadow-lg text-left">
           <div class="mb-3 flex items-center justify-between">
             <p class="text-sm font-semibold text-slate-700">Top matches</p>
-            <a class="text-xs font-semibold text-indigo-600 hover:text-indigo-800" href={repositoryLink}>
+            <a
+              class="text-xs font-semibold text-indigo-600 hover:text-indigo-800"
+              href={repositoryLink}
+            >
               Go to repository →
             </a>
           </div>
@@ -91,7 +94,9 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
                     </div>
                     <p class="text-xs text-slate-600">
                       {display}
-                      {remaining.length > 0 ? <span class="ml-1 text-slate-500">+{remaining.length} more</span> : null}
+                      {remaining.length > 0 ? (
+                        <span class="ml-1 text-slate-500">+{remaining.length} more</span>
+                      ) : null}
                     </p>
                     <div class="mt-2 flex flex-wrap gap-2 text-xs text-slate-500">
                       <span>{paper.journal}</span>
@@ -105,7 +110,10 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
                       ))}
                     </div>
                     <div class="mt-3 flex items-center gap-3 text-sm">
-                      <a class="font-semibold text-slate-900 hover:text-indigo-700" href={getPaperUrl(paper)}>
+                      <a
+                        class="font-semibold text-slate-900 hover:text-indigo-700"
+                        href={getPaperUrl(paper)}
+                      >
                         View abstract
                       </a>
                       {primaryLink ? (
