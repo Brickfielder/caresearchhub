@@ -56,8 +56,12 @@ const PaperCard = ({ paper }: PaperCardProps) => {
             {display}
             {remaining.length > 0 && (
               <details class="inline">
-                <summary class="ml-1 cursor-pointer text-blue-600 dark:text-blue-400">+{remaining.length} more</summary>
-                <span class="ml-2 inline text-slate-600 dark:text-slate-300">{remaining.join(', ')}</span>
+                <summary class="ml-1 cursor-pointer text-blue-600 dark:text-blue-400">
+                  +{remaining.length} more
+                </summary>
+                <span class="ml-2 inline text-slate-600 dark:text-slate-300">
+                  {remaining.join(', ')}
+                </span>
               </details>
             )}
           </p>
@@ -71,11 +75,15 @@ const PaperCard = ({ paper }: PaperCardProps) => {
       <details class="mt-3 rounded-2xl border border-indigo-50/70 bg-indigo-50/40 p-3 transition open:shadow-sm dark:border-indigo-900/60 dark:bg-indigo-900/10">
         <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-indigo-700 transition hover:text-indigo-800 dark:text-indigo-200 dark:hover:text-indigo-100">
           <span>Abstract</span>
-          <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">{'▼'}</span>
+          <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">
+            {'▼'}
+          </span>
         </summary>
         <p class="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-200">
           {paper.abstract}
-          {paper.isAbstractTruncated && <span class="ml-1 text-xs uppercase text-orange-600">(Abstract truncated)</span>}
+          {paper.isAbstractTruncated && (
+            <span class="ml-1 text-xs uppercase text-orange-600">(Abstract truncated)</span>
+          )}
         </p>
       </details>
       <div class="mt-4 flex flex-wrap gap-2">
@@ -205,7 +213,9 @@ export default function BrowseClient({ papers }: Props) {
     >
       <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-slate-700 transition hover:text-indigo-700 dark:text-slate-200 dark:hover:text-indigo-200">
         <span>{title}</span>
-        <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">{'▼'}</span>
+        <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">
+          {'▼'}
+        </span>
       </summary>
       <div class="mt-3">{children}</div>
     </details>

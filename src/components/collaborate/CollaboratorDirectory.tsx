@@ -172,7 +172,9 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
                 ) : null}
                 {person.research_keywords ? (
                   <div className="space-y-1">
-                    <p className="text-sm font-semibold text-slate-700">Key words for your research area</p>
+                    <p className="text-sm font-semibold text-slate-700">
+                      Key words for your research area
+                    </p>
                     <p className="text-sm text-slate-600">{person.research_keywords}</p>
                   </div>
                 ) : null}
@@ -184,7 +186,9 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
                 ) : null}
                 {person.looking_to_collaborate_on ? (
                   <div className="space-y-1">
-                    <p className="text-sm font-semibold text-slate-700">Looking to collaborate on</p>
+                    <p className="text-sm font-semibold text-slate-700">
+                      Looking to collaborate on
+                    </p>
                     <p className="text-sm text-slate-600">{person.looking_to_collaborate_on}</p>
                   </div>
                 ) : null}

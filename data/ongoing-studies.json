@@ -94,7 +94,11 @@
       "name": "Effects of an Online Support Programme for Cardiac Arrest Survivors (CARDIS)",
       "status": "Not yet recruiting",
       "countries": ["Sweden"],
-      "setting": ["Multi-region follow-up clinics", "Online, self-paced (12 weeks)", "Standard care"],
+      "setting": [
+        "Multi-region follow-up clinics",
+        "Online, self-paced (12 weeks)",
+        "Standard care"
+      ],
       "population": "Adult cardiac arrest survivors (≥18 years), 1–3 months after discharge with access to digital devices and sufficient Swedish",
       "focus": [
         "Wellbeing",

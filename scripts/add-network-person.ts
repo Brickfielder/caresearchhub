@@ -116,7 +116,9 @@ const geocode = async (city: string, country: string): Promise<{ lat: number; ln
       response.status === 401
         ? ' Ensure GEOCODE_API_KEY is configured with a valid geocode.maps.co API key.'
         : '';
-    throw new Error(`Failed to geocode location (${response.status} ${response.statusText}).${hint}`);
+    throw new Error(
+      `Failed to geocode location (${response.status} ${response.statusText}).${hint}`
+    );
   }
   const payload = (await response.json()) as Array<{ lat?: string; lon?: string }>;
   if (!payload.length) {

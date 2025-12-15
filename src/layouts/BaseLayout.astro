@@ -32,8 +32,7 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
     <script
       data-goatcounter="https://brickfielder.goatcounter.com/count"
       async
-      src="https://gc.zgo.at/count.js"
-    ></script>
+      src="https://gc.zgo.at/count.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -71,11 +70,19 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
               aria-label="Primary"
             >
               <a class="text-white transition hover:text-teal-200" href={homeHref}>Home</a>
-              <a class="text-white transition hover:text-teal-200" href={aboutHref}>About the Team</a>
+              <a class="text-white transition hover:text-teal-200" href={aboutHref}
+                >About the Team</a
+              >
               <a class="text-white transition hover:text-teal-200" href={browseHref}>Browse</a>
-              <a class="text-white transition hover:text-teal-200" href={collaborateHref}>Collaborate</a>
-              <a class="text-white transition hover:text-teal-200" href={heatmapHref}>Research Heat Map</a>
-              <a class="text-white transition hover:text-teal-200" href={ongoingStudiesHref}>Ongoing Studies</a>
+              <a class="text-white transition hover:text-teal-200" href={collaborateHref}
+                >Collaborate</a
+              >
+              <a class="text-white transition hover:text-teal-200" href={heatmapHref}
+                >Research Heat Map</a
+              >
+              <a class="text-white transition hover:text-teal-200" href={ongoingStudiesHref}
+                >Ongoing Studies</a
+              >
             </div>
             <button
               class="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 p-2 text-white shadow-inner transition hover:border-teal-200 md:hidden"
@@ -98,11 +105,13 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
           </div>
         </div>
       </nav>
-      {Astro.slots.has('hero') && (
-        <div class="relative mx-auto max-w-5xl px-6 pb-20 pt-16 text-center lg:px-8">
-          <slot name="hero" />
-        </div>
-      )}
+      {
+        Astro.slots.has('hero') && (
+          <div class="relative mx-auto max-w-5xl px-6 pb-20 pt-16 text-center lg:px-8">
+            <slot name="hero" />
+          </div>
+        )
+      }
     </header>
     <main id="main" class="bg-slate-50 text-slate-600 dark:bg-slate-950 dark:text-slate-100">
       <slot />
@@ -123,10 +132,7 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
           class="mt-6 flex justify-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-200"
         >
           <a class="transition hover:text-teal-600" href={aboutHref}>About the Team</a>
-          <a
-            class="transition hover:text-teal-600"
-            href="mailto:hello@caresearchhub.org"
-          >
+          <a class="transition hover:text-teal-600" href="mailto:hello@caresearchhub.org">
             Contact
           </a>
           <a class="transition hover:text-teal-600" href={privacyHref}>Privacy</a>
@@ -164,12 +170,27 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
           </button>
         </div>
         <div class="flex flex-col divide-y divide-white/10">
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={homeHref}>Home</a>
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={aboutHref}>About the Team</a>
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={browseHref}>Browse</a>
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={collaborateHref}>Collaborate</a>
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={heatmapHref}>Research Heat Map</a>
-          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={ongoingStudiesHref}>Ongoing Studies</a>
+          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={homeHref}
+            >Home</a
+          >
+          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={aboutHref}
+            >About the Team</a
+          >
+          <a class="px-1 py-3 text-left text-white transition hover:text-teal-200" href={browseHref}
+            >Browse</a
+          >
+          <a
+            class="px-1 py-3 text-left text-white transition hover:text-teal-200"
+            href={collaborateHref}>Collaborate</a
+          >
+          <a
+            class="px-1 py-3 text-left text-white transition hover:text-teal-200"
+            href={heatmapHref}>Research Heat Map</a
+          >
+          <a
+            class="px-1 py-3 text-left text-white transition hover:text-teal-200"
+            href={ongoingStudiesHref}>Ongoing Studies</a
+          >
         </div>
       </div>
     </nav>

@@ -38,10 +38,14 @@ const main = async () => {
 
   for (const paper of targets) {
     const updated = await enrichCountryForPaper(paper);
-    const hasNewCountry = Boolean(updated.corrCountryName && updated.corrCountryName !== paper.corrCountryName);
+    const hasNewCountry = Boolean(
+      updated.corrCountryName && updated.corrCountryName !== paper.corrCountryName
+    );
     if (hasNewCountry) {
       enrichedCount += 1;
-      console.log(`✓ ${paper.id} → ${updated.corrCountryName} (${updated.corrCountryCode ?? '??'})`);
+      console.log(
+        `✓ ${paper.id} → ${updated.corrCountryName} (${updated.corrCountryCode ?? '??'})`
+      );
     } else {
       console.log(`- ${paper.id} (no country inferred)`);
     }
