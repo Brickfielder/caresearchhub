@@ -1,10 +1,57 @@
 [
   {
+    "id": "10.1016/j.resplu.2025.101179",
+    "doi": "10.1016/j.resplu.2025.101179",
+    "title": "Physical, psychological, cognitive, social health outcomes, and health-related quality of life in out-of-hospital cardiac arrest survivors and co-survivors: 3-month outcomes from the Quality Cardiac Arrest Survivorship cohort study (QualiCAS)",
+    "authors": [
+      "Pin Pin Pek",
+      "Kexin Fang",
+      "Shir Lynn Lim",
+      "Felix Maverick Rubillar Uy",
+      "Vui Kian Ho",
+      "Yew Woon Chia",
+      "Jia Min Chua",
+      "Ee Ling Goh",
+      "Le Xuan Liew",
+      "Christina Chen",
+      "Nan Luo",
+      "Kai Yi Lee",
+      "Han Nee Gan",
+      "Benjamin Sieu-Hon Leong",
+      "Desmond Ren-Hao Mao",
+      "Nausheen Edwin Doctor",
+      "Wei Ming Ng",
+      "Ying Zi Oh",
+      "Kah Hua Peck",
+      "Michael Yih-Chong Chia",
+      "Wei Ling Tay",
+      "Shun Yee Low",
+      "Marcus Eng Hock Ong",
+      "Andrew Fuwah Ho"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-01",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2025.101179"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "40241996",
     "pmid": "40241996",
     "doi": "10.1016/j.resplu.2025.100944",
     "title": "\"I can’t unsee him lying in my kitchen\": Understanding the trauma of family members who witness a loved one’s cardiac arrest.",
-    "authors": ["Katie N Dainty", "Krystle Amog", "Sachin Agarwal", "M Bianca Seaton"],
+    "authors": [
+      "Katie N Dainty",
+      "Krystle Amog",
+      "Sachin Agarwal",
+      "M Bianca Seaton"
+    ],
     "journal": "Resuscitation plus",
     "year": 2025,
     "date": "2025-03-27",
@@ -57,7 +104,10 @@
     "pmid": "40551397",
     "doi": "10.1177/13674935251355323",
     "title": "A pilot study to explore children's experiences of intensive care post-cardiac arrest using art-based participatory methods.",
-    "authors": ["Donna Thomas", "Graeme O'Connor"],
+    "authors": [
+      "Donna Thomas",
+      "Graeme O'Connor"
+    ],
     "journal": "Journal of child health care : for professionals working with children in the hospital and community",
     "year": 2025,
     "date": "2025-06-23",
@@ -585,7 +635,10 @@
     "id": "10.1016/s0300-9572(25)00402-2",
     "doi": "10.1016/s0300-9572(25)00402-2",
     "title": "Experiences and Aftercare Needs of Bystanders Involved in Out-of-Hospital Cardiopulmonary Resuscitation",
-    "authors": ["Vicky Joshi", "Gareth Clegg"],
+    "authors": [
+      "Vicky Joshi",
+      "Gareth Clegg"
+    ],
     "journal": "Resuscitation",
     "year": 2025,
     "date": "2025-10",
@@ -603,7 +656,12 @@
     "pmid": "40597994",
     "doi": "10.1186/s12909-025-07475-2",
     "title": "Exploring nursing students' emotional experiences of patient cardiac arrest in the operating room: a descriptive phenomenological study.",
-    "authors": ["Fatemeh Hesami", "Zahra Yousefi", "Mobin Mottahedi", "Hossein Bagheri"],
+    "authors": [
+      "Fatemeh Hesami",
+      "Zahra Yousefi",
+      "Mobin Mottahedi",
+      "Hossein Bagheri"
+    ],
     "journal": "BMC medical education",
     "year": 2025,
     "date": "2025-07-01",
@@ -640,7 +698,14 @@
     "id": "10.1093/eurjcn/zvaf122.133",
     "doi": "10.1093/eurjcn/zvaf122.133",
     "title": "Fatigue across age groups following out-of-hospital cardiac arrest: results from the DANCAS survey",
-    "authors": ["S Ebsen", "A Wieghorst", "V Joshi", "N Petersson", "A Zwisler", "B Borregaard"],
+    "authors": [
+      "S Ebsen",
+      "A Wieghorst",
+      "V Joshi",
+      "N Petersson",
+      "A Zwisler",
+      "B Borregaard"
+    ],
     "journal": "European Journal of Cardiovascular Nursing",
     "year": 2025,
     "date": "2025-07-24",
@@ -841,7 +906,12 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "mesh": ["Humans", "Quality of Life", "Heart Arrest", "Cardiopulmonary Resuscitation"],
+    "mesh": [
+      "Humans",
+      "Quality of Life",
+      "Heart Arrest",
+      "Cardiopulmonary Resuscitation"
+    ],
     "country": "Australia"
   },
   {
@@ -1135,7 +1205,14 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "mesh": ["Humans", "Heart Arrest", "Aftercare", "Survivors", "Quality of Life", "Male"],
+    "mesh": [
+      "Humans",
+      "Heart Arrest",
+      "Aftercare",
+      "Survivors",
+      "Quality of Life",
+      "Male"
+    ],
     "country": "United States"
   },
   {
@@ -1170,10 +1247,59 @@
     "country": "Denmark"
   },
   {
+    "id": "40997999",
+    "pmid": "40997999",
+    "doi": "10.1016/j.resuscitation.2025.110842",
+    "title": "Predictive values of the DANish cognitive screen for cardiac arrest survivors (DANcSCA) - A digital cognitive screening.",
+    "authors": [
+      "Anders Wieghorst",
+      "Britt Borregaard",
+      "Ann-Dorthe Zwisler",
+      "Tonny Elmose Andersen",
+      "Mette Kirstine Wagner",
+      "Camilla Bring",
+      "Lars Evald"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-09-23",
+    "abstract": "BACKGROUND: Persistent cognitive deficits affect up to 50 % of out-of-hospital cardiac arrest (OHCA) survivors. Despite this prevalence, no consensus exists on the optimal tool for identifying deficits. This study assessed the predictive validity of the digital DANcSCA by comparing its classification of OHCA survivors into risk classes-green (low), yellow (moderate), and red (high)-against a neuropsychological test battery as the reference standard.\nMETHODS: The prospective, multicentre DANcSCA validation study was conducted at Danish hospitals and the Knowledge Centre for Rehabilitation and Palliative Care. Adult OHCA survivors were included. The reference standard comprised four neuropsychological tests: Rey Auditory Verbal Learning Test, Symbol Digit Modalities Test, Trail Making Test, and Verbal Fluency. The DANcSCA index test used subtests from the Cambridge Neuropsychological Test Automated Battery. Cognitive assessments occurred six to eight weeks post-arrest or during rehabilitation three months to three years post-arrest. ROC curves were constructed for binary classifications of green versus non-green and red versus non-red. Thresholds were set by fixing sensitivity at 0.90 for the green/non-green ROC and specificity at 0.90 for the red/non-red ROC.\nRESULTS: Among 175 participants, the DANcSCA classified 23 % as green, 59 % as yellow, and 18 % as red, with 9 % false positives and 5 % false negatives. The ROC curve for distinguishing green from non-green had an AUC of 0.77, and for distinguishing red from non-red an AUC of 0.89.\nCONCLUSION: The digital DANcSCA appears suitable for cognitive screening following OHCA, although the modest AUC for green/non-green and potential overfitting warrant validation in new samples.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110842",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40997999"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Female",
+      "Male",
+      "Out-of-Hospital Cardiac Arrest",
+      "Middle Aged",
+      "Denmark",
+      "Neuropsychological Tests",
+      "Prospective Studies",
+      "Aged",
+      "Cognitive Dysfunction",
+      "Predictive Value of Tests",
+      "Survivors",
+      "ROC Curve",
+      "Adult"
+    ],
+    "country": "Denmark"
+  },
+  {
     "id": "10.33678/cor.2025.031",
     "doi": "10.33678/cor.2025.031",
     "title": "Prevalence of Near-Death Experiences (NDE) in Patients with Refractory Cardiac Arrest Treated with Conventional and Extracorporeal Cardiopulmonary Resuscitation",
-    "authors": ["Jaroslava Tereza Kovářová", "Daniel Rob", "František Trantina", "Jan Bělohlávek"],
+    "authors": [
+      "Jaroslava Tereza Kovářová",
+      "Daniel Rob",
+      "František Trantina",
+      "Jan Bělohlávek"
+    ],
     "journal": "Cor et Vasa",
     "year": 2025,
     "date": "2025-06-20",
@@ -1500,7 +1626,10 @@
     "pmid": "40523597",
     "doi": "10.1016/j.resuscitation.2025.110685",
     "title": "Time for consensus: establishing core outcomes meaningful to survivors of out-of-hospital cardiac arrest.",
-    "authors": ["Marco Mion", "Vicky L Joshi"],
+    "authors": [
+      "Marco Mion",
+      "Vicky L Joshi"
+    ],
     "journal": "Resuscitation",
     "year": 2025,
     "date": "2025-06-14",
@@ -2089,7 +2218,12 @@
     "pmid": "38583740",
     "doi": "10.1016/j.resuscitation.2024.110208",
     "title": "Follow up of cardiac arrest survivors: Survey of French intensivists practices.",
-    "authors": ["Marine Paul", "Julie Paquereau", "Stéphane Legriel", "Alain Cariou"],
+    "authors": [
+      "Marine Paul",
+      "Julie Paquereau",
+      "Stéphane Legriel",
+      "Alain Cariou"
+    ],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-04-05",
@@ -2239,7 +2373,12 @@
     "pmid": "39174000",
     "doi": "10.1016/j.resuscitation.2024.110375",
     "title": "Long term functioning with poor neurologic outcome after cardiac arrest.",
-    "authors": ["Sjoukje Nutma", "Ozzy Roesink", "Caroline M van Heugten", "Jeannette Hofmeijer"],
+    "authors": [
+      "Sjoukje Nutma",
+      "Ozzy Roesink",
+      "Caroline M van Heugten",
+      "Jeannette Hofmeijer"
+    ],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-08-21",
@@ -2275,7 +2414,13 @@
     "pmid": "38328751",
     "doi": "10.1016/j.resplu.2024.100563",
     "title": "Long-term multidisciplinary follow-up programs in pediatric cardiac arrest survivors.",
-    "authors": ["M Hunfeld", "K Dulfer", "J Del Castillo", "M Vázquez", "C M P Buysse"],
+    "authors": [
+      "M Hunfeld",
+      "K Dulfer",
+      "J Del Castillo",
+      "M Vázquez",
+      "C M P Buysse"
+    ],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-02-01",
@@ -2297,7 +2442,14 @@
     "pmid": "39816674",
     "doi": "10.1016/j.ccrj.2024.08.008",
     "title": "Long-term outcomes of patients who received extracorporeal cardiopulmonary resuscitation (ECPR) following in-hospital cardiac arrest: Analysis of EXCEL registry data.",
-    "authors": ["G Pound", "D Jones", "G M Eastwood", "E Paul", "A Serpa Neto", "C L Hodgson"],
+    "authors": [
+      "G Pound",
+      "D Jones",
+      "G M Eastwood",
+      "E Paul",
+      "A Serpa Neto",
+      "C L Hodgson"
+    ],
     "journal": "Critical care and resuscitation : journal of the Australasian Academy of Critical Care Medicine",
     "year": 2024,
     "date": "2024-11-21",
@@ -2520,7 +2672,12 @@
     "pmid": "39643265",
     "doi": "10.1016/j.resuscitation.2024.110458",
     "title": "Perspective on cardiac arrest survivorship: Findings from an Italian landmark survey.",
-    "authors": ["Erga Cerchiari", "Giuseppe Ristagno", "Federico Semeraro", "Andrea Scapigliati"],
+    "authors": [
+      "Erga Cerchiari",
+      "Giuseppe Ristagno",
+      "Federico Semeraro",
+      "Andrea Scapigliati"
+    ],
     "journal": "Resuscitation",
     "year": 2024,
     "date": "2024-12-04",
@@ -2641,7 +2798,11 @@
     "pmid": "39709245",
     "doi": "10.1016/j.neurot.2024.e00509",
     "title": "Psychological and behavioral dimensions in cardiac arrest survivors and their families: A state-of-the-art review.",
-    "authors": ["Sachin Agarwal", "Mette Kirstine Wagner", "Marco Mion"],
+    "authors": [
+      "Sachin Agarwal",
+      "Mette Kirstine Wagner",
+      "Marco Mion"
+    ],
     "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
     "year": 2024,
     "date": "2024-12-20",
@@ -2672,7 +2833,9 @@
     "pmid": "38370314",
     "doi": "10.1016/j.resplu.2024.100568",
     "title": "Qualitative research in cardiac arrest research: A narrative review.",
-    "authors": ["Katie N Dainty"],
+    "authors": [
+      "Katie N Dainty"
+    ],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-02-09",
@@ -2866,7 +3029,12 @@
     "pmid": "39185281",
     "doi": "10.1016/j.resplu.2024.100736",
     "title": "Sex-specific health-related quality of life in survivors of cardiac arrest.",
-    "authors": ["Kaitlyn Ghassemi", "Kyndaron Reinier", "Sumeet S Chugh", "Faye L Norby"],
+    "authors": [
+      "Kaitlyn Ghassemi",
+      "Kyndaron Reinier",
+      "Sumeet S Chugh",
+      "Faye L Norby"
+    ],
     "journal": "Resuscitation plus",
     "year": 2024,
     "date": "2024-08-06",
@@ -2927,7 +3095,11 @@
     "pmid": "39010273",
     "doi": "10.1097/JCN.0000000000001119",
     "title": "The Lived Experience of Cardiac Arrest Survivors: A Scoping Review.",
-    "authors": ["Mohamed Toufic El Hussein", "Simreen Dhaliwal", "Jonah Hakkola"],
+    "authors": [
+      "Mohamed Toufic El Hussein",
+      "Simreen Dhaliwal",
+      "Jonah Hakkola"
+    ],
     "journal": "The Journal of cardiovascular nursing",
     "year": 2024,
     "date": "2024-07-16",
@@ -3364,7 +3536,11 @@
     "pmid": "38085507",
     "doi": "10.1007/s12471-023-01838-4",
     "title": "Cognitive screening and rehabilitation after cardiac arrest: only a few hurdles to take.",
-    "authors": ["Janine A van Til", "Martin E W Hemels", "Jeannette Hofmeijer"],
+    "authors": [
+      "Janine A van Til",
+      "Martin E W Hemels",
+      "Jeannette Hofmeijer"
+    ],
     "journal": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
     "year": 2023,
     "date": "2023-12-12",
@@ -3386,7 +3562,12 @@
     "pmid": "37963682",
     "doi": "10.1136/openhrt-2023-002308",
     "title": "Comorbidities prior to out-of-hospital cardiac arrest and diagnoses at discharge among survivors.",
-    "authors": ["Nellie Hjärtstam", "Araz Rawshani", "Gustaf Hellsén", "Truls Råmunddal"],
+    "authors": [
+      "Nellie Hjärtstam",
+      "Araz Rawshani",
+      "Gustaf Hellsén",
+      "Truls Råmunddal"
+    ],
     "journal": "Open heart",
     "year": 2023,
     "date": "2023-11",
@@ -3577,7 +3758,12 @@
     "pmid": "37300340",
     "doi": "10.1111/jocn.16788",
     "title": "Experiences of family-witnessed cardiopulmonary resuscitation in hospital and its impact on life: An interview study with cardiac arrest survivors and their family members.",
-    "authors": ["Annette Waldemar", "Anna Strömberg", "Ingela Thylén", "Anders Bremer"],
+    "authors": [
+      "Annette Waldemar",
+      "Anna Strömberg",
+      "Ingela Thylén",
+      "Anders Bremer"
+    ],
     "journal": "Journal of clinical nursing",
     "year": 2023,
     "date": "2023-06-09",
@@ -3699,7 +3885,12 @@
     "pmid": "36902754",
     "doi": "10.3390/jcm12051968",
     "title": "Lapses of the Heart: Frequency and Subjective Salience of Impressions Reported by Patients after Cardiac Arrest.",
-    "authors": ["Fritz Sterz", "Michael L Berger", "Gerhard Ruzicka", "Roland Beisteiner"],
+    "authors": [
+      "Fritz Sterz",
+      "Michael L Berger",
+      "Gerhard Ruzicka",
+      "Roland Beisteiner"
+    ],
     "journal": "Journal of clinical medicine",
     "year": 2023,
     "date": "2023-03-02",
@@ -4039,7 +4230,11 @@
     "pmid": "38661968",
     "doi": "10.1353/nib.2023.a909673",
     "title": "Physician Family Conflict Following Cardiac Arrest: A Qualitative Study.",
-    "authors": ["Rachel Caplan", "Sachin Agarwal", "Joyeeta G Dastidar"],
+    "authors": [
+      "Rachel Caplan",
+      "Sachin Agarwal",
+      "Joyeeta G Dastidar"
+    ],
     "journal": "Narrative inquiry in bioethics",
     "year": 2023,
     "date": "2023",
@@ -4075,7 +4270,10 @@
     "pmid": "36702337",
     "doi": "10.1016/j.resuscitation.2023.109701",
     "title": "Post-resuscitation care following cardiac arrest in intensive care units: A French national survey.",
-    "authors": ["Kahaia de Longeaux", "Pierre Bailly"],
+    "authors": [
+      "Kahaia de Longeaux",
+      "Pierre Bailly"
+    ],
     "journal": "Resuscitation",
     "year": 2023,
     "date": "2023-01-23",
@@ -4184,7 +4382,13 @@
     "pmid": "37872205",
     "doi": "10.1038/s41598-023-44963-1",
     "title": "Telephone-based evaluation of cognitive impairment and mood disorders in cardiac arrest survivors with good neurologic outcomes: a retrospective cohort study.",
-    "authors": ["June-Sung Kim", "Youn-Jung Kim", "Seung Mok Ryoo", "Shin Ahn", "Won Young Kim"],
+    "authors": [
+      "June-Sung Kim",
+      "Youn-Jung Kim",
+      "Seung Mok Ryoo",
+      "Shin Ahn",
+      "Won Young Kim"
+    ],
     "journal": "Scientific reports",
     "year": 2023,
     "date": "2023-10-23",
@@ -4518,7 +4722,12 @@
     "pmid": "35223692",
     "doi": "10.3389/fped.2022.780251",
     "title": "Cognitive and Psychological Outcomes Following Pediatric Cardiac Arrest.",
-    "authors": ["Nathan A Huebschmann", "Nathan E Cook", "Sarah Murphy", "Grant L Iverson"],
+    "authors": [
+      "Nathan A Huebschmann",
+      "Nathan E Cook",
+      "Sarah Murphy",
+      "Grant L Iverson"
+    ],
     "journal": "Frontiers in pediatrics",
     "year": 2022,
     "date": "2022-02-09",
@@ -5344,7 +5553,11 @@
     "pmid": "36712770",
     "doi": "10.7759/cureus.32927",
     "title": "Rehabilitation Outcomes of Cortical Blindness and Characteristics Secondary to Cardiac Arrest: A Review.",
-    "authors": ["Deklerk A Ngankam", "Kelley Crozier", "Anh-Thu Vu"],
+    "authors": [
+      "Deklerk A Ngankam",
+      "Kelley Crozier",
+      "Anh-Thu Vu"
+    ],
     "journal": "Cureus",
     "year": 2022,
     "date": "2022-12-25",
@@ -5407,7 +5620,12 @@
     "pmid": "36168674",
     "doi": "10.1111/nicc.12843",
     "title": "Sleep in cardiac arrest survivors.",
-    "authors": ["Amanda Hellström", "Anders Bremer", "Lise-Lotte Gunnarsson", "Carina Hjelm"],
+    "authors": [
+      "Amanda Hellström",
+      "Anders Bremer",
+      "Lise-Lotte Gunnarsson",
+      "Carina Hjelm"
+    ],
     "journal": "Nursing in critical care",
     "year": 2022,
     "date": "2022-09-27",
@@ -5467,7 +5685,9 @@
     "pmid": "35653245",
     "doi": "10.1097/MCC.0000000000000935",
     "title": "Surviving cardiac arrest - what do we know about recovery & survivorship?",
-    "authors": ["Kelly N Sawyer"],
+    "authors": [
+      "Kelly N Sawyer"
+    ],
     "journal": "Current opinion in critical care",
     "year": 2022,
     "date": "2022-06-01",
@@ -5749,7 +5969,11 @@
     "id": "10.1016/j.colegn.2020.06.008",
     "doi": "10.1016/j.colegn.2020.06.008",
     "title": "A narrative inquiry of survivors’ experiences of the time just before and after a cardiac arrest",
-    "authors": ["Gunilla Haydon", "Pamela van der Riet", "Kerry Inder"],
+    "authors": [
+      "Gunilla Haydon",
+      "Pamela van der Riet",
+      "Kerry Inder"
+    ],
     "journal": "Collegian",
     "year": 2021,
     "date": "2021-04",
@@ -5837,7 +6061,12 @@
     "pmid": "33849060",
     "doi": "10.1177/1474515120946313",
     "title": "Are survivors of cardiac arrest provided with standard cardiac rehabilitation? - Results from a national survey of hospitals and municipalities in Denmark.",
-    "authors": ["Lars H Tang", "Vicky Joshi", "Cecilie Lindström Egholm", "Ann-Dorthe Zwisler"],
+    "authors": [
+      "Lars H Tang",
+      "Vicky Joshi",
+      "Cecilie Lindström Egholm",
+      "Ann-Dorthe Zwisler"
+    ],
     "journal": "European journal of cardiovascular nursing",
     "year": 2021,
     "date": "2021-02-01",
@@ -6089,7 +6318,12 @@
     "pmid": "33638939",
     "doi": "10.1002/nop2.779",
     "title": "Feeling responsible but unsupported: How relatives of out-of-hospital cardiac arrest survivors experience the transition from hospital to daily life - A focus group study.",
-    "authors": ["Camilla Dichman", "Mette Kirstine Wagner", "Vicky L Joshi", "Camilla Bernild"],
+    "authors": [
+      "Camilla Dichman",
+      "Mette Kirstine Wagner",
+      "Vicky L Joshi",
+      "Camilla Bernild"
+    ],
     "journal": "Nursing open",
     "year": 2021,
     "date": "2021-02-27",
@@ -6841,7 +7075,11 @@
     "id": "10.1111/ncn3.12512",
     "doi": "10.1111/ncn3.12512",
     "title": "Temporal recovery and delayed decline of cognitive functions in patients with hypoxic encephalopathy after cardiac arrest",
-    "authors": ["Yuki Uno", "Chifumi Iseki", "Kyoko Suzuki"],
+    "authors": [
+      "Yuki Uno",
+      "Chifumi Iseki",
+      "Kyoko Suzuki"
+    ],
     "journal": "Neurology and Clinical Neuroscience",
     "year": 2021,
     "date": "2021-07",
@@ -7004,7 +7242,11 @@
     "pmid": "34223307",
     "doi": "10.1016/j.resplu.2020.100024",
     "title": "\"We don't talk about his heart\": Narrative sense-making and long-term readjustment among older out-of-hospital cardiac arrest survivors and their spouses.",
-    "authors": ["Andrea Nedergaard Jensen", "Katrine Bruun Bonnén", "Maria Kristiansen"],
+    "authors": [
+      "Andrea Nedergaard Jensen",
+      "Katrine Bruun Bonnén",
+      "Maria Kristiansen"
+    ],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-09-16",
@@ -7026,7 +7268,12 @@
     "pmid": "33310659",
     "doi": "10.1016/j.archger.2020.104317",
     "title": "Age, pre-arrest neurological condition, and functional status as outcome predictors in out-of-hospital cardiac arrest: Secondary analysis of the Jerusalem Cohort Study data.",
-    "authors": ["Esther-Lee Marcus", "Pavel Chigrinskiy", "Lisa Deutsch", "Sharon Einav"],
+    "authors": [
+      "Esther-Lee Marcus",
+      "Pavel Chigrinskiy",
+      "Lisa Deutsch",
+      "Sharon Einav"
+    ],
     "journal": "Archives of gerontology and geriatrics",
     "year": 2020,
     "date": "2020-12-02",
@@ -7140,7 +7387,11 @@
     "pmid": "32898368",
     "doi": "10.11124/JBISRIR-D-19-00291",
     "title": "Experiences of family members of patients treated with targeted temperature management post cardiac arrest: a qualitative systematic review protocol.",
-    "authors": ["Susan Morris", "Lisa Keeping-Burke", "Alison Manley"],
+    "authors": [
+      "Susan Morris",
+      "Lisa Keeping-Burke",
+      "Alison Manley"
+    ],
     "journal": "JBI evidence synthesis",
     "year": 2020,
     "date": "2020-08",
@@ -7395,7 +7646,12 @@
     "pmid": "34223295",
     "doi": "10.1016/j.resplu.2020.100008",
     "title": "Modifiable provider-patient relationship factors and illness perceptions are associated with quality of life in survivors of cardiac arrest with good neurologic recovery.",
-    "authors": ["Alex Presciutti", "Jonathan A Shaffer", "Mary Newman", "Sarah M Perman"],
+    "authors": [
+      "Alex Presciutti",
+      "Jonathan A Shaffer",
+      "Mary Newman",
+      "Sarah M Perman"
+    ],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-06-12",
@@ -7417,7 +7673,11 @@
     "pmid": "34223328",
     "doi": "10.1016/j.resplu.2020.100055",
     "title": "Moving from physical survival to psychologic recovery: a qualitative study of survivor perspectives on long-term outcome after sudden cardiac arrest.",
-    "authors": ["Katie N Dainty", "M Bianca Seaton", "P Richard Verbeek"],
+    "authors": [
+      "Katie N Dainty",
+      "M Bianca Seaton",
+      "P Richard Verbeek"
+    ],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-12-31",
@@ -7560,7 +7820,11 @@
     "pmid": "34223329",
     "doi": "10.1016/j.resplu.2020.100057",
     "title": "Subjective factors of depressive symptoms, ambulation, pain, and fatigue are associated with physical activity participation in cardiac arrest survivors with fatigue.",
-    "authors": ["Young Joo Kim", "Vicky Joshi", "Qiang Wu"],
+    "authors": [
+      "Young Joo Kim",
+      "Vicky Joshi",
+      "Qiang Wu"
+    ],
     "journal": "Resuscitation plus",
     "year": 2020,
     "date": "2020-12-15",
@@ -7624,7 +7888,11 @@
     "id": "10.1177/2057158520932348",
     "doi": "10.1177/2057158520932348",
     "title": "The experience of returning home after surviving cardiac arrest: A narrative inquiry",
-    "authors": ["Gunilla Haydon", "Pamela van der Riet", "Kerry Inder"],
+    "authors": [
+      "Gunilla Haydon",
+      "Pamela van der Riet",
+      "Kerry Inder"
+    ],
     "journal": "Nordic Journal of Nursing Research",
     "year": 2020,
     "date": "2020-12",
@@ -7765,7 +8033,13 @@
     "pmid": "31539607",
     "doi": "10.1016/j.resuscitation.2019.09.006",
     "title": "Factors associated with return to work among survivors of out-of-hospital cardiac arrest.",
-    "authors": ["Jason Kearney", "Kylie Dyson", "Emily Andrew", "Stephen Bernard", "Karen Smith"],
+    "authors": [
+      "Jason Kearney",
+      "Kylie Dyson",
+      "Emily Andrew",
+      "Stephen Bernard",
+      "Karen Smith"
+    ],
     "journal": "Resuscitation",
     "year": 2019,
     "date": "2019-09-17",
@@ -7914,7 +8188,10 @@
     "pmid": "31664859",
     "doi": "10.1080/02699052.2019.1680866",
     "title": "Gender differences in cognitive outcome after cardiac arrest: A retrospective cohort study.",
-    "authors": ["Antje Fillbrandt", "Bernd Frank"],
+    "authors": [
+      "Antje Fillbrandt",
+      "Bernd Frank"
+    ],
     "journal": "Brain injury",
     "year": 2019,
     "date": "2019-10-30",
@@ -8081,7 +8358,9 @@
     "pmid": "31697980",
     "doi": "10.1016/j.resuscitation.2019.10.027",
     "title": "Reintegration & recovery after surviving cardiac arrest: Learning from the VACAR registry.",
-    "authors": ["Kelly N Sawyer"],
+    "authors": [
+      "Kelly N Sawyer"
+    ],
     "journal": "Resuscitation",
     "year": 2019,
     "date": "2019-11-05",
