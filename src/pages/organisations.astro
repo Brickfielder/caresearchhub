@@ -8,7 +8,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 >
   <div class="orgs-page mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
     <header class="orgs-hero">
-      <div class="hero-card">
+      <div class="hero-content">
         <h1>Organisations Directory</h1>
         <p class="sub">Organisations relevant to post-cardiac arrest research and service improvement</p>
         <div class="disclaimer">
@@ -70,17 +70,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       padding: 0 0 8px;
     }
 
-    .hero-card {
-      background: radial-gradient(1100px 700px at 20% 0%, var(--heroGradA) 0%, var(--heroGradB) 60%);
-      border: 1px solid var(--heroBorder);
-      border-radius: 20px;
-      padding: 32px;
-      color: var(--heroText);
-      position: relative;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    .hero-content {
+      color: var(--text-main);
+      padding: 8px 4px;
     }
 
-    .hero-card h1 {
+    .hero-content h1 {
       margin: 0 0 10px;
       font-size: 28px;
       font-weight: 800;
@@ -88,20 +83,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       padding-right: 20px;
     }
 
-    .hero-card .sub {
-      color: var(--heroMuted);
+    .hero-content .sub {
+      color: var(--text-muted);
       font-size: 16px;
       max-width: 700px;
       margin-bottom: 20px;
     }
 
     .disclaimer {
-      background: rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: #e2e8f0;
+      border: 1px solid var(--border);
       padding: 12px 16px;
       border-radius: 8px;
       font-size: 13px;
-      color: var(--heroMuted);
+      color: var(--text-main);
       display: inline-block;
     }
 
@@ -246,8 +241,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     }
 
     .country-section {
-      margin-bottom: 40px;
+      margin-bottom: 24px;
       scroll-margin-top: 20px;
+    }
+
+    .country-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 22px;
+      box-shadow: 0 10px 25px -12px rgba(0, 0, 0, 0.12);
     }
 
     .country-header {
@@ -256,7 +259,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       gap: 12px;
       margin-bottom: 16px;
       padding-bottom: 12px;
-      border-bottom: 2px solid var(--border);
+      border-bottom: 1px solid var(--border);
     }
 
     .country-header h2 {
@@ -277,23 +280,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .resources-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 16px;
+      gap: 18px;
     }
 
     .resource-card {
-      background: var(--surface);
+      background: #f8fafc;
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
-      transition: transform 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s;
       display: flex;
       flex-direction: column;
       height: 100%;
     }
 
     .resource-card:hover {
-      transform: translateY(-2px);
+      transform: translateY(-3px);
       border-color: #cbd5e1;
+      box-shadow: 0 10px 25px -18px rgba(0, 0, 0, 0.2);
     }
 
     .card-top {
@@ -398,8 +402,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         height: 13px;
       }
 
-      .hero-card {
-        padding: 24px 18px;
+      .hero-content {
+        padding: 0;
       }
     }
   </style>
@@ -537,7 +541,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         }
 
         $container.innerHTML = filteredGroups.map(g => `
-          <section class="country-section" id="group-${g.code}">
+          <section class="country-section country-card" id="group-${g.code}">
             <div class="country-header">
               ${getFlagImg(g.code, 'header-flag')}
               <h2>${g.name}</h2>
