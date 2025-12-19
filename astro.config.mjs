@@ -16,6 +16,9 @@ const site =
 export default defineConfig({
   site,
   base: normalizedBase,
+  devToolbar: {
+    enabled: false
+  },
   integrations: [
     tailwind(),
     preact({
