@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Resuscitation Network - People",
-    "updated_at": "2025-12-22",
+    "updated_at": "2025-12-23",
     "fields": [
       "id",
       "name",
@@ -226,6 +226,22 @@
       "looking_to_collaborate_on": "International  registries focused on aftercare research; harmonising survivorship measures, datasets",
       "id": "marco-mion",
       "updated_at": "2025-12-04"
+    },
+    {
+      "name": "Nikos Gorgoraptis",
+      "email": "n.gorgoraptis@qmul.ac.uk",
+      "role": "Consultant Neurologist and Honorary Senior Lecturer",
+      "org": "Barts Health NHS Trust and Queen Mary University of London, London, UK",
+      "city": "London",
+      "country": "United Kingdom",
+      "lat": 51.5,
+      "lng": 0,
+      "research_areas": "Cardiac arrest, hypoxic-ischaemic encephalopathy, traumatic brain injury, cognitive disorders, disorders of consciousness, neurological rehabilitation.",
+      "research_keywords": "Cardiac arrest, hypoxic-ischaemic encephalopathy, traumatic brain injury, cognitive disorders, disorders of consciousness, neurological rehabilitation.",
+      "offer": "Expertise in the diagnosis, treatment and prevention of cognitive impairment following brain injury, including post-cardiac arrest hypoxic-ischaemic encephalopathy",
+      "looking_to_collaborate_on": "Interventional/observational studies focused on diagnosis, treatment and prevention of cognitive impairment post cardiac arrest",
+      "id": "nikos-gorgoraptis",
+      "updated_at": "2025-12-23"
     },
     {
       "name": "Robyn Lotto",
