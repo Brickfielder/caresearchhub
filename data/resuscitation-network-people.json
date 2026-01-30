@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Resuscitation Network - People",
-    "updated_at": "2026-01-28",
+    "updated_at": "2026-01-30",
     "fields": [
       "id",
       "name",
@@ -337,6 +337,20 @@
       "looking_to_collaborate_on": "Looking to collaborate on  Methodological support – in particular economic evaluation  Co-designing support pathways for relatives",
       "id": "robyn-lotto",
       "updated_at": "2025-12-11"
+    },
+    {
+      "name": "Shir Lynn LIM",
+      "email": "shir.lynn.lim@nus.edu.sg",
+      "role": "Critical care cardiologist",
+      "org": "Coronary care unit  National University Heart Centre Singapore  Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "lat": 1.35,
+      "lng": 103.819,
+      "research_areas": "Post-cardiac arrest care  Cardiac arrest survivorship",
+      "research_keywords": "Biomarkers, early phase mechanistic trials, precision medicine, survivorship",
+      "id": "shir-lynn-lim",
+      "updated_at": "2026-01-30"
     },
     {
       "name": "Vicky Joshi",
