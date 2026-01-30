@@ -168,7 +168,7 @@
       "follow_up": "Digital consent and questionnaires at baseline, 3 months and 6 months",
       "tags": ["Survivor", "Online", "Self-management", "Psychoeducation", "Wellbeing"],
       "links": {
-        "protocol": "",
+        "protocol": "https://doi.org/10.1016/j.resplu.2026.101235",
         "registry": "https://ichgcp.net/clinical-trials-registry/NCT07240714",
         "study_page": "https://ctv.veeva.com/study/effects-of-an-online-support-programme-for-cardiac-arrest-survivors",
         "lay_summary": ""
