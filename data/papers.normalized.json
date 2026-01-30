@@ -82,6 +82,45 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/j.resplu.2026.101235",
+    "doi": "10.1016/j.resplu.2026.101235",
+    "title": "CARDIS (Cardiac ARrest DIgital Support): Study protocol for a randomised controlled trial of a web-based support intervention for cardiac arrest survivors",
+    "authors": [
+      "Annette Waldemar",
+      "Johan Israelsson",
+      "Katarina Heimburg",
+      "Erik Blennow Nordström",
+      "Per Nordberg",
+      "Anders Bremer",
+      "Kristofer Årestedt",
+      "Ingela Thylén"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-01",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101235"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Waldemar A",
+      "Israelsson J",
+      "Heimburg K",
+      "Nordström EB",
+      "Nordberg P",
+      "Bremer A",
+      "Årestedt K",
+      "Thylén I"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41499113",
     "pmid": "41499113",
     "doi": "10.1001/jamanetworkopen.2025.52832",
