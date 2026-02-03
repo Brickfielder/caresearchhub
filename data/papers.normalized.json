@@ -189,6 +189,42 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1177/27536386251380855",
+    "doi": "10.1177/27536386251380855",
+    "title": "Paramedics’ experiences of treating Out-of-Hospital Cardiac Arrest (OHCA) patients during the COVID-19 pandemic in the United Kingdom (UK): A qualitative reflexive thematic analysis",
+    "authors": [
+      "Abdulkarim A. Almazrua",
+      "Christopher M. Smith",
+      "Terry P. Brown",
+      "Claire A. Hawkes"
+    ],
+    "journal": "Paramedicine",
+    "year": 2026,
+    "date": "2026-01",
+    "abstract": "Background: The COVID-19 pandemic caused severe disruptions to healthcare systems, including emergency and prehospital services. Despite the unprecedented challenges posed by the COVID-19 crisis, ambulance clinicians, particularly paramedics, continued to provide life-saving but high-risk prehospital interventions during resuscitation attempts on Out-of-Hospital Cardiac Arrest (OHCA) cases. Despite the high levels of COVID-19 infection in the United Kingdom (UK) and the strain on resources, the pandemic's impact on OHCA care delivery and paramedics’ working conditions remains an evolving area of inquiry. As a result, this study aims to investigate UK paramedics’ perspectives and experiences whilst delivering OHCA care during the COVID-19 pandemic, exploring the potential challenges and adaptations, as well as the impact on their psychological well-being. Methods: Semi-structured interviews were conducted with fourteen National Health Service (NHS) paramedics who attended OHCA patients during the pandemic. Participants were recruited through social media channels (X) and the research team's professional to ensure a diverse sample of age groups, academic qualifications, prehospital experience and ambulance care roles. Interview transcripts were analysed using a critical realist approach to reflexive thematic analysis. Findings: Seven themes were identified: issues around Personal Protective Equipment (PPE) use, dynamic guidelines, changes in the public's care-seeking behaviour, hindered communication, delayed care delivery, heightened psychological distress and positive aspects of the pandemic. Conclusion: This study identified a set of challenges to OHCA care that were consistently encountered by participants, regardless of their education and experience levels. In other words, these challenges were rather widespread within ambulance services and possibly reflected the national prehospital response to time-critical and life-threatening conditions. Our findings revealed some positive aspects, such as public support and camaraderie. However, our findings emphasise the need to protect and prioritise the well-being of frontline paramedics and ambulance staff, especially under extraordinary circumstances such as global health outbreaks.",
+    "links": {
+      "doi": "https://doi.org/10.1177/27536386251380855"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom",
+    "country": "United Kingdom",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Almazrua AA",
+      "Smith CM",
+      "Brown TP",
+      "Hawkes CA"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2025.101179",
     "doi": "10.1016/j.resplu.2025.101179",
     "title": "Physical, psychological, cognitive, social health outcomes, and health-related quality of life in out-of-hospital cardiac arrest survivors and co-survivors: 3-month outcomes from the Quality Cardiac Arrest Survivorship cohort study (QualiCAS)",
@@ -348,6 +384,44 @@
       "Amog K",
       "Agarwal S",
       "Seaton MB"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41251702",
+    "pmid": "41251702",
+    "doi": "10.1007/s00063-025-01349-7",
+    "title": "[Aims of rehabilitation after successful resuscitation].",
+    "authors": [
+      "Christian Weimar"
+    ],
+    "journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+    "year": 2025,
+    "date": "2025-11-18",
+    "abstract": "After successful resuscitation, cases of persisting neurological deficits or prolonged intensive care usually require inpatient neurological rehabilitation treatment. Depending on the severity this is either early neurological and neurosurgical rehabilitation in phase B as a continuation of acute hospital treatment or neurological rehabilitation in phase C or D. To relieve the burden on intensive care and monitoring wards in acute care hospitals, phase B often initially involves intensive care with weaning from ventilation and decannulation. In this phase, quantitative and qualitative disturbances of consciousness often occur, along with disorientation and behavioral disorders in the sense of organic psychosis or delirium. After reorientation and sufficient independence in activities of daily living, rehabilitation with a focus on the remaining individual neurological and neuropsychological deficits is then possible, which can individually be very different. This requires regular monitoring of progress and adjustment of therapy goals. Residual emotional, memory or cognitive problems after discharge from inpatient rehabilitation can often prevent return to work and can pose major challenges to home life.",
+    "links": {
+      "doi": "https://doi.org/10.1007/s00063-025-01349-7",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41251702"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Critical Care",
+      "Neurological Rehabilitation",
+      "Resuscitation",
+      "Activities of Daily Living"
+    ],
+    "country": "Deutschland",
+    "domains": [
+      "Cognitive",
+      "Participation"
+    ],
+    "setting": "Unclear",
+    "normalizedAuthors": [
+      "Weimar C"
     ],
     "isAbstractTruncated": false
   },
