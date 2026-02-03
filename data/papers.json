@@ -290,6 +290,42 @@
     "country": "Deutschland. christian.weimar@bdh-klinik-elzach.de"
   },
   {
+    "id": "41417091",
+    "pmid": "41417091",
+    "doi": "10.1007/s00063-025-01352-y",
+    "title": "[The Cardiac Arrest Receiving Team based on the Freiburg model : Structuring of postresuscitation care following nontraumatic, out-of-hospital cardiac arrest in an interdisciplinary team].",
+    "authors": [
+      "M Bork",
+      "J-S Pooth",
+      "P Biever",
+      "H-J Busch"
+    ],
+    "journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+    "year": 2025,
+    "date": "2025-12-19",
+    "abstract": "The causes of out-of-hospital cardiac arrest (OHCA) are diverse and can broadly be divided into cardiac and noncardiac causes. Despite successful cardiopulmonary resuscitation (CPR), in-hospital mortality remains high and is influenced by multiple factors. In recent years, alongside the prevention of recurrent cardiac arrest, the development of targeted treatment strategies has increasingly come into focus. Recommendations for care within specialized structures exist but have not yet been implemented nationwide. In parallel, the German Resuscitation Council (GRC) reaffirmed its 2015 recommendation to treat OHCA patients in specialized and certified centers (Cardiac Arrest Centers, CAC). Against this background, an interdisciplinary care concept was established at the University Medical Center Freiburg, represented by the so-called Cardiac Arrest Receiving Team (CART). The aim is to provide OHCA patients with standardized pathways that ensure clear diagnostic and therapeutic strategies immediately after hospital admission. Core elements include the defined composition of the CART, explicit criteria for determining the primary place of care, and the implementation of structured, sequential workflows.",
+    "links": {
+      "doi": "https://doi.org/10.1007/s00063-025-01352-y",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41417091"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Cardiopulmonary Resuscitation",
+      "Patient Care Team",
+      "Germany",
+      "Interdisciplinary Communication",
+      "Intersectoral Collaboration",
+      "Aftercare",
+      "Emergency Medical Services"
+    ],
+    "country": "Deutschland"
+  },
+  {
     "id": "39866903",
     "pmid": "39866903",
     "doi": "10.1016/j.conctc.2024.101426",
