@@ -5375,6 +5375,52 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "39462752",
+    "pmid": "39462752",
+    "doi": "10.1016/j.genhosppsych.2024.10.015",
+    "title": "Thematic analysis of cardiac arrest survivors' and their caregivers' psychosocial intervention needs.",
+    "authors": [
+      "Alexander M Presciutti",
+      "Bonnie Siry-Bove",
+      "Robert A Parker",
+      "Ona Wu",
+      "Jonathan Elmer",
+      "Michael W Donnino",
+      "Sarah M Perman",
+      "Ana-Maria Vranceanu"
+    ],
+    "journal": "General hospital psychiatry",
+    "year": 2024,
+    "date": "2024-10-22",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.genhosppsych.2024.10.015",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39462752",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12091842"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12091842",
+    "country": "United States",
+    "domains": [
+      "Caregiver"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Presciutti AM",
+      "Siry-Bove B",
+      "Parker RA",
+      "Wu O",
+      "Elmer J",
+      "Donnino MW",
+      "Perman SM",
+      "Vranceanu A"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "38260118",
     "pmid": "38260118",
     "doi": "10.1016/j.resplu.2023.100546",
