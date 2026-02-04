@@ -611,6 +611,48 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1161/circ.152.suppl_3.sat905",
+    "doi": "10.1161/circ.152.suppl_3.sat905",
+    "title": "Abstract Sat905: Two-Year Growth and Evaluation of an Online Support Community for All Those Affected by Cardiac Arrest",
+    "authors": [
+      "Mary Newman",
+      "Alexander Presciutti",
+      "Joe Farrell",
+      "Joshua Lupton",
+      "Gina Peattie",
+      "Stephen Sanko",
+      "Sarah Perman"
+    ],
+    "journal": "Circulation",
+    "year": 2025,
+    "date": "2025-11-04",
+    "abstract": "Introduction/Background: Cardiac arrest survivors often experience physical, cognitive, emotional, and social challenges that can linger for years. Co-survivors and lay responders can also experience challenges. The Sudden Cardiac Arrest Foundation (SCAF) built the Cardiac Arrest Survivor Alliance™ (CASA) in response to the growing recognition of the need for support resources for all those impacted by cardiac arrest. Led by a multidisciplinary team of physicians, psychologists, researchers, advocates, and other stakeholders, CASA provides a free online community, access to resources, peer support, educational webinars, and virtual meetups to help members adjust to cardiac arrest. Goals/Aims: We aimed to evaluate growth of the community and engagement two years after launch. Methods/Approach: We built CASA using Mighty Networks (MN) and recruited members through SCAF’s website, newsletters, and social media. Additional recruitment resulted from articles about CASA in multiple publications, Internet searches, conference presentations, partner collaboration, regional chapter outreach, and member invitations. We obtained analytic reports through MN to evaluate CASA’s growth and engagement during the past 12 months, in comparison with earlier periods. Results/Data: As of May 31, 2025, CASA had 1,853 total members, including 431 new members in the preceeding 12 months, 493 contributing members, and 868 active members representing all regions of the United States as well as 20+ other countries, who made 8,242 contributions. Members connected both publicly and privately. There were 1,084 private messages from 208 message senders. Webinars and/or meetups were hosted 1-2 times/month, with attendance ranging from 14- 36. CASA’s engagement rate was 24%, exceeding the 15% MN benchmark for an active community. Conclusion: There is a tremendous ongoing need for survivorship support, including educational resources, peer support, and meetups and webinars. Further, there is a tremendous need to grow the community through outreach to discharge personnel in urban and rural hospitals to better serve the growing number of cardiac arrest survivors nationwide.",
+    "links": {
+      "doi": "https://doi.org/10.1161/circ.152.suppl_3.sat905"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
+    "country": "United States",
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Newman M",
+      "Presciutti A",
+      "Farrell J",
+      "Lupton J",
+      "Peattie G",
+      "Sanko S",
+      "Perman S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/s0300-9572(25)00768-3",
     "doi": "10.1016/s0300-9572(25)00768-3",
     "title": "Are Out-of-Hospital Cardiac Arrest Survivors Being Effectively Rehabilitated? A Scoping Review on Rehabilitation Delivery after Out-of-Hospital Cardiac Arrest",
