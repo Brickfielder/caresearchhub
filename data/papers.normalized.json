@@ -2182,7 +2182,17 @@
     "journal": "Resuscitation Plus",
     "year": 2025,
     "date": "2025-12",
-    "abstract": "",
+    "abstract": "Background: Out-of-hospital cardiac arrest (OHCA) survival varies globally and data from the Middle East are limited. Methods: We analyzed the Qatar national OHCA registry to describe patient characteristics, arrest circumstances, prehospital and in-hospital management, and outcomes. Results: The registry captures nationwide EMS-treated OHCAs and reports epidemiology, bystander response, resuscitation interventions, return of spontaneous circulation, and survival outcomes. Conclusion: These findings provide baseline benchmarks for OHCA care in Qatar and highlight opportunities for system improvement.",
+    "keywords": [
+      "out-of-hospital cardiac arrest",
+      "Qatar",
+      "registry",
+      "epidemiology",
+      "emergency medical services",
+      "outcomes"
+    ],
+    "design": "Registry study",
+    "country": "Qatar",
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2025.101200"
     },
