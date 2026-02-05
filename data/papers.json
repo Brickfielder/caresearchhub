@@ -1494,6 +1494,35 @@
     "country": "Japan"
   },
   {
+    "id": "10.1016/j.resplu.2025.101200",
+    "doi": "10.1016/j.resplu.2025.101200",
+    "title": "Out-of-Hospital Cardiac Arrest in Qatar: Epidemiology, Management, and Outcomes from a National Registry Study",
+    "authors": [
+      "Yavuz Yigit",
+      "Peter Alistair Cameron",
+      "Jassim Al Suwaidi",
+      "Loua Al Shaikh",
+      "Ibrahim Fawzy Hassan",
+      "Nidal Asaad",
+      "Nicholas Castle",
+      "Ian Lucas Howard",
+      "Abdulrahman Arabi",
+      "Atika Jabeen",
+      "Tim Richard Edmund Harris"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2025,
+    "date": "2025-12",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2025.101200"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "40241994",
     "pmid": "40241994",
     "doi": "10.1016/j.resplu.2025.100938",
