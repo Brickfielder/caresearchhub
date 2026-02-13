@@ -11,7 +11,7 @@
     "journal": "Resuscitation",
     "year": 2026,
     "date": "2026-01-20",
-    "abstract": "",
+    "abstract": "Aim: Little is known about how best to deliver support for the long-term recovery of cardiac arrest survivors, their family and close friends (co-survivors), or whether providing structured support is feasible. Working collaboratively, we have co-produced two online psychosocial and exercise rehabilitation care pathways for adult survivors and co-survivors – the Cardiac Arrest Recovery Enablement and Supported Self-management (CARESS) intervention. This study assesses the feasibility and acceptability of patient identification, recruitment, intervention delivery and outcomes assessment.\nMethod: A single arm, multi-centre feasibility study with an embedded process evaluation. We will test the acceptability and delivery of a new rehabilitation intervention in the NHS setting. We will recruit 30 cardiac arrest survivors discharged to home, and 30 co-survivors.\nThe CARESS rehabilitation intervention consists of three components delivered in real-time by video-call: (1) one-to-one consultation with a CARESS facilitator (week 1): a one-hour conversation to discuss motivation and set goals; (2) facilitator-led group support sessions (weeks 2–8; 1-hour): provided weekly, separately for survivors or co-survivors to develop their knowledge, skills, understanding and establish connections with peers; and (3) supervised group exercise rehabilitation sessions (weeks 3–8; up to 45 mins): provided weekly, for survivors to build confidence and fitness. Recruitment, retention, and completion of outcome measures will be evaluated. Exploratory outcomes will include health-related quality of life (PROPr 29+2), emotional wellbeing (HADS, WEMWBS), and fatigue (FACIT-f), measured at baseline (week 0) and post-intervention (week 11) to assess suitability for a randomised controlled trial. Interviews to explore participant and facilitator perspectives will inform the process evaluation.\nDiscussion: This study assesses the feasibility of online delivery and findings will inform a future multi-centre randomised trial.\nTrial registration: ISRCTN16382742, prospectively registered 28/01/2025.",
     "links": {
       "doi": "https://doi.org/10.1016/j.resuscitation.2026.110978",
       "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41570883"
@@ -21,8 +21,12 @@
       "has_fulltext": false
     },
     "country": "United Kingdom",
-    "domains": [],
+    "domains": [
+      "Psychological",
+      "Qol"
+    ],
     "setting": "Mixed",
+    "design": "Prospective cohort",
     "normalizedAuthors": [
       "Mion M",
       "Joshi VL"
@@ -113,7 +117,24 @@
     "journal": "Resuscitation Plus",
     "year": 2026,
     "date": "2026-02",
-    "abstract": "",
+    "abstract": "Aim: Little is known about how best to deliver support for the long-term recovery of cardiac arrest survivors, their family and close friends (co-survivors), or whether providing structured support is feasible. Working collaboratively, we have co-produced two online psychosocial and exercise rehabilitation care pathways for adult survivors and co-survivors – the Cardiac Arrest Recovery Enablement and Supported Self-management (CARESS) intervention. This study assesses the feasibility and acceptability of patient identification, recruitment, intervention delivery and outcomes assessment.\nMethod: A single arm, multi-centre feasibility study with an embedded process evaluation. We will test the acceptability and delivery of a new rehabilitation intervention in the NHS setting. We will recruit 30 cardiac arrest survivors discharged to home, and 30 co-survivors.\nThe CARESS rehabilitation intervention consists of three components delivered in real-time by video-call: (1) one-to-one consultation with a CARESS facilitator (week 1): a one-hour conversation to discuss motivation and set goals; (2) facilitator-led group support sessions (weeks 2–8; 1-hour): provided weekly, separately for survivors or co-survivors to develop their knowledge, skills, understanding and establish connections with peers; and (3) supervised group exercise rehabilitation sessions (weeks 3–8; up to 45 mins): provided weekly, for survivors to build confidence and fitness. Recruitment, retention, and completion of outcome measures will be evaluated. Exploratory outcomes will include health-related quality of life (PROPr 29+2), emotional wellbeing (HADS, WEMWBS), and fatigue (FACIT-f), measured at baseline (week 0) and post-intervention (week 11) to assess suitability for a randomised controlled trial. Interviews to explore participant and facilitator perspectives will inform the process evaluation.\nDiscussion: This study assesses the feasibility of online delivery and findings will inform a future multi-centre randomised trial.\nTrial registration: ISRCTN16382742, prospectively registered 28/01/2025.",
+    "keywords": [
+      "Cardiac arrest",
+      "Survivorship",
+      "Recovery",
+      "Survivors",
+      "Co-survivors",
+      "Self-management",
+      "Behavioural interventions"
+    ],
+    "country": "United Kingdom",
+    "design": "Single-arm multi-centre feasibility study (embedded process evaluation)",
+    "setting": "Mixed",
+    "domains": [
+      "Psychological",
+      "Qol",
+      "Caregiver"
+    ],
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2026.101270"
     },
@@ -121,8 +142,6 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [],
-    "setting": "Mixed",
     "normalizedAuthors": [
       "Pearson N",
       "McGregor G",
