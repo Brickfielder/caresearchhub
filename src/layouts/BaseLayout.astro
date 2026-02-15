@@ -3,6 +3,7 @@ import {
   getAboutUrl,
   getBrowseUrl,
   getCollaborateUrl,
+  getEventsOpportunitiesUrl,
   getHeatmapUrl,
   getOrganisationsUrl,
   getOngoingStudiesUrl,
@@ -21,6 +22,7 @@ const privacyHref = getSiteUrl('privacy');
 const collaborateHref = getCollaborateUrl();
 const organisationsHref = getOrganisationsUrl();
 const ongoingStudiesHref = getOngoingStudiesUrl();
+const eventsOpportunitiesHref = getEventsOpportunitiesUrl();
 ---
 
 <!doctype html>
@@ -78,6 +80,9 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
               <a class="text-white transition hover:text-teal-200" href={browseHref}>Browse</a>
               <a class="text-white transition hover:text-teal-200" href={collaborateHref}
                 >Collaborate</a
+              >
+              <a class="text-white transition hover:text-teal-200" href={eventsOpportunitiesHref}
+                >Events &amp; Opportunities</a
               >
               <div class="relative" data-research-nav>
                 <button
@@ -239,6 +244,10 @@ const ongoingStudiesHref = getOngoingStudiesUrl();
           <a
             class="px-1 py-3 text-left text-white transition hover:text-teal-200"
             href={collaborateHref}>Collaborate</a
+          >
+          <a
+            class="px-1 py-3 text-left text-white transition hover:text-teal-200"
+            href={eventsOpportunitiesHref}>Events &amp; Opportunities</a
           >
           <div class="py-1" data-research-nav>
             <button
