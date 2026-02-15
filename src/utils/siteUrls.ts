@@ -61,6 +61,8 @@ export const getHeatmapUrl = (): string => joinUrl(SITE_BASE_URL, 'heatmap');
 export const getCollaborateUrl = (): string => joinUrl(SITE_BASE_URL, 'collaborate');
 export const getOrganisationsUrl = (): string => joinUrl(SITE_BASE_URL, 'organisations');
 export const getOngoingStudiesUrl = (): string => joinUrl(SITE_BASE_URL, 'ongoing-studies');
+export const getEventsOpportunitiesUrl = (): string =>
+  joinUrl(SITE_BASE_URL, 'events-opportunities');
 export const getSiteUrl = (path = ''): string => joinUrl(SITE_BASE_URL, path);
 export const getPaperSlug = (paperId: string): string => encodePaperId(paperId);
 export const getPaperPermalink = (paperId: string): string =>
