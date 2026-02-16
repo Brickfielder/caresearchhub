@@ -192,6 +192,58 @@
     "corrCountryName": "Sweden"
   },
   {
+    "id": "41697682",
+    "pmid": "41697682",
+    "doi": "10.1001/jamaneurol.2025.5614",
+    "title": "Long-Term Outcomes and Recovery Trajectories in Out-of-Hospital Cardiac Arrest: A 2-Year Follow-Up of the Randomized Clinical TTM2 Trial.",
+    "authors": [
+      "Malin Hultgren",
+      "Erik Blennow Nordström",
+      "Susann Ullén",
+      "Niklas Nielsen",
+      "Josef Dankiewicz",
+      "Janus Christian Jakobsen",
+      "Katarina Heimburg",
+      "Marion Moseby-Knappe",
+      "Jan Belohlávek",
+      "Mattias Bohm",
+      "Alain Cariou",
+      "Glenn Eastwood",
+      "Hans Friberg",
+      "Anders M Grejs",
+      "Naomi Hammond",
+      "Matthias Hänggi",
+      "Juraj Hrecko",
+      "Manuela Iten",
+      "Thomas R Keeble",
+      "Christoph Leithner",
+      "Helena Levin",
+      "Marco Mion",
+      "Christian Rylander",
+      "Claudia Schrag",
+      "Matthew Thomas",
+      "Matt P Wise",
+      "Paul Young",
+      "Tobias Cronberg",
+      "Gisela Lilja"
+    ],
+    "journal": "JAMA neurology",
+    "year": 2026,
+    "date": "2026-02-16",
+    "abstract": "IMPORTANCE: Guidelines for temperature control following out-of-hospital cardiac arrest (OHCA) are based on trials with end points of 180 days or fewer.\nOBJECTIVES: To investigate if targeted hypothermia, compared with targeted normothermia with early treatment of fever, affects functional outcome focusing on societal participation or cognitive functioning at 24 months in initially comatose OHCA survivors. An additional objective was to explore recovery trajectories up to 24 months post arrest.\nDESIGN, SETTING, AND PARTICIPANTS: The randomized clinical Targeted Hypothermia vs Targeted Normothermia After OHCA (TTM2) trial (November 2017-2020) included blinded follow-up at 1, 6, and 24 months post randomization (December 2017-June 2022), with analyses performed in 2024. TTM2 was an international, multicenter study conducted at 61 hospitals in 14 countries. The study included 1861 adults with OHCA of presumed cardiac or unknown cause who were initially comatose. There were 992 survivors at 1 month, 943 at 6 months, and 835 at 24 months. Nonparticipation rates at follow-up were 44 (4%), 107 (11%), and 165 (20%), respectively.\nINTERVENTION: Participants were randomized 1:1 to undergo temperature control via targeted hypothermia (33 °C) or targeted normothermia and early treatment of fever (≥37.8 °C).\nMAIN OUTCOMES AND MEASURES: The functional outcome, including societal participation, was assessed using the Glasgow Outcome Scale-Extended (GOSE). Cognitive function was assessed using the Montreal Cognitive Assessment (MoCA) and the Symbol Digit Modalities Test (SDMT).\nRESULTS: Of the participants who were followed up, 84% were male, with a mean (SD) age of 60 (14) years, and clinical variables were similar between the hypothermia and normothermia temperature groups. No significant differences were found between temperature groups regarding societal participation (GOSE: odds ratio, 0.97 [95% CI, 0.72-1.30]) or cognitive function (MoCA: mean difference, -0.02 [95% CI, -0.67 to 0.63]; SDMT: mean difference, -0.09 [95% CI, -0.33 to 0.16]) at 24 months. Improvement for GOSE was significant within the first 6 months (1 to 6 months: n = 1707 [95% CI, -2.00 to -1.50]; P < .001; 6 to 24 months: n = 1606 [95% CI, -0.50 to <0.001]; P = .10). Intraindividual improvement and decline corresponding to thresholds for minimal important differences were observed for societal participation and cognitive function up to 24 months.\nCONCLUSIONS AND RELEVANCE: Targeted hypothermia, compared with targeted normothermia, did not affect societal participation or cognitive function at 24 months, suggesting no longer-term effect of hypothermia for the explored outcomes. The intraindividual changes observed indicate variability in recovery.\nTRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT02908308.",
+    "links": {
+      "doi": "https://doi.org/10.1001/jamaneurol.2025.5614",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41697682"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Sweden",
+    "corrCountryCode": "SE",
+    "corrCountryName": "Sweden"
+  },
+  {
     "id": "10.1177/27536386251380855",
     "doi": "10.1177/27536386251380855",
     "title": "Paramedics’ experiences of treating Out-of-Hospital Cardiac Arrest (OHCA) patients during the COVID-19 pandemic in the United Kingdom (UK): A qualitative reflexive thematic analysis",
