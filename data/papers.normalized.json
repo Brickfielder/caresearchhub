@@ -209,6 +209,63 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/j.tcm.2026.02.011",
+    "doi": "10.1016/j.tcm.2026.02.011",
+    "title": "Challenges in the treatment of out-of-hospital cardiac arrest",
+    "authors": [
+      "Leila Ulmanova",
+      "Arianna Morena",
+      "Bianca Citterio",
+      "Luca Raone",
+      "Roberto Primi",
+      "Alessia Currao",
+      "Sara Bendotti",
+      "Laura Calabrese",
+      "Silvia Miette Pontremoli",
+      "Elisa Gianino",
+      "Margherita Paggi",
+      "Simona Procopio",
+      "Simone Damiani",
+      "Carola Bonazzi",
+      "Enrico Baldi",
+      "Simone Savastano",
+      "Leonardo De Luca"
+    ],
+    "journal": "Trends in Cardiovascular Medicine",
+    "year": 2026,
+    "date": "2026-02",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.tcm.2026.02.011"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Ulmanova L",
+      "Morena A",
+      "Citterio B",
+      "Raone L",
+      "Primi R",
+      "Currao A",
+      "Bendotti S",
+      "Calabrese L",
+      "Pontremoli SM",
+      "Gianino E",
+      "Paggi M",
+      "Procopio S",
+      "Damiani S",
+      "Bonazzi C",
+      "Baldi E",
+      "Savastano S",
+      "Luca LD"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41499113",
     "pmid": "41499113",
     "doi": "10.1001/jamanetworkopen.2025.52832",
