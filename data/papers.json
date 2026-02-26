@@ -167,14 +167,22 @@
     "journal": "Trends in Cardiovascular Medicine",
     "year": 2026,
     "date": "2026-02",
-    "abstract": "",
+    "abstract": "Out-of-hospital cardiac arrest (OHCA) remains a leading global mortality challenge, with survival rates below 10% despite significant advancements. This review addresses persistent challenges across the spectrum of OHCA care, highlighting key areas for improvement in alignment with contemporary guidelines, including the recently updated European Resuscitation Council 2025 recommendations. Epidemiologically, progress is hindered by the lack of standardized, multi-territorial registries that prevent effective geospatial analysis and limit the reduction of health inequities. Improving the “Chain of Survival” requires easier, faster public access to defibrillation through the mandatory and widespread installation of Public Access Defibrillators (PADs) and integration with digital tools. Management of refractory ventricular fibrillation is evolving to include alternative defibrillation techniques (Vector-Change and Double Sequential External Defibrillation), as well as novel therapies such as stellate ganglion block. Post-resuscitation care requires defining optimal strategies for complete coronary revascularization and P2Y12 inhibition. Crucially, the long-term phase is inconsistent: the high prevalence of unassessed cognitive and psychological impairments among survivors necessitates enhanced interdisciplinary collaboration and routine long-term follow-up, as emphasized by current guidelines. Overcoming these challenges, from data collection to recovery support, is vital not only for enhancing post-OHCA survival but also for enabling functional recovery and quality of life.",
     "links": {
       "doi": "https://doi.org/10.1016/j.tcm.2026.02.011"
     },
     "flags": {
       "open_access": true,
       "has_fulltext": true
-    }
+    },
+    "keywords": [
+      "Out-of-hospital Cardiac Arrest",
+      "Epidemiology",
+      "Ventricular Fibrillation",
+      "Survival",
+      "Treatment"
+    ],
+    "country": "Italy"
   },
   {
     "id": "41499113",
