@@ -242,7 +242,18 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [],
+    "keywords": [
+      "Out-of-hospital Cardiac Arrest",
+      "Epidemiology",
+      "Ventricular Fibrillation",
+      "Survival",
+      "Treatment"
+    ],
+    "country": "Italy",
+    "domains": [
+      "Cognitive",
+      "Qol"
+    ],
     "setting": "OHCA",
     "normalizedAuthors": [
       "Ulmanova L",
@@ -263,15 +274,50 @@
       "Savastano S",
       "Luca LD"
     ],
-    "isAbstractTruncated": false,
-    "keywords": [
-      "Out-of-hospital Cardiac Arrest",
-      "Epidemiology",
-      "Ventricular Fibrillation",
-      "Survival",
-      "Treatment"
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41767207",
+    "pmid": "41767207",
+    "doi": "10.1016/j.resplu.2026.101258",
+    "title": "Characteristics, management, and outcomes of perioperative cardiac arrest in children undergoing noncardiac surgery procedures: a scoping review.",
+    "authors": [
+      "Anisha S Nadkarni",
+      "Lisa Hwang",
+      "Donald H Shaffner",
+      "Alejandro V Garcia",
+      "Katie Lobner",
+      "Melania M Bembea"
     ],
-    "country": "Italy"
+    "journal": "Resuscitation plus",
+    "year": 2026,
+    "date": "2026-02-05",
+    "abstract": "INTRODUCTION: The primary goal of this scoping review was to create a comprehensive synthesis of the characteristics, management, and outcomes of perioperative CA events in children undergoing noncardiac surgery.\nMETHODS: We conducted electronic searches of PubMed, Embase, and Scopus in February 2024, with an update in June 2025. Inclusion and exclusion criteria were defined a priori. We included studies in children (age <18 years) undergoing noncardiac surgery, experiencing CA while under the care of anesthesia personnel or in immediate postoperative phases, with at least one pre-defined survival, neurofunctional, quality of life, or healthcare utilization outcome ascertained. Two authors reviewed citations independently with a third author solving conflicts.\nRESULTS: Of 801 unique citations, 18 studies met inclusion criteria. There were 17 retrospective cohort studies, 1 cross sectional study, and no interventional studies. Median number of CA events per study was 21 (interquartile range, 13-27). Survival to hospital discharge ranged from 30% to 91% overall, with survival of 46% in the U.S.-based study. Younger age, higher American Society of Anesthesiologists score, and emergent procedures were associated with higher CA event occurrence. No study reported data on CA management, including quality of resuscitation, medication use, or defibrillation use. No studies obtained neurofunctional outcomes using standardized measures. No studies addressed long-term survival, neurofunctional, healthcare utilization, or quality of life outcomes after hospital discharge.\nCONCLUSION: Studies on pediatric perioperative CA are heterogenous, with modest sample sizes, and variability in definitions and reporting of outcomes. A large knowledge gap remains in CA management, neurologic consequences, and long-term outcomes.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101258",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41767207",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12936754"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12936754",
+    "country": "United States",
+    "domains": [
+      "Qol"
+    ],
+    "setting": "Mixed",
+    "design": "Retrospective cohort",
+    "normalizedAuthors": [
+      "Nadkarni AS",
+      "Hwang L",
+      "Shaffner DH",
+      "Garcia AV",
+      "Lobner K",
+      "Bembea MM"
+    ],
+    "isAbstractTruncated": false
   },
   {
     "id": "41499113",
@@ -1257,6 +1303,73 @@
       "Wise MP",
       "Cronberg T",
       "Lilja G"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41443583",
+    "pmid": "41443583",
+    "doi": "10.1016/j.resuscitation.2025.110933",
+    "title": "Critical Illness Related Cardiac Arrest (CIRCA): a prospective investigation of the incidence and outcome of cardiac arrest within intensive care units in the United Kingdom.",
+    "authors": [
+      "Robert Darnell",
+      "Julia Broomhall",
+      "Christopher Newell",
+      "Emma Gendall",
+      "David Harrison",
+      "Kathy Rowan",
+      "James Doidge",
+      "Paul Mouncey",
+      "Doug Gould",
+      "Matt Thomas"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-12-22",
+    "abstract": "BACKGROUND: Cardiac arrest is frequently categorised by the event location, capturing differences in epidemiology, response and outcome. In the United Kingdom (UK) the National Cardiac Arrest Audit excludes arrests not attended by the resuscitation team, such as in many Intensive Care Units (ICU). Differences in staffing and skill mix within ICUs mean the risk of cardiac arrest occurring, the involvement (or not) of the resuscitation team, and the probability of return of spontaneous circulation (ROSC) are all likely to differ from other locations. This study aimed to determine the incidence proportion, risk factors and outcomes of in-hospital cardiac arrest (IHCA) in the ICU.\nMETHODS: This was a 12-month prospective observational study of in-hospital cardiac arrest within 93 adult ICUs in the UK with data linkage to two national clinical audits. The recruitment period was adapted to accommodate the first two waves of the COVID-19 pandemic.\nRESULTS: In a 53,620 patient cohort, 726 experienced IHCA in ICU [Incidence proportion = 1.4 % (95 % CI 1.3-1.5 %)]. Of these, 35.4 % and 29.6 % survived to ICU and hospital discharge and 18.7 % survived to 12 months. Logistic regression revealed male sex, non-white or not stated ethnicity, CPR within 24 h before ICU admission and source of/reason for ICU admission were associated with increased risk of IHCA in ICU. For those with ROSC, increasing age, COVID-19 and increasing duration of resuscitation attempt were associated with a lower probability of survival to hospital discharge. Survivors had a reduced quality of life.\nCONCLUSION: Cardiac arrest is common in ICUs and carries high mortality, although pandemic-related study disruption reduces the certainty in our results. We highlight the role of ethnicity, existence of sub-phenotypes, and trials specific to cardiac arrest in the critically ill as areas for further research to reduce incidence and improve outcomes.\nTRIAL REGISTRATION: The CIRCA Study was registered at ClinicalTrials.gov on 7th January 2020 (NCT04219384).",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110933",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41443583"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Heart Arrest",
+      "Male",
+      "United Kingdom",
+      "Female",
+      "Incidence",
+      "Intensive Care Units",
+      "Prospective Studies",
+      "Middle Aged",
+      "Aged",
+      "Critical Illness",
+      "Cardiopulmonary Resuscitation",
+      "Risk Factors",
+      "COVID-19",
+      "Hospital Mortality",
+      "SARS-CoV-2"
+    ],
+    "country": "United Kingdom",
+    "domains": [
+      "Qol"
+    ],
+    "setting": "IHCA",
+    "design": "Prospective cohort",
+    "normalizedAuthors": [
+      "Darnell R",
+      "Broomhall J",
+      "Newell C",
+      "Gendall E",
+      "Harrison D",
+      "Rowan K",
+      "Doidge J",
+      "Mouncey P",
+      "Gould D",
+      "Thomas M"
     ],
     "isAbstractTruncated": false
   },
