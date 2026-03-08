@@ -383,6 +383,27 @@
     "country": "Singapore"
   },
   {
+    "id": "10.21315/mjms-10-2025-730",
+    "doi": "10.21315/mjms-10-2025-730",
+    "title": "Recovery Phase in the Chain of Survival in Cardiac Arrest Patients: Scoping Review",
+    "authors": [
+      "Kameliana",
+      "Titin Andri Wihastuti",
+      "Suryanto"
+    ],
+    "journal": "Malaysian Journal of Medical Sciences",
+    "year": 2026,
+    "date": "2026-02-28",
+    "abstract": "Sudden cardiac arrest (SCA) remains a major global health concern, with an estimated 300,000 to 400,000 deaths annually in the United States and around two million worldwide. In 2020, the American Heart Association (AHA) updated the Chain of Survival by adding a new component recovery to highlight the importance of post-resuscitation care. However, the implementation of this recovery phase remains limited and requires further exploration. This study aimed to review the implementation of the recovery phase within the Chain of Survival. A scoping review design was employed, with literature searches conducted in ScienceDirect, ProQuest, Sage, and PubMed databases using the keywords (“Cardiac Arrest”) AND (“Chain of Survival”) AND (“Recovery”) AND (“Rehabilitation”). The inclusion criteria included articles published within the last five years, written in English, and available in full-text open access format. Of the 330 articles initially identified, 13 met the eligibility criteria and were analysed using the Joanna Briggs Institute framework, with the findings reported in accordance with the PRISMA-ScR guidelines. Three major themes emerged: (i) multidimensional challenges among survivors, including physical, cognitive, psychological, and social impairments; (ii) multidisciplinary interventions, such as the ROCK and SCARF programmes, which were shown to improve quality of life, reduce fatigue, and enhance independence; and (iii) factors influencing recovery, including biomarkers, prognostic scores, and socioeconomic status. The recovery phase is a crucial yet often neglected component of the Chain of Survival. Post-cardiac arrest care should adopt a comprehensive and integrated approach involving evidence-based rehabilitation, psychological support, and family counselling to achieve optimal recovery and long-term quality of life.",
+    "links": {
+      "doi": "https://doi.org/10.21315/mjms-10-2025-730"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "41565214",
     "pmid": "41565214",
     "doi": "10.1093/eurjcn/zvaf226",
