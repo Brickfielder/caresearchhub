@@ -12,7 +12,8 @@ import {
 import '../styles/global.css';
 const {
   title = 'Cardiac Arrest Research Hub',
-  description = 'Knowledge hub for survivorship after cardiac arrest'
+  description = 'Knowledge hub for survivorship after cardiac arrest',
+  heroTheme = 'default'
 } = Astro.props;
 const homeHref = getSiteUrl();
 const browseHref = getBrowseUrl();
@@ -53,13 +54,26 @@ const eventsOpportunitiesHref = getEventsOpportunitiesUrl();
     >
       Skip to content
     </a>
-    <header class="relative isolate overflow-visible bg-slate-800 text-white z-30">
-      <div class="absolute inset-0 bg-gradient-to-b from-slate-800 via-slate-800/95 to-slate-900">
-      </div>
-      <div
-        class="absolute inset-0 opacity-20 bg-[radial-gradient(#2dd4bf_1px,transparent_1px)] bg-[size:40px_40px]"
-      >
-      </div>
+    <header
+      class:list={[
+        'relative isolate overflow-visible text-white z-30',
+        heroTheme === 'survivorship-grid' ? 'header-theme-grid' : 'bg-slate-800'
+      ]}
+    >
+      {
+        heroTheme === 'survivorship-grid' ? (
+          <div class="header-theme-grid__art" aria-hidden="true"></div>
+        ) : (
+          <>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-800 via-slate-800/95 to-slate-900">
+            </div>
+            <div
+              class="absolute inset-0 opacity-20 bg-[radial-gradient(#2dd4bf_1px,transparent_1px)] bg-[size:40px_40px]"
+            >
+            </div>
+          </>
+        )
+      }
       <nav class="relative border-b border-white/10">
         <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
           <a
@@ -162,7 +176,7 @@ const eventsOpportunitiesHref = getEventsOpportunitiesUrl();
       </nav>
       {
         Astro.slots.has('hero') && (
-          <div class="relative mx-auto max-w-5xl px-6 pb-20 pt-16 text-center lg:px-8">
+          <div class="relative mx-auto max-w-5xl px-6 pb-14 pt-10 text-center lg:px-8 lg:pb-16 lg:pt-12">
             <slot name="hero" />
           </div>
         )
