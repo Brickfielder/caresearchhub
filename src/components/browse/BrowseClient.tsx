@@ -45,11 +45,11 @@ const PaperCard = ({ paper }: PaperCardProps) => {
   return (
     <article
       key={paper.id}
-      class="group rounded-3xl border border-white/70 bg-white/95 p-6 shadow-xl ring-1 ring-indigo-50 transition hover:-translate-y-1 hover:shadow-2xl dark:border-slate-800/80 dark:bg-slate-900 dark:ring-slate-800/60"
+      class="group rounded-[1.75rem] border border-white/75 bg-white/95 p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 transition hover:-translate-y-1 hover:border-teal-200 hover:shadow-[0_22px_50px_rgba(15,23,42,0.1)] dark:border-slate-800/80 dark:bg-slate-900 dark:ring-slate-800/60"
     >
       <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <h3 class="text-lg font-semibold text-slate-900 transition group-hover:text-indigo-600 dark:text-slate-100">
+          <h3 class="text-lg font-semibold text-slate-900 transition group-hover:text-teal-700 dark:text-slate-100">
             <a href={getPaperUrl(paper)}>{paper.title}</a>
           </h3>
           <p class="text-sm text-slate-600 dark:text-slate-300">
@@ -72,10 +72,10 @@ const PaperCard = ({ paper }: PaperCardProps) => {
           <span>{paper.year}</span>
         </div>
       </div>
-      <details class="mt-3 rounded-2xl border border-indigo-50/70 bg-indigo-50/40 p-3 transition open:shadow-sm dark:border-indigo-900/60 dark:bg-indigo-900/10">
-        <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-indigo-700 transition hover:text-indigo-800 dark:text-indigo-200 dark:hover:text-indigo-100">
+      <details class="mt-3 rounded-2xl border border-teal-100/80 bg-teal-50/40 p-3 transition open:shadow-sm dark:border-teal-900/40 dark:bg-teal-900/10">
+        <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-teal-700 transition hover:text-teal-800 dark:text-teal-200 dark:hover:text-teal-100">
           <span>Abstract</span>
-          <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">
+          <span class="text-xs font-bold uppercase tracking-wide text-teal-500 dark:text-teal-200">
             {'▼'}
           </span>
         </summary>
@@ -90,7 +90,7 @@ const PaperCard = ({ paper }: PaperCardProps) => {
         {(paper.domains ?? []).map((domain) => (
           <span
             key={domain}
-            class="rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-200"
+            class="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-teal-700 dark:bg-teal-900/30 dark:text-teal-200"
           >
             {domain}
           </span>
@@ -99,7 +99,7 @@ const PaperCard = ({ paper }: PaperCardProps) => {
       <div class="mt-5 flex flex-wrap gap-2 text-sm">
         {paper.links.pubmed && (
           <a
-            class="inline-flex items-center gap-2 rounded-xl border border-indigo-100 bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-700 transition hover:border-indigo-200 hover:bg-indigo-100 dark:border-indigo-500/40 dark:bg-indigo-900/20 dark:text-indigo-200"
+            class="inline-flex items-center gap-2 rounded-xl border border-teal-100 bg-teal-50 px-3 py-1.5 text-xs font-semibold text-teal-700 transition hover:border-teal-200 hover:bg-teal-100 dark:border-teal-500/40 dark:bg-teal-900/20 dark:text-teal-200"
             href={paper.links.pubmed}
             target="_blank"
             rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const PaperCard = ({ paper }: PaperCardProps) => {
         )}
         {paper.links.doi && (
           <a
-            class="inline-flex items-center gap-2 rounded-xl border border-slate-200/80 bg-white/70 px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:border-indigo-200 hover:text-indigo-600 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
+            class="inline-flex items-center gap-2 rounded-xl border border-slate-200/80 bg-white/70 px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:border-teal-200 hover:text-teal-700 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
             href={paper.links.doi}
             target="_blank"
             rel="noopener noreferrer"
@@ -119,7 +119,7 @@ const PaperCard = ({ paper }: PaperCardProps) => {
         )}
         {paper.links.pmc && (
           <a
-            class="inline-flex items-center gap-2 rounded-xl border border-slate-200/80 bg-white/70 px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:border-indigo-200 hover:text-indigo-600 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
+            class="inline-flex items-center gap-2 rounded-xl border border-slate-200/80 bg-white/70 px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:border-teal-200 hover:text-teal-700 dark:border-slate-700 dark:bg-slate-800/80 dark:text-slate-200"
             href={paper.links.pmc}
             target="_blank"
             rel="noopener noreferrer"
@@ -176,11 +176,11 @@ export default function BrowseClient({ papers }: Props) {
         .sort((a, b) => b[1] - a[1])
         .map(([value, count]) => (
           <li key={value}>
-            <label class="flex items-center justify-between gap-2 rounded-2xl border border-transparent px-2 py-1 text-sm text-slate-600 transition hover:border-indigo-100 hover:bg-indigo-50/60 dark:text-slate-300 dark:hover:border-indigo-500/40 dark:hover:bg-indigo-900/20">
+            <label class="flex items-center justify-between gap-2 rounded-2xl border border-transparent px-2 py-1 text-sm text-slate-600 transition hover:border-teal-100 hover:bg-teal-50/60 dark:text-slate-300 dark:hover:border-teal-500/40 dark:hover:bg-teal-900/20">
               <span class="flex items-center">
                 <input
                   type="checkbox"
-                  class="mr-2 h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500 dark:border-slate-600 dark:bg-slate-800 dark:checked:bg-indigo-500"
+                  class="mr-2 h-4 w-4 rounded border-slate-300 text-teal-600 focus:ring-teal-500 dark:border-slate-600 dark:bg-slate-800 dark:checked:bg-teal-500"
                   checked={selected.includes(value)}
                   onChange={() =>
                     setState({
@@ -208,12 +208,12 @@ export default function BrowseClient({ papers }: Props) {
     defaultOpen?: boolean;
   }) => (
     <details
-      class="rounded-2xl border border-indigo-100/70 bg-indigo-50/40 p-3 transition open:bg-white/90 open:shadow-sm dark:border-slate-800 dark:bg-slate-900/60 dark:open:bg-slate-900"
+      class="rounded-2xl border border-teal-100/70 bg-teal-50/40 p-3 transition open:bg-white/90 open:shadow-sm dark:border-slate-800 dark:bg-slate-900/60 dark:open:bg-slate-900"
       open={defaultOpen}
     >
-      <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-slate-700 transition hover:text-indigo-700 dark:text-slate-200 dark:hover:text-indigo-200">
+      <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-slate-700 transition hover:text-teal-700 dark:text-slate-200 dark:hover:text-teal-200">
         <span>{title}</span>
-        <span class="text-xs font-bold uppercase tracking-wide text-indigo-500 dark:text-indigo-200">
+        <span class="text-xs font-bold uppercase tracking-wide text-teal-500 dark:text-teal-200">
           {'▼'}
         </span>
       </summary>
@@ -224,11 +224,11 @@ export default function BrowseClient({ papers }: Props) {
   const quickFilterButtons = Object.keys(QUICK_FILTERS).map((label) => {
     const isActive = state.quickFilter === label;
     const base =
-      'rounded-full px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-300';
+      'rounded-full px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-300';
     const active =
-      'border border-indigo-500 bg-indigo-100/80 text-indigo-700 shadow-sm dark:border-indigo-400 dark:bg-indigo-900/40 dark:text-indigo-200';
+      'border border-teal-500 bg-teal-100/80 text-teal-700 shadow-sm dark:border-teal-400 dark:bg-teal-900/30 dark:text-teal-200';
     const inactive =
-      'border border-slate-200/80 bg-white/70 text-slate-600 hover:border-indigo-200 hover:text-indigo-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200';
+      'border border-slate-200/80 bg-white/70 text-slate-600 hover:border-teal-200 hover:text-teal-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200';
     return (
       <button
         key={label}
@@ -250,13 +250,13 @@ export default function BrowseClient({ papers }: Props) {
   return (
     <div class="space-y-6">
       <div class="flex justify-center">
-        <div class="w-full max-w-3xl rounded-3xl border border-indigo-200/70 bg-gradient-to-br from-white via-indigo-50/70 to-purple-50/60 p-6 text-center shadow-2xl shadow-indigo-100 ring-1 ring-indigo-100/80 backdrop-blur-lg transition dark:border-slate-800 dark:from-slate-900/90 dark:via-indigo-950/30 dark:to-slate-900/80 dark:shadow-none dark:ring-indigo-900/60">
-          <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-indigo-600/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.2em] text-indigo-800 ring-1 ring-indigo-200 shadow-sm dark:bg-indigo-900/40 dark:text-indigo-100 dark:ring-indigo-800">
+        <div class="w-full max-w-3xl rounded-[2rem] border border-teal-200/70 bg-gradient-to-br from-white via-cyan-50/70 to-teal-50/70 p-6 text-center shadow-[0_22px_60px_rgba(13,148,136,0.12)] ring-1 ring-teal-100/80 backdrop-blur-lg transition dark:border-slate-800 dark:from-slate-900/90 dark:via-teal-950/20 dark:to-slate-900/85 dark:shadow-none dark:ring-teal-900/40">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-teal-600/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.2em] text-teal-800 ring-1 ring-teal-200 shadow-sm dark:bg-teal-900/30 dark:text-teal-100 dark:ring-teal-800">
             <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_0_6px_rgba(16,185,129,0.18)]"></span>
             Search the repository
           </div>
           <div class="relative">
-            <div class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-indigo-500 dark:text-indigo-200">
+            <div class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-teal-500 dark:text-teal-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -279,9 +279,9 @@ export default function BrowseClient({ papers }: Props) {
               placeholder="Search by title, abstract, keywords, or author"
               value={state.query}
               onInput={updateQuery}
-              class="peer w-full appearance-none rounded-2xl border border-indigo-200/80 bg-white/90 px-12 py-4 text-base font-semibold text-slate-800 shadow-lg shadow-indigo-100 transition duration-200 placeholder:font-medium placeholder:text-slate-400 focus:-translate-y-0.5 focus:border-indigo-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-indigo-200 focus:ring-offset-2 focus:ring-offset-indigo-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden dark:border-indigo-900/60 dark:bg-slate-950/80 dark:text-slate-100 dark:placeholder:text-slate-400 dark:focus:border-indigo-500 dark:focus:ring-indigo-700/60 dark:focus:ring-offset-slate-900"
+              class="peer w-full appearance-none rounded-2xl border border-teal-200/80 bg-white/90 px-12 py-4 text-base font-semibold text-slate-800 shadow-lg shadow-teal-100/70 transition duration-200 placeholder:font-medium placeholder:text-slate-400 focus:-translate-y-0.5 focus:border-teal-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-teal-200 focus:ring-offset-2 focus:ring-offset-cyan-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden dark:border-teal-900/50 dark:bg-slate-950/80 dark:text-slate-100 dark:placeholder:text-slate-400 dark:focus:border-teal-500 dark:focus:ring-teal-700/50 dark:focus:ring-offset-slate-900"
             />
-            <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-xs font-semibold uppercase tracking-wide text-indigo-500 opacity-0 transition-opacity duration-200 peer-focus:opacity-100 dark:text-indigo-200">
+            <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-xs font-semibold uppercase tracking-wide text-teal-600 opacity-0 transition-opacity duration-200 peer-focus:opacity-100 dark:text-teal-200">
               Live match
             </div>
           </div>
@@ -293,7 +293,7 @@ export default function BrowseClient({ papers }: Props) {
 
       <div class="flex flex-col gap-8 lg:flex-row">
         <aside class="lg:w-80 lg:flex-none">
-          <div class="space-y-6 rounded-3xl border border-indigo-100/80 bg-white/95 p-5 shadow-xl ring-1 ring-indigo-50 backdrop-blur dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
+          <div class="space-y-6 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
             <div>
               <p class="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
                 Quick filters
@@ -318,7 +318,7 @@ export default function BrowseClient({ papers }: Props) {
                     value={state.years[0]}
                     onInput={handleYearChange(0)}
                     aria-label="Start year"
-                    class="w-full accent-indigo-600"
+                    class="w-full accent-teal-600"
                   />
                   <input
                     type="range"
@@ -327,7 +327,7 @@ export default function BrowseClient({ papers }: Props) {
                     value={state.years[1]}
                     onInput={handleYearChange(1)}
                     aria-label="End year"
-                    class="w-full accent-indigo-600"
+                    class="w-full accent-teal-600"
                   />
                 </div>
               </div>
@@ -356,7 +356,7 @@ export default function BrowseClient({ papers }: Props) {
         </aside>
 
         <section class="flex-1 space-y-5">
-          <div class="flex flex-col gap-3 rounded-3xl border border-indigo-100/80 bg-white/95 p-5 shadow-xl ring-1 ring-indigo-50 backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
+          <div class="flex flex-col gap-3 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
             <div>
               <h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100">
                 {visiblePapers.length} papers
@@ -367,7 +367,7 @@ export default function BrowseClient({ papers }: Props) {
             </div>
             <button
               type="button"
-              class="inline-flex items-center gap-2 rounded-full border border-slate-200/80 bg-white/70 px-4 py-1.5 text-sm font-semibold text-indigo-600 transition hover:border-indigo-200 hover:text-indigo-700 dark:border-slate-700 dark:bg-slate-900 dark:text-indigo-300"
+              class="inline-flex items-center gap-2 rounded-full border border-slate-200/80 bg-white/70 px-4 py-1.5 text-sm font-semibold text-teal-700 transition hover:border-teal-200 hover:text-teal-800 dark:border-slate-700 dark:bg-slate-900 dark:text-teal-300"
               onClick={() => setState(defaultSearchState(papers))}
             >
               Reset filters

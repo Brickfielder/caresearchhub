@@ -77,7 +77,7 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
   return (
     <div className="space-y-6">
       <form
-        className="flex flex-col gap-4 rounded-3xl border border-slate-200/70 bg-white/90 p-6 shadow-lg md:flex-row md:items-center"
+        className="flex flex-col gap-4 rounded-[2rem] border border-teal-200/70 bg-gradient-to-r from-white via-cyan-50/70 to-teal-50/70 p-6 shadow-[0_18px_50px_rgba(13,148,136,0.1)] md:flex-row md:items-center"
         onSubmit={handleSubmit}
       >
         <label className="flex-1 text-sm font-semibold text-slate-600">
@@ -87,12 +87,12 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
             value={query}
             onChange={(event) => setQuery(event.currentTarget.value)}
             placeholder="Search by name, organization, interest, or country"
-            className="mt-1 w-full rounded-2xl border-2 border-slate-200 bg-white px-5 py-3 text-base text-slate-800 shadow-inner focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+            className="mt-1 w-full rounded-2xl border-2 border-teal-200 bg-white px-5 py-3 text-base text-slate-800 shadow-inner focus:border-teal-400 focus:outline-none focus:ring-2 focus:ring-teal-100"
           />
         </label>
         <button
           type="submit"
-          className="inline-flex items-center justify-center rounded-2xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          className="inline-flex items-center justify-center rounded-2xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
           aria-label="Search collaborators"
         >
           Search
@@ -102,8 +102,8 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
         <button
           className={`rounded-full border px-4 py-1 text-sm font-medium transition ${
             !activeTag
-              ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
-              : 'border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-700'
+              ? 'border-teal-500 bg-teal-50 text-teal-700'
+              : 'border-slate-200 bg-white text-slate-600 hover:border-teal-200 hover:text-teal-700'
           }`}
           type="button"
           onClick={() => setActiveTag(null)}
@@ -115,8 +115,8 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
             key={tag}
             className={`rounded-full border px-4 py-1 text-sm font-medium capitalize transition ${
               activeTag === tag
-                ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
-                : 'border-slate-200 bg-white text-slate-600 hover:border-indigo-200 hover:text-indigo-700'
+                ? 'border-teal-500 bg-teal-50 text-teal-700'
+                : 'border-slate-200 bg-white text-slate-600 hover:border-teal-200 hover:text-teal-700'
             }`}
             type="button"
             onClick={() => setActiveTag(tag === activeTag ? null : tag)}
@@ -132,7 +132,7 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
         {filtered.map((person) => (
           <article
             key={person.id}
-            className="rounded-2xl border border-slate-200 bg-white/95 p-5 shadow-md transition hover:-translate-y-0.5 hover:border-indigo-200"
+            className="rounded-[1.75rem] border border-slate-200 bg-white/95 p-5 shadow-[0_16px_40px_rgba(15,23,42,0.08)] transition hover:-translate-y-0.5 hover:border-teal-200"
           >
             <div className="flex items-start justify-between gap-3">
               <div>
@@ -141,14 +141,14 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
               </div>
               <div className="flex flex-col items-end gap-2 sm:flex-row sm:items-center sm:gap-3">
                 {person.country ? (
-                  <span className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-700">
+                  <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-teal-700">
                     {person.country}
                   </span>
                 ) : null}
                 <button
                   type="button"
                   onClick={() => toggleExpanded(person.id)}
-                  className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-700 transition hover:border-indigo-200 hover:text-indigo-700"
+                  className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold text-slate-700 transition hover:border-teal-200 hover:text-teal-700"
                 >
                   {expandedIds.has(person.id) ? 'Hide details' : 'Show details'}
                   <span aria-hidden="true">{expandedIds.has(person.id) ? '–' : '+'}</span>
@@ -195,7 +195,7 @@ const CollaboratorDirectory = ({ people }: CollaboratorDirectoryProps) => {
                 {person.email ? (
                   <p className="text-sm text-slate-600">
                     <a
-                      className="font-semibold text-indigo-700 hover:text-indigo-600"
+                      className="font-semibold text-teal-700 hover:text-teal-600"
                       href={`mailto:${person.email}`}
                     >
                       {person.email}

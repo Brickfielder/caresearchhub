@@ -178,9 +178,58 @@ main {
 
 .landing-hero {
   width: 100%;
-  margin: 0 0 2.5rem;
+  margin: 0 0 1.6rem;
   text-align: center;
   color: #e2e8f0;
+}
+
+.header-theme-grid {
+  position: relative;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.94), rgba(17, 47, 68, 0.92) 52%, rgba(18, 94, 117, 0.86));
+}
+
+.header-theme-grid__art {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 20% 24%, rgba(59, 130, 246, 0.22), transparent 22%),
+    radial-gradient(circle at 78% 30%, rgba(45, 212, 191, 0.24), transparent 24%);
+}
+
+.header-theme-grid__art::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 42px 42px;
+  opacity: 0.34;
+}
+
+.header-theme-grid__art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/assets/icons/favicon.png');
+  background-repeat: no-repeat;
+  background-position: right 12% 58%;
+  background-size: clamp(220px, 25vw, 320px);
+  opacity: 0.2;
+  filter: drop-shadow(0 0 28px rgba(45, 212, 191, 0.14));
+  mix-blend-mode: screen;
+}
+
+.landing-hero-shell__search {
+  position: relative;
+  z-index: 1;
+}
+
+.landing-hero--themed {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1.15rem;
 }
 
 .landing-hero__text {
@@ -239,8 +288,8 @@ main {
   width: 100%;
   max-width: none;
   align-self: stretch;
-  margin-top: 0.75rem;
-  padding: 1.1rem 1.25rem;
+  margin-top: 0.45rem;
+  padding: 0.9rem 1.1rem;
   background: linear-gradient(135deg, rgba(45, 212, 191, 0.12), rgba(14, 165, 233, 0.12));
   border: 1px solid rgba(94, 234, 212, 0.25);
   border-radius: 1.25rem;
@@ -265,9 +314,9 @@ main {
 
 .landing-hero__description {
   max-width: 46rem;
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: #cbd5e1;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 .study-card {
@@ -318,6 +367,12 @@ main {
 }
 
 @media (max-width: 640px) {
+  .header-theme-grid__art::after {
+    background-position: center 34%;
+    background-size: 180px;
+    opacity: 0.14;
+  }
+
   .page-hero {
     text-align: center;
   }

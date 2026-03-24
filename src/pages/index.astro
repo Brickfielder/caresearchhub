@@ -93,9 +93,10 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
 <BaseLayout
   title="Cardiac Arrest Research Hub"
   description="Evidence summaries for life after cardiac arrest"
+  heroTheme="survivorship-grid"
 >
   <Fragment slot="hero">
-    <section class="landing-hero">
+    <section class="landing-hero landing-hero--themed">
       <div class="landing-hero__text">
         <p class="landing-hero__eyebrow">Live Evidence Hub</p>
 
@@ -122,7 +123,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
         </p>
       </div>
     </section>
-    <div class="max-w-2xl mx-auto relative group">
+    <div class="max-w-2xl mx-auto relative group landing-hero-shell__search">
       <div
         class="absolute -inset-1 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-2xl opacity-25 group-hover:opacity-50 blur transition duration-500"
       >

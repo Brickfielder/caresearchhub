@@ -37,8 +37,8 @@ const CollaboratorMap = ({ people }: CollaboratorMapProps) => {
         mode: 'markers',
         marker: {
           size: 8,
-          color: '#4f46e5',
-          line: { width: 1, color: '#eef2ff' }
+          color: '#0f766e',
+          line: { width: 1, color: '#ecfeff' }
         },
         hovertemplate: '%{text}'
       }
@@ -49,7 +49,10 @@ const CollaboratorMap = ({ people }: CollaboratorMapProps) => {
         projection: { type: 'natural earth' },
         landcolor: '#f8fafc',
         showcountries: true,
-        countrycolor: '#cbd5f5'
+        countrycolor: '#bae6e5',
+        showocean: true,
+        oceancolor: '#eff6ff',
+        coastlinecolor: '#cbd5e1'
       },
       margin: { t: 10, r: 0, b: 0, l: 0 },
       paper_bgcolor: 'rgba(0,0,0,0)',
