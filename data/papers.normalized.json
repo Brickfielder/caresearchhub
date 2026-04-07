@@ -673,6 +673,36 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41916502",
+    "pmid": "41916502",
+    "doi": "10.1016/j.resuscitation.2026.111075",
+    "title": "Trials that can scale: five pillars for cardiac arrest survivorship research.",
+    "authors": [
+      "Marco Mion",
+      "Alex Presciutti"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-03-29",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111075",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41916502"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "MA",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Mion M",
+      "Presciutti A"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "40241996",
     "pmid": "40241996",
     "doi": "10.1016/j.resplu.2025.100944",
