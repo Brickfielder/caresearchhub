@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Resuscitation Network - People",
-    "updated_at": "2026-01-30",
+    "updated_at": "2026-04-07",
     "fields": [
       "id",
       "name",
@@ -274,6 +274,22 @@
       "looking_to_collaborate_on": "International  registries focused on aftercare research; harmonising survivorship measures, datasets",
       "id": "marco-mion",
       "updated_at": "2025-12-04"
+    },
+    {
+      "name": "Marine Paul",
+      "email": "mpaul@ght78sud.fr",
+      "role": "Intensive care physician",
+      "org": "Centre Hospitalier de Versailles; AfterROSC research group; La Vie Après un Arrêt Cardiaque",
+      "city": "Versailles",
+      "country": "France",
+      "lat": 48.8,
+      "lng": 2.13,
+      "research_areas": "Cardiac arrest survivorship; post-cardiac arrest follow-up care; cognitive and psychological screening; rehabilitation pathways; survivor and family support",
+      "research_keywords": "cardiac arrest survivorship; follow-up care; rehabilitation; cognition; psychological screening; relatives; care pathways; registry research; support groups",
+      "offer": "expertise in cognitive and psychological screening after cardiac arrest; development of educational resources and coordinated nurse-led follow-up; rehabilitation referral pathways; collaboration on registry-based survivorship research",
+      "looking_to_collaborate_on": "Post-cardiac arrest outcomes; follow-up care models; survivorship pathways; collaborative healthcare professional initiatives; registry-based studies in cardiac arrest survivors; support for survivors and relatives",
+      "id": "marine-paul",
+      "updated_at": "2026-04-07"
     },
     {
       "name": "Mattias Bohm",
