@@ -693,7 +693,18 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "country": "MA",
+    "country": "United States",
+    "keywords": [
+      "Cardiac arrest",
+      "Survivorship",
+      "Clinical trials",
+      "Research priorities",
+      "Outcome measures",
+      "Implementation science",
+      "Health equity"
+    ],
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
