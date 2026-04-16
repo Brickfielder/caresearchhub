@@ -513,6 +513,40 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41967758",
+    "pmid": "41967758",
+    "doi": "10.1016/j.resuscitation.2026.111085",
+    "title": "Physical Impairment as the Dominant Component of New-onset Post-Intensive Care Syndrome Following In-hospital Resuscitation.",
+    "authors": [
+      "Tak Kyu Oh",
+      "In-Ae Song"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-04-10",
+    "abstract": "AIM: Addressing sparse nationwide data, this study evaluated the 12-month cumulative incidence and clinical predictors of new-onset post-intensive care syndrome (PICS) and its specific domains among in-hospital cardiac arrest (IHCA) survivors.\nMETHODS: This nationwide population-based cohort study utilized the South Korean National Health Insurance Service database (2013-2023). New-onset PICS was identified through International Classification of Diseases, 10th Revision (ICD-10) coded diagnoses within administrative claims data, representing healthcare utilization-based incidence rather than true symptomatic prevalence.\nRESULTS: Within the final analytic cohort of 43,331 hospital survivors, the 12-month cumulative incidence of new-onset PICS was 6.7% (95% confidence interval [CI], 6.5-6.9%). These findings reflect healthcare utilization-based incidence, capturing only those impairments that led to formal medical encounters and ICD-10 coding. In a sensitivity analysis of stable one-year survivors (n = 11,862), the incidence significantly rose to 15.9% (95% CI, 15.3-16.6%). Physical impairment was the dominant domain (15.0%), while cognitive (0.5%) and psychiatric (0.8%) domains showed lower rates, suggesting a potential \"masking effect\" or \"floor effect\" due to severe neurological injury. Extracorporeal membrane oxygenation support (odds ratio [OR] 1.44, P < 0.001), and increased length of hospitalization were robust predictors. Notably, the odds of PICS diagnosis significantly escalated from 2021 onwards, peaking in 2022 (OR 2.19) and 2023 (OR 2.12).\nCONCLUSIONS: New-onset PICS, driven by physical decline, affects one in six IHCA survivors surviving the first year. Acute care intensity and recent trends highlight the need for early screening and intensive rehabilitation for high-risk survivors.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111085",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41967758"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Republic of Korea",
+    "corrCountryCode": "KR",
+    "corrCountryName": "Republic of Korea",
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "IHCA",
+    "normalizedAuthors": [
+      "Oh TK",
+      "Song I"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2025.101179",
     "doi": "10.1016/j.resplu.2025.101179",
     "title": "Physical, psychological, cognitive, social health outcomes, and health-related quality of life in out-of-hospital cardiac arrest survivors and co-survivors: 3-month outcomes from the Quality Cardiac Arrest Survivorship cohort study (QualiCAS)",
