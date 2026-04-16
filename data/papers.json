@@ -383,6 +383,33 @@
     "country": "Singapore"
   },
   {
+    "id": "41974225",
+    "pmid": "41974225",
+    "doi": "10.1016/j.resuscitation.2026.111092",
+    "title": "Quality of Life after Out-Of-Hospital Cardiac Arrest: Age matters.",
+    "authors": [
+      "Victoria Gunmalm",
+      "Stig Andersen",
+      "Kristian Kragholm",
+      "Mikkel Porsborg Andersen",
+      "Christian Torp-Pedersen",
+      "Harman Yonis"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-04-11",
+    "abstract": "AIM: To evaluate how long-term health-related quality of life (HRQoL) differs by age among survivors of out-of-hospital cardiac arrest (OHCA).\nMETHODS: In a nationwide, survey-based study, the HRQoL of adult survivors of OHCA in Denmark (2001-2019) was assessed using the EuroQol questionnaire (EQ-5D), the 12-Item Short Form Health Survey (SF-12), and the Hospital Anxiety and Depression Scale (HADS).\nRESULTS: A total of 2,552 out of 4,545 survivors (56.1 %) completed the survey. Median follow-up was 5.5 years (IQR 2.9-8.9 years). Median age at follow-up was 67 years (IQR 58-74). Across EQ-5D domains, age-related differences were observed. Mobility problems increased from 17% among respondents <35 years to 56% among those ≥75 years (p for trend <0.01). Self-care problems increased from 9% to 23% (p for trend <0.01), and limitations in usual activities reached 55% in the oldest group (p for trend <0.01). Pain/discomfort did not vary with age (p for trend=0.25). Anxiety/depression problems were more common in younger respondents and decreased with age (p for trend <0.01). SF-12 physical scores ranged from 47.4 (SD 10.2) in respondents <35 years to 37.7 (SD 12.0) in those ≥75 years, whereas mental component scores were stable (mean 52.9 [SD 8.3]). HADS anxiety scores were 5.4 (SD 4.3) in the youngest and 3.3 (SD 3.2) in the oldest group.\nCONCLUSIONS AND RELEVANCE: HRQoL after OHCA differed across age groups. Older survivors reported more physical limitations, whereas younger survivors reported more anxiety. These findings support age-tailored and domain-specific follow-up after cardiac arrest.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111092",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41974225"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Denmark"
+  },
+  {
     "id": "10.21315/mjms-10-2025-730",
     "doi": "10.21315/mjms-10-2025-730",
     "title": "Recovery Phase in the Chain of Survival in Cardiac Arrest Patients: Scoping Review",
