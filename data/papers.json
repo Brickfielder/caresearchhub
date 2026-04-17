@@ -455,6 +455,38 @@
     "country": "Indonesia"
   },
   {
+    "id": "41857604",
+    "pmid": "41857604",
+    "doi": "10.1186/s13063-026-09623-5",
+    "title": "The COMPEX-trial: computer-based cognitive rehabilitation to improve executive function versus unspecific training in patients after stroke, cardiac arrest or in Parkinson's disease: study protocol for a randomized controlled trial.",
+    "authors": [
+      "Katrine Sværke",
+      "Louisa Christensen",
+      "Annemette Løkkegaard",
+      "Jesper Kjærgaard",
+      "Janus C Jacobsen",
+      "Stefan Engelter",
+      "Boris Modrau",
+      "Terence Quinn",
+      "Christopher Traenka",
+      "Katharina Sunnerhagen",
+      "Hanne Christensen"
+    ],
+    "journal": "Trials",
+    "year": 2026,
+    "date": "2026-03-19",
+    "abstract": "RATIONALE: Impairment of the executive functions can be reduced by training, but most traditional approaches require specialized expertise. Therefore, cognitive rehabilitation is only offered to a minority of patients with a need. Computer-based Cognitive Rehabilitation (CBCR) is a low-cost intervention with rehabilitation potential. Outside of hospital rehabilitation institutions, the work is based on dysfunctions and not diagnoses, why patients after stroke, cardiac arrest, or in Parkinson's disease were included based on their dysfunctions with the aim of potential broad implementation.\nAIM AND HYPOTHESIS: This trial investigates whether specific CBCR focusing on executive functions is superior to general computer-based cognitive activities in improving working memory.\nSAMPLE SIZE ESTIMATES: Based on a statistical power calculation, 308 participants will be enrolled. A total of 291 patients are currently included in the trial.\nMETHODS AND DESIGN: The trial is a multi-center, investigator-initiated, superiority randomized controlled trial with single blinding. Participants (≥ 18 years) with impaired working memory following stroke, cardiac arrest, or Parkinson's disease will be randomized (1:1) to either specific CBCR using Scientific BrainTraining Pro (Happy Neuron) or an active control group performing unspecific cognitive activities. The intervention lasts eight weeks (60 min/day, 5 days/week). Six centers are involved in the trial and completion of inclusion is expected in November 2025.\nSTUDY OUTCOME(S): The primary outcome is working memory, assessed by CABPad. Secondary outcomes include instrumental activities of daily living, mood, anxiety, and quality of life measures.\nDISCUSSION: This trial will provide evidence on the efficacy of CBCR in enhancing executive functions, potentially guiding future clinical implementation.\nTRIAL REGISTRATION: The trial is registered at Clinicaltrials.gov with identifier: NCT04229056. Registered on January 6, 2020.",
+    "links": {
+      "doi": "https://doi.org/10.1186/s13063-026-09623-5",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41857604"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Denmark"
+  },
+  {
     "id": "41565214",
     "pmid": "41565214",
     "doi": "10.1093/eurjcn/zvaf226",
