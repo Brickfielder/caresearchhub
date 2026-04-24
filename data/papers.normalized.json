@@ -696,6 +696,60 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42005613",
+    "pmid": "42005613",
+    "doi": "10.1016/j.resplu.2026.101298",
+    "title": "Resuscitation 2025 congress: launch of the resuscitation guidelines, scientific advances, education, equity, and innovation across the chain of survival.",
+    "authors": [
+      "Nino Fijačko",
+      "Gavin D Perkins",
+      "Tatyana Pinniger",
+      "Ahmed Elshaer",
+      "Giuseppe Ristagno",
+      "Priyanka Modi",
+      "Jacqueline Eleonora Ek",
+      "Roos Edgar",
+      "Kristin Alm-Kruse",
+      "Sergio Cazorla-Calderón",
+      "Johannes Wittig",
+      "Theresa Mariero Olasveengen",
+      "Robert Greif"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2026,
+    "date": "2026-03-25",
+    "abstract": "The European Resuscitation Council (ERC) Congress - Resuscitation 2025 was held in Rotterdam as a fully in-person international meeting and served as the official launch platform for the ERC Resuscitation Guidelines 2025. The congress brought together nearly 3000 participants from 77 countries, representing a multidisciplinary community of clinicians, educators, scientists, survivors of out-of-hospital cardiac arrest and their co-survivors, policymakers, and system leaders. The programme featured guideline presentations, scientific abstract sessions, debates, poster discussions, workshops, networking activities, and industry exhibitions, reflecting the breadth of modern resuscitation research and practice. Core themes included epidemiology, systems of care, basic and advanced life support, post-resuscitation management, paediatric and neonatal care, ethics, education, and first aid. Sessions also addressed innovations such as physiology-guided advanced life support, extracorporeal resuscitation, and digital or AI-based detection and decision-support tools, as well as personalised post-cardiac arrest care. Late-breaking studies presented findings on neurophysiology, temperature management, double-sequence defibrillation, and early hypothermia. The congress also highlighted survivorship, rehabilitation, co-survivor perspectives, diversity and equity in resuscitation outcomes, and global training capacity. Young ERC initiatives supported mentorship, research collaboration, and career development for students and early-career professionals. Overall, the congress demonstrated the growing maturity and complexity of resuscitation science by integrating clinical evidence, systems innovation, ethics, education, and equity, while providing a collaborative platform to shape future research priorities and support implementation of the new ERC Guidelines across diverse healthcare contexts.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101298",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42005613",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13091303"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC13091303",
+    "country": "Switzerland",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Fijačko N",
+      "Perkins GD",
+      "Pinniger T",
+      "Elshaer A",
+      "Ristagno G",
+      "Modi P",
+      "Ek JE",
+      "Edgar R",
+      "Alm-Kruse K",
+      "Cazorla-Calderón S",
+      "Wittig J",
+      "Olasveengen TM",
+      "Greif R"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41857604",
     "pmid": "41857604",
     "doi": "10.1186/s13063-026-09623-5",
