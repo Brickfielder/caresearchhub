@@ -523,6 +523,32 @@
     "country": "Denmark"
   },
   {
+    "id": "41996858",
+    "pmid": "41996858",
+    "doi": "10.1016/j.jpsychores.2026.112678",
+    "title": "The risk of mental illness among sudden cardiac arrest survivors: A Danish cohort study.",
+    "authors": [
+      "Elizabeth Bøgestub Darring",
+      "Søren Mikkelsen",
+      "Finn Lund Henriksen",
+      "Elsebeth Stenager",
+      "Monika Pankiewicz-Dulacz"
+    ],
+    "journal": "Journal of psychosomatic research",
+    "year": 2026,
+    "date": "2026-04-15",
+    "abstract": "UNLABELLED: Aim This nationwide retrospective cohort study examined the risk of mental disorders among adult sudden cardiac arrest (SCA) survivors (2001-2018) without prior psychiatric diagnoses, compared with the general population. Disorders included affective, psychotic, organic mental, substance use, and other psychiatric disorders. Subgroup analyses assessed differences across age groups.\nMETHODS: Data were obtained from nationwide Danish registries, including cardiac arrest registries, the National Patient Register, the Psychiatric Central Research Register, the National Prescription Register, the Civil Registration System, and Statistics Denmark. Cox proportional hazards regression models were used to estimate crude and adjusted hazard ratios (HRs) with 95% confidence intervals (CIs), adjusted for education level and comorbidities. Age, sex, ethnicity, and municipality of residence were accounted for through matching.\nRESULTS: The study included 9383 cases and 46,887 matched controls. Survivors had an increased risk of all examined mental disorders throughout follow-up. The adjusted HR for any mental disorder was 7.53 (95% CI 6.70-8.45) within the first year, decreasing to 2.81 (95% CI 2.52-3.13) within five years and 2.32 (95% CI 2.17-2.47) overall. The risk was higher among individuals <60 years, with HRs of 3.51 (95% CI 2.66-4.62) for those aged 18-39 years and 3.65 (95% CI 3.11-4.12) for those aged 40-59 years, compared with 1.92 (95% CI 1.77-2.08) among those ≥60 years.\nCONCLUSION: Survivors of cardiac arrest had a increased risk of mental disorders, particularly within the first year and among younger individuals compared with the age-matched general population.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.jpsychores.2026.112678",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41996858"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Denmark"
+  },
+  {
     "id": "41565214",
     "pmid": "41565214",
     "doi": "10.1093/eurjcn/zvaf226",
