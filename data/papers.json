@@ -58,6 +58,32 @@
     "country": "Denmark"
   },
   {
+    "id": "41956343",
+    "pmid": "41956343",
+    "doi": "10.1016/j.resuscitation.2026.111081",
+    "title": "Beyond the fourth ring: building a national ecosystem for cardiac arrest survivorship.",
+    "authors": [
+      "Erga Cerchiari",
+      "Riccardo Boverio",
+      "Giuseppe Ristagno",
+      "Andrea Scapigliati",
+      "Federico Semeraro"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-04-07",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111081",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41956343"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Italy"
+  },
+  {
     "id": "10.1016/j.resplu.2026.101270",
     "doi": "10.1016/j.resplu.2026.101270",
     "title": "Cardiac Arrest Recovery Enablement and Supported Self-management (CARESS): a study protocol for the feasibility testing of an online psychosocial and exercise rehabilitation programme for cardiac arrest survivors and co-survivors",
