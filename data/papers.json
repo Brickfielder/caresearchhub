@@ -81,6 +81,31 @@
     "country": "Denmark"
   },
   {
+    "id": "41984027",
+    "pmid": "41984027",
+    "doi": "10.1177/08850666261434483",
+    "title": "Association Between Targeted Temperature Management and New-Onset Brain Disability in in-Hospital Cardiac Arrest Survivors: A Nationwide Cohort Study.",
+    "authors": [
+      "Tak Kyu Oh",
+      "In-Ae Song"
+    ],
+    "journal": "Journal of intensive care medicine",
+    "year": 2026,
+    "date": "2026-04-15",
+    "abstract": "ObjectivesTargeted temperature management (TTM) is the standard of care for comatose cardiac arrest survivors. However, evidence regarding its long-term neurological impact specifically on in-hospital cardiac arrest (IHCA) survivors remains limited. This study investigated the association between TTM and the risk of new-onset brain disability in adult IHCA survivors using a \"hard\" endpoint derived from a national registry.DesignThis nationwide retrospective cohort study utilized the South Korean National Health Insurance Service database (2013-2022). Adult IHCA survivors were categorized into TTM and non-TTM groups. The primary endpoint was newly diagnosed brain disability registered in the Korea National Disability Registration System. This endpoint requires stringent certification by board-certified specialists after at least six months of active treatment to confirm irreversibility. We performed 1:5 propensity score matching and used stratified Cox proportional hazards models to estimate hazard ratios (HR).ResultsAmong 95 337 eligible survivors, 31 592 patients were included in the matched cohort (5633 TTM vs 25 959 non-TTM). The TTM group showed a significantly lower incidence of new-onset brain disability compared with the non-TTM group (5.0% vs 5.2%). In the PS-matched analysis, TTM was independently associated with a reduced risk of new-onset brain disability (HR, 0.85; 95% confidence interval [CI], 0.75-0.96; = .012). Multivariable sensitivity analysis in the entire cohort confirmed this protective association (adjusted HR, 0.80; 95% CI, 0.70-0.90; < .001).ConclusionIn this large-scale nationwide cohort of IHCA survivors, TTM implementation was associated with a decreased risk of legally certified, permanent brain disability. These findings provide real-world evidence supporting the continued use of TTM as a neuroprotective strategy to improve long-term quality of survivorship in the IHCA population.",
+    "links": {
+      "doi": "https://doi.org/10.1177/08850666261434483",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41984027"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "South Korea",
+    "corrCountryCode": "KR",
+    "corrCountryName": "Republic of Korea"
+  },
+  {
     "id": "41956343",
     "pmid": "41956343",
     "doi": "10.1016/j.resuscitation.2026.111081",
@@ -261,6 +286,31 @@
     },
     "pmcid": "PMC12936754",
     "country": "United States"
+  },
+  {
+    "id": "42038943",
+    "pmid": "42038943",
+    "doi": "10.1155/nrp/6036368",
+    "title": "Functional Outcome and Independence Among In-Hospital Cardiac Arrest Patients in South India: A Prospective Longitudinal Study.",
+    "authors": [
+      "Anandhi Deva Amirtharaj",
+      "Malarvizhi Suresh"
+    ],
+    "journal": "Nursing research and practice",
+    "year": 2026,
+    "date": "2026-04-24",
+    "abstract": "INTRODUCTION: The duration of cardiopulmonary resuscitation (CPR) has a strong effect on the prognosis and recovery of the patients. However, there is no standardization or Core Outcome Set for In-Hospital Cardiac Arrest. The main aim of the study is to assess the impact of CPR duration on functional outcome, survival, and the level of independence among cardiac arrest patients. Methods: For this observational study, 121 patients were selected from two tertiary hospitals in South India. Data were collected from patients during the event of cardiac arrest with functional outcome and level of independence measured immediate post-CPR, Day 30, and Day 90 using standardized tools, namely, cerebral performance category and Katz index tool for the level of independence.\nRESULTS: The mean and median age was 62.49 ± 13.18 and 65 years (IQR, 54-73 years), respectively, with 89 (73.6%) male patients. At the end of CPR, 55.3% of patients achieved ROSC and with a mean and median CPR duration of 18.97 ± 14.7 min and 15 min (IQR, 10 and 26 min), respectively. Overall mortality rates were 33.8% immediately following CPR, 56.1% by Day 30, and 58.67% by Day 90, with an overall survival rate of 41.3% at 90 days. Immediately post-CPR, 95% of patients were in an unfavorable neurological state; this proportion improved to 37.19% by Day 30, with no significant further improvement observed by Day 90. Level of independence demonstrates that 83.7% of the patients were dependent during the immediate post-CPR period with improvement to partial independence among 84.9% of patients by Day 30. The mean score of favorable and unfavorable outcome on Day 90 was 1.02 and 4.93, respectively. The mean score of dependency and partially dependent on Day 90 among the survivor was 0 and 4.78, respectively. The predictors are ROSC, use of life-saving drugs, and CPR duration.\nCONCLUSION: Utstein reporting system must be integrated for cardiac arrest patients. Cardiac resuscitation and termination must be based on established policy and guidelines to maintain neurological integrity to sustain the quality of life during the post-CPR.",
+    "links": {
+      "doi": "https://doi.org/10.1155/nrp/6036368",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42038943",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13107537"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC13107537",
+    "country": "India"
   },
   {
     "id": "41499113",
@@ -579,6 +629,33 @@
       "has_fulltext": true
     },
     "country": "Indonesia"
+  },
+  {
+    "id": "41937429",
+    "pmid": "41937429",
+    "doi": "10.1111/jan.70603",
+    "title": "Relatives' Experiences of Circulatory Death Following Out-of-Hospital Cardiac Arrest and Their Hypothetical Perspectives on Organ Donation: A Qualitative Study.",
+    "authors": [
+      "Gisela Vogel",
+      "Karin Hildebrand",
+      "Mattias Ringh",
+      "Eva Joelsson-Alm"
+    ],
+    "journal": "Journal of advanced nursing",
+    "year": 2026,
+    "date": "2026-04-05",
+    "abstract": "AIMS: To explore relatives' experiences of the circulatory death of a family member following out-of-hospital cardiac arrest and to explore their hypothetical perspectives on being asked to decide about organ donation in this situation. This study forms part of a broader initiative undertaken to assess the prerequisites for implementing uncontrolled donation after circulatory death in Sweden with a focus on ethical issues.\nDESIGN: A qualitative design, using semi-structured interviews with open-ended questions.\nMETHODS: Data were collected in Sweden between March 2024 and September 2024 and analysed using reflexive thematic analysis with an inductive, descriptive approach. Included were 13 bereaved relatives, four men and nine women.\nFINDINGS: The analysis generated three themes: 'Fluctuating between hope and despair', which describes relatives' experiences of their family member's sudden cardiac arrest; 'Exposed to vulnerability', concerning their experiences of death and their perspectives on reasoning about the deceased person's wishes regarding donation; and 'Balancing a major life change', which involves experiences of facilitators and barriers to dealing with the loss.\nCONCLUSIONS: Awareness of the deceased family member's wishes regarding organ donation facilitates relatives' ability to support the deceased's known or presumed wishes. Compassionate and communicatively competent healthcare professionals influence relatives' capacity to reason about the deceased's wishes and cope with their experience of loss. Ensuring sufficient time for goodbyes and providing follow-up may facilitate emotional processing and should be considered when implementing uncontrolled donation after circulatory death.\nIMPLICATION FOR THE PROFESSION: Policies and clinical practice should ensure that relatives are adequately informed and supported in reasoning on their family members' wishes regarding organ donation. To achieve this, nurses and other healthcare professionals require training in compassionate and empathetic communication strategies. Such training is essential both for guiding relatives through reasoning about their family preferences and for providing emotional support during the grieving process.\nIMPACT: What is already known? ○ Organ donation after sudden death in out-of-hospital cardiac arrest is a complex process that raises ethical issues concerning both the timing and the content of conversation with the deceased's relatives, as well as the relatives' capacity to reason about the deceased's wishes in the context of sudden death. ○ Knowing the wishes of the deceased person, personal beliefs, and receiving clear, direct, and honest information from nurses and other healthcare professionals prepares relatives to reason about the deceased's known or presumed wishes regarding organ donation. What were the main findings? ○ The quality of nurses' and healthcare professionals' communicative competence and their behaviours influence relatives' ability to reason and reflect on organ donation. ○ Factors that facilitate family members' experiences of donation following out-of-hospital cardiac arrest and death include awareness of the deceased's wishes regarding organ donation, being able to see with their own eyes that their family member is dead, and having sufficient time to say farewell. ○ Follow-up from health care services could have an impact on relatives' experiences and their processing of loss. Where and on whom will the research have an impact? ○ This research has an impact on organ donation services, pre-hospital emergency care, and emergency department operations. It can assist nurses and physicians in planning ethical and family-centred care in cases of out-of-hospital sudden death and uncontrolled donation after circulatory death.\nREPORTING METHOD: COREQ-checklist.\nPATIENT OR PUBLIC CONTRIBUTIONS: No patient or public involvement in design, conduct or reporting.",
+    "links": {
+      "doi": "https://doi.org/10.1111/jan.70603",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41937429"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Sweden",
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom"
   },
   {
     "id": "42134488",
@@ -2209,6 +2286,33 @@
       "Male"
     ],
     "country": "United States"
+  },
+  {
+    "id": "41343287",
+    "pmid": "41343287",
+    "doi": "10.1097/MEJ.0000000000001293",
+    "title": "Postresuscitation psychiatric disorders and epilepsy in traumatic and nontraumatic out-of-hospital cardiac arrest survivors: a retrospective real-world study.",
+    "authors": [
+      "Ping-Kun Tsai",
+      "Han-Wei Yeh",
+      "Pei-Lun Liao",
+      "Jing-Yang Huang",
+      "Chung-Hsien Chaou",
+      "Chao-Bin Yeh"
+    ],
+    "journal": "European journal of emergency medicine : official journal of the European Society for Emergency Medicine",
+    "year": 2025,
+    "date": "2025-12-03",
+    "abstract": "BACKGROUND AND IMPORTANCE: Survivors of out-of-hospital cardiac arrest (OHCA) often develop psychiatric and epilepsy problems. When arrest occurs with trauma, hypoxic-ischemic, and injury-related insults may heighten risks vs. nontraumatic OHCA.\nOBJECTIVES: To estimate 5-year risks of psychiatric disorders and epilepsy after traumatic vs. nontraumatic OHCA, and to examine whether early pharmacologic treatment relates to outcomes.\nDESIGN, SETTINGS, AND PARTICIPANTS: Retrospective cohort using deidentified records from the TriNetX U.S. Collaborative Network (January 2010-June 2023). Adults with return of spontaneous circulation surviving >30 days were categorized as traumatic ( n  = 1477) or nontraumatic ( n  = 5165). Groups were balanced by 1:1 propensity score matching (caliper 0.1).\nINTERVENTION OR EXPOSURE: Exposure involved traumatic as opposed to nontraumatic OHCA.\nOUTCOME MEASURES AND ANALYSIS: Primary outcomes were overall psychiatric disorders, including categories of schizophrenia, mood disorders, depressive disorder, other nonpsychotic mental disorders, anxiety disorders (including phobic and other types), and posttraumatic stress disorder (PTSD). The secondary outcome was epilepsy. Kaplan-Meier and Cox models were used to calculate 5-year cumulative incidence and hazard ratios (HRs) with 95% confidence intervals (CIs).\nMAIN RESULTS: The primary outcomes showed that survivors of traumatic OHCA faced greater 5-year risks of overall psychiatric disorders (HR, 1.38; 95% CI, 1.13-1.7), including multiple categories. HRs of categories were: schizophrenia, 2.23 (95% CI, 1.06-4.68); mood disorders, 1.38 (1.07-1.78); depressive episodes, 1.57 (1.19-2.08); other nonpsychotic mental disorders, 1.51 (1.20-1.92), including phobic anxiety disorders, 1.46 (0.72-2.93) and other anxiety disorders, 1.51 (1.17-1.95); and PTSD, 1.60 (1.02-2.50). The risk of secondary outcome epilepsy increased progressively over time, reaching the highest level at 5 years post-OHCA (HR, 2.06; 95% CI, 1.30-3.26).\nCONCLUSION: Traumatic OHCA survivors had higher long-term risks of psychiatric disorders and epilepsy. Early targeted interventions and structured follow-up may help mitigate these risks, warranting confirmation in future prospective studies.",
+    "links": {
+      "doi": "https://doi.org/10.1097/MEJ.0000000000001293",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41343287"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Chung Shan Medical University"
   },
   {
     "id": "40491773",
