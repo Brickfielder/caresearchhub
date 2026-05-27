@@ -269,6 +269,64 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.2196/84432",
+    "doi": "10.2196/84432",
+    "title": "Cardiac Arrest Survivors’ Perspectives to Inform the Co-Design of a Web-Based Support and Learning Platform: Qualitative Content Analysis",
+    "authors": [
+      "Annette Waldemar",
+      "Anders Bremer",
+      "Johan Israelsson",
+      "Katarina Heimburg",
+      "Per Nordberg",
+      "Erik Blennow Nordström",
+      "Kristofer Årestedt",
+      "Ingela Thylén"
+    ],
+    "journal": "Journal of Medical Internet Research",
+    "year": 2026,
+    "date": "2026-05-22",
+    "abstract": "Background: Survivors of cardiac arrest often face multifaceted challenges—cognitive, emotional, physical, and existential—that extend beyond clinical recovery. Despite these long-term consequences, follow-up care is often insufficient, and access to reliable information and support remains limited. Broader initiatives to address post–cardiac arrest care are still lacking. This qualitative study represents the initial phase of a multiphase development process to cocreate, design, and later evaluate a web-based support and learning platform for cardiac arrest survivors. The platform is intended to complement existing health care services and support survivors in managing life after cardiac arrest.\nObjective: This study aimed to explore survivors’ perspectives on digital support and identify relevant content and delivery formats for a web-based support and learning platform.\nMethods: Eight women and 12 men (aged 44‐80 years) were recruited via a moderated peer support network for cardiac arrest survivors. Time since cardiac arrest ranged from 3 months to 19 years. Data were collected between November 2024 and February 2025 through 3 individual and 4 focus group interviews, analyzed using qualitative content analysis.\nResults: Three main categories—(1) digital communication and guided health care navigation, (2) digital opportunities to support recovery and address unmet needs, and (3) digital and interpersonal pathways to safe social contexts—were identified as key design requirements for digital support. Substantial gaps in post–cardiac arrest care emerged, including fragmented and sometimes contradictory information, regional disparities, and limited psychosocial follow-up, underscoring the value of a national, accessible, trustworthy web-based program that complements standard care throughout recovery. Flexible formats—such as short videos, read-aloud functions, and information available both as concise and more in-depth versions—were considered essential to accommodate fatigue and cognitive difficulties. A digital platform was further identified as uniquely suited to gather relevant information in one place, provide expert-based explanations and links to further resources, and offer practical tools that could be accessed at home. Across categories, several unmet needs emerged as particularly suited to digital delivery, including guidance on health and everyday decisions, support for managing emotional and physical aftermath, resources to navigate altered social relations, intimacy and personality changes, and dedicated support for family members, who often lack tailored and continuous follow-up.\nConclusions: Findings underscore the need for a tailored digital support program that extends beyond clinical encounters and offers structured, accessible, and personalized guidance across the recovery trajectory. By addressing long-term cognitive, physical, emotional, and relational needs, a contextually adapted digital program has the potential to bridge existing gaps in post–cardiac arrest care and strengthen survivors’ recovery. These user-driven insights provide a foundation for the cocreation and iterative development of a clinically grounded and adaptable digital support platform.",
+    "keywords": [
+      "Cardiac arrest",
+      "Co-design",
+      "Cocreation",
+      "Digital health intervention",
+      "Focus groups",
+      "Internet-based intervention",
+      "Patient participation",
+      "Patient preference",
+      "Qualitative research",
+      "Self-management support",
+      "User-centered design"
+    ],
+    "domains": [
+      "Cognitive",
+      "Psychological",
+      "Caregiver"
+    ],
+    "setting": "Mixed",
+    "design": "Qualitative content analysis",
+    "country": "Sweden",
+    "links": {
+      "doi": "https://doi.org/10.2196/84432"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "normalizedAuthors": [
+      "Waldemar A",
+      "Bremer A",
+      "Israelsson J",
+      "Heimburg K",
+      "Nordberg P",
+      "Nordström EB",
+      "Årestedt K",
+      "Thylén I"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2026.101235",
     "doi": "10.1016/j.resplu.2026.101235",
     "title": "CARDIS (Cardiac ARrest DIgital Support): Study protocol for a randomised controlled trial of a web-based support intervention for cardiac arrest survivors",
@@ -1091,6 +1149,64 @@
       "Wittig J",
       "Olasveengen TM",
       "Greif R"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/j.resuscitation.2026.111150",
+    "doi": "10.1016/j.resuscitation.2026.111150",
+    "title": "Symptoms of anxiety and depression after out-of-hospital cardiac arrest: an exploratory dyadic analysis of survivors and their cohabiting spouses or partners from the BOX trial",
+    "authors": [
+      "Ditte Bekker-Jensen",
+      "Jesper Kjærgaard",
+      "Henrik Schmidt",
+      "Julie T. Dababneh",
+      "Cecilie Fuglsbjerg",
+      "Johannes Grand",
+      "Christian Hassager",
+      "Martin A.S. Meyer",
+      "Simon Mølstrøm",
+      "Jacob E. Møller",
+      "Britt Borregaard"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-05-12",
+    "abstract": "Aim: The objectives were to: i) compare symptoms of anxiety and depression between survivors and cohabiting spouses/partners, and ii) investigate characteristics associated with higher scores of anxiety and depression in both parts, respectively.\nMethods: This observational exploratory substudy used three-month follow-up data from the Blood Pressure and Oxygenation Targets after Cardiac Arrest (BOX)-trial, restricted to cohabiting survivor-partner dyads. Symptoms of anxiety and depression were assessed using the Hospital Anxiety and Depression Scale (HADS-A anxiety, HADS-D depression). Paired comparisons were used to examine differences within the dyad, and multivariable linear regression models applied separately for survivors and spouses/partners to investigate associations between characteristics and symptom burden, reported as β with 95% confidence intervals (CI).\nResults: Among 321 eligible OHCA survivors, 200 survivor-partner dyads were included. Median HADS-A scores were 4 (IQR 1-7) in survivors and 5 (IQR 1-8) in spouses/partners (p=0.107). Median HADS-D scores were 1 (IQR 0-4) and 1 (IQR 0-3), respectively (p=0.290). In adjusted regression analyses among survivors, higher age was associated with lower scores of HADS-A (β -0.065, 95% CI -0.125;-0.025; p=0.012) and HADS-D (β -0.040, 95% CI -0.090;-0.00; p=0.037). In sensitivity analyses, poorer self-rated health was associated with higher scores of HADS-A and HADS-D in both parts, and poorer survivor self-rated health was associated with higher scores of HADS-D among spouses/partners.\nConclusion: Symptoms of anxiety and depression did not differ in survivors and their spouse/partners. Higher age was associated with lower scores of anxiety and depression among survivors, and poorer self-rated health with higher symptom-scores in both.",
+    "keywords": [
+      "Cardiac arrest",
+      "OHCA",
+      "Post resuscitation care",
+      "Relative",
+      "Rehabilitation",
+      "Patient-reported outcome"
+    ],
+    "domains": [
+      "Psychological",
+      "Caregiver"
+    ],
+    "setting": "OHCA",
+    "design": "Observational exploratory substudy",
+    "country": "Denmark",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111150"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "normalizedAuthors": [
+      "Bekker-Jensen D",
+      "Kjærgaard J",
+      "Schmidt H",
+      "Dababneh JT",
+      "Fuglsbjerg C",
+      "Grand J",
+      "Hassager C",
+      "Meyer MA",
+      "Mølstrøm S",
+      "Møller JE",
+      "Borregaard B"
     ],
     "isAbstractTruncated": false
   },
