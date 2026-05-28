@@ -7794,6 +7794,46 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "36909925",
+    "pmid": "36909925",
+    "doi": "10.1016/j.resplu.2023.100370",
+    "title": "Family experiences and health outcomes following a loved ones' hospital discharge or death after cardiac arrest: A scoping review.",
+    "authors": [
+      "Danielle A Rojas",
+      "Christine E DeForge",
+      "Sabine L Abukhadra",
+      "Lia Farrell",
+      "Maureen George",
+      "Sachin Agarwal"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2023,
+    "date": "2023-03-03",
+    "abstract": "AIM: Synthesise the existing literature on experiences and health outcomes of family members of adult cardiac arrest patients either after hospital discharge or death and identify gaps and targets for future research.\nMETHODS: Following recommended scoping review guidelines and reporting framework, we developed anprotocol and searched five large biomedical databases for all relevant studies published in peer-reviewed journals in the English language through 8/8/2022. Studies reporting either on the experiences or health outcomes of family members of adult cardiac arrest patients who survived to hospital discharge (i.e.,) or bereaved family members were included. Study characteristics were extracted and findings were reviewed for co-survivors and bereaved family members. We summarised practice recommendations and evidence gaps as reported by the studies.\nRESULTS: Of 44 articles representing 3,598 family members across 15 countries and 5 continents, 89% (n = 39) were observational. Co-survivors described caregiving challenges and difficulty transitioning to life at home after hospital discharge. Co-survivors as well as bereaved family members reported significant and persistent psychological burden. Enhanced communication, information on what to expect after hospital discharge or the death of their loved ones, and emotional support were among the top recommendations to improve family members' experiences and health outcomes.\nCONCLUSION: Family members develop significant emotional burdens and physical symptoms as they deal with their loved ones' critical illnesses and uncertain, unpredictable recovery. Interventions designed to reduce family members' psychological distress and uncertainty prevalent throughout the illness trajectory of their loved ones admitted with cardiac arrest are needed.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2023.100370",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36909925",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9999209"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC9999209",
+    "country": "United States",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Rojas DA",
+      "DeForge CE",
+      "Abukhadra SL",
+      "Farrell L",
+      "George M",
+      "Agarwal S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "37287956",
     "pmid": "37287956",
     "doi": "10.1016/j.resplu.2023.100402",
