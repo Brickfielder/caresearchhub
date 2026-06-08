@@ -539,6 +539,55 @@
     }
   },
   {
+    "id": "42186118",
+    "pmid": "42186118",
+    "doi": "10.1111/nhs.70365",
+    "title": "Nurse-Led Health Education Intervention on Basic Life Support for Relatives of Patients With Cardiac Conditions: A Quasi-Experimental Pilot Study.",
+    "authors": [
+      "Irene Alcoceba",
+      "Sara García",
+      "Irene Bonilla",
+      "Marta Díez",
+      "Verónica Merayo",
+      "Denisse Pamela Jaya",
+      "Sara Lobo",
+      "María López",
+      "Nerea Lario",
+      "José María Jiménez"
+    ],
+    "journal": "Nursing & health sciences",
+    "year": 2026,
+    "date": "2026-06",
+    "abstract": "INTRODUCTION: Out-of-hospital cardiorespiratory arrest affects more than 350,000 people in Europe annually. Therefore, health education interventions led by nurses are essential to provide complete and adequate education on basic life support to family members of patients with cardiac conditions. The objective was to evaluate the impact of an educational intervention on basic CPR by assessing improvements in knowledge, practical skills, and self-perception among family members of patients with heart conditions.\nMETHODOLOGY: A prospective quasi-experimental pretest-posttest design, involving a theoretical-practical educational intervention in basic life support aimed at relatives of patients with cardiac conditions treated at a tertiary care hospital. Theoretical data were collected using three validated questionnaires. Practical skills were assessed by solving a case study and evaluating CPR maneuvers using 14 validated items.\nRESULTS: A total of 105 relatives of patients with cardiac conditions participated, with a mean age of 49.28 ± 13 years. Comparing the pre-intervention, post-intervention, and 5-month follow-up questionnaire scores, significant improvements were observed in knowledge, practical skills, and self-perception.\nCONCLUSIONS: The nurse-led educational intervention was effective, demonstrating statistically significant improvements across all areas without reflecting medium-term losses.",
+    "links": {
+      "doi": "https://doi.org/10.1111/nhs.70365",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42186118"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Pilot Projects",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Prospective Studies",
+      "Adult",
+      "Surveys and Questionnaires",
+      "Health Education",
+      "Cardiopulmonary Resuscitation",
+      "Family",
+      "Heart Diseases",
+      "Aged",
+      "Life Support Care"
+    ],
+    "country": "Spain",
+    "corrCountryCode": "ES",
+    "corrCountryName": "Spain"
+  },
+  {
     "id": "10.1177/27536386251380855",
     "doi": "10.1177/27536386251380855",
     "title": "Paramedics’ experiences of treating Out-of-Hospital Cardiac Arrest (OHCA) patients during the COVID-19 pandemic in the United Kingdom (UK): A qualitative reflexive thematic analysis",
