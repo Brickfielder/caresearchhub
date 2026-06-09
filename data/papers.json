@@ -410,6 +410,29 @@
     "corrCountryName": "Sweden"
   },
   {
+    "id": "10.1016/j.resuscitation.2026.111165",
+    "doi": "10.1016/j.resuscitation.2026.111165",
+    "title": "Long-term functional and quality of life outcomes for survivors of asystolic out-of-hospital cardiac arrest",
+    "authors": [
+      "Dhiraj Bhatia Dwivedi",
+      "Jocasta Ball",
+      "Karen Smith",
+      "Emily Nehme",
+      "Ziad Nehme"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-06",
+    "abstract": "Aim: To assess the long term functional and health-related quality-of-life (HRQoL) outcomes for asystolic out-of-hospital cardiac arrest (OHCA) survivors. Methods: We retrospectively analysed EMS-treated adult patients with asystolic OHCA between 2010 and 2024 from the Victorian Ambulance Cardiac Arrest Registry (VACAR). We excluded patients whose cardiac arrest was witnessed by emergency medical services (EMS) personnel. Twelve-month survivors were contacted for structured telephone interviews. Outcomes were evaluated using the Glasgow Outcome Scale-Extended (GOS-E), EuroQol-5 Dimensions (EQ-5D), and the 12-item Short Form Health Survey (SF-12), alongside questions about living arrangements and employment status. Results: Of the 16,803 initial asystolic OHCA patients with an attempted resuscitation, 83 (0.5%) were discharged alive. Twelve-month mortality was 13.3% (95% CI: 7.6%-22.7%). At 12 months, 70 (84.3%) patients were alive and 56 (80.0%) completed follow up. Among respondents, 18 (32.1%) achieved good functional recovery (GOS-E ≥ 7) while 28 (50.0%) were in a vegetative state or severe disability. Twenty-three survivors (41.1%) were living at home without ongoing support, 9 (16.1%) reported full health according to the EQ-5D index. The median EQ-5D index score was 0.7 (0.5-0.9), whereas mean for visual analogue scale (VAS) declined significantly from 70.1 pre-arrest to 58.0 (p = 0.003). Compared with population norms, SF-12 physical and mental health, EQ-VAS and EQ-5D index scores were lower at 12 months among survivors. Conclusion: Among 12-month survivors of EMS-treated asystolic OHCA, good functional recovery was achieved by only one-third of patients, with most survivors experiencing persistent disability and impaired HRQoL.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111165"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "41697682",
     "pmid": "41697682",
     "doi": "10.1001/jamaneurol.2025.5614",
