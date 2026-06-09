@@ -410,6 +410,29 @@
     "corrCountryName": "Sweden"
   },
   {
+    "id": "10.1016/j.resuscitation.2026.111165",
+    "doi": "10.1016/j.resuscitation.2026.111165",
+    "title": "Long-term functional and quality of life outcomes for survivors of asystolic out-of-hospital cardiac arrest",
+    "authors": [
+      "Dhiraj Bhatia Dwivedi",
+      "Jocasta Ball",
+      "Karen Smith",
+      "Emily Nehme",
+      "Ziad Nehme"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-06",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111165"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "41697682",
     "pmid": "41697682",
     "doi": "10.1001/jamaneurol.2025.5614",
