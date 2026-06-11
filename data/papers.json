@@ -1,5 +1,43 @@
 [
   {
+    "id": "10.15441/ceem.26.072",
+    "doi": "10.15441/ceem.26.072",
+    "title": "2025 Korean Guidelines for Cardiopulmonary Resuscitation: Part 2. Current status of cardiac arrest and the chain of survival",
+    "authors": [
+      "Sung Oh Hwang",
+      "Kyoung-Chul Cha",
+      "Woo Jin Jung",
+      "Young-Il Roh",
+      "Gyo Jin Ahn",
+      "Do Kyun Kim",
+      "Tae-Youn Kim",
+      "Youdong Sohn",
+      "Gyuhong Shim",
+      "Young Hwa Jung",
+      "Yunhee Oh",
+      "Chun Song Youn",
+      "Mi Jin Lee",
+      "Jisook Lee",
+      "Chang Hee Lee",
+      "Youngbin Jang",
+      "Yong Soo Jang",
+      "Gyu Chong Cho",
+      "Ju Sun Heo",
+      "Sung Phil Chung"
+    ],
+    "journal": "Clinical and Experimental Emergency Medicine",
+    "year": 2026,
+    "date": "2026-05-31",
+    "abstract": "In Korea, more than 30,000 out-of-hospital cardiac arrests (OHCAs) occur each year, and the survival rate remains below 10%. Because OHCA is difficult to predict and typically occurs outside medical facilities, effective management requires not only healthcare professionals but also laypersons, including bystanders and first responders. Survival depends on an uninterrupted and efficient sequence of time-critical actions: early recognition of cardiac arrest and activation of emergency services; prompt bystander cardiopulmonary resuscitation (CPR); use of an automated external defibrillator (AED) for shockable rhythms; on-scene and in-hospital advanced life support with comprehensive post–cardiac arrest care; and systematic assessment of neurologic and functional outcomes followed by rehabilitation and recovery. The chain of survival describes these essential steps required to maximize survival after cardiac arrest and comprises five links: (1) early recognition and call for help; (2) immediate bystander CPR; (3) early defibrillation with an AED; (4) advanced life support and post–cardiac arrest care; and (5) rehabilitation and recovery for survivors. Cardiac arrest survival environment represents a societal infrastructure that sustains and optimizes both medical and nonmedical factors across prevention, treatment, and rehabilitation to reduce mortality. Establishing such an environment requires each community to develop integrated medical systems for prevention, treatment, rehabilitation, and recovery, alongside nonmedical strategies, including public awareness initiatives, widespread CPR education and bystander participation, AED dissemination, and coordinated community responsiveness of the emergency medical system.",
+    "links": {
+      "doi": "https://doi.org/10.15441/ceem.26.072"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "41570883",
     "pmid": "41570883",
     "doi": "10.1016/j.resuscitation.2026.110978",
