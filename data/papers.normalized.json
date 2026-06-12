@@ -1559,6 +1559,42 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41809586",
+    "pmid": "41809586",
+    "doi": "10.1016/j.resplu.2026.101266",
+    "title": "Wolf Creek XVIII Part 5: cardiac arrest survivorship science.",
+    "authors": [
+      "K N Dainty",
+      "A K Wagner",
+      "M Wood",
+      "S Agarwal"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2026,
+    "date": "2026-02-13",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101266",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41809586",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12969338"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12969338",
+    "country": "United States",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Dainty KN",
+      "Wagner AK",
+      "Wood M",
+      "Agarwal S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "40241996",
     "pmid": "40241996",
     "doi": "10.1016/j.resplu.2025.100944",
