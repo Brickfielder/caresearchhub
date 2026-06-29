@@ -373,6 +373,36 @@
     "country": "United States"
   },
   {
+    "id": "42334379",
+    "pmid": "42334379",
+    "doi": "10.1093/eurjcn/zvag154",
+    "title": "Fatigue after out-of-hospital cardiac arrest: prevalence, severity, and age-related differences from the DANCAS survey.",
+    "authors": [
+      "Stine Tollund Ebsen",
+      "Nadja Buch Petersson",
+      "Anders Wieghorst",
+      "Harald Bundgaard L Frisch",
+      "Vicky Joshi",
+      "Ann Dorthe Zwisler",
+      "Britt Borregaard"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2026,
+    "date": "2026-06-23",
+    "abstract": "AIMS: To describe the proportion and severity of fatigue among out-of-hospital cardiac arrest (OHCA) survivors and to investigate the association between age group (working-age 18-64 years vs ≥65 years) and fatigue.\nMETHODS AND RESULTS: This cross-sectional study used data from the Danish Cardiac Survivorship (DANCAS) survey, including adult (≥18 years) OHCA survivors. Fatigue (the Modified Fatigue Impact Scale, MFIS), anxiety and depression (Hospital Anxiety and Depression Scale, HADS), and disability (WHO Disability Assessment Schedule, WHODAS 2.0) were assessed. Descriptive statistics characterised fatigue across age groups. Linear regression models (unadjusted and adjusted) investigated the association between age group and fatigue, reported as regression coefficients (β) and 95% confidence intervals (CI).In total, n = 1236 survivors (median age 67 years, IQR 57-74) were included, of whom 551 were of working age and 685 were ≥65 years. Working-age survivors reported significantly higher (worse) levels of fatigue (median 19, IQR 6-38) compared to those aged ≥65 years (median 13, IQR 5-28). Working age was significantly associated with higher fatigue scores after adjustment for sex and age (β 4.80, 95% CI 2.63-6.98). The association was reduced but remained statistically significant after further adjusting for anxiety, depression, and disability (β 1.57, 95% CI 0.22-2.92).\nCONCLUSION: Working-age OHCA survivors reported higher levels of fatigue compared with survivors aged ≥65 years, particularly in the non-physical domains. The association was reduced after adjustment, suggesting overlap between fatigue, psychological distress and disability. These findings highlight the need for multidimensional and age-specific assessment of post-OHCA fatigue.",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvag154",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42334379"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark"
+  },
+  {
     "id": "42038943",
     "pmid": "42038943",
     "doi": "10.1155/nrp/6036368",
