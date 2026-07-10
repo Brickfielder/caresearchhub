@@ -373,6 +373,35 @@
     "country": "United States"
   },
   {
+    "id": "42402148",
+    "pmid": "42402148",
+    "doi": "10.1080/13607863.2026.2696969",
+    "title": "Characterizing stressors, coping strategies, and intervention preferences related to brain health among cardiac arrest survivors and their family caregivers.",
+    "authors": [
+      "Alexander M Presciutti",
+      "Elizabeth A Rochon",
+      "Mary Newman",
+      "Cecelia Ratay",
+      "Jonathan Elmer",
+      "Sarah M Perman",
+      "Ana-Maria Vranceanu",
+      "Ryan A Mace"
+    ],
+    "journal": "Aging & mental health",
+    "year": 2026,
+    "date": "2026-07-05",
+    "abstract": "OBJECTIVES: To (1) identify cardiac arrest (CA) survivors' and their caregivers' stressors and coping and compensation strategies related to brain health and (2) gather feedback on a proposed brain health lifestyle intervention for this population.\nMETHODS: We conducted two focus groups with dyads of CA survivors and their caregivers ( = 9 dyads) and ten interviews ( = 10 dyads), recruited from the Sudden Cardiac Arrest Foundation's Cardiac Arrest Survivor Alliance, BuildClinical, and provider referrals between 9/2024 and 5/2025. We purposefully sampled to include populations at-risk for cognitive decline based on race and ethnicity. We conducted rapid qualitative data analysis of our focus groups and interview transcripts.\nRESULTS: Dyads described several sources of brain health stress including survivors' cognitive changes, fear of further decline, and concerns about caregiver stress. Dyads reported using coping strategies including peer support, professional mental health treatment, acceptance strategies, and physical activity, and compensation strategies including delegating more tasks to the caregiver, using organizational aids, visual aids, and pacing strategies. Dyads endorsed proposed program content and recommended additional content on nutrition and diet, managing emotional distress, and psychoeducation on the impact of CA on the brain.\nCONCLUSION: Survivors and caregivers experience ongoing stressors related to brain health, though they develop coping and compensation strategies that merit further study.",
+    "links": {
+      "doi": "https://doi.org/10.1080/13607863.2026.2696969",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42402148"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "United States"
+  },
+  {
     "id": "42334379",
     "pmid": "42334379",
     "doi": "10.1093/eurjcn/zvag154",
