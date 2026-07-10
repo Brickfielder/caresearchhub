@@ -1565,6 +1565,46 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42294588",
+    "pmid": "42294588",
+    "doi": "10.4103/singaporemedj.SMJ-2025-173",
+    "title": "The journey after restart: understanding the multidimensional experience of cardiac arrest survivors.",
+    "authors": [
+      "Zariel Jiaying Sim",
+      "John Joson Ng",
+      "Yew Woon Chia",
+      "Shir Lynn Lim",
+      "Marcus Eng Hock Ong",
+      "Andrew Fu Wah Ho"
+    ],
+    "journal": "Singapore medical journal",
+    "year": 2026,
+    "date": "2026-06-15",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.4103/singaporemedj.SMJ-2025-173",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42294588"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "United Kingdom",
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Sim ZJ",
+      "Ng JJ",
+      "Chia YW",
+      "Lim SL",
+      "Ong MEH",
+      "Ho AFW"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41996858",
     "pmid": "41996858",
     "doi": "10.1016/j.jpsychores.2026.112678",
