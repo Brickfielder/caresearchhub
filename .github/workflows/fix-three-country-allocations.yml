@@ -1,0 +1,50 @@
+name: Fix three paper country allocations
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-three-country-allocations.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Correct country metadata
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const files = ['data/papers.json', 'data/papers.normalized.json'];
+          const fixes = {
+            '42294588': { country: 'Singapore', corrCountryCode: 'SG', corrCountryName: 'Singapore' },
+            '41937429': { country: 'Sweden', corrCountryCode: 'SE', corrCountryName: 'Sweden' },
+            '41343287': { country: 'Taiwan', corrCountryCode: 'TW', corrCountryName: 'Taiwan' }
+          };
+          for (const file of files) {
+            const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+            let changed = 0;
+            for (const paper of data) {
+              const fix = fixes[String(paper.id)] || fixes[String(paper.pmid)];
+              if (!fix) continue;
+              Object.assign(paper, fix);
+              changed++;
+            }
+            if (changed !== 3) throw new Error(`${file}: expected 3 records, found ${changed}`);
+            fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
+          }
+          NODE
+      - name: Remove one-off workflow
+        run: rm .github/workflows/fix-three-country-allocations.yml
+      - name: Commit corrections
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/papers.json data/papers.normalized.json .github/workflows/fix-three-country-allocations.yml
+          git commit -m 'fix: correct three paper country allocations'
+          git push
