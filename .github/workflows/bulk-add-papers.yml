@@ -3,6 +3,7 @@ name: Bulk add papers to repository
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 on:
   workflow_dispatch:
@@ -14,13 +15,89 @@ on:
         description: true=don’t update datasets, just validate
         required: true
         default: 'true'
+  issues:
+    types: [opened, reopened]
 
 jobs:
   bulk-add:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event_name == 'issues' &&
+        startsWith(github.event.issue.title, '[Paper ingest]') &&
+        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+      )
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Resolve request inputs
+        id: request
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const event = JSON.parse(
+            fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8')
+          );
+
+          let identifiers = '';
+          let previewOnly = 'true';
+
+          if (process.env.GITHUB_EVENT_NAME === 'workflow_dispatch') {
+            identifiers = String(event.inputs?.identifiers ?? '').trim();
+            previewOnly = String(event.inputs?.preview_only ?? 'true').trim();
+          } else {
+            const body = String(event.issue?.body ?? '');
+            const heading = /^### DOI\(s\)\s*$/m;
+            const match = heading.exec(body);
+
+            if (!match) {
+              throw new Error('Unable to find the DOI(s) field in the issue body.');
+            }
+
+            const afterHeading = body
+              .slice(match.index + match[0].length)
+              .replace(/^\r?\n+/, '');
+            const nextHeading = afterHeading.search(/^### /m);
+
+            identifiers = (
+              nextHeading === -1
+                ? afterHeading
+                : afterHeading.slice(0, nextHeading)
+            ).trim();
+            previewOnly = 'false';
+          }
+
+          if (!identifiers || identifiers === '_No response_') {
+            throw new Error('No DOI was supplied.');
+          }
+
+          const delimiter = `DOI_INPUT_${Date.now()}`;
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            [
+              `identifiers<<${delimiter}`,
+              identifiers,
+              delimiter,
+              `preview_only=${previewOnly}`,
+              ''
+            ].join('\n')
+          );
+          NODE
+
+      - name: Acknowledge issue request
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Thanks — the DOI is being fetched and validated. This issue will be updated with the pull request link.'
+            });
 
       - name: Check PR automation token availability
         env:
@@ -43,7 +120,7 @@ jobs:
       - name: Prepare DOI list
         id: doi_inputs
         env:
-          IDENTIFIERS: ${{ github.event.inputs.identifiers }}
+          IDENTIFIERS: ${{ steps.request.outputs.identifiers }}
         run: |
           set -euo pipefail
 
@@ -76,7 +153,7 @@ jobs:
         id: bulk_add
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-          PREVIEW_ONLY: ${{ github.event.inputs.preview_only }}
+          PREVIEW_ONLY: ${{ steps.request.outputs.preview_only }}
           DOI_FILE: ${{ steps.doi_inputs.outputs.file }}
         run: |
           set -uo pipefail
@@ -157,6 +234,7 @@ jobs:
           printf '%s\n' "${{ steps.bulk_add.outputs.failure_bullets }}" >&2
 
       - name: Create PR with changes
+        id: create_pr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.ACTIONS_PR_TOKEN || github.token }}
@@ -165,10 +243,71 @@ jobs:
           title: 'Bulk add papers (${{ steps.bulk_add.outputs.success_count }})'
           body: |
             Automated bulk addition.
-            Preview=${{ github.event.inputs.preview_only }}
+            Preview=${{ steps.request.outputs.preview_only }}
             Successfully processed:
             ${{ steps.bulk_add.outputs.success_bullets }}
 
             Failed lookups:
             ${{ steps.bulk_add.outputs.failure_bullets }}
           delete-branch: true
+
+      - name: Link pull request and close issue
+        if: >-
+          github.event_name == 'issues' &&
+          steps.create_pr.outputs.pull-request-number != ''
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ steps.create_pr.outputs.pull-request-number }}
+          PR_URL: ${{ steps.create_pr.outputs.pull-request-url }}
+        with:
+          script: |
+            const number = process.env.PR_NUMBER;
+            const url = process.env.PR_URL;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Paper data fetched successfully. Pull request [#${number}](${url}) has been created for review.`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Close issue when no changes were needed
+        if: >-
+          github.event_name == 'issues' &&
+          success() &&
+          steps.create_pr.outputs.pull-request-number == ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'No pull request was created because the DOI produced no repository changes. It may already be present in the dataset.'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Report issue processing failure
+        if: github.event_name == 'issues' && failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `The DOI could not be processed automatically. Please review the [workflow run](${runUrl}) for details. The issue has been left open.`
+            });
