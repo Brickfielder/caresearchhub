@@ -1,0 +1,27 @@
+name: Add paper by DOI
+description: Fetch article metadata and an abstract, then open a pull request for review.
+title: "[Paper ingest] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Enter a DOI below. The workflow will retrieve available metadata and abstract text, update the paper dataset, and open a pull request.
+
+        For security, automated processing runs only for the repository owner and approved collaborators.
+  - type: textarea
+    id: doi
+    attributes:
+      label: DOI(s)
+      description: Enter one DOI, or several separated by spaces, commas, or new lines.
+      placeholder: |
+        10.1016/j.resuscitation.2026.110999
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context for the repository reviewer.
+      placeholder: Why this paper should be added, or anything that needs checking.
+    validations:
+      required: false
