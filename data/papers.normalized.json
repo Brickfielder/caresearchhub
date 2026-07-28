@@ -1409,6 +1409,64 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42507344",
+    "pmid": "42507344",
+    "doi": "10.4103/singaporemedj.SMJ-2026-279",
+    "title": "Singapore Post-cardiac Arrest Care Guidelines 2026.",
+    "authors": [
+      "Yew Woon Chia",
+      "Sohil Pothiawala",
+      "Julian Kenrick Loh",
+      "Carrie Kah-Lai Leong",
+      "Shir Lynn Lim",
+      "Ruth Weixian Chen",
+      "Ying Hao Christopher Seet",
+      "Zhi-Yan Valerie Ng",
+      "Benjamin Sieu-Hon Leong",
+      "National Post-Cardiac Arrest and Survivorship (PCAS) Workgroup"
+    ],
+    "journal": "Singapore medical journal",
+    "year": 2026,
+    "date": "2026-07-27",
+    "abstract": "A robust chain of survival is important for achieving positive outcomes following out-of-hospital cardiac arrest, which continues to pose a substantial public health challenge in Singapore. Although improvements have been made in prehospital resuscitation and survival to hospital admission, further progress is required for survival to hospital discharge and neurological recovery. This underscores the urgent need to strengthen post-cardiac arrest care-the sixth link in the chain of survival-to optimise outcomes for patients admitted to the intensive care unit after return of spontaneous circulation. This review builds on earlier recommendations of the National Targeted Temperature Management Workgroup (2017) and the National Post-Cardiac Arrest and Survivorship Workgroup (2021), providing an updated summary of post-cardiac arrest management and practical guidance for clinicians treating resuscitated cardiac arrest patients in the intensive care unit.",
+    "links": {
+      "doi": "https://doi.org/10.4103/singaporemedj.SMJ-2026-279",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42507344"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Singapore",
+      "Out-of-Hospital Cardiac Arrest",
+      "Intensive Care Units",
+      "Cardiopulmonary Resuscitation",
+      "Hypothermia, Induced",
+      "Practice Guidelines as Topic",
+      "Critical Care"
+    ],
+    "country": "United Kingdom",
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Chia YW",
+      "Pothiawala S",
+      "Loh JK",
+      "Leong CK",
+      "Lim SL",
+      "Chen RW",
+      "Seet YHC",
+      "Ng ZV",
+      "Leong BS",
+      "Workgroup NPAAS("
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resuscitation.2026.111150",
     "doi": "10.1016/j.resuscitation.2026.111150",
     "title": "Symptoms of anxiety and depression after out-of-hospital cardiac arrest: an exploratory dyadic analysis of survivors and their cohabiting spouses or partners from the BOX trial",
