@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Resuscitation Network - People",
-    "updated_at": "2026-04-07",
+    "updated_at": "2026-07-29",
     "fields": [
       "id",
       "name",
@@ -101,6 +101,22 @@
       "looking_to_collaborate_on": "Harmonising patient-reported outcome measures across sites; Multinational cardiac arrest follow-up datasets; Co-designing support pathways for survivors and relatives; Linking acute and long-term cardiac arrest datasets",
       "id": "bo-gregers-winkel",
       "updated_at": "2026-01-12"
+    },
+    {
+      "name": "Britt Borregaard",
+      "email": "Britt.borregaard@rsyd.dk",
+      "role": "Professor in Cardiac Health Outcomes Research, RN, MSc, PhD",
+      "org": "Department of Cardiology, Odense University Hospital and Department of Clinical Research, University of Southern Denmark",
+      "city": "Odense",
+      "country": "Denmark",
+      "lat": 55.38,
+      "lng": 10.45,
+      "research_areas": "Cardiac arrest survivorship and recovery; post-cardiac arrest follow-up and rehabilitation; health outcomes and PROMs; survivor-relative dyads; complex interventions and clinical trials; health economics",
+      "research_keywords": "Out-of-hospital cardiac arrest; survivorship; relatives/co-survivors; health-related quality of life; patient-reported outcomes; follow-up; rehabilitation; clinical trials; health economics",
+      "offer": "Expertise in long-term outcomes and recovery after cardiac arrest, including survivors and relatives; large-scale survey data on quality of life, psychological health, fatigue and caregiver burden; knowledge of the development and evaluation of structured post-cardiac arrest follow-up and complex interventions; expertise in PROMs, multicentre clinical trials and health economic evaluation",
+      "looking_to_collaborate_on": "Multinational studies of long-term outcomes and survivorship after cardiac arrest; harmonisation, interpretation and evaluation of survivor- and relative-reported outcomes; development and evaluation of follow-up and rehabilitation interventions; multicentre clinical trials and health economic evaluations in cardiac arrest survivorship",
+      "id": "britt-borregaard",
+      "updated_at": "2026-07-29"
     },
     {
       "name": "Bruce Irvine",
