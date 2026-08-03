@@ -402,6 +402,46 @@
     "country": "United States"
   },
   {
+    "id": "42285023",
+    "pmid": "42285023",
+    "doi": "10.1016/j.aucc.2026.101624",
+    "title": "Family members' experiences during a loved one's resuscitation in the emergency department: A qualitative study.",
+    "authors": [
+      "Ira Rahmawati",
+      "Tamara Page",
+      "Lisa Conlon",
+      "Frank Donnelly"
+    ],
+    "journal": "Australian critical care : official journal of the Confederation of Australian Critical Care Nurses",
+    "year": 2026,
+    "date": "2026-06-12",
+    "abstract": "BACKGROUND: Offering family members the option to be present during their loved one's resuscitation has not been widely implemented in emergency departments, despite growing support from healthcare professionals. Studies evaluating the impact on family members present during a loved one's resuscitation are limited and show mixed results, highlighting the need for more research to understand their needs during this critical moment. There is also limited literature on the involvement of family members during resuscitation within the Indonesian context and how cultural factors may influence their experiences and responses during and after these events.\nOBJECTIVES: The aims of this study were to explore the experiences of family members during a loved one's resuscitation in an Indonesian context and to understand how this event impacted their lives afterwards.\nMETHODS: An exploratory-descriptive qualitative design was utilised in this study. Data were collected using semistructured interviews and analysed using thematic analysis. This study was conducted at a public teaching hospital in Indonesia, involving family members of patients who had received cardiopulmonary resuscitation in the emergency department.\nFINDINGS: The thematic analysis identified four themes: \"Between hope and loss, faith provides strength\", \"Being present is the right thing to do\", \"Drowning in the moment\", and \"Coping mechanisms towards recovery\". Family members expressed a need and a wish to be involved in the patient's care, including during resuscitation attempts.\nCONCLUSIONS: The findings of this study emphasise that involving family members during the resuscitation of a loved one is an important aspect of Indonesian cultural and religious life. Hospitals should consider developing policies that support families and healthcare providers when engaging in family-witnessed resuscitation.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.aucc.2026.101624",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42285023"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Family",
+      "Qualitative Research",
+      "Indonesia",
+      "Emergency Service, Hospital",
+      "Female",
+      "Male",
+      "Adult",
+      "Cardiopulmonary Resuscitation",
+      "Adaptation, Psychological",
+      "Middle Aged",
+      "Interviews as Topic",
+      "Family Support"
+    ],
+    "country": "Australia"
+  },
+  {
     "id": "42334379",
     "pmid": "42334379",
     "doi": "10.1093/eurjcn/zvag154",
