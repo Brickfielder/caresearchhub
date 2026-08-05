@@ -1815,6 +1815,35 @@
     "country": "United Kingdom"
   },
   {
+    "id": "40805898",
+    "pmid": "40805898",
+    "doi": "10.3390/healthcare13151865",
+    "title": "Current Perspectives on Rehabilitation Following Return of Spontaneous Circulation After Sudden Cardiac Arrest: A Narrative Review.",
+    "authors": [
+      "Kamil Salwa",
+      "Karol Kaziród-Wolski",
+      "Dorota Rębak",
+      "Janusz Sielski"
+    ],
+    "journal": "Healthcare (Basel, Switzerland)",
+    "year": 2025,
+    "date": "2025-07-30",
+    "abstract": "Sudden cardiac arrest (SCA) is a major global health concern with high mortality despite advances in resuscitation techniques. Achieving return of spontaneous circulation (ROSC) represents merely the initial step in the extensive rehabilitation journey. This review highlights the critical role of structured, multidisciplinary rehabilitation following ROSC, emphasizing the necessity of integrated physiotherapy, neurocognitive therapy, and psychosocial support to enhance quality of life and societal reintegration in survivors.This narrative review analyzed peer-reviewed literature from 2020-2025, sourced from databases such as PubMed, Scopus, Web of Science, and Google Scholar. Emphasis was on clinical trials, expert guidelines (e.g., European Resuscitation Council 2021, American Heart Association 2020), and high-impact journals, with systematic thematic analysis across rehabilitation phases.The review confirms rehabilitation as essential in addressing Intensive Care Unit-acquired weakness, cognitive impairment, and post-intensive care syndrome. Early rehabilitation (0-7 days post-ROSC), focusing on parameter-guided mobilization and cognitive stimulation, significantly improves functional outcomes. Structured interdisciplinary interventions encompassing cardiopulmonary, neuromuscular, and cognitive domains effectively mitigate long-term disability, facilitating return to daily activities and employment. However, access disparities and insufficient randomized controlled trials limit evidence-based standardization.Optimal recovery after SCA necessitates early and continuous interdisciplinary engagement, tailored to individual physiological and cognitive profiles. Persistent cognitive fatigue, executive dysfunction, and emotional instability remain significant barriers, underscoring the need for holistic and sustained rehabilitative approaches.Comprehensive, individualized rehabilitation following cardiac arrest is not supplementary but fundamental to meaningful recovery. Emphasizing early mobilization, neurocognitive therapy, family involvement, and structured social reintegration pathways is crucial. Addressing healthcare disparities and investing in rigorous randomized trials are imperative to achieving standardized, equitable, and outcome-oriented rehabilitation services globally.",
+    "links": {
+      "doi": "https://doi.org/10.3390/healthcare13151865",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40805898",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12345673"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12345673",
+    "country": "Poland",
+    "corrCountryCode": "PL",
+    "corrCountryName": "Poland"
+  },
+  {
     "id": "40486102",
     "pmid": "40486102",
     "doi": "10.1016/j.resplu.2025.100970",
