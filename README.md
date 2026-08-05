@@ -29,6 +29,10 @@ Open <http://localhost:4321> to explore the development build. Use `npm run buil
 
 Approved repository collaborators can submit a DOI through the **Add paper by DOI** issue form. The workflow fetches available metadata and abstract text with preview mode disabled, updates the datasets, and opens a pull request for review.
 
+### Email-verified bookmark submissions
+
+The `api/` directory is deployed as a small Vercel service. Configure `ALLOWED_SUBMITTER_EMAIL`, `AUTH_SECRET`, `RESEND_API_KEY`, `RESEND_FROM`, and `GITHUB_WORKFLOW_TOKEN` there; the last token needs permission to dispatch the `bulk-add-papers.yml` workflow. The public bookmark opens the Vercel submission page, where the approved contributor verifies their email once per browser and later submits directly for review. See [the colleague guide](docs/paper-submission-guide.md).
+
 For faster submission from journal websites, install the **Add to CARESearch** bookmarklet from <https://caresearchhub.org/add-paper.html>. It detects a DOI on the current page and opens the GitHub issue form with the DOI pre-filled. The bookmarklet contains no GitHub credentials.
 
 ## Update cadence

@@ -152,18 +152,11 @@
 
           if (!doi) return;
 
-          const issueUrl = new URL(
-            "https://github.com/Brickfielder/caresearchhub/issues/new"
+          const submissionUrl = new URL(
+            "https://caresearchhub-intake.vercel.app/submit-paper.html"
           );
-          issueUrl.searchParams.set("template", "add-paper.yml");
-          issueUrl.searchParams.set("title", `[Paper ingest] ${doi}`);
-          issueUrl.searchParams.set("doi", doi);
-          issueUrl.searchParams.set(
-            "notes",
-            `Submitted with the CARESearch bookmarklet from ${location.href}`
-          );
-
-          window.open(issueUrl.toString(), "_blank", "noopener");
+          submissionUrl.searchParams.set("doi", doi);
+          window.open(submissionUrl.toString(), "_blank", "noopener");
         }
 
         const bookmarklet = document.getElementById("bookmarklet");
