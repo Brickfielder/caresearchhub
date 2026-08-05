@@ -3,16 +3,16 @@ import { sign } from './_auth.js';
 
 const email = (value) => String(value || '').trim().toLowerCase();
 const doi = (value) => String(value || '').trim().replace(/[.,;:'"\]}>]+$/g, '');
+const allowed = () => new Set(String(process.env.ALLOWED_SUBMITTER_EMAIL || '').split(',').map(email).filter(Boolean));
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
 
   const submittedEmail = email(req.body?.email);
-  const allowedEmail = email(process.env.ALLOWED_SUBMITTER_EMAIL);
   const submittedDoi = doi(req.body?.doi);
   const origin = `https://${req.headers['x-forwarded-host'] || req.headers.host}`;
 
-  if (!submittedDoi || submittedEmail !== allowedEmail || !process.env.AUTH_SECRET || !process.env.RESEND_API_KEY) {
+  if (!submittedDoi || !allowed().has(submittedEmail) || !process.env.AUTH_SECRET || !process.env.RESEND_API_KEY) {
     return res.status(400).json({ error: 'Unable to send a verification link.' });
   }
 

@@ -1,6 +1,7 @@
 import { verify } from './_auth.js';
 
 const doi = (value) => String(value || '').trim().replace(/[.,;:'"\]}>]+$/g, '');
+const allowed = () => new Set(String(process.env.ALLOWED_SUBMITTER_EMAIL || '').split(',').map((value) => value.trim().toLowerCase()).filter(Boolean));
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
@@ -9,7 +10,7 @@ export default async function handler(req, res) {
   if (!origin || new URL(origin).host !== host) return res.status(403).json({ error: 'Invalid submission origin.' });
 
   const session = verify(req.cookies?.caresearch_session, process.env.AUTH_SECRET || '');
-  if (!session || session.email !== String(process.env.ALLOWED_SUBMITTER_EMAIL || '').toLowerCase()) return res.status(401).json({ error: 'Please confirm this browser first.' });
+  if (!session || !allowed().has(session.email)) return res.status(401).json({ error: 'Please confirm this browser first.' });
 
   const identifier = doi(req.body?.doi);
   if (!/^10\.\d{4,9}\/.+/i.test(identifier)) return res.status(400).json({ error: 'Enter a valid DOI.' });
