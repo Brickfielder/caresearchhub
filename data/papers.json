@@ -1,5 +1,29 @@
 [
   {
+    "id": "42435794",
+    "pmid": "42435794",
+    "doi": "10.1016/j.resuscitation.2026.111211",
+    "title": "\"Beyond clinical outcomes: why implementation science matters for double sequential defibrillation\".",
+    "authors": [
+      "Emilien Montaigu",
+      "E Pilarczyk",
+      "J Galant"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-07-11",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111211",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42435794"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "France"
+  },
+  {
     "id": "10.15441/ceem.26.072",
     "doi": "10.15441/ceem.26.072",
     "title": "2025 Korean Guidelines for Cardiopulmonary Resuscitation: Part 2. Current status of cardiac arrest and the chain of survival",
