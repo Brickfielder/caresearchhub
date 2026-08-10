@@ -6821,6 +6821,77 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "39556393",
+    "pmid": "39556393",
+    "doi": "10.1001/jamanetworkopen.2024.45543",
+    "title": "Resuscitation Attempt and Outcomes in Patients With Asystole Out-of-Hospital Cardiac Arrest.",
+    "authors": [
+      "Junki Ishii",
+      "Mitsuaki Nishikimi",
+      "Kazuya Kikutani",
+      "Shingo Ohki",
+      "Kohei Ota",
+      "Tatsuhiko Anzai",
+      "Kunihiko Takahashi",
+      "Masashi Okubo",
+      "Shinichiro Ohshimo",
+      "Taku Iwami",
+      "Nobuaki Shime"
+    ],
+    "journal": "JAMA network open",
+    "year": 2024,
+    "date": "2024-11-04",
+    "abstract": "IMPORTANCE: Little is known about the epidemiology of out-of-hospital cardiac arrest (OHCA) in patients with asystole in countries where prehospital resuscitation is not withheld or terminated.\nOBJECTIVE: To investigate the secular trends in the patient outcomes and advanced life support (ALS) procedures and evaluate the association of ALS procedures with favorable outcomes among patients with OHCA and asystole.\nDESIGN, SETTING, AND PARTICIPANTS: This cohort study analyzed data from a nationwide prospective OHCA registry in Japan. OHCA occurred from June 1, 2014, to December 31, 2020. Adults with an initial rhythm of asystole and OHCA were included in the analysis, which was conducted between July 29, 2022, and August 24, 2024.\nEXPOSURES: Year of OHCA and prehospital ALS procedures (advanced airway management [AAM] and intravenous epinephrine administration).\nMAIN OUTCOMES AND MEASURES: Trends in prehospital and in-hospital ALS procedures and patient outcomes were described using the Jonckheere-Terpstra trend test for continuous variables and the Cochran-Armitage trend test for categorical variables. The primary outcome was a favorable neurological outcome at 30 days. The secondary outcomes included a favorable neurological outcome at 90 days and survival at 30 and 90 days. Associations between prehospital procedures and outcomes were analyzed using time-dependent propensity score and risk-set matching.\nRESULTS: Of 60 349 patients with OHCA, 35 843 (59.4%) presented with asystole (median age, 77 [IQR, 64-85] years; 20 573 [57.4%] men). Among these, 33 674 patients (93.9%) underwent ALS procedures, with 67 (0.2%) achieving a favorable neurological outcome at 30 days. No significant trends in the outcomes were noted, except for a decline in return of spontaneous circulation (424 of 1848 [22.9%] to 1178 of 5892 [20.0%]; P = .003). Neither AAM (odds ratio [OR], 1.27 [95% CI, 0.76-2.12]; P = .36) nor intravenous epinephrine administration (OR, 0.53 [95% CI, 0.24-1.13]; P = .10) was associated with a favorable neurological outcome at 30 days, although both were associated with survival at 30 days (ORs, 1.45 [95% CI, 1.21-1.74] and 1.81 [95% CI, 1.44-2.27], respectively; P < .001 for both).\nCONCLUSIONS AND RELEVANCE: In this cohort study of patients with OHCA presenting with asystole, the proportion with a favorable neurological outcome at 30 days was substantially low, and no prehospital ALS procedure was associated with a favorable neurological outcome. These findings suggest that discussions regarding implementation of a termination of resuscitation rule for such patients are warranted.",
+    "links": {
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2024.45543",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39556393",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11574695"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC11574695",
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Male",
+      "Female",
+      "Aged",
+      "Middle Aged",
+      "Japan",
+      "Cardiopulmonary Resuscitation",
+      "Registries",
+      "Emergency Medical Services",
+      "Aged, 80 and over",
+      "Advanced Cardiac Life Support",
+      "Prospective Studies",
+      "Epinephrine",
+      "Treatment Outcome",
+      "Cohort Studies"
+    ],
+    "country": "Japan",
+    "corrCountryCode": "JP",
+    "corrCountryName": "Japan",
+    "domains": [],
+    "setting": "OHCA",
+    "design": "Prospective cohort",
+    "normalizedAuthors": [
+      "Ishii J",
+      "Nishikimi M",
+      "Kikutani K",
+      "Ohki S",
+      "Ota K",
+      "Anzai T",
+      "Takahashi K",
+      "Okubo M",
+      "Ohshimo S",
+      "Iwami T",
+      "Shime N"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "38685375",
     "pmid": "38685375",
     "doi": "10.1016/j.resuscitation.2024.110225",
