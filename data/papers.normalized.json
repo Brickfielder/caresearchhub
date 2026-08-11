@@ -586,6 +586,31 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41671002",
+    "pmid": "41671002",
+    "doi": "10.1001/jamanetworkopen.2026.0872",
+    "title": "Error in Figure Keys.",
+    "authors": [],
+    "journal": "JAMA network open",
+    "year": 2026,
+    "date": "2026-02-02",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2026.0872",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41671002",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12895275"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12895275",
+    "domains": [],
+    "setting": "Unclear",
+    "normalizedAuthors": [],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "42285023",
     "pmid": "42285023",
     "doi": "10.1016/j.aucc.2026.101624",
@@ -818,6 +843,179 @@
       "Smith K",
       "Nehme E",
       "Nehme Z"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41953986",
+    "pmid": "41953986",
+    "doi": "10.1161/CIRCOUTCOMES.125.012269",
+    "title": "Long-Term Neurological Outcome of Out-of-Hospital Cardiac Arrest Survivors and Associated Factors: Results of the DESAC Study, a French Multicentric Prospective Cohort.",
+    "authors": [
+      "Florence Dumas",
+      "Wulfran Bougouin",
+      "Marie-Cécile Perier",
+      "Nathalie Marin",
+      "Cyril Goulenok",
+      "Antoine Vieillard-Baron",
+      "Jean-Luc Diehl",
+      "Stéphane Legriel",
+      "Nicolas Deye",
+      "Pierrick Cronier",
+      "Sylvie Ricome",
+      "Frank Chemouni",
+      "Armand Mekontso-Dessap",
+      "Benoît Champigneulle",
+      "Alain Combes",
+      "Alexandre Demoule",
+      "Marie Thuong",
+      "Romain Sonneville",
+      "Damien Contou",
+      "Hervé Outin",
+      "Lionel Lamhaut",
+      "Jonathan Chelly",
+      "Frankie Beganton",
+      "Eloi Marijon",
+      "Guillaume Geri",
+      "Xavier Jouven",
+      "Jean-Philippe Empana",
+      "Alain Cariou"
+    ],
+    "journal": "Circulation. Population health and outcomes",
+    "year": 2026,
+    "date": "2026-04-09",
+    "abstract": "BACKGROUND: The aim of the DESAC study (Devenir des Survivants d'Arrets Cardiaques) was to describe the survival rate and neurological status of out-of-hospital (out-of-hospital cardiac arrest) survivors, and to assess the influence of prehospital and intrahospital factors.\nMETHODS: Between July 2015 and October 2018, consecutive nontraumatic out-of-hospital cardiac arrest patients aged over 18 years discharged alive from 33 intensive care units in Paris and the suburbs (France) were included. Their neurological status was assessed every 6 months using the Cerebral Performance Category (CPC) scale. Prognostic factors associated with a favorable neurological outcome at 24 months (CPC category of 1 or 2) were assessed by covariate-adjusted logistic regression. Trajectories of CPC level over time were derived using a linear mixed model in survivors with at least 3 repeated assessments.\nRESULTS: Out of 593 survivors, 525 were followed up for 24 months (mean age, 58.1±15.3 years, 79% males), and 449 of 525 (86%) had a favorable neurological outcome. Initial shockable rhythm (adjusted odds ratio, 3.33 [95% CI, 1.57-7.07]) and previous practice of sport (adjusted odds ratio, 3.13 [95% CI, 1.21-8.12]) were associated with favorable outcome, whereas factors with reduced odds ratio were older age (adjusted odds ratio per 10 years, 0.53 [95% CI, 0.41-0.69]) and prior percutaneous coronary intervention (adjusted odds ratio, 0.38 [95% CI, 0.17-0.85]). Therapeutic hypothermia or acute coronary interventions were not related to prognosis (>0.05). Overall, among the 514 patients with at least 3 repeated assessments, 5 distinct CPC trajectories (2 reflecting early death were combined) were derived: 64% remained in CPC1, 13.4% in CPC2, 11% improved from CPC2 to CPC1, and 11.6% died either early or lately (>3 months) during follow-up.\nCONCLUSIONS: This multicentric prospective study indicates that 86% of out-of-hospital cardiac arrest survivors had a favorable neurological outcome at 24 months. Pre-event and intraevent factors (including previous practice of sport and shockable rhythm), but not in-hospital management (therapeutic hypothermia or acute coronary interventions), were associated with a favorable outcome.\nREGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT02494414.",
+    "links": {
+      "doi": "https://doi.org/10.1161/CIRCOUTCOMES.125.012269",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41953986"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Middle Aged",
+      "Female",
+      "Male",
+      "France",
+      "Prospective Studies",
+      "Aged",
+      "Cardiopulmonary Resuscitation",
+      "Time Factors",
+      "Risk Factors",
+      "Survivors",
+      "Treatment Outcome"
+    ],
+    "country": "France",
+    "corrCountryCode": "FR",
+    "corrCountryName": "France",
+    "domains": [],
+    "setting": "OHCA",
+    "design": "Prospective cohort",
+    "normalizedAuthors": [
+      "Dumas F",
+      "Bougouin W",
+      "Perier M",
+      "Marin N",
+      "Goulenok C",
+      "Vieillard-Baron A",
+      "Diehl J",
+      "Legriel S",
+      "Deye N",
+      "Cronier P",
+      "Ricome S",
+      "Chemouni F",
+      "Mekontso-Dessap A",
+      "Champigneulle B",
+      "Combes A",
+      "Demoule A",
+      "Thuong M",
+      "Sonneville R",
+      "Contou D",
+      "Outin H",
+      "Lamhaut L",
+      "Chelly J",
+      "Beganton F",
+      "Marijon E",
+      "Geri G",
+      "Jouven X",
+      "Empana J",
+      "Cariou A"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42000026",
+    "pmid": "42000026",
+    "doi": "10.1016/j.resuscitation.2026.111095",
+    "title": "Long-term neurological outcomes after extracorporeal cardiopulmonary resuscitation for refractory cardiac arrest: a 14-year single-centre cohort study.",
+    "authors": [
+      "Matteo Pozzi",
+      "Matteo Sola",
+      "Elena Maggioni",
+      "Barbara Cortinovis",
+      "Gianluigi Redaelli",
+      "Margherita Scanziani",
+      "Alice Annoni",
+      "Elisa Del Frate",
+      "Cristina Costa",
+      "Giovanni Marchetto",
+      "Fabio Sangalli",
+      "Leonello Avalli",
+      "Marco Giani",
+      "Giuseppe Foti",
+      "POOLSE Study Group"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-04-16",
+    "abstract": "BACKGROUND: Extracorporeal Cardiopulmonary Resuscitation (ECPR) via Veno-Arterial Extracorporeal Membrane Oxygenation (ECMO) is a viable treatment for refractory cardiac arrest (r-CA). Data on long-term outcomes and predictors of favourable neurological prognosis remain limited, and definitive patient-selection recommendations are lacking.\nMETHODS: We conducted a retrospective observational study of adult patients treated with ECPR for in-hospital (IHCA) and out-of-hospital (OHCA) r-CA at an Italian ECMO centre between 2011 and 2024. The primary outcome was long-term neurological performance, measured by the Cerebral Performance Category (CPC) scale six months after hospital discharge. Multivariable and latent class analyses assessed independent predictors and explored distinct pre-ECPR phenotypes.\nRESULTS: Among 295 consecutive patients (117 IHCA; 178 OHCA), 17.3% achieved CPC 1-2 at six months (28.2% IHCA vs 10.1% OHCA; p < 0.0001), and 4.4% survived with severe long-term neurological sequelae (CPC 3-4). Independent predictors of CPC 1-2 were younger age (OR 0.95 per year, 95% CI 0.92-0.98), an initial shockable rhythm (aOR 2.7; 95% CI 1.11-7.04), and shorter low-flow duration (OR 0.95 per minute increase, 95% CI 0.93-0.97). Stepwise selection based on these criteria progressively increased the proportion of favourable survivors but excluded a small proportion who might have recovered.\nCONCLUSIONS: These results emphasise the importance of establishing pre-treatment selection criteria to optimise ECPR use and enhance long-term neurological outcomes. Age, initial rhythm, and low-flow time are key determinants, and exploratory phenotype-based analyses suggest multidimensional patient characterisation may complement traditional selection criteria.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111095",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42000026"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Extracorporeal Membrane Oxygenation",
+      "Female",
+      "Male",
+      "Retrospective Studies",
+      "Cardiopulmonary Resuscitation",
+      "Middle Aged",
+      "Out-of-Hospital Cardiac Arrest",
+      "Aged",
+      "Heart Arrest",
+      "Treatment Outcome",
+      "Nervous System Diseases",
+      "Italy",
+      "Adult"
+    ],
+    "country": "Italy",
+    "domains": [],
+    "setting": "OHCA",
+    "design": "Retrospective cohort",
+    "normalizedAuthors": [
+      "Pozzi M",
+      "Sola M",
+      "Maggioni E",
+      "Cortinovis B",
+      "Redaelli G",
+      "Scanziani M",
+      "Annoni A",
+      "Frate ED",
+      "Costa C",
+      "Marchetto G",
+      "Sangalli F",
+      "Avalli L",
+      "Giani M",
+      "Foti G",
+      "Group PS"
     ],
     "isAbstractTruncated": false
   },
@@ -1756,6 +1954,47 @@
       "Lim SL",
       "Ong MEH",
       "Ho AFW"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42531157",
+    "pmid": "42531157",
+    "doi": "10.1097/JCN.0000000000001372",
+    "title": "The Lived Experience of Sudden Cardiac Arrest Survivors: A Descriptive Phenomenological Study.",
+    "authors": [
+      "Miran Kim",
+      "Yoon Young Hwang",
+      "Seongkum Heo",
+      "JinShil Kim",
+      "Minjeong An"
+    ],
+    "journal": "The Journal of cardiovascular nursing",
+    "year": 2026,
+    "date": "2026-07-30",
+    "abstract": "BACKGROUND: Sudden cardiac arrest (SCA) is a life-threatening event that profoundly affects the physical, psychological, social, and overall well-being of survivors. Implementation of an implantable cardioverter defibrillator (ICD) may further contribute to psychosocial challenges, despite providing a sense of reassurance. However, the multidimensional and overall effects on SCA survivors with ICDs are not been fully understood.\nOBJECTIVE: In this study, our aim was to explore the lived experiences of SCA survivors with ICDs, focusing on adaptation, meaning in life, and insights to support psychological well-being and quality of life.\nMETHODS: A descriptive phenomenological study was conducted using Giorgi's method. Semistructured interviews were conducted with 12 SCA survivors with ICDs at a tertiary hospital in South Korea. Data were analyzed using Giorgi's phenomenological method to identify essential themes of the participants.\nRESULTS: Five major themes and the subthemes emerged: (1) Resuscitation on the Threshold of Death, (2) Instability within Stability, (3) A Life Disrupted from the Ordinary, (4) Enduring Daily Life Alone and Moving Forward, and (5) Embracing an Imperfect Second Life. Each theme comprises 2 to 4 subthemes. In Theme 3, 2 unique subthemes emerged: anxiety about harming others and hesitancy toward marriage.\nCONCLUSIONS: The findings highlight the psychosocial challenges of SCA survivors with ICDs, emphasizing common experiences and unique concerns. These results underscore the need for long-term psychological support, social reintegration, and tailored interventions to enhance quality of life. By addressing both shared and distinctive experiences, the study deepens understanding of survivors' adaptation and provides a foundation for patient-centered care programs.",
+    "links": {
+      "doi": "https://doi.org/10.1097/JCN.0000000000001372",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42531157"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Republic of Korea",
+    "corrCountryCode": "KR",
+    "corrCountryName": "Republic of Korea",
+    "domains": [
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Kim M",
+      "Hwang YY",
+      "Heo S",
+      "Kim J",
+      "An M"
     ],
     "isAbstractTruncated": false
   },
@@ -15571,6 +15810,34 @@
       "Claassen J",
       "Kronish I",
       "Agarwal S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.61409/a12251012",
+    "doi": "10.61409/a12251012",
+    "title": "Validation of the Near-Death Experience Content Scale in cardiac arrest survivors",
+    "authors": [
+      "Tobias Anker Stripp",
+      "Niels Christian Hvidt"
+    ],
+    "journal": "Danish Medical Journal",
+    "year": 2016,
+    "date": "2016-06",
+    "abstract": "INTRODUCTION. Near-death experiences (NDEs) are phenomena reported by individuals who have been, or perceived themselves to be, close to death. Although extensively studied internationally, no validated questionnaire exists in Danish. We aimed to evaluate the psychometric properties of the Danish version of the Near-Death Experience Content Scale (NDE-C). METHODS. We conducted a cross-sectional survey of out-of-hospital cardiac arrest survivors (2016-2020) identified through the Danish Cardiac Arrest Register. Survivors reporting memories of their arrest completed the 20-item Danish NDE-C. Among the 2,262 invited patients, 855 responded (37.8%), and 226 completed the NDE-C. RESULTS. Internal consistency was excellent (Cronbach’s α = 0.92). Confirmatory factor analysis supported the conceptual five-factor structure; however, global fit indices were mixed (comparative fit index = 0.858; Tucker-Lewis Index = 0.831; root mean squared error of approximation = 0.093; standardised root-mean squared residual = 0.062). Factor loadings and discriminant validity were satisfactory. CONCLUSIONS. The Danish NDEC scale showed excellent internal consistency and a preliminary factor structure consistent with the original instrument. Supported by prior qualitative work, the scale appears suitable for overall scoring, screening and guiding clinical dialogue about NDEs. However, subscale interpretation should be approached with caution until validated in larger samples. This study represents an important step towards systematic NDE research on prevalence estimates, cross-cultural comparisons and evidence-based clinical care for experiencers and their relatives in Denmark. FUNDING. This work was supported by the University of Southern Denmark and the University of Copenhagen, and funded by Samfonden, Denmark. TRIAL REGISTRATION. Not relevant.",
+    "links": {
+      "doi": "https://doi.org/10.61409/a12251012"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "domains": [],
+    "setting": "OHCA",
+    "design": "Cross-sectional study",
+    "normalizedAuthors": [
+      "Stripp TA",
+      "Hvidt NC"
     ],
     "isAbstractTruncated": false
   }
