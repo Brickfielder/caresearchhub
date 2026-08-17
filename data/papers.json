@@ -463,6 +463,30 @@
     "country": "Australia"
   },
   {
+    "id": "42605948",
+    "pmid": "42605948",
+    "doi": "10.1093/eurjcn/zvag172",
+    "title": "Fatigue after out-of-hospital cardiac arrest and age-related differences: an invited commentary.",
+    "authors": [
+      "Katarina Heimburg",
+      "Christina Brogårdh",
+      "Erik Blennow"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2026,
+    "date": "2026-08-17",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1093/eurjcn/zvag172",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42605948"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Sweden"
+  },
+  {
     "id": "42334379",
     "pmid": "42334379",
     "doi": "10.1093/eurjcn/zvag154",
