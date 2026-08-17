@@ -1460,6 +1460,53 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/j.resplu.2026.101450",
+    "doi": "10.1016/j.resplu.2026.101450",
+    "title": "Psychological and Cognitive Support after Cardiac Arrest: a Systematic Review",
+    "authors": [
+      "Giuseppe Ristagno",
+      "Erga Cerchiari",
+      "Fabiana Madotto",
+      "Alberto Cucino",
+      "Aurora Magliocca",
+      "Giulia Merigo",
+      "Riccardo Boverio",
+      "Katya Ranzato",
+      "Andrea Scapigliati",
+      "Federico Semeraro",
+      "Lorenzo Gamberini"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-08",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101450"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Ristagno G",
+      "Cerchiari E",
+      "Madotto F",
+      "Cucino A",
+      "Magliocca A",
+      "Merigo G",
+      "Boverio R",
+      "Ranzato K",
+      "Scapigliati A",
+      "Semeraro F",
+      "Gamberini L"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41974225",
     "pmid": "41974225",
     "doi": "10.1016/j.resuscitation.2026.111092",
@@ -1600,6 +1647,61 @@
       "Yonis H",
       "Kragholm K",
       "Andersen S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/j.resplu.2026.101445",
+    "doi": "10.1016/j.resplu.2026.101445",
+    "title": "RescQTM: Study protocol for a feasibility pilot of structured support for bystanders/lay-rescuers following out-of-hospital cardiac arrest",
+    "authors": [
+      "Uzma Sajjad",
+      "Marco Mion",
+      "Rupert Simpson",
+      "Guilherme Movio",
+      "Sarosh Khan",
+      "Liz Sharpe",
+      "Jean Davis",
+      "Luke Roberts-Andreou",
+      "Gareth Grier",
+      "Paul Swindell",
+      "Stuart Menzies",
+      "Rob Major",
+      "Blake Powell",
+      "Michael Watts",
+      "Nilesh Pareek",
+      "Thomas R. Keeble"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-08",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101445"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Sajjad U",
+      "Mion M",
+      "Simpson R",
+      "Movio G",
+      "Khan S",
+      "Sharpe L",
+      "Davis J",
+      "Roberts-Andreou L",
+      "Grier G",
+      "Swindell P",
+      "Menzies S",
+      "Major R",
+      "Powell B",
+      "Watts M",
+      "Pareek N",
+      "Keeble TR"
     ],
     "isAbstractTruncated": false
   },

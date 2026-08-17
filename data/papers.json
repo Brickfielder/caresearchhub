@@ -977,6 +977,35 @@
     "country": "Singapore"
   },
   {
+    "id": "10.1016/j.resplu.2026.101450",
+    "doi": "10.1016/j.resplu.2026.101450",
+    "title": "Psychological and Cognitive Support after Cardiac Arrest: a Systematic Review",
+    "authors": [
+      "Giuseppe Ristagno",
+      "Erga Cerchiari",
+      "Fabiana Madotto",
+      "Alberto Cucino",
+      "Aurora Magliocca",
+      "Giulia Merigo",
+      "Riccardo Boverio",
+      "Katya Ranzato",
+      "Andrea Scapigliati",
+      "Federico Semeraro",
+      "Lorenzo Gamberini"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-08",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101450"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "41974225",
     "pmid": "41974225",
     "doi": "10.1016/j.resuscitation.2026.111092",
@@ -1076,6 +1105,40 @@
       "has_fulltext": false
     },
     "country": "Denmark"
+  },
+  {
+    "id": "10.1016/j.resplu.2026.101445",
+    "doi": "10.1016/j.resplu.2026.101445",
+    "title": "RescQTM: Study protocol for a feasibility pilot of structured support for bystanders/lay-rescuers following out-of-hospital cardiac arrest",
+    "authors": [
+      "Uzma Sajjad",
+      "Marco Mion",
+      "Rupert Simpson",
+      "Guilherme Movio",
+      "Sarosh Khan",
+      "Liz Sharpe",
+      "Jean Davis",
+      "Luke Roberts-Andreou",
+      "Gareth Grier",
+      "Paul Swindell",
+      "Stuart Menzies",
+      "Rob Major",
+      "Blake Powell",
+      "Michael Watts",
+      "Nilesh Pareek",
+      "Thomas R. Keeble"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2026,
+    "date": "2026-08",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101445"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
   },
   {
     "id": "42005613",
