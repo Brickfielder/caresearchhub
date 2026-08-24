@@ -21,7 +21,7 @@ const domainCards = [
   { title: 'Psychological', icon: '❤️' },
   { title: 'QoL', icon: '🌱' },
   { title: 'Participation/RTW', icon: '💼' },
-  { title: 'Caregiver', icon: '👪' }
+  { title: 'Co-survivors', quick: 'Caregiver', icon: '👪' }
 ];
 
 const publicationTimestamp = (paper: Paper) =>
@@ -56,7 +56,7 @@ const primarySource = (paper: Paper) => paper.links.pubmed ?? paper.links.doi ??
     <div class="domain-grid">
       {
         domainCards.map((domain) => (
-          <a href={buildBrowseHref({ quick: domain.title })}>
+          <a href={buildBrowseHref({ quick: domain.quick ?? domain.title })}>
             <span class="domain-icon" aria-hidden="true">
               {domain.icon}
             </span>
