@@ -66,6 +66,8 @@ body {
 
 .site-header [aria-label='Primary'] > a,
 .site-header [aria-label='Primary'] > div > button {
+  display: inline-flex;
+  align-items: center;
   height: 78px;
   border-bottom: 3px solid transparent;
   border-radius: 0;
