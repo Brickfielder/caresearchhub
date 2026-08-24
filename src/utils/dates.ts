@@ -8,12 +8,7 @@ export const isInCurrentMonth = (dateValue?: string | null): boolean => {
     const year = Number(yearMonthMatch[1]);
     const monthIndex = Number(yearMonthMatch[2]) - 1;
 
-    if (
-      Number.isNaN(year) ||
-      Number.isNaN(monthIndex) ||
-      monthIndex < 0 ||
-      monthIndex > 11
-    ) {
+    if (Number.isNaN(year) || Number.isNaN(monthIndex) || monthIndex < 0 || monthIndex > 11) {
       return false;
     }
 
@@ -23,8 +18,5 @@ export const isInCurrentMonth = (dateValue?: string | null): boolean => {
   const parsedDate = new Date(dateValue);
   if (Number.isNaN(parsedDate.getTime())) return false;
 
-  return (
-    parsedDate.getFullYear() === now.getFullYear() &&
-    parsedDate.getMonth() === now.getMonth()
-  );
+  return parsedDate.getFullYear() === now.getFullYear() && parsedDate.getMonth() === now.getMonth();
 };

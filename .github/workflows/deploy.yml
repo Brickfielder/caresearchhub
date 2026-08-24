@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm run build
+      - run: npm run check:ci
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist

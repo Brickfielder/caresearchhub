@@ -18,6 +18,19 @@ module.exports = {
   ignorePatterns: ['dist/', '.astro/', 'public/'],
   overrides: [
     {
+      files: ['api/**/*.js'],
+      env: {
+        node: true,
+        es2022: true
+      },
+      globals: {
+        fetch: 'readonly'
+      },
+      parserOptions: {
+        project: null
+      }
+    },
+    {
       files: ['*.astro'],
       parser: 'astro-eslint-parser',
       parserOptions: {

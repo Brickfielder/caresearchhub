@@ -154,7 +154,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
         stats.map((item) => (
           <div class="py-6 text-center" key={item.label}>
             <div class="text-3xl font-bold text-slate-900">{item.value}</div>
-            <div class="text-xs font-semibold uppercase text-slate-400 tracking-widest mt-1">
+            <div class="text-xs font-semibold uppercase text-slate-600 tracking-widest mt-1">
               {item.label}
             </div>
           </div>
@@ -199,7 +199,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
           <div class="mt-4">
             <a
               href={browseHref}
-              class="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-500"
+              class="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-800"
             >
               Go to Repository
               <span aria-hidden="true" class="text-base">&rarr;</span>
@@ -244,7 +244,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
                       </span>
                       <span>{paper.year}</span>
                     </div>
-                    <span class="uppercase tracking-wider font-semibold text-slate-400">
+                    <span class="uppercase tracking-wider font-semibold text-slate-600">
                       {paper.country || 'Global'}
                     </span>
                   </div>
@@ -273,7 +273,7 @@ const getPrimaryExternalLink = (paper: Paper): { href: string; label: string } |
                   </div>
 
                   <details class="group/abstract">
-                    <summary class="flex items-center gap-2 text-sm font-semibold text-teal-600 cursor-pointer select-none hover:text-teal-800 transition">
+                    <summary class="flex items-center gap-2 text-sm font-semibold text-teal-700 cursor-pointer select-none hover:text-teal-800 transition">
                       <span class="block group-open/abstract:hidden">Read abstract</span>
                       <span class="hidden group-open/abstract:block">Hide abstract</span>
                       <svg

@@ -15,7 +15,11 @@ export function verify(token, secret) {
     if (!body || !supplied) return null;
 
     const expected = createHmac('sha256', secret).update(body).digest('base64url');
-    if (supplied.length !== expected.length || !timingSafeEqual(Buffer.from(supplied), Buffer.from(expected))) return null;
+    if (
+      supplied.length !== expected.length ||
+      !timingSafeEqual(Buffer.from(supplied), Buffer.from(expected))
+    )
+      return null;
 
     const payload = decode(body);
     return payload.exp > Math.floor(Date.now() / 1000) ? payload : null;

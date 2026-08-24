@@ -88,7 +88,9 @@ const highlightCards = [
           class="flex flex-col gap-4 border-b border-slate-200/70 px-6 pb-4 pt-6 md:flex-row md:items-center md:justify-between dark:border-slate-800"
         >
           <div>
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-slate-500 dark:text-slate-400">
+            <p
+              class="text-xs font-semibold uppercase tracking-[0.28em] text-slate-500 dark:text-slate-400"
+            >
               Evidence snapshot
             </p>
             <p class="text-sm text-slate-500 dark:text-slate-300">Updated {lastUpdatedLabel}</p>
@@ -101,19 +103,27 @@ const highlightCards = [
           </span>
         </div>
         <div class="grid gap-0 px-6 pb-3 md:grid-cols-3">
-          <div class="px-4 py-5 text-center md:border-r md:border-slate-200/70 dark:md:border-slate-800">
+          <div
+            class="px-4 py-5 text-center md:border-r md:border-slate-200/70 dark:md:border-slate-800"
+          >
             <div class="text-3xl font-bold text-slate-900 dark:text-white">
               {totalPapers.toLocaleString()}
             </div>
-            <div class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300">
+            <div
+              class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300"
+            >
               Papers
             </div>
           </div>
-          <div class="px-4 py-5 text-center md:border-r md:border-slate-200/70 dark:md:border-slate-800">
+          <div
+            class="px-4 py-5 text-center md:border-r md:border-slate-200/70 dark:md:border-slate-800"
+          >
             <div class="text-3xl font-bold text-slate-900 dark:text-white">
               {totalCountries.toLocaleString()}
             </div>
-            <div class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300">
+            <div
+              class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300"
+            >
               Countries
             </div>
             <p class="mt-1 text-xs text-slate-600 dark:text-slate-300">
@@ -124,7 +134,9 @@ const highlightCards = [
             <div class="text-xl font-semibold text-slate-900 dark:text-white">
               {lastUpdatedLabel}
             </div>
-            <div class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300">
+            <div
+              class="mt-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-300"
+            >
               Last update
             </div>
           </div>
@@ -135,7 +147,9 @@ const highlightCards = [
 
   <section class="-mx-6 px-6 pb-14 lg:-mx-8 lg:px-8">
     <div class="mx-auto max-w-6xl space-y-10">
-      <div class="grid overflow-hidden rounded-[2rem] border border-slate-200/70 bg-white/80 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur md:grid-cols-3 dark:border-slate-800 dark:bg-slate-900/75 dark:ring-slate-800">
+      <div
+        class="grid overflow-hidden rounded-[2rem] border border-slate-200/70 bg-white/80 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur md:grid-cols-3 dark:border-slate-800 dark:bg-slate-900/75 dark:ring-slate-800"
+      >
         {
           highlightCards.map((card) => (
             <div class="border-b border-slate-200/70 bg-gradient-to-br from-white via-slate-50 to-teal-50/70 p-6 last:border-b-0 md:border-b-0 md:border-r dark:border-slate-800 dark:from-slate-900 dark:via-slate-900 dark:to-teal-950/20">
