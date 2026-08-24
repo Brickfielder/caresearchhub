@@ -406,7 +406,7 @@
     "journal": "Resuscitation Plus",
     "year": 2026,
     "date": "2026-01",
-    "abstract": "",
+    "abstract": "Background: Surviving sudden cardiac arrest often lead to long-term cognitive, emotional, and physical consequences. Although clinical guidelines recommend structured post-cardiac arrest follow-up, such follow-up is often lacking or inconsistent. Tailored digital interventions are scarce but may help address gaps in follow-up resources. The CARDIS trial evaluates the effects on patient-reported outcome measures of a co-created, web-based support programme designed to improve wellbeing, self management, and reintegration into everyday life for cardiac arrest survivors. Methods: CARDIS is a multicentre, parallel-group, randomised controlled trial enrolling cardiac arrest survivors aged >18 years. Participants will be randomised 1:1 to intervention or control. Both groups will receive standard post-cardiac arrest care, including a routine followup visit with screening and management of cognitive, physical and emotional health, as well as a printed booklet. The intervention group will additionally receive access to a webbased selfguided support programme for 3 months. After study completion, control participants will be offered the programme. Outcomes: Primary outcome is overall wellbeing and health (QWB) at 3 months. Secondary outcomes include self-reported cognitive problems, HRQoL, life satisfaction, symptoms of depression and anxiety, post-traumatic stress, fatigue, and sleep disturbances. A process evaluation will evaluate social selection bias, adherence and participants experiences. Discussion: The CARDIS trial will investigate the use of more accessible and standardised follow-up pathways by complementing existing care structures, thereby enhancing equity in long-term recovery and quality-of-life without requiring additional healthcare resources. The process evaluation will provide data on adherence, social selection, and engagement, essential for future implementation. Trial registration: The trial is registered at clinicaltrials.gov (NCT07240714).",
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2026.101235"
     },
@@ -414,7 +414,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "domains": [],
+    "domains": [
+      "Cognitive",
+      "Psychological"
+    ],
     "setting": "Mixed",
     "normalizedAuthors": [
       "Waldemar A",
@@ -1449,7 +1452,7 @@
     "journal": "Resuscitation Plus",
     "year": 2026,
     "date": "2026-01",
-    "abstract": "",
+    "abstract": "Background: Survivors and co-survivors of out-of-hospital cardiac arrest (OHCA) experience disruptions in returning to normality. There is limited understanding of OHCA-related sequelae and their impact on co-survivors. This study describes the 3-month post-discharge health outcomes among OHCA survivors and co-survivors in the Quality Cardiac Arrest Survivorship cohort study (QualiCAS). Methods: We conducted a prospective, population-based cohort study, enrolling subjects from 1 February 2023 to 30 November 2024. Physical, psychological, cognitive, and social health, health-related quality of life (HRQoL), and caregiver burden were described separately for survivors and co-survivors. HRQoL of survivors and co-survivors was compared against age-, sex-, and ethnicity-adjusted Singapore population norm for EQ-5D-5L. Results: 62 survivors and 36 co-survivors completed 3-month assessments. 9.7%, 6.5%, 3.6% of survivors screened positive for anxiety, depression, and post-traumatic stress disorder (PTSD), respectively. Survivors experienced mild cognitive impairment (43.1%), impaired mobility (41.1%), and weak muscle strength (39.7%). Functional independence was high, and 73.9% of survivors returned to employment. Survivors' HRQoL was lower compared to the general population (0.90 vs. 0.96). Co-survivors reported experiencing caregiving burden (41.7%), with 22.2%, 11.1% and 6.1% screening positive for anxiety, depression, and PTSD, respectively. Co-survivors' HRQoL was comparable to the general population (0.94 vs. 0.94). Conclusion: A significant subset of OHCA survivors experienced limitations in physical and cognitive functioning and return to work, and lower HRQoL. Psychological distress and caregiving burden were high among co-survivors. Our findings underscore the importance of systematic assessments of multi-dimensional aspects of health and referral to multi-component rehabilitation for both survivors and co-survivors.",
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2025.101179"
     },
@@ -1460,9 +1463,13 @@
     "country": "Singapore",
     "domains": [
       "Cognitive",
-      "Qol"
+      "Psychological",
+      "Qol",
+      "Participation",
+      "Caregiver"
     ],
     "setting": "OHCA",
+    "design": "Prospective cohort",
     "normalizedAuthors": [
       "Pek PP",
       "Fang K",
@@ -1511,7 +1518,7 @@
     "journal": "Resuscitation Plus",
     "year": 2026,
     "date": "2026-08",
-    "abstract": "",
+    "abstract": "Background: Adult survivors of cardiac arrest (CA) with favourable neurological recovery often experience persistent cognitive and psychological difficulties that impact quality of life and functional independence. However, post-discharge interventions remain heterogeneous, and evidence to support the prioritisation and implementation of specific cognitive and psychological interventions is limited. Objective: To systematically review the evidence on psychological and cognitive support interventions delivered after hospital discharge in adult CA survivors with good neurological recovery. Methods: A systematic review was conducted following PRISMA 2020 guidelines (PROSPERO CRD420251267160). Eligible studies included adults surviving CA with favourable neurological recovery who received structured post-discharge interventions. Outcomes were assessed across multiple domains, including psychological well-being; cognitive performance; functional status and participation; health-related and global quality of life; and feasibility and implementation. Results: Six studies (n=352 survivors) were included: two randomized controlled trials, two feasibility/pre-post studies, one single-case experimental design, and one process evaluation. Interventions varied in content and delivery (face-to-face, remote, home-based) and included nurse-led follow-up, psychotherapy, cognitive rehabilitation, and mindfulness-based strategies. Small improvements were observed in anxiety, depression, post-traumatic stress symptoms, and selected health-related quality-of-life domains, whereas cognitive, functional, and participation in daily and social activities showed limited or short-term gains in small uncontrolled studies. Interventions were feasible and well-tolerated. Conclusions: Post-discharge psychological and cognitive interventions are feasible and associated with modest improvements in psychological well-being and selected quality-of-life domains. Further rigorous research using standardised outcomes is needed.",
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2026.101450"
     },
@@ -1520,9 +1527,12 @@
       "has_fulltext": true
     },
     "domains": [
-      "Cognitive"
+      "Cognitive",
+      "Psychological",
+      "Qol"
     ],
     "setting": "Mixed",
+    "design": "Randomized controlled trial",
     "normalizedAuthors": [
       "Ristagno G",
       "Cerchiari E",
@@ -1707,7 +1717,7 @@
     "journal": "Resuscitation Plus",
     "year": 2026,
     "date": "2026-08",
-    "abstract": "",
+    "abstract": "Worldwide, 3.8 million out-of-hospital cardiac arrests (OHCA) occur annually. RescQ™ is a 12-month, non-randomised, prospective feasibility pilot evaluating a structured support pathway for adult bystanders involved in out-of-hospital cardiac arrest of presumed medical or cardiac aetiology across Essex, United Kingdom. The pathway was developed to address the absence of a nationally standardised post-event support process for bystanders who witness, call emergency services, or assist with resuscitation. Attending ambulance clinicians offer brief on-scene signposting and register consenting adult bystanders through a dedicated digital application. Registration triggers a single text message or email linking to the RescQ™ website, which provides information on common physical and psychological reactions after involvement in cardiac arrest, coping strategies, lived-experience videos and sources of further support. Bystanders can self-refer to a liaison officer for structured supportive contact, psychological screening (using Clinical Outcomes in Routine Evaluation and the National Stressful Events Survey Short Scale), event-related discussion, signposting and onward referral where required. The primary outcome is feasibility, assessed through ambulance clinician uptake, bystander website access and acceptability to ambulance clinicians and bystanders. Secondary outcomes include digital engagement, psychological screening data, liaison officer activity, onward referral, satisfaction and service-delivery resource use. The project was reviewed by the West of Scotland Regional Ethics Committee and classified as a service evaluation. At the time of revised submission, the 12-month pilot has been completed, and data analysis is underway.",
     "links": {
       "doi": "https://doi.org/10.1016/j.resplu.2026.101445"
     },
@@ -1717,6 +1727,7 @@
     },
     "domains": [],
     "setting": "OHCA",
+    "design": "Prospective cohort",
     "normalizedAuthors": [
       "Sajjad U",
       "Mion M",
@@ -4595,7 +4606,7 @@
     "journal": "Cor et Vasa",
     "year": 2025,
     "date": "2025-06-20",
-    "abstract": "",
+    "abstract": "Objective: Near-death experiences (NDE) have not yet been studied in patients with refractory cardiac arrest treated with extracorporeal cardiopulmonary resuscitation (ECPR). The aim of this pilot project was to determine the prevalence of NDEs in patients from the randomized Prague OHCA study with refractory cardiac arrest and to analyze differences between patients resuscitated with standard cardiopulmonary resuscitation (CPR) and those resuscitated using the ECPR method. Methods: NDEs were analyzed using a standardized and internationally validated questionnaire among long-term survivors of the randomized Prague OHCA study. The prevalence of NDEs was compared between patients treated with standard CPR and those resuscitated with the ECPR method. Results: The questionnaire was completed by 44 out of 60 patients who were followed up long-term after the Prague OHCA study (median age: 57.5 years, 83% male, average CPR duration: 37.5 minutes), including 12 patients treated with ECPR (average cardiac arrest duration: 54 minutes). At least one symptom of NDE was experienced by 15/44 patients (34.1%), including 10/32 (31.3%) in the standard CPR group and 5/12 (41.6%) in the ECPR group (p = 0.52). Criteria for a complete NDE (score ≥28 on the NDE questionnaire) were met by 9/44 patients (20.5%), including 6/32 (18.8%) in the standard CPR group and 3/12 (25%) in the ECPR group (p = 0.65). Conclusion: The prevalence of NDEs in our cohort of patients with refractory cardiac arrest corresponds to the prevalence reported in previous studies that analyzed patients treated with standard CPR and shorter durations of cardiac arrest. The numerically higher occurrence of NDEs in patients treated with the ECPR strategy is hypothesis-generating but did not reach statistical significance. Further conclusions require analysis in larger patient cohorts.",
     "links": {
       "doi": "https://doi.org/10.33678/cor.2025.031"
     },
@@ -4604,7 +4615,8 @@
       "has_fulltext": true
     },
     "domains": [],
-    "setting": "Mixed",
+    "setting": "OHCA",
+    "design": "Randomized controlled trial",
     "normalizedAuthors": [
       "Kovářová JT",
       "Rob D",
