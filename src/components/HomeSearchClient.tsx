@@ -29,13 +29,9 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
   const repositoryLink = getBrowseUrl();
 
   return (
-    <div class="relative z-10 space-y-4">
-      <form
-        class="relative flex flex-col gap-3 rounded-2xl bg-white p-3 shadow-xl sm:flex-row sm:items-center sm:gap-0 sm:p-2"
-        action={browseResultsHref}
-        method="get"
-      >
-        <div class="relative w-full flex-1 sm:pl-2">
+    <div class="home-search-client">
+      <form class="home-search-form" action={browseResultsHref} method="get">
+        <div class="home-search-field">
           <label class="sr-only" htmlFor="homepage-search">
             Search papers
           </label>
@@ -45,22 +41,16 @@ export default function HomeSearchClient({ papers, browseResultsHref }: HomeSear
             type="search"
             value={query}
             onInput={(event) => setQuery((event.target as HTMLInputElement).value)}
-            class="w-full flex-1 rounded-xl border border-slate-100 p-3 outline-none text-slate-900 placeholder-slate-400 md:p-4"
-            placeholder="Search for fatigue, cognition, return to work..."
+            placeholder="Search papers"
           />
         </div>
-        <button
-          class="w-full rounded-xl bg-slate-900 px-6 py-3 font-semibold text-white shadow-lg transition sm:w-auto cursor-not-allowed opacity-60"
-          type="submit"
-          disabled
-          aria-disabled="true"
-        >
+        <button class="home-search-submit" type="submit">
           Quick Search
         </button>
       </form>
 
       {query.trim() ? (
-        <div class="rounded-2xl border border-slate-200 bg-white/95 p-4 shadow-lg text-left">
+        <div class="home-search-results">
           <div class="mb-3 flex items-center justify-between">
             <p class="text-sm font-semibold text-slate-700">Top matches</p>
             <a
