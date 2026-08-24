@@ -799,6 +799,12 @@ body {
   background: transparent;
 }
 
+.paper-card-abstract > p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .paper-card-abstract summary {
   justify-content: flex-start;
   gap: 8px;
