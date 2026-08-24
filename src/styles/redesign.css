@@ -457,9 +457,10 @@ body {
 
 .home-publications-head {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  align-items: end;
-  gap: 24px;
+  gap: 12px;
   margin-bottom: 26px;
   text-align: center;
 }
