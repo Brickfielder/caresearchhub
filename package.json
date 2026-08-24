@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -20,6 +23,7 @@
     "enrich:countries": "tsx scripts/enrich-missing-countries.ts",
     "prep:update": "npm run validate && npm run normalize",
     "lighthouse": "lhci autorun",
+    "check:ci": "npm run validate && npm run normalize && git diff --exit-code -- data/papers.normalized.json && npm run lint && npm run typecheck && npm run test -- --runInBand && npm run build && npm run lighthouse",
     "changelog": "tsx scripts/changelog.ts"
   },
   "dependencies": {
