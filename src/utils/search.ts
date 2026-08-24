@@ -1,6 +1,12 @@
 import Fuse from 'fuse.js';
 import type { IFuseOptions } from 'fuse.js';
 import type { Paper, SearchState } from './types';
+import {
+  classifyPopulations,
+  classifyRecoveryStages,
+  classifyStudyDesign,
+  getPaperCountry
+} from './paperFacets';
 
 export const QUICK_FILTERS: Record<string, string[]> = {
   Cognitive: ['cognitive'],
@@ -42,10 +48,23 @@ const matchesFilter = (paper: Paper, state: SearchState): boolean => {
   if (state.settings.length && (!paper.setting || !state.settings.includes(paper.setting))) {
     return false;
   }
-  if (state.designs.length && (!paper.design || !state.designs.includes(paper.design))) {
+  if (state.designs.length && !state.designs.includes(classifyStudyDesign(paper))) {
     return false;
   }
-  if (state.countries.length && (!paper.country || !state.countries.includes(paper.country))) {
+  if (
+    state.populations.length &&
+    !classifyPopulations(paper).some((population) => state.populations.includes(population))
+  ) {
+    return false;
+  }
+  if (
+    state.recoveryStages.length &&
+    !classifyRecoveryStages(paper).some((stage) => state.recoveryStages.includes(stage))
+  ) {
+    return false;
+  }
+  const country = getPaperCountry(paper);
+  if (state.countries.length && (!country || !state.countries.includes(country))) {
     return false;
   }
   if (state.journals.length && !state.journals.includes(paper.journal)) {
@@ -82,6 +101,8 @@ export interface FacetBuckets {
   domains: Record<string, number>;
   settings: Record<string, number>;
   designs: Record<string, number>;
+  populations: Record<string, number>;
+  recoveryStages: Record<string, number>;
   countries: Record<string, number>;
   journals: Record<string, number>;
 }
@@ -92,6 +113,8 @@ export const buildFacets = (papers: Paper[]): FacetBuckets => {
     domains: {},
     settings: {},
     designs: {},
+    populations: {},
+    recoveryStages: {},
     countries: {},
     journals: {}
   };
@@ -103,11 +126,17 @@ export const buildFacets = (papers: Paper[]): FacetBuckets => {
     if (paper.setting) {
       buckets.settings[paper.setting] = (buckets.settings[paper.setting] ?? 0) + 1;
     }
-    if (paper.design) {
-      buckets.designs[paper.design] = (buckets.designs[paper.design] ?? 0) + 1;
-    }
-    if (paper.country) {
-      buckets.countries[paper.country] = (buckets.countries[paper.country] ?? 0) + 1;
+    const design = classifyStudyDesign(paper);
+    buckets.designs[design] = (buckets.designs[design] ?? 0) + 1;
+    classifyPopulations(paper).forEach((population) => {
+      buckets.populations[population] = (buckets.populations[population] ?? 0) + 1;
+    });
+    classifyRecoveryStages(paper).forEach((stage) => {
+      buckets.recoveryStages[stage] = (buckets.recoveryStages[stage] ?? 0) + 1;
+    });
+    const country = getPaperCountry(paper);
+    if (country) {
+      buckets.countries[country] = (buckets.countries[country] ?? 0) + 1;
     }
     buckets.journals[paper.journal] = (buckets.journals[paper.journal] ?? 0) + 1;
   });
@@ -124,6 +153,8 @@ export const defaultSearchState = (papers: Paper[]): SearchState => {
     domains: [],
     settings: [],
     designs: [],
+    populations: [],
+    recoveryStages: [],
     countries: [],
     journals: [],
     quickFilter: undefined
@@ -146,6 +177,10 @@ export const parseStateFromUrl = (url: URL, defaults: SearchState): SearchState 
     domains: parseMulti('domain').length ? parseMulti('domain') : defaults.domains,
     settings: parseMulti('setting').length ? parseMulti('setting') : defaults.settings,
     designs: parseMulti('design').length ? parseMulti('design') : defaults.designs,
+    populations: parseMulti('population').length ? parseMulti('population') : defaults.populations,
+    recoveryStages: parseMulti('recovery').length
+      ? parseMulti('recovery')
+      : defaults.recoveryStages,
     countries: parseMulti('country').length ? parseMulti('country') : defaults.countries,
     journals: parseMulti('journal').length ? parseMulti('journal') : defaults.journals,
     quickFilter: params.get('quick') ?? defaults.quickFilter
@@ -164,6 +199,8 @@ export const serializeStateToUrl = (state: SearchState, url: URL): URL => {
     ['domain', state.domains],
     ['setting', state.settings],
     ['design', state.designs],
+    ['population', state.populations],
+    ['recovery', state.recoveryStages],
     ['country', state.countries],
     ['journal', state.journals]
   ] as const;

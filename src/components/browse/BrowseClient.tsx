@@ -6,11 +6,11 @@ import {
   createFuse,
   defaultSearchState,
   parseStateFromUrl,
-  serializeStateToUrl,
-  QUICK_FILTERS
+  serializeStateToUrl
 } from '~/utils/search';
 import type { Paper, SearchState } from '~/utils/types';
 import { getPaperUrl, truncateAuthors } from '~/utils/format';
+import { recoveryStages } from '~/utils/paperFacets';
 
 const useSearchState = (papers: Paper[]): [SearchState, (next: SearchState) => void] => {
   const defaults = useMemo(() => defaultSearchState(papers), [papers]);
@@ -45,11 +45,11 @@ const PaperCard = ({ paper }: PaperCardProps) => {
   return (
     <article
       key={paper.id}
-      class="group rounded-[1.75rem] border border-white/75 bg-white/95 p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 transition hover:-translate-y-1 hover:border-teal-200 hover:shadow-[0_22px_50px_rgba(15,23,42,0.1)] dark:border-slate-800/80 dark:bg-slate-900 dark:ring-slate-800/60"
+      class="paper-card group rounded-[1.75rem] border border-white/75 bg-white/95 p-6 shadow-[0_16px_40px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 transition hover:-translate-y-1 hover:border-teal-200 hover:shadow-[0_22px_50px_rgba(15,23,42,0.1)] dark:border-slate-800/80 dark:bg-slate-900 dark:ring-slate-800/60"
     >
       <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <h3 class="text-lg font-semibold text-slate-900 transition group-hover:text-teal-700 dark:text-slate-100">
+          <h3 class="paper-card-title text-lg font-semibold text-slate-900 transition group-hover:text-teal-700 dark:text-slate-100">
             <a href={getPaperUrl(paper)}>{paper.title}</a>
           </h3>
           <p class="text-sm text-slate-600 dark:text-slate-300">
@@ -72,7 +72,7 @@ const PaperCard = ({ paper }: PaperCardProps) => {
           <span>{paper.year}</span>
         </div>
       </div>
-      <details class="mt-3 rounded-2xl border border-teal-100/80 bg-teal-50/40 p-3 transition open:shadow-sm dark:border-teal-900/40 dark:bg-teal-900/10">
+      <details class="paper-card-abstract mt-3 rounded-2xl border border-teal-100/80 bg-teal-50/40 p-3 transition open:shadow-sm dark:border-teal-900/40 dark:bg-teal-900/10">
         <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-teal-700 transition hover:text-teal-800 dark:text-teal-200 dark:hover:text-teal-100">
           <span>Abstract</span>
           <span class="text-xs font-bold uppercase tracking-wide text-teal-500 dark:text-teal-200">
@@ -169,7 +169,16 @@ export default function BrowseClient({ papers }: Props) {
   const buildFacetList = (
     items: Record<string, number>,
     selected: string[],
-    key: keyof Pick<SearchState, 'domains' | 'settings' | 'designs' | 'countries' | 'journals'>
+    key: keyof Pick<
+      SearchState,
+      | 'domains'
+      | 'settings'
+      | 'designs'
+      | 'populations'
+      | 'recoveryStages'
+      | 'countries'
+      | 'journals'
+    >
   ) => (
     <ul class="space-y-2">
       {Object.entries(items)
@@ -189,7 +198,9 @@ export default function BrowseClient({ papers }: Props) {
                     })
                   }
                 />
-                {value}
+                {key === 'recoveryStages'
+                  ? recoveryStages.find(([stage]) => stage === value)?.[1]
+                  : value}
               </span>
               <span class="text-xs font-semibold text-slate-400 dark:text-slate-500">{count}</span>
             </label>
@@ -208,7 +219,7 @@ export default function BrowseClient({ papers }: Props) {
     defaultOpen?: boolean;
   }) => (
     <details
-      class="rounded-2xl border border-teal-100/70 bg-teal-50/40 p-3 transition open:bg-white/90 open:shadow-sm dark:border-slate-800 dark:bg-slate-900/60 dark:open:bg-slate-900"
+      class="browse-facet rounded-2xl border border-teal-100/70 bg-teal-50/40 p-3 transition open:bg-white/90 open:shadow-sm dark:border-slate-800 dark:bg-slate-900/60 dark:open:bg-slate-900"
       open={defaultOpen}
     >
       <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-slate-700 transition hover:text-teal-700 dark:text-slate-200 dark:hover:text-teal-200">
@@ -221,40 +232,10 @@ export default function BrowseClient({ papers }: Props) {
     </details>
   );
 
-  const quickFilterButtons = Object.keys(QUICK_FILTERS).map((label) => {
-    const isActive = state.quickFilter === label;
-    const base =
-      'rounded-full px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-300';
-    const active =
-      'border border-teal-500 bg-teal-100/80 text-teal-700 shadow-sm dark:border-teal-400 dark:bg-teal-900/30 dark:text-teal-200';
-    const inactive =
-      'border border-slate-200/80 bg-white/70 text-slate-600 hover:border-teal-200 hover:text-teal-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200';
-    return (
-      <button
-        key={label}
-        type="button"
-        class={`${base} ${isActive ? active : inactive}`}
-        aria-pressed={isActive}
-        onClick={() =>
-          setState({
-            ...state,
-            quickFilter: isActive ? undefined : label
-          })
-        }
-      >
-        {label}
-      </button>
-    );
-  });
-
   return (
-    <div class="space-y-6">
+    <div class="browse-client space-y-6">
       <div class="flex justify-center">
-        <div class="w-full max-w-3xl rounded-[2rem] border border-teal-200/70 bg-gradient-to-br from-white via-cyan-50/70 to-teal-50/70 p-6 text-center shadow-[0_22px_60px_rgba(13,148,136,0.12)] ring-1 ring-teal-100/80 backdrop-blur-lg transition dark:border-slate-800 dark:from-slate-900/90 dark:via-teal-950/20 dark:to-slate-900/85 dark:shadow-none dark:ring-teal-900/40">
-          <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-teal-600/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.2em] text-teal-800 ring-1 ring-teal-200 shadow-sm dark:bg-teal-900/30 dark:text-teal-100 dark:ring-teal-800">
-            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_0_6px_rgba(16,185,129,0.18)]"></span>
-            Search the repository
-          </div>
+        <div class="browse-search w-full max-w-3xl rounded-[2rem] border border-teal-200/70 bg-gradient-to-br from-white via-cyan-50/70 to-teal-50/70 p-6 text-center shadow-[0_22px_60px_rgba(13,148,136,0.12)] ring-1 ring-teal-100/80 backdrop-blur-lg transition dark:border-slate-800 dark:from-slate-900/90 dark:via-teal-950/20 dark:to-slate-900/85 dark:shadow-none dark:ring-teal-900/40">
           <div class="relative">
             <div class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-teal-500 dark:text-teal-200">
               <svg
@@ -285,22 +266,12 @@ export default function BrowseClient({ papers }: Props) {
               Live match
             </div>
           </div>
-          <p class="mt-3 text-sm font-medium text-slate-600 dark:text-slate-300">
-            Instant results, filter-friendly, and ready to share via copied links.
-          </p>
         </div>
       </div>
 
-      <div class="flex flex-col gap-8 lg:flex-row">
-        <aside class="lg:w-80 lg:flex-none">
-          <div class="space-y-6 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
-            <div>
-              <p class="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                Quick filters
-              </p>
-              <div class="flex flex-wrap gap-2">{quickFilterButtons}</div>
-            </div>
-
+      <div class="browse-workspace flex flex-col gap-8 lg:flex-row">
+        <aside class="browse-filters lg:w-80 lg:flex-none">
+          <div class="browse-filter-panel space-y-6 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
             <div>
               <p class="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
                 Year range
@@ -341,11 +312,19 @@ export default function BrowseClient({ papers }: Props) {
               {buildFacetList(facets.settings, state.settings, 'settings')}
             </FacetSection>
 
-            <FacetSection title="Design">
+            <FacetSection title="Study design">
               {buildFacetList(facets.designs, state.designs, 'designs')}
             </FacetSection>
 
-            <FacetSection title="Country">
+            <FacetSection title="Population">
+              {buildFacetList(facets.populations, state.populations, 'populations')}
+            </FacetSection>
+
+            <FacetSection title="Recovery stage">
+              {buildFacetList(facets.recoveryStages, state.recoveryStages, 'recoveryStages')}
+            </FacetSection>
+
+            <FacetSection title="Geography">
               {buildFacetList(facets.countries, state.countries, 'countries')}
             </FacetSection>
 
@@ -355,8 +334,8 @@ export default function BrowseClient({ papers }: Props) {
           </div>
         </aside>
 
-        <section class="flex-1 space-y-5">
-          <div class="flex flex-col gap-3 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
+        <section class="browse-results flex-1 space-y-5">
+          <div class="browse-results-header flex flex-col gap-3 rounded-[2rem] border border-slate-200/80 bg-white/95 p-5 shadow-[0_18px_50px_rgba(15,23,42,0.08)] ring-1 ring-slate-100/80 backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:border-slate-800 dark:bg-slate-900 dark:ring-slate-800/80">
             <div>
               <h2 class="text-lg font-semibold text-slate-800 dark:text-slate-100">
                 {visiblePapers.length} papers

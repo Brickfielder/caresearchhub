@@ -43,6 +43,8 @@ export interface SearchState {
   domains: string[];
   settings: string[];
   designs: string[];
+  populations: string[];
+  recoveryStages: string[];
   countries: string[];
   journals: string[];
   quickFilter?: string;
