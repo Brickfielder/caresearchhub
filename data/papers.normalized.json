@@ -589,6 +589,72 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42637214",
+    "pmid": "42637214",
+    "doi": "10.1016/j.resuscitation.2026.111277",
+    "title": "Cognition, Quality of Life, and Psychological Outcomes in Out-of-Hospital Cardiac Arrest Survivors - Results from the German Cardiac Arrest Registry (G-CAR).",
+    "authors": [
+      "Michelle Roßberg",
+      "Hermann Heerklotz",
+      "Nadine Hösler",
+      "Taoufik Ouarrak",
+      "Steffen Desch",
+      "Holger Thiele",
+      "Uwe Zeymer",
+      "Eike Tigges",
+      "Ingo Voigt",
+      "Guido Michels",
+      "Fabian Voss",
+      "Christian Apfelbacher",
+      "Anne Freund",
+      "Sebastian Ewen",
+      "Carolin Fleischmann-Struzek",
+      "Christoph Sinning",
+      "Janine Pöss",
+      "G-CAR Investigators"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-08-24",
+    "abstract": "AIM: To assess cognitive function, health-related quality of life (HRQoL), reintegration into daily life, and psychological outcomes among out-of-hospital cardiac arrest (OHCA) survivors.\nMETHODS: Data were obtained from the multicenter German Cardiac Arrest Registry (G-CAR). Survivors completed standardized assessments at 6- and 12-month follow-up (6M-FU; 12M-FU), including 1.) Mini Montreal Cognitive Assessment (Mini-MoCA), 2.) EuroQol 5 Dimension 5 Level (EQ-5D-5L), 3.) Hospital Anxiety and Depression Scale (HADS), 4.) Reintegration to Normal Living Index (RNLI), and 5.) Posttraumatic Stress Symptoms-14 (PTSS-14).\nRESULTS: Among 1,644 OHCA patients enrolled between July 2021 and August 2024, 416 survived to hospital discharge. Follow-up data were available for 354 patients at 6 months and 307 at 12 months. Cognitive impairment was identified in 30.5% and 33.6% of respondents at 6 and 12 months, respectively. HRQoL was generally favorable, with at least 75% reporting no or slight limitations across EQ-5D-5L dimensions and mean index values comparable to those of the age-matched German population (6M-FU: 0.83 ± 0.24; 12M-FU: 0.84 ± 0.23). Reintegration into normal living was high (RNLI; 6M-FU 37.9 ± 7.3; 12M-FU: 38.4 ± 6.9). Most participants had normal HADS scores, although 13% reported abnormal depressive symptom scores. Mean PTSS-14 scores remained below the threshold suggestive of post-traumatic stress disorder at both follow-ups (6M-FU: 30.9; 12M-FU: 31.3).\nCONCLUSION: OHCA survivors generally reported good long-term quality of life, successful social reintegration, and low psychological distress. However, persistent cognitive impairment and depressive symptoms affected a substantial proportion of survivors, highlighting the importance of structured long-term follow-up after OHCA.\nCLINICALTRIALS: gov identifier: NCT05142124.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111277",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42637214"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Germany",
+    "domains": [
+      "Cognitive",
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Roßberg M",
+      "Heerklotz H",
+      "Hösler N",
+      "Ouarrak T",
+      "Desch S",
+      "Thiele H",
+      "Zeymer U",
+      "Tigges E",
+      "Voigt I",
+      "Michels G",
+      "Voss F",
+      "Apfelbacher C",
+      "Freund A",
+      "Ewen S",
+      "Fleischmann-Struzek C",
+      "Sinning C",
+      "Pöss J",
+      "Investigators G"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41671002",
     "pmid": "41671002",
     "doi": "10.1001/jamanetworkopen.2026.0872",
