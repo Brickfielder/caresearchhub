@@ -589,6 +589,37 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1186/s12913-026-15317-0",
+    "doi": "10.1186/s12913-026-15317-0",
+    "title": "Co-Designing a mobile health intervention for cardiac arrest survivors and co-survivors: Mapping experiences and unmet needs to digital design features",
+    "authors": [
+      "Damyen Henderson-Lee Wah",
+      "M. Bianca Seaton",
+      "Laurie J. Morrison",
+      "Katie N. Dainty"
+    ],
+    "journal": "BMC Health Services Research",
+    "year": 2026,
+    "date": "2026-08-25",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1186/s12913-026-15317-0"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Wah DH",
+      "Seaton MB",
+      "Morrison LJ",
+      "Dainty KN"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "42637214",
     "pmid": "42637214",
     "doi": "10.1016/j.resuscitation.2026.111277",
