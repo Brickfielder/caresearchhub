@@ -127,4 +127,25 @@ describe('normalizeRecords', () => {
     expect(normalized[0].normalizedAuthors[0]).toBe('Doe J');
     expect(normalized[0].isAbstractTruncated).toBe(true);
   });
+
+  it('maps an Aarhus affiliation to Denmark', () => {
+    const [paper] = normalizeRecords([
+      {
+        id: 'aarhus',
+        title: 'Study',
+        authors: ['Jane Doe'],
+        journal: 'Journal',
+        year: 2025,
+        abstract: 'Summary',
+        country:
+          'Department of Physiotherapy and Occupational Therapy Aarhus University Hospital Aarhus Denmark',
+        links: {}
+      }
+    ]);
+    expect(paper).toMatchObject({
+      country: 'Denmark',
+      corrCountryCode: 'DK',
+      corrCountryName: 'Denmark'
+    });
+  });
 });

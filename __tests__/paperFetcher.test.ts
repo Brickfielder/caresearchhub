@@ -211,4 +211,40 @@ describe('paper fetcher utilities', () => {
     expect(record.links.pubmed).toBe('https://pubmed.ncbi.nlm.nih.gov/12345678');
     expect(record.links.doi).toBe('https://doi.org/10.2000/example');
   });
+
+  it('uses Europe PMC when Crossref and PubMed have no abstract', async () => {
+    const fetcher = jest.fn((input: RequestInfo) => {
+      const url = typeof input === 'string' ? input : input.toString();
+      if (url.startsWith('https://api.crossref.org')) {
+        return Promise.resolve(
+          createJsonResponse({
+            message: { ...crossrefPayload.message, abstract: undefined }
+          })
+        );
+      }
+      if (url.includes('/efetch.fcgi')) {
+        return Promise.resolve(
+          createXmlResponse(pubmedXml.replace(/<Abstract>[\s\S]*?<\/Abstract>/, ''))
+        );
+      }
+      if (url.startsWith('https://www.ebi.ac.uk/europepmc/')) {
+        return Promise.resolve(
+          createJsonResponse({
+            resultList: {
+              result: [{ doi: '10.1000/example', abstractText: '<p>Public fallback abstract.</p>' }]
+            }
+          })
+        );
+      }
+      return Promise.reject(new Error(`Unexpected URL ${url}`));
+    });
+
+    const record = await fetchPaperByIdentifier({ doi: '10.1000/example' }, fetcher);
+
+    expect(record.abstract).toBe('Public fallback abstract.');
+    expect(fetcher).toHaveBeenCalledWith(
+      expect.stringContaining('resultType=core'),
+      expect.anything()
+    );
+  });
 });

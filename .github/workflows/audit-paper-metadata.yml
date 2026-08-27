@@ -1,0 +1,54 @@
+name: Audit and refresh paper metadata
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply_missing:
+        description: 'Fill missing metadata and open a review pull request'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Compare all records with DOI-matched sources
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          args="--report-dir=$RUNNER_TEMP/metadata"
+          if [ "${{ inputs.apply_missing }}" = "true" ]; then args="$args --apply"; fi
+          npm run refresh:metadata -- $args
+      - name: Audit resulting dataset
+        run: npm run audit:metadata -- --strict --report-dir="$RUNNER_TEMP/metadata"
+      - name: Add audit summary
+        run: cat "$RUNNER_TEMP/metadata/metadata-audit.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper-metadata-audit-${{ github.run_id }}
+          path: ${{ runner.temp }}/metadata
+      - name: Create review pull request
+        if: inputs.apply_missing == true
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.ACTIONS_PR_TOKEN || github.token }}
+          branch: chore/refresh-paper-metadata-${{ github.run_id }}
+          commit-message: 'data: fill verified missing paper metadata'
+          title: 'Review paper metadata refresh'
+          body: |
+            Fills only missing fields from exact-DOI Crossref, PubMed and Europe PMC records.
+            Existing populated values are not automatically replaced. Verified overrides are applied last.
+          delete-branch: true

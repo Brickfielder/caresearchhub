@@ -21,9 +21,11 @@
     "add:paper": "tsx scripts/add-paper.ts",
     "add:network-person": "tsx scripts/add-network-person.ts",
     "enrich:countries": "tsx scripts/enrich-missing-countries.ts",
+    "audit:metadata": "node --import tsx scripts/audit-paper-metadata.ts",
+    "refresh:metadata": "node --import tsx scripts/refresh-paper-metadata.ts",
     "prep:update": "npm run validate && npm run normalize",
     "lighthouse": "lhci autorun",
-    "check:ci": "npm run validate && npm run normalize && git diff --exit-code -- data/papers.normalized.json && npm run lint && npm run typecheck && npm run test -- --runInBand && npm run build && npm run lighthouse",
+    "check:ci": "npm run validate && npm run normalize && git diff --exit-code -- data/papers.normalized.json && npm run audit:metadata -- --strict --report-dir=/tmp/caresearchhub-metadata-audit && npm run lint && npm run typecheck && npm run test -- --runInBand && npm run build && npm run lighthouse",
     "changelog": "tsx scripts/changelog.ts"
   },
   "dependencies": {

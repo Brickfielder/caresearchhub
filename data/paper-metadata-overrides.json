@@ -1,0 +1,18 @@
+{
+  "10.1016/j.resuscitation.2026.110978": {
+    "values": {
+      "abstract": ""
+    },
+    "reason": "This is a letter without an indexed abstract; a CARESS abstract was attached in error.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41570883/",
+    "verifiedAt": "2026-08-27"
+  },
+  "10.1161/jaha.125.042637": {
+    "values": {
+      "country": "Denmark"
+    },
+    "reason": "The stored value was an Aarhus University Hospital affiliation, not a country.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41181996/",
+    "verifiedAt": "2026-08-27"
+  }
+}
