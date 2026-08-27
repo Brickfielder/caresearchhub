@@ -49,7 +49,7 @@
     "journal": "Resuscitation",
     "year": 2026,
     "date": "2026-01-20",
-    "abstract": "Aim: Little is known about how best to deliver support for the long-term recovery of cardiac arrest survivors, their family and close friends (co-survivors), or whether providing structured support is feasible. Working collaboratively, we have co-produced two online psychosocial and exercise rehabilitation care pathways for adult survivors and co-survivors – the Cardiac Arrest Recovery Enablement and Supported Self-management (CARESS) intervention. This study assesses the feasibility and acceptability of patient identification, recruitment, intervention delivery and outcomes assessment.\nMethod: A single arm, multi-centre feasibility study with an embedded process evaluation. We will test the acceptability and delivery of a new rehabilitation intervention in the NHS setting. We will recruit 30 cardiac arrest survivors discharged to home, and 30 co-survivors.\nThe CARESS rehabilitation intervention consists of three components delivered in real-time by video-call: (1) one-to-one consultation with a CARESS facilitator (week 1): a one-hour conversation to discuss motivation and set goals; (2) facilitator-led group support sessions (weeks 2–8; 1-hour): provided weekly, separately for survivors or co-survivors to develop their knowledge, skills, understanding and establish connections with peers; and (3) supervised group exercise rehabilitation sessions (weeks 3–8; up to 45 mins): provided weekly, for survivors to build confidence and fitness. Recruitment, retention, and completion of outcome measures will be evaluated. Exploratory outcomes will include health-related quality of life (PROPr 29+2), emotional wellbeing (HADS, WEMWBS), and fatigue (FACIT-f), measured at baseline (week 0) and post-intervention (week 11) to assess suitability for a randomised controlled trial. Interviews to explore participant and facilitator perspectives will inform the process evaluation.\nDiscussion: This study assesses the feasibility of online delivery and findings will inform a future multi-centre randomised trial.\nTrial registration: ISRCTN16382742, prospectively registered 28/01/2025.",
+    "abstract": "",
     "links": {
       "doi": "https://doi.org/10.1016/j.resuscitation.2026.110978",
       "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41570883"
@@ -1995,7 +1995,8 @@
     "abstract": "BACKGROUND: Out-of-hospital cardiac arrest is a significant cause of mortality and morbidity worldwide. Although resuscitation advancements have increased survival, many survivors suffer cognitive impairments that affect their quality of life. Most research has focused on neurological outcomes, whereas little attention has been paid to cognitive function. The aim is to investigate the proportion of cognitive impairment in survivors of out-of-hospital cardiac arrest at discharge and 6 months after cardiac arrest and to investigate the association between the duration of cardiac arrest and level of cognitive function.\nMETHODS: In this prospective cohort study, 184 survivors of out-of-hospital cardiac arrest were assessed using the Montreal Cognitive Assessment screening tool. Duration of cardiac arrest was defined by no flow, low flow, and time to return of spontaneous circulation. Multiple logistic regression analysis provided odds ratios (OR) and CI.\nRESULTS: Of 184 survivors assessed, 26% had normal cognitive function at discharge, increasing to 67% at 6 months (n=149). Median Montreal Cognitive Assessment score improved from 23 (Q25-Q75: 20-26) to 26 (Q25-Q75: 24-28). At 6 months, adjusted ORs per minute were 1.03 (95% CI, 1.00-1.07) for low flow and 1.03 (95% CI, 1.00-1.07) for time to return of spontaneous circulation, whereas associations at discharge were near null (aOR≈0.99). No significant association was found either at discharge or follow-up.\nCONCLUSIONS: Cognitive function improved considerably within 6 months following cardiac arrest, with the proportion of patients exhibiting normal cognitive function increasing from 26% to 67%. This study found no association between the duration of cardiac arrest and cognitive function.",
     "links": {
       "doi": "https://doi.org/10.1161/JAHA.125.042637",
-      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41181996"
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41181996",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12684582"
     },
     "flags": {
       "open_access": false,
@@ -2019,7 +2020,8 @@
       "Risk Factors",
       "Quality of Life"
     ],
-    "country": "Department of Physiotherapy and Occupational Therapy Aarhus University Hospital Aarhus Denmark"
+    "country": "Denmark",
+    "pmcid": "PMC12684582"
   },
   {
     "id": "39999023",

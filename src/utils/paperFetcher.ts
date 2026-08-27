@@ -4,6 +4,7 @@ import type { RawPaper } from './types';
 const CROSSREF_ENDPOINT = 'https://api.crossref.org/works/';
 const PUBMED_EFETCH_ENDPOINT = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi';
 const PUBMED_ESEARCH_ENDPOINT = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi';
+const EUROPE_PMC_SEARCH_ENDPOINT = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search';
 
 const CROSSREF_USER_AGENT =
   process.env.CROSSREF_USER_AGENT ??
@@ -673,6 +674,37 @@ const mergeRecords = (preferred: RawPaper, fallback: RawPaper): RawPaper => {
   };
 };
 
+const fetchEuropePmcAbstract = async (doi: string, fetcher: Fetcher): Promise<string> => {
+  const target = new URL(EUROPE_PMC_SEARCH_ENDPOINT);
+  target.searchParams.set('query', `DOI:"${doi}"`);
+  target.searchParams.set('resultType', 'core');
+  target.searchParams.set('format', 'json');
+  target.searchParams.set('pageSize', '1');
+  const response = await fetcher(target.toString(), { headers: { Accept: 'application/json' } });
+  if (!response.ok) return '';
+  const payload = (await response.json()) as {
+    resultList?: { result?: { doi?: string; abstractText?: string }[] };
+  };
+  const match = payload.resultList?.result?.find(
+    (result) => result.doi?.toLowerCase() === doi.toLowerCase()
+  );
+  return stripHtml(match?.abstractText);
+};
+
+const addFallbackAbstract = async (
+  record: RawPaper,
+  doi: string,
+  fetcher: Fetcher
+): Promise<RawPaper> => {
+  if (record.abstract) return record;
+  try {
+    const abstract = await fetchEuropePmcAbstract(doi, fetcher);
+    return abstract ? { ...record, abstract } : record;
+  } catch {
+    return record;
+  }
+};
+
 export const fetchPaperByIdentifier = async (
   options: { doi?: string; pmid?: string; pmcid?: string },
   fetcher: Fetcher = defaultFetch
@@ -692,27 +724,24 @@ export const fetchPaperByIdentifier = async (
     throw new PaperLookupError('A DOI is required.');
   }
   const crossref = await fetchCrossrefMetadata(doi, fetcher);
+  let record = crossref;
   if (crossref.pmid) {
     try {
       const pubmed = await fetchPubMedMetadata(crossref.pmid, fetcher);
-      return mergeRecords(pubmed, crossref);
+      record = mergeRecords(pubmed, crossref);
     } catch (error) {
-      if (error instanceof PaperLookupError) {
-        return crossref;
+      if (!(error instanceof PaperLookupError)) throw error;
+    }
+  } else {
+    try {
+      const resolvedPmid = await resolvePmidFromDoi(crossref.doi ?? doi, fetcher);
+      if (resolvedPmid) {
+        const pubmed = await fetchPubMedMetadata(resolvedPmid, fetcher);
+        record = mergeRecords(pubmed, crossref);
       }
-      throw error;
+    } catch (error) {
+      if (!(error instanceof PaperLookupError)) throw error;
     }
   }
-  try {
-    const resolvedPmid = await resolvePmidFromDoi(crossref.doi ?? doi, fetcher);
-    if (resolvedPmid) {
-      const pubmed = await fetchPubMedMetadata(resolvedPmid, fetcher);
-      return mergeRecords(pubmed, crossref);
-    }
-  } catch (error) {
-    if (!(error instanceof PaperLookupError)) {
-      throw error;
-    }
-  }
-  return crossref;
+  return addFallbackAbstract(record, crossref.doi ?? doi, fetcher);
 };

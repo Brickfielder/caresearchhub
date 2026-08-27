@@ -42,8 +42,8 @@ const COUNTRY_CORRECTIONS: CountryCorrection[] = [
   {
     match:
       /department of physiotherapy and occupational therapy aarhus university hospital aarhus denmark/i,
-    code: 'AT',
-    name: 'Austria'
+    code: 'DK',
+    name: 'Denmark'
   },
   {
     match: /faculty of health and life sciences linnaeus university kalmar sweden/i,
