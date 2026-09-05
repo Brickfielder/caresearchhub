@@ -14,20 +14,20 @@ import { recoveryStages } from '~/utils/paperFacets';
 
 const useSearchState = (papers: Paper[]): [SearchState, (next: SearchState) => void] => {
   const defaults = useMemo(() => defaultSearchState(papers), [papers]);
-  const [state, setState] = useState<SearchState>(() => {
-    if (typeof window === 'undefined') {
-      return defaults;
-    }
-    return parseStateFromUrl(new URL(window.location.href), defaults);
-  });
+  // Match the static HTML during hydration, then apply incoming URL filters.
+  const [state, setState] = useState<SearchState>(defaults);
+  const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return;
-    }
+    setState(parseStateFromUrl(new URL(window.location.href), defaults));
+    setInitialized(true);
+  }, [defaults]);
+
+  useEffect(() => {
+    if (!initialized) return;
     const url = serializeStateToUrl(state, new URL(window.location.href));
     window.history.replaceState({}, '', url.toString());
-  }, [state]);
+  }, [state, initialized]);
 
   return [state, setState];
 };
