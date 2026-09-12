@@ -846,6 +846,32 @@
     "corrCountryName": "Sweden"
   },
   {
+    "id": "10.1016/j.ccrj.2026.100212",
+    "doi": "10.1016/j.ccrj.2026.100212",
+    "title": "Long-term outcomes of out-of-hospital cardiac arrest survivors in New Zealand: A prospective, longitudinal cohort study",
+    "authors": [
+      "Rachael L. Parke",
+      "Glenn Eastwood",
+      "Anna Hunt",
+      "Anne Turner",
+      "Leanlove Navarra",
+      "Anais Charles-Nelson",
+      "Michael Bailey",
+      "Shay McGuinness"
+    ],
+    "journal": "Critical Care and Resuscitation",
+    "year": 2026,
+    "date": "2026-12",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.ccrj.2026.100212"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    }
+  },
+  {
     "id": "10.1016/j.resplu.2026.101354",
     "doi": "10.1016/j.resplu.2026.101354",
     "title": "Non-linear recovery trajectories after cardiac arrest: implications for enrolment and outcome selection",
