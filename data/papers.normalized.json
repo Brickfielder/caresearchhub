@@ -1519,6 +1519,38 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1080/13548506.2026.2729847",
+    "doi": "10.1080/13548506.2026.2729847",
+    "title": "Parenting after critical illness: a biopsychosocial review of post-intensive care syndrome, family systems, and child outcomes",
+    "authors": [
+      "Ana Laura Gurgel",
+      "Donna O’rourke",
+      "Henrique Mendes"
+    ],
+    "journal": "Psychology, Health & Medicine",
+    "year": 2026,
+    "date": "2026-09-12",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1080/13548506.2026.2729847"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "corrCountryCode": "GB",
+    "corrCountryName": "United Kingdom",
+    "country": "United Kingdom",
+    "domains": [],
+    "setting": "Unclear",
+    "normalizedAuthors": [
+      "Gurgel AL",
+      "O’rourke D",
+      "Mendes H"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1186/s12910-026-01584-3",
     "doi": "10.1186/s12910-026-01584-3",
     "title": "Perceptions of surrogate decision-makers of cardiac arrest patients on engaging in research during high emotional distress",
