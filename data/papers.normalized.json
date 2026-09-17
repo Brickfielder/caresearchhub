@@ -2061,6 +2061,46 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42735814",
+    "pmid": "42735814",
+    "doi": "10.1016/j.resuscitation.2026.111311",
+    "title": "Structured diagnostic strategies for psychological problems in cardiac arrest survivors: an important knowledge gap.",
+    "authors": [
+      "Giuseppe Ristagno",
+      "Erga Cerchiari",
+      "Aurora Magliocca",
+      "Giulia Merigo",
+      "Federico Semeraro",
+      "IRC Foundation Study Group"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09-14",
+    "abstract": "Psychological and cognitive problems frequently persist after cardiac arrest, even among survivors with favourable neurological recovery. We systematically reviewed whether structured approaches to the identification and assessment of psychological, emotional or cognitive sequelae improve patient- or key supporter-relevant outcomes. MEDLINE, Embase and CENTRAL were searched from inception to December 2025. Among 1,605 records, none met the prespecified eligibility criteria. The absence of eligible comparative evidence precludes evidence-based recommendations regarding which instruments, thresholds, timing or multidisciplinary pathways should be used. Pragmatic comparative studies should urgently test reproducible screening-to-care pathways against usual care, incorporating diagnostic confirmation, referral, treatment access and survivor-centred outcomes.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111311",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42735814"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Italy",
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Ristagno G",
+      "Cerchiari E",
+      "Magliocca A",
+      "Merigo G",
+      "Semeraro F",
+      "Group IFS"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resuscitation.2026.111150",
     "doi": "10.1016/j.resuscitation.2026.111150",
     "title": "Symptoms of anxiety and depression after out-of-hospital cardiac arrest: an exploratory dyadic analysis of survivors and their cohabiting spouses or partners from the BOX trial",
