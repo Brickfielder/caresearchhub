@@ -11277,5 +11277,234 @@
       "open_access": false,
       "has_fulltext": false
     }
+  },
+  {
+    "id": "40567889",
+    "pmid": "40567889",
+    "doi": "10.1016/j.ynirp.2025.100244",
+    "title": "Brain topology and cognitive outcomes after cardiac arrest: A graph theoretical analysis of fMRI data",
+    "authors": [
+      "Marlous M L H Verhulst",
+      "Puck Lange",
+      "Anil Man Tuladhar",
+      "Prejaas Tewarie",
+      "Pauline C W van Gils",
+      "Caroline van Heugten",
+      "Judith Bonnes",
+      "Thijs Delnoij",
+      "Rick Helmich",
+      "Jeannette Hofmeijer"
+    ],
+    "journal": "NeuroImage: Reports",
+    "year": 2025,
+    "date": "2025-02-13",
+    "abstract": "INTRODUCTION: Half of all cardiac arrest patients experience long-term cognitive impairment. Identifying patients at risk is challenging and underlying mechanisms are incompletely understood. Since postanoxic encephalopathy is diffuse, measures of global network organization might contribute to identifying these patients at risk. We studied MRI-based whole-brain and subnetwork topology in relation to short- and long-term cognitive outcomes after cardiac arrest.\nMETHODS: We performed a multicenter prospective cohort study in cardiac arrest survivors. Patients underwent resting-state functional MRI during hospitalization (within one month after cardiac arrest). We analyzed 264 regions of interest using Power's atlas, extracting mean timeseries and calculating pairwise connectivity with Pearson's correlation. Overall functional connectivity, global efficiency, clustering coefficient, and modularity were calculated for the whole brain and five subnetworks. Cognitive function was measured using the Montreal Cognitive Assessment (MoCA) during hospitalization, at three, and twelve months, and using neuropsychological examination at twelve months. Mixed effects models were used to examine relationships between topology measures and cognitive outcomes. We corrected for multiple testing.\nRESULTS: We included 80 patients (age 60 ± 11 years, 70 (90%) male). Our analyses showed consistent relations between various topology measures of the sensory/somatomotor network (SSN) and MoCA score during hospitalization and memory, attention, and executive functioning at twelve months follow up. After correction for multiple testing, we found no statistically significant relations between whole-brain and subnetwork graph measures and cognitive outcomes.\nCONCLUSION: Early whole brain functional topology was not related to short- or long-term cognitive outcome after cardiac arrest in this analysis. Potential relations between SSN topology and cognitive outcome point towards spatial heterogeneity of postanoxic encephalopathy. Possible predictive values of SSN structure or function need further investigation.\n\nSource: Marlous M L H Verhulst et al. NeuroImage: Reports (2025). https://doi.org/10.1016/j.ynirp.2025.100244. Reproduced under CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.ynirp.2025.100244",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40567889",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12172698"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12172698",
+    "country": "the Netherlands",
+    "domains": [
+      "Cognitive"
+    ],
+    "design": "Prospective cohort",
+    "setting": "Unclear"
+  },
+  {
+    "id": "40889586",
+    "pmid": "40889586",
+    "doi": "10.1016/j.resuscitation.2025.110793",
+    "title": "Evaluating measurement quality and feasibility of neurocognitive screening instruments for adult survivors of out-of-hospital cardiac arrest: A systematic review",
+    "authors": [
+      "Theresa Aves",
+      "Katherine S Allan",
+      "Sajeevan Sujanthan",
+      "Damyen Henderson-Lee Wah",
+      "Mahbod Rahimi",
+      "Sara Shalca",
+      "Teruko Kishibe",
+      "Steve Lin",
+      "Richard H Swartz",
+      "Katie N Dainty",
+      "Kirstie L Haywood"
+    ],
+    "journal": "Resuscitation",
+    "year": 2025,
+    "date": "2025-08-30",
+    "abstract": "AIM: To systematically review and appraise the measurement properties, interpretability, and feasibility of outcome measurement instruments (OMIs) for screening neurocognitive function among adult survivors of out-of hospital cardiac arrest (OHCA).\nMETHODS: Online databases were searched (MEDLINE, EMBASE, CENTRAL, CINAHL, PsychINFO) from inception - August 23, 2024. Included articles evaluated measurement properties, interpretability (assigning meaning to scores), and/or feasibility (ease of application) of multidomain instruments for screening neurocognitive function among OHCA survivors. Evidence was reviewed according to the Consensus-based Standards for the selection of health status Measurement Instruments (COSMIN) guidelines: Risk of Bias determined study quality; COSMIN criteria for good measurement properties was applied; data were pooled where possible, finally, the Grading of Recommendations, Assessment, Development and Evaluations (GRADE) criteria rated the certainty of evidence.\nRESULTS: Of 2336 titles and abstracts, 27 articles provided evidence for 13 instruments (MoCA, T-MoCA, Mini MoCA, MMSE, MMSE-ALFI, 3MS, TICS, TICS-m, WASI, IQCODE, IQCODE-CA, SF-16 IQCODE-CA, and CFQ). Only three reported measurement properties for two OMIs: the MoCA and the IQCODE-CA. The MoCA demonstrated high quality evidence of criterion validity across two studies (pooled AUC: 0.80; 95% CI: 0.67 to 0.93). There were inconsistent results for the IQCODE-CA. There was limited evidence of score interpretability and feasibility across all 13 OMIs.\nCONCLUSIONS: Insufficient evidence of essential measurement properties limits instrument choice. Whilst the MoCA had acceptable criterion validity, evidence of content validity was inadequate, and reliability and responsiveness lacking. Establishing robust evidence to inform screening of neurocognitive function in this population should be prioritized.\n\nSource: Theresa Aves et al. Resuscitation (2025). https://doi.org/10.1016/j.resuscitation.2025.110793. Reproduced under CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2025.110793",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40889586"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Feasibility Studies",
+      "Survivors",
+      "Neuropsychological Tests",
+      "Adult",
+      "Mass Screening",
+      "Cognitive Dysfunction"
+    ],
+    "country": "United Kingdom",
+    "domains": [
+      "Cognitive"
+    ],
+    "design": "Systematic review",
+    "setting": "OHCA"
+  },
+  {
+    "id": "39045091",
+    "pmid": "39045091",
+    "doi": "10.1093/braincomms/fcae174",
+    "title": "Brain network changes and cognitive function after cardiac arrest",
+    "authors": [
+      "Pardis Zarifkar",
+      "Mette Kirstine Wagner",
+      "Patrick MacDonald Fisher",
+      "Dea Siggaard Stenbæk",
+      "Selina Kikkenborg Berg",
+      "Gitte Moos Knudsen",
+      "Michael E Benros",
+      "Daniel Kondziella",
+      "Christian Hassager"
+    ],
+    "journal": "Brain Communications",
+    "year": 2024,
+    "date": "2024-05-23",
+    "abstract": "Survival rates after out-of-hospital cardiac arrest have improved over the past two decades. Despite this progress, long-term cognitive impairment remains prevalent even in those with early recovery of consciousness after out-of-hospital cardiac arrest; however, little is known about the determinants and underlying mechanisms. We utilized the REcovery after cardiac arrest surVIVAL cohort of out-of-hospital cardiac arrest survivors who fully regained consciousness to correlate cognition measurements with brain network changes using resting-state functional MRI and the Montreal Cognitive Assessment at hospital discharge and a comprehensive neuropsychological assessment at three-month follow-up. About half of out-of-hospital cardiac arrest survivors displayed cognitive impairments at discharge, and in most, cognitive deficits persisted at three-month follow-up, particularly in the executive and visuospatial functions. Compared to healthy controls, out-of-hospital cardiac arrest survivors exhibited increased connectivity between resting-state networks, particularly involving the frontoparietal network. The increased connectivity between the frontoparietal and visual networks was associated with less favourable cognitive outcomes (β = 14.0,= 0.01), while higher education seemed to confer some cognitive protection (β = -2.06,= 0.03). In sum, the data highlight the importance of subtle cognitive impairment, also in out-of-hospital cardiac arrest survivors who are eligible for home discharge, and the potential of functional MRI to identify alterations in brain networks correlating with cognitive outcomes.\n\nSource: Pardis Zarifkar et al. Brain Communications (2024). https://doi.org/10.1093/braincomms/fcae174. Reproduced under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.1093/braincomms/fcae174",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39045091",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11264146"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC11264146",
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark",
+    "domains": [
+      "Cognitive"
+    ],
+    "design": "Prospective cohort imaging substudy",
+    "setting": "OHCA"
+  },
+  {
+    "id": "37633944",
+    "pmid": "37633944",
+    "doi": "10.1186/s13054-023-04617-0",
+    "title": "Neuropsychological outcome after cardiac arrest: results from a sub-study of the targeted hypothermia versus targeted normothermia after out-of-hospital cardiac arrest (TTM2) trial",
+    "authors": [
+      "Erik Blennow Nordström",
+      "Susanna Vestberg",
+      "Lars Evald",
+      "Marco Mion",
+      "Magnus Segerström",
+      "Susann Ullén",
+      "John Bro-Jeppesen",
+      "Hans Friberg",
+      "Katarina Heimburg",
+      "Anders M. Grejs",
+      "Thomas R. Keeble",
+      "Hans Kirkegaard",
+      "Hanna Ljung",
+      "Sofia Rose",
+      "Matthew P. Wise",
+      "Christian Rylander",
+      "Johan Undén",
+      "Niklas Nielsen",
+      "Tobias Cronberg",
+      "Gisela Lilja"
+    ],
+    "journal": "Critical Care",
+    "year": 2023,
+    "date": "2023-08-26",
+    "abstract": "BACKGROUND: Cognitive impairment is common following out-of-hospital cardiac arrest (OHCA), but the nature of the impairment is poorly understood. Our objective was to describe cognitive impairment in OHCA survivors, with the hypothesis that OHCA survivors would perform significantly worse on neuropsychological tests of cognition than controls with acute myocardial infarction (MI). Another aim was to investigate the relationship between cognitive performance and the associated factors of emotional problems, fatigue, insomnia, and cardiovascular risk factors following OHCA.\nMETHODS: This was a prospective case-control sub-study of The Targeted Hypothermia versus Targeted Normothermia after Out-of-Hospital Cardiac Arrest (TTM2) trial. Eight of 61 TTM2-sites in Sweden, Denmark, and the United Kingdom included adults with OHCA of presumed cardiac or unknown cause. A matched non-arrest control group with acute MI was recruited. At approximately 7 months post-event, we administered an extensive neuropsychological test battery and questionnaires on anxiety, depression, fatigue, and insomnia, and collected information on the cardiovascular risk factors hypertension and diabetes.\nRESULTS: Of 184 eligible OHCA survivors, 108 were included, with 92 MI controls enrolled. Amongst OHCA survivors, 29% performed z-score ≤ - 1 (at least borderline-mild impairment) in ≥ 2 cognitive domains, 14% performed z-score ≤ - 2 (major impairment) in ≥ 1 cognitive domain while 54% performed without impairment in any domain. Impairment was most pronounced in episodic memory, executive functions, and processing speed. OHCA survivors performed significantly worse than MI controls in episodic memory (mean difference, MD = - 0.37, 95% confidence intervals [- 0.61, - 0.12]), verbal (MD = - 0.34 [- 0.62, - 0.07]), and visual/constructive functions (MD = - 0.26 [- 0.47, - 0.04]) on linear regressions adjusted for educational attainment and sex. When additionally adjusting for anxiety, depression, fatigue, insomnia, hypertension, and diabetes, executive functions (MD = - 0.44 [- 0.82, - 0.06]) were also worse following OHCA. Diabetes, symptoms of anxiety, depression, and fatigue were significantly associated with worse cognitive performance.\nCONCLUSIONS: In our study population, cognitive impairment was generally mild following OHCA. OHCA survivors performed worse than MI controls in 3 of 6 domains. These results support current guidelines that a post-OHCA follow-up service should screen for cognitive impairment, emotional problems, and fatigue.\nTRIAL REGISTRATION: ClinicalTrials.gov, NCT03543371. Registered 1 June 2018.\n\nSource: Erik Blennow Nordström et al. Critical Care (2023). https://doi.org/10.1186/s13054-023-04617-0. Reproduced under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.1186/s13054-023-04617-0",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/37633944",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10463667"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC10463667",
+    "mesh": [
+      "Adult",
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Hypothermia",
+      "Sleep Initiation and Maintenance Disorders",
+      "Fatigue",
+      "Hypertension",
+      "Myocardial Infarction"
+    ],
+    "country": "Sweden",
+    "domains": [
+      "Cognitive"
+    ],
+    "design": "Prospective case-control study",
+    "setting": "OHCA",
+    "correction": {
+      "doi": "10.1186/s13054-026-06188-2",
+      "date": "29 July 2026",
+      "note": "Tables 2 and 4, related discussion and Supplementary Figure S1 were corrected. Possible anxiety and depression in the OHCA group are 15% and 12%; major impairment on D-KEFS CWIT condition 3 is 10%. The authors state that the primary outcomes are unaffected."
+    }
+  },
+  {
+    "id": "36714933",
+    "pmid": "36714933",
+    "doi": "10.2340/jrm.v55.3497",
+    "title": "Predicting Long-Term Cognitive Impairments in Survivors after Cardiac Arrest: A Systematic Review",
+    "authors": [
+      "Astrid Glimmerveen",
+      "Marlous Verhulst",
+      "Jeanine Verbunt",
+      "Caroline van Heugten",
+      "Jeannette Hofmeijer"
+    ],
+    "journal": "Journal of Rehabilitation Medicine",
+    "year": 2023,
+    "date": "2023-01-30",
+    "abstract": "OBJECTIVE: International guidelines recommend early screening for identification of patients who are at risk of long-term cognitive impairments after cardiac arrest. However, information about predictors is not provided. A systematic review of the literature was performed to identify early predictors of long-term cognitive outcome after cardiac arrest.\nMETHODS: Scopus and PubMed were systematically searched to identify studies on early predictors of long-term cognitive outcome in patients after cardiac arrest. The population included adult cardiac arrest survivors and potential early predictors were demographics, early cognitive screening scores, imaging measures, electroencephalographic measures, and levels of blood biomarkers. Two investigators reviewed studies for relevance, extracted data and assessed risk of bias.\nRESULTS: Five articles were included. Risk of bias was assessed as low or moderate. Most detected longterm cognitive impairments were in the domain of memory. Coma duration (2 studies), early cognitive impairments by the self-developed clinical Bedside Neuropsychological Test Battery (BNTB) screener (2 studies), and high S-100B levels on day 3 (2 studies) were the most prominent identified determinants of cognitive impairment on the group level. On the individual patient level, a score on the BNTB of ≤ 94.5 predicted cognitive impairments at 6 months after cardiac arrest (1 study without external validation). Studies on brain imaging and electroencephalography are lacking.\nCONCLUSION: Early bedside cognitive screening can contribute to prediction of long-term cognitive impairment after cardiac arrest. Evidence is scarce for S-100B levels and coma duration and absent for measures derived from brain imaging and electroencephalography.\n\nSource: Astrid Glimmerveen et al. Journal of Rehabilitation Medicine (2023). https://doi.org/10.2340/jrm.v55.3497. Reproduced under CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.2340/jrm.v55.3497",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36714933",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9900490"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC9900490",
+    "mesh": [
+      "Adult",
+      "Humans",
+      "Coma",
+      "Heart Arrest",
+      "Brain",
+      "Cognitive Dysfunction",
+      "Survivors"
+    ],
+    "country": "the Netherlands",
+    "domains": [
+      "Cognitive"
+    ],
+    "design": "Systematic review",
+    "setting": "Mixed"
   }
 ]

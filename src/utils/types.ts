@@ -28,6 +28,11 @@ export interface RawPaper {
   country?: string;
   corrCountryCode?: string;
   corrCountryName?: string;
+  correction?: {
+    doi: string;
+    date: string;
+    note: string;
+  };
   links: PaperLinks;
   flags?: PaperFlags;
 }

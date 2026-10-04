@@ -68,6 +68,16 @@
     "country": {
       "type": "string"
     },
+    "correction": {
+      "type": "object",
+      "required": ["doi", "date", "note"],
+      "properties": {
+        "doi": { "type": "string" },
+        "date": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
     "links": {
       "type": "object",
       "properties": {
