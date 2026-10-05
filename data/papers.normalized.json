@@ -63,6 +63,126 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42402293",
+    "doi": "10.1016/j.resuscitation.2026.111202",
+    "title": "A scoping review of support interventions for bystanders involved in out-of-hospital cardiac arrest.",
+    "authors": [
+      "Uzma Sajjad",
+      "Marco Mion",
+      "Sarosh Khan",
+      "Thomas W Lindner",
+      "Nilesh Pareek",
+      "Thomas R Keeble",
+      "Vicky L Joshi"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-07-05",
+    "abstract": "Summary of the indexed abstract: A scoping review mapped support offered to adult bystanders after out-of-hospital cardiac arrest. Searches covered research and grey literature through March 2026. Sixteen publications described eleven interventions, with three further interventions identified outside peer-reviewed publications. Programmes mainly offered information, debriefing and psychological support, delivered in person, by telephone or digitally. Only five studies reported participant outcomes, and none evaluated effectiveness. The review identifies a growing range of support programmes while highlighting limited evidence about their outcomes.\n\nSource: https://pubmed.ncbi.nlm.nih.gov/42402293",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42402293",
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111202"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "pmid": "42402293",
+    "mesh": [
+      "Humans",
+      "Cardiopulmonary Resuscitation",
+      "Emergency Medical Services",
+      "Out-of-Hospital Cardiac Arrest",
+      "Stress, Psychological"
+    ],
+    "country": "United Kingdom",
+    "design": "Scoping review",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Sajjad U",
+      "Mion M",
+      "Khan S",
+      "Lindner TW",
+      "Pareek N",
+      "Keeble TR",
+      "Joshi VL"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42191078",
+    "pmid": "42191078",
+    "doi": "10.1016/j.resuscitation.2026.111148",
+    "title": "Activation of community first responders to pediatric out-of-hospital cardiac arrests in Denmark.",
+    "authors": [
+      "Sofie H Kjærholm",
+      "Linn Andelius",
+      "Persia Shahriari",
+      "Victor Kjærulf",
+      "Anne J Grabmayr",
+      "Louise de C H Flarup",
+      "Liv Borch-Johnsen",
+      "Axel H D Oxwall",
+      "Christian Torp-Pedersen",
+      "Annette K Ersbøll",
+      "Fredrik Folke",
+      "Carolina Malta Hansen"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-05-25",
+    "abstract": "BACKGROUND: Activation of community first responders (CFRs) to adult out-of-hospital cardiac arrests (OHCAs) increases bystander cardiopulmonary resuscitation (CPR). In Denmark, national guidelines were expanded to include pediatric OHCAs (ages 0-17), highlighting the need to explore both CFR involvement and potential psychological impact.\nOBJECTIVES: To examine the involvement of CFRs in pediatric OHCAs in Denmark, including the interventions performed, self-reported immediate distress, and the need for follow-up care.\nMETHODS: We analyzed pediatric OHCAs with CFR activation from the Danish Cardiac Arrest Registry and the CFR mission database between September 2017 and December 2023. Data included patient characteristics and CFR questionnaire responses regarding interventions, immediate distress, and follow-up needs. Analyses were descriptive and exploratory.\nRESULTS: In 55 pediatric OHCAs, 794 CFRs were activated. Of these, 157 arrived at the scene; 85/157 (54%) arrived before EMS, 47/157 (30%) performed CPR, and 44/157 (28%) provided support to relatives. Moderate or severe self-reported immediate distress was reported by 53/157 (34%), more common among those who arrived before EMS (44/85, 52%), performed CPR (30/47, 64%), or in cases of children <4 years (35/77, 45%). Most CFRs (155/157, 99%) remained willing to continue volunteering afterwards.\nCONCLUSION: CFR activation to pediatric OHCAs was associated with early resuscitative efforts. One-third reported moderate or severe immediate distress, particularly when arriving before EMS, performing CPR, or responding to younger children. The majority of the CFRs remained willing to remain in the system afterwards. Findings reflect immediate responses and should be interpreted alongside the potential benefits of early interventions.\n\nSource: Sofie H Kjærholm et al. Resuscitation (2026). https://doi.org/10.1016/j.resuscitation.2026.111148. Reproduced under CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Denmark",
+      "Female",
+      "Cardiopulmonary Resuscitation",
+      "Male",
+      "Child, Preschool",
+      "Infant",
+      "Emergency Medical Services",
+      "Child",
+      "Registries",
+      "Emergency Responders",
+      "Adolescent",
+      "Infant, Newborn",
+      "Surveys and Questionnaires"
+    ],
+    "country": "Denmark",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42191078",
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111148"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Registry-based observational study",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Kjærholm SH",
+      "Andelius L",
+      "Shahriari P",
+      "Kjærulf V",
+      "Grabmayr AJ",
+      "Flarup LDCH",
+      "Borch-Johnsen L",
+      "Oxwall AHD",
+      "Torp-Pedersen C",
+      "Ersbøll AK",
+      "Folke F",
+      "Hansen CM"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41570883",
     "pmid": "41570883",
     "doi": "10.1016/j.resuscitation.2026.110978",
@@ -204,6 +324,37 @@
     "normalizedAuthors": [
       "Oh TK",
       "Song I"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42518246",
+    "doi": "10.1093/eurjpc/zwag395",
+    "title": "Beyond Survival: The Eriksen Case and the Dilemma of Elite Sport Participation After Sudden Cardiac Arrest.",
+    "authors": [
+      "Antonio Pelliccia"
+    ],
+    "journal": "European journal of preventive cardiology",
+    "year": 2026,
+    "date": "2026-07-28",
+    "abstract": "",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42518246",
+      "doi": "https://doi.org/10.1093/eurjpc/zwag395"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "pmid": "42518246",
+    "country": "Italy",
+    "design": "Viewpoint",
+    "domains": [
+      "Participation"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Pelliccia A"
     ],
     "isAbstractTruncated": false
   },
@@ -682,6 +833,39 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42288236",
+    "pmid": "42288236",
+    "doi": "10.1016/j.resuscitation.2026.111175",
+    "title": "Dispatching the community to save children in cardiac arrest: the psychological cost of activating community first responders.",
+    "authors": [
+      "Daniel O Okyere",
+      "Ziad Nehme"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-06-13",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111175",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42288236"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Australia",
+    "design": "Editorial",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Okyere DO",
+      "Nehme Z"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41671002",
     "pmid": "41671002",
     "doi": "10.1001/jamanetworkopen.2026.0872",
@@ -704,6 +888,57 @@
     "domains": [],
     "setting": "Unclear",
     "normalizedAuthors": [],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42700090",
+    "doi": "10.1097/MD.0000000000050530",
+    "title": "Experiences and perceptions of lay bystanders responding to out-of-hospital cardiac arrest: A qualitative systematic review.",
+    "authors": [
+      "Shuyu Zhan",
+      "Xiaojiao Jiang",
+      "Mei Yang",
+      "Maodan Liu",
+      "Hanting Liu",
+      "Shisi Li"
+    ],
+    "journal": "Medicine",
+    "year": 2026,
+    "date": "2026-09-04",
+    "abstract": "BACKGROUND: To synthesize the experiences and perceptions of lay bystanders before, during, and after responding to out-of-hospital cardiac arrests.\nMETHODS: Seven English and Chinese databases were searched from their inception to July 31, 2026, supplemented with citation tracking. Two reviewers independently selected studies, appraised methodological quality using the Joanna Briggs Institute (JBI) critical appraisal checklist for qualitative research, and extracted the findings and supporting illustrations. Unequivocal and credible findings were synthesized using JBI meta-aggregation, and confidence was assessed using confidence in the evidence from reviews of qualitative research.\nRESULTS: Eight studies involving 209 participants were included. Thirty-three findings were grouped into 12 categories and 4 were synthesized findings concerning the motivators and inhibitors of response, recognition and appraisal of out-of-hospital cardiac arrest, conditions facilitating or impeding cardiopulmonary resuscitation and automated external defibrillator use, and post-event psychological responses and adjustment. Confidence in the evidence from reviews of qualitative research was moderate for the 1st 3 synthesized findings, and low for the 4th.\nCONCLUSION: Bystander response is a continuum that extends from event recognition and action to post-event adjustment. Out-of-hospital cardiac arrest systems should provide realistic preparations, clear on-scene support, proportionate information, and psychological support after an event.\n\nSource: Shuyu Zhan et al. Medicine (2026). https://doi.org/10.1097/MD.0000000000050530. Reproduced under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42700090",
+      "doi": "https://doi.org/10.1097/MD.0000000000050530",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13549513"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmid": "42700090",
+    "pmcid": "PMC13549513",
+    "mesh": [
+      "Humans",
+      "Out-of-Hospital Cardiac Arrest",
+      "Cardiopulmonary Resuscitation",
+      "Qualitative Research",
+      "Perception",
+      "Emergency Medical Services"
+    ],
+    "country": "China",
+    "design": "Qualitative systematic review",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Zhan S",
+      "Jiang X",
+      "Yang M",
+      "Liu M",
+      "Liu H",
+      "Li S"
+    ],
     "isAbstractTruncated": false
   },
   {
@@ -835,6 +1070,62 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42774765",
+    "doi": "10.15420/icr.2026.18",
+    "title": "Five Practical Considerations for the Management of Out-of-hospital Cardiac Arrest: Reflections from the British Cardiovascular Intervention Society Out-of-hospital Cardiac Arrest Focus Group.",
+    "authors": [
+      "Guilherme Movio",
+      "Uzma Sajjad",
+      "Evan Ansell",
+      "Rupert Simpson",
+      "Marco Mion",
+      "Paul Rees",
+      "Thomas Johnson",
+      "Nick Curzen",
+      "Maria Rita Maccaroni",
+      "John R Davies",
+      "Nilesh Pareek",
+      "Thomas R Keeble"
+    ],
+    "journal": "Interventional cardiology (London, England)",
+    "year": 2026,
+    "date": "2026-09-09",
+    "abstract": "Out-of-hospital cardiac arrest (OHCA) remains associated with poor survival and marked variation in post-resuscitation care. Drawing on discussion from the British Cardiovascular Intervention Society (BCIS) OHCA focus group, this article summarises five practical considerations for management following return of spontaneous circulation. First, selective conveyance to specialist cardiac arrest centres may be most effective when aligned with the BCIS algorithm, particularly for patients with features suggesting a reversible cardiac cause. Second, early risk stratification with MIRACLEmay support decision-making when interpreted alongside specialist clinical judgement. Third, early multidisciplinary team review may improve coherence in a complex condition that often spans cardiology, intensive care, neurology and emergency medicine. Fourth, neuroprognostication is likely to be most robust when delayed appropriately, guided by European Resuscitation Council recommendations and delivered through a structured multimodal multidisciplinary team process. Finally, post-survival rehabilitation and family support should be regarded as core components of the OHCA pathway rather than optional afterthoughts.\n\nSource: Guilherme Movio et al. Interventional cardiology (London, England) (2026). https://doi.org/10.15420/icr.2026.18. Reproduced under CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42774765",
+      "doi": "https://doi.org/10.15420/icr.2026.18",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13595269"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmid": "42774765",
+    "pmcid": "PMC13595269",
+    "country": "United Kingdom",
+    "design": "Expert practice review",
+    "domains": [
+      "Participation",
+      "Caregiver"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Movio G",
+      "Sajjad U",
+      "Ansell E",
+      "Simpson R",
+      "Mion M",
+      "Rees P",
+      "Johnson T",
+      "Curzen N",
+      "Maccaroni MR",
+      "Davies JR",
+      "Pareek N",
+      "Keeble TR"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "42038943",
     "pmid": "42038943",
     "doi": "10.1155/nrp/6036368",
@@ -934,6 +1225,107 @@
       "Djärv T",
       "Svensson L",
       "Jonsson M"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42262335",
+    "pmid": "42262335",
+    "doi": "10.1097/HCR.0000000000001042",
+    "title": "Impact of Early Cardiac Rehabilitation Post-Cardiac Arrest on Functional Capacity, Psychological Health, and Quality of Life.",
+    "authors": [
+      "Jan Riess",
+      "Elisa Alba Schmidt",
+      "Stephen J Foulkes",
+      "Jan Vontobel",
+      "David Niederseer",
+      "Mark J Haykowsky"
+    ],
+    "journal": "Journal of cardiopulmonary rehabilitation and prevention",
+    "year": 2026,
+    "date": "2026-06-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1097/HCR.0000000000001042",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42262335"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Switzerland",
+    "design": "Letter",
+    "domains": [
+      "Participation",
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Riess J",
+      "Schmidt EA",
+      "Foulkes SJ",
+      "Vontobel J",
+      "Niederseer D",
+      "Haykowsky MJ"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42241610",
+    "pmid": "42241610",
+    "doi": "10.4088/PCC.25f04106",
+    "title": "Improving Cardiac Arrest Survivorship: Managing Mental Health of Survivors and Family Members.",
+    "authors": [
+      "Andrea C DeSimone",
+      "Alexander M Presciutti",
+      "Michalla B Braford",
+      "Katerina Mastronardi",
+      "Samah Ibrahim",
+      "Amy B Rosinski",
+      "Sofia E Matta",
+      "Theodore A Stern"
+    ],
+    "journal": "The primary care companion for CNS disorders",
+    "year": 2026,
+    "date": "2026-06-04",
+    "abstract": "Summary of the article: This clinical narrative review uses a case vignette to discuss mental health after cardiac arrest for survivors and co-survivors. Topics include anxiety, depression, post-traumatic stress, responses to implantable defibrillator shocks, and options for psychosocial, cognitive and community support. It offers a clinical discussion rather than reporting a new intervention trial.\n\nSource: https://www.psychiatrist.com/pcc/improving-cardiac-arrest-survivorship-managing-mental-health/",
+    "links": {
+      "doi": "https://doi.org/10.4088/PCC.25f04106",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42241610"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "mesh": [
+      "Humans",
+      "Family",
+      "Heart Arrest",
+      "Mental Disorders",
+      "Survivors",
+      "Survivorship",
+      "Inpatients",
+      "Teaching Rounds",
+      "Psychosocial Intervention"
+    ],
+    "country": "United States",
+    "design": "Clinical narrative review with case vignette",
+    "domains": [
+      "Cognitive",
+      "Psychological",
+      "Caregiver"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "DeSimone AC",
+      "Presciutti AM",
+      "Braford MB",
+      "Mastronardi K",
+      "Ibrahim S",
+      "Rosinski AB",
+      "Matta SE",
+      "Stern TA"
     ],
     "isAbstractTruncated": false
   },
@@ -1279,6 +1671,155 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/s0300-9572(26)00963-9",
+    "doi": "10.1016/s0300-9572(26)00963-9",
+    "title": "Longitudinal Cognitive Change After Out-of-Hospital Cardiac Arrest: 7- to 24-Month Neuropsychological Follow-up",
+    "authors": [
+      "Marco Mion",
+      "Gisela Lilja",
+      "Susann Ullen",
+      "Lars Evald",
+      "Magnus Segerström",
+      "John Bro-Jeppesen",
+      "Hans Friberg",
+      "Katarina Heimburg",
+      "Anders Grejs",
+      "Hans Kirkegaard",
+      "Siobhan Moore",
+      "Matthew Wise",
+      "Christian Rylander",
+      "Johan Undén",
+      "Susanna Vestberg",
+      "Niklas Nielsen",
+      "Tobias Cronberg",
+      "Thomas Keeble",
+      "Erik Nordstrom"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00963-9"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "design": "Published conference abstract (longitudinal neuropsychological follow-up)",
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Mion M",
+      "Lilja G",
+      "Ullen S",
+      "Evald L",
+      "Segerström M",
+      "Bro-Jeppesen J",
+      "Friberg H",
+      "Heimburg K",
+      "Grejs A",
+      "Kirkegaard H",
+      "Moore S",
+      "Wise M",
+      "Rylander C",
+      "Undén J",
+      "Vestberg S",
+      "Nielsen N",
+      "Cronberg T",
+      "Keeble T",
+      "Nordstrom E"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/j.jpainsymman.2026.04.454",
+    "doi": "10.1016/j.jpainsymman.2026.04.454",
+    "title": "Navigating the Aftermath: Parent Reflections on Care After Out-of-Hospital Cardiac Arrest",
+    "authors": [
+      "Suzanne Gouda",
+      "Emily Upham",
+      "Jennifer M. Snaman",
+      "Abby R. Rosenberg",
+      "Danielle D. DeCourcey"
+    ],
+    "journal": "Journal of Pain and Symptom Management",
+    "year": 2026,
+    "date": "2026-06",
+    "abstract": "Summary of the published conference abstract: Researchers interviewed 14 parents whose children were admitted to a paediatric intensive care unit after out-of-hospital cardiac arrest. Eight children survived and six died; six received paediatric palliative care. Preliminary themes included distress, practical difficulties, decision-making burden, unclear prognostic communication and challenges after discharge. Parents supported palliative care involvement while expressing different views about its timing. The authors propose more coordinated family support and careful integration of palliative care. Thematic analysis was ongoing when the abstract was published.\n\nSource: https://www.jpsmjournal.com/article/S0885-3924%2826%2900605-6/fulltext",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.jpainsymman.2026.04.454"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "design": "Published conference abstract (qualitative interview study)",
+    "domains": [
+      "Psychological",
+      "Caregiver"
+    ],
+    "setting": "OHCA",
+    "country": "United States",
+    "normalizedAuthors": [
+      "Gouda S",
+      "Upham E",
+      "Snaman JM",
+      "Rosenberg AR",
+      "DeCourcey DD"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1093/ehjacc/zuag046.213",
+    "doi": "10.1093/ehjacc/zuag046.213",
+    "title": "Neurofilament light chain and neuron-specific enolase for estimating long-term cognitive function after cardiac arrest",
+    "authors": [
+      "M Meyer",
+      "R Beske",
+      "S Moelstroem",
+      "S Schneekloth",
+      "C Christoffersen",
+      "R Frikke-Schmidt",
+      "H Schmidt",
+      "J Moeller",
+      "J Kjaergaard",
+      "C Hassager"
+    ],
+    "journal": "European Heart Journal: Acute Cardiovascular Care",
+    "year": 2026,
+    "date": "2026-05-13",
+    "abstract": "Summary of the published conference abstract: In a secondary analysis of the BOX trial, 195 survivors had blood samples taken 48 hours after cardiac arrest and completed cognitive follow-up. Higher neurofilament light chain levels were associated with lower Montreal Cognitive Assessment scores (Spearman r = -0.36, p < 0.001). Neuron-specific enolase was not associated with the cognitive score (r = 0.08, p = 0.25). These exploratory associations may inform further research into identifying survivors at risk of cognitive difficulties. They do not establish a validated individual prediction rule.\n\nSource: https://academic.oup.com/ehjacc/article/15/Supplement_1/zuag046.213/8677020",
+    "links": {
+      "doi": "https://doi.org/10.1093/ehjacc/zuag046.213"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "design": "Published conference abstract (secondary observational analysis)",
+    "domains": [
+      "Cognitive"
+    ],
+    "setting": "OHCA",
+    "country": "Denmark",
+    "normalizedAuthors": [
+      "Meyer M",
+      "Beske R",
+      "Moelstroem S",
+      "Schneekloth S",
+      "Christoffersen C",
+      "Frikke-Schmidt R",
+      "Schmidt H",
+      "Moeller J",
+      "Kjaergaard J",
+      "Hassager C"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2026.101354",
     "doi": "10.1016/j.resplu.2026.101354",
     "title": "Non-linear recovery trajectories after cardiac arrest: implications for enrolment and outcome selection",
@@ -1485,6 +2026,65 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1093/ehjacc/zuag046.166",
+    "doi": "10.1093/ehjacc/zuag046.166",
+    "title": "Outcomes after OHCA: insights into survival, neurological function, and quality of life",
+    "authors": [
+      "I Araujo",
+      "J Cravo",
+      "M Vilela",
+      "D Ferreira",
+      "D Cazeiro",
+      "S Esteves",
+      "J Pedro",
+      "C Silva",
+      "J Sabido",
+      "A R Figueiredo",
+      "N Madruga",
+      "F Salvaterra",
+      "J Ribeiro",
+      "F J Pinto",
+      "D Silva"
+    ],
+    "journal": "European Heart Journal: Acute Cardiovascular Care",
+    "year": 2026,
+    "date": "2026-05-13",
+    "abstract": "Summary of the published conference abstract: This retrospective study examined 72 adults admitted to a Portuguese intensive care unit after out-of-hospital cardiac arrest between 2017 and 2019. Twenty-six survived hospital discharge. Higher Glasgow Coma Scale scores after restoration of circulation were associated with better survival. At five years, 19 patients remained alive. Interviewed survivors generally reported favourable neurological function and quality of life, although difficulties persisted in mobility, usual activities and anxiety or depression. The findings describe a small single-centre cohort and its surviving respondents.\n\nSource: https://academic.oup.com/ehjacc/article/15/Supplement_1/zuag046.166/8676852",
+    "links": {
+      "doi": "https://doi.org/10.1093/ehjacc/zuag046.166"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "design": "Published conference abstract (retrospective cohort)",
+    "domains": [
+      "Qol",
+      "Participation",
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "country": "Portugal",
+    "normalizedAuthors": [
+      "Araujo I",
+      "Cravo J",
+      "Vilela M",
+      "Ferreira D",
+      "Cazeiro D",
+      "Esteves S",
+      "Pedro J",
+      "Silva C",
+      "Sabido J",
+      "Figueiredo AR",
+      "Madruga N",
+      "Salvaterra F",
+      "Ribeiro J",
+      "Pinto FJ",
+      "Silva D"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1177/27536386251380855",
     "doi": "10.1177/27536386251380855",
     "title": "Paramedics’ experiences of treating Out-of-Hospital Cardiac Arrest (OHCA) patients during the COVID-19 pandemic in the United Kingdom (UK): A qualitative reflexive thematic analysis",
@@ -1549,6 +2149,53 @@
       "Gurgel AL",
       "O’rourke D",
       "Mendes H"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.54103/2282-0930/32081",
+    "doi": "10.54103/2282-0930/32081",
+    "title": "Patient-Reported Outcome Measures After Out-of-Hospital Cardiac Arrest: A Prospective Methodological Analysis of Retention and Follow-Up Completeness Within the REVIVE Pathway",
+    "authors": [
+      "Roberto Primi",
+      "Laura Calabrese",
+      "Marco Mion",
+      "Sara Bendotti",
+      "Leila Ulmanova",
+      "Alessia Currao",
+      "Simona Villani",
+      "Simone Savastano",
+      "Enrico Baldi"
+    ],
+    "journal": "Epidemiology, Biostatistics, and Public Health",
+    "year": 2026,
+    "date": "2026-09-22",
+    "abstract": "Introduction Cardiac arrest is the loss of mechanical cardiac function and the absence of systemic circulation. When it occurs out-of-hospital it is defined out-of-hospital cardiac arrest (OHCA). Survival after OHCA does not fully capture recovery, as survivors often experience persistent cognitive, psychological, and functional consequences. Patient-reported outcome measures (PROMs) are essential to assess these domains, but their longitudinal collection in routine survivorship care depends on patient engagement and retention over time. REVIVE is a regional hub-and-spoke survivorship pathway implemented within the Cardiac Arrest Registry of the Lombardy Region (LombardiaCARe) network to coordinate post-discharge follow-up after OHCA and standardize the assessment of patient-reported outcomes. Objectives To describe the structure of PROM collection within REVIVE and to evaluate patient retention, evaluability, and follow-up completeness over the 2025 calendar year. Methods We conducted a descriptive analysis of the REVIVE study between January and December 2025. During this period, 1,663 OHCA events were admitted to participating hospitals, 127 patients were eligible for the REVIVE pathway, 99 were contacted by the hub psychologist after signing informed consent, and 67 completed at least one assessment. REVIVE is structured as a hub-and-spoke pathway, with a specialist hub coordinating post-discharge follow-up and outcome assessment across participating hospitals. PROMs and related outcomes were collected at predefined timepoints and included discharge, 1 month, 3 months, and 6 months after the OHCA event. The PROMs assessed were anxiety and depression (HADS), post-traumatic stress symptoms (IES-R), cognitive performance (MoCA), and health-related quality of life (EQ-5D-5L), together with a clinical semi-structured interview. The analysis focused on the number of patients contributing at each timepoint and on the availability of at least one evaluable PROM per patient. Results Among the 99 consenting patients, 67 (67.7%) were evaluable and formed the analytic denominator. At the visit level, 46 patients had at least one PROM recorded at discharge, 49 at 1 month, 52 at 3 months, and 49 at 6 months. Domain-level completeness was high: HADS was available in 66 of 67 evaluable patients (98.5%), while MoCA and EQ-5D VAS were available in all evaluable patients (67/67, 100%). These results suggest that the main methodological challenge was not baseline collection, but maintaining patient engagement across repeated assessments, which in PROM-based survivorship care is inherently patient-driven rather than passive. Conclusions PROMs add value beyond survival by capturing outcomes that matter to OHCA survivors, but their validity depends on sustained patient engagement throughout follow-up. In REVIVE, the main challenge was not baseline collection, but maintaining retention in a patient-driven and psychologically sensitive assessment process, where readiness to participate may vary over time. These findings support clear definition of the evaluable cohort, transparent reporting of timepoint-specific completeness, and retention-oriented strategies to improve the quality and interpretability of longitudinal PROM data.\n\nSource: Roberto Primi et al. Epidemiology, Biostatistics, and Public Health (2026). https://doi.org/10.54103/2282-0930/32081. Reproduced under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.54103/2282-0930/32081"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract (descriptive methodological analysis)",
+    "domains": [
+      "Cognitive",
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "OHCA",
+    "country": "Italy",
+    "normalizedAuthors": [
+      "Primi R",
+      "Calabrese L",
+      "Mion M",
+      "Bendotti S",
+      "Ulmanova L",
+      "Currao A",
+      "Villani S",
+      "Savastano S",
+      "Baldi E"
     ],
     "isAbstractTruncated": false
   },
@@ -1745,6 +2392,67 @@
       "Scapigliati A",
       "Semeraro F",
       "Gamberini L"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41571537",
+    "pmid": "41571537",
+    "doi": "10.1016/j.encep.2025.10.007",
+    "title": "Psychological sequalae of patients experiencing aborted sudden cardiac death and their relatives.",
+    "authors": [
+      "Adeline Banos",
+      "Xavier Paul Bouteiller",
+      "Maxime Beneyto",
+      "Josselin Duchateau",
+      "Claire Rousseau",
+      "Romain Tixier",
+      "Clementine André",
+      "Frédéric Sacher"
+    ],
+    "journal": "L'Encephale",
+    "year": 2026,
+    "date": "2026-01-21",
+    "abstract": "Summary of the indexed abstract: This prospective observational study followed 22 people resuscitated after sudden cardiac death and 23 relatives. Interviews shortly after the event were followed by telephone assessments at three to six months. Relatives reported greater acute stress than patients. After loss to follow-up, post-traumatic stress disorder was reported in 4 of 20 patients and 3 of 20 relatives. The authors highlight the need to monitor psychological difficulties in both groups and consider early support for relatives.\n\nSource: https://pubmed.ncbi.nlm.nih.gov/41571537",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.encep.2025.10.007",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41571537"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "mesh": [
+      "Humans",
+      "Female",
+      "Death, Sudden, Cardiac",
+      "Middle Aged",
+      "Stress Disorders, Post-Traumatic",
+      "Family",
+      "Adult",
+      "Male",
+      "Stress Disorders, Traumatic, Acute",
+      "Aged",
+      "Surveys and Questionnaires",
+      "Incidence",
+      "Stress, Psychological"
+    ],
+    "country": "France",
+    "design": "Prospective observational study",
+    "domains": [
+      "Psychological",
+      "Caregiver"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Banos A",
+      "Bouteiller XP",
+      "Beneyto M",
+      "Duchateau J",
+      "Rousseau C",
+      "Tixier R",
+      "André C",
+      "Sacher F"
     ],
     "isAbstractTruncated": false
   },
@@ -2057,6 +2765,43 @@
       "Ng ZV",
       "Leong BS",
       "Workgroup NPAAS("
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41745345",
+    "pmid": "41745345",
+    "doi": "10.3390/jcdd13020097",
+    "title": "Sporting Careers After ICD Implantation in Elite Athletes.",
+    "authors": [
+      "Marco Vecchiato",
+      "Florian Egger",
+      "Stefano Palermi"
+    ],
+    "journal": "Journal of cardiovascular development and disease",
+    "year": 2026,
+    "date": "2026-02-17",
+    "abstract": "BACKGROUND: The use of implantable cardioverter defibrillators (ICDs) in elite athletes following sudden cardiac arrest (SCA) or the diagnosis of high-risk cardiac conditions presents a complex interplay of medical, psychological, and legal challenges. Despite evolving guidelines, data on clinical outcomes and return-to-sport (RTS) trajectories in elite athletes remain limited.\nOBJECTIVE: To describe the clinical profiles, management strategies, and career outcomes of elite athletes who received ICDs.\nMETHODS: A retrospective multilingual media and literature search was performed up to January 2026 to identify elite athletes with ICDs. Inclusion criteria required evidence of professional or Olympic-level competition, confirmed ICD implantation, and sufficient clinical and career data. Cases were analyzed for demographics, underlying diagnosis, prevention type, post-ICD outcomes, and RTS status.\nRESULTS: Thirty-seven elite athletes were identified (mean age 25.8 ± 4.3 years). The most common sport was football (= 25). Hypertrophic cardiomyopathy, non-ischemic LV scar, and arrhythmogenic cardiomyopathy were the most frequent diagnoses, although 49% of etiologies remained unspecified. ICDs were implanted for secondary prevention in 70% of cases. Following ICD implantation, 25 athletes (68%) completed RTS, including 24 (65%) at the professional level. Among these, nine experienced shocks, and four ultimately discontinued competition. The sole fatality occurred in an athlete who had voluntarily explanted the ICD.\nCONCLUSIONS: A substantial proportion of elite athletes with ICDs successfully return to high-level sport, but clinical outcomes, risk tolerance, and legal frameworks remain variable. These findings support continued shifts towards personalized shared decision making and highlight the need for standardized, sport-specific RTS protocols, long-term registries, and psychosocial support in this population.\n\nSource: Marco Vecchiato et al. Journal of cardiovascular development and disease (2026). https://doi.org/10.3390/jcdd13020097. Reproduced under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.3390/jcdd13020097",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41745345",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12941241"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC12941241",
+    "country": "Italy",
+    "design": "Retrospective media and literature case compilation",
+    "domains": [
+      "Participation"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Vecchiato M",
+      "Egger F",
+      "Palermi S"
     ],
     "isAbstractTruncated": false
   },
@@ -2384,6 +3129,41 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "41790531",
+    "pmid": "41790531",
+    "doi": "10.1080/10903127.2026.2640607",
+    "title": "The Psychological Impact of Attending Out-of-Hospital Cardiac Arrest in Volunteer Lay Responders: A Mixed-Methods Systematic Review.",
+    "authors": [
+      "Paul du Toit",
+      "Karan Botsford",
+      "Joe Copson"
+    ],
+    "journal": "Prehospital emergency care",
+    "year": 2026,
+    "date": "2026-03-31",
+    "abstract": "OBJECTIVES: The objective of this study was to explore and describe the incidence of psychological impact, including post-traumatic stress-type symptoms, in volunteer lay responders following involvement with out-of-hospital cardiac arrest, and to identify factors influencing these outcomes.\nMETHODS: A convergent integrated mixed-methods systematic review was conducted (PROSPERO registration: CRD42023467307). APA PsycInfo, CINAHL (EBSCO), PubMed (Medline), and Web of Science were searched for studies published between January 2003 and October 2025. The Joanna Briggs Institute methodological approach guided study selection, quality appraisal, data extraction, and synthesis.\nRESULTS: Twelve studies involving 80,742 participants from seven countries were included. Five key areas were identified: risk and prevalence of psychological impact; lay responder characteristics; situational dynamics; social connectedness and a sense of community; and emotions experienced while awaiting activation. Most studies reported low levels of severe psychological impact and individual characteristics, situational factors, and community support influenced psychological outcomes.\nCONCLUSIONS: Severe psychological effects following out-of-hospital cardiac arrest were uncommon; however, lay responders may experience mild-to-moderate distress influenced by demographics, situational exposure, and social support. This review highlights modifiable factors-targeted training, clear role expectations, and structured post-event support-that can mitigate psychological burden. Strengthening these areas is critical for protecting lay responders, enhancing the resilience of volunteer programs, and sustaining the Chain of Survival.\n\nSource: Paul du Toit et al. Prehospital emergency care (2026). https://doi.org/10.1080/10903127.2026.2640607. Reproduced under CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/. Abstract wording unchanged; section-heading formatting adapted.",
+    "links": {
+      "doi": "https://doi.org/10.1080/10903127.2026.2640607",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41790531"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "country": "United Kingdom",
+    "design": "Mixed-methods systematic review",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Toit PD",
+      "Botsford K",
+      "Copson J"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41996858",
     "pmid": "41996858",
     "doi": "10.1016/j.jpsychores.2026.112678",
@@ -2510,6 +3290,43 @@
     "normalizedAuthors": [
       "Mion M",
       "Presciutti A"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41873202",
+    "doi": "10.1093/eurjcn/zvag068",
+    "title": "When language shapes measurement and care models: validating caregiver strain among relatives of out-of-hospital cardiac arrest survivors.",
+    "authors": [
+      "Angela Durante",
+      "Marco Di Nitto",
+      "Anna Gadignani",
+      "Yuliia Lysanets"
+    ],
+    "journal": "European journal of cardiovascular nursing",
+    "year": 2026,
+    "date": "2026-03-24",
+    "abstract": "",
+    "links": {
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41873202",
+      "doi": "https://doi.org/10.1093/eurjcn/zvag068"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "pmid": "41873202",
+    "country": "Ukraine",
+    "design": "Invited commentary",
+    "domains": [
+      "Caregiver"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Durante A",
+      "Nitto MD",
+      "Gadignani A",
+      "Lysanets Y"
     ],
     "isAbstractTruncated": false
   },
