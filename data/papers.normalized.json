@@ -5867,6 +5867,71 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "40520569",
+    "pmid": "40520569",
+    "pmcid": "PMC12166446",
+    "doi": "10.1016/j.resplu.2025.100986",
+    "title": "Organisations supporting cardiac arrest survivors: An exploratory survey of organisational structures and activities.",
+    "authors": [
+      "Lorenzo Gamberini",
+      "Kirstie L Haywood",
+      "Sebastian Schnaubelt",
+      "Mazarine Thyssens",
+      "Federico Semeraro",
+      "Koenraad G Monsieurs",
+      "Community Survivors’ Network",
+      "European Resuscitation Guidelines 2025 Systems Saving Lives Writing Groups",
+      "Sachin Agarwal",
+      "Mari Blek-Vehkaluoto",
+      "Erga Cerchiari",
+      "Johan Israelsson",
+      "Mary Newman",
+      "Paul Swindell",
+      "Jellis Vaes",
+      "Philipp Tinguely",
+      "Elena G Bignami",
+      "Bernd W Böttiger"
+    ],
+    "journal": "Resuscitation Plus",
+    "year": 2025,
+    "date": "2025-05-22",
+    "abstract": "Curatorial summary (automatic metadata import failed): An exploratory international survey examined organisations providing ongoing support to cardiac arrest survivors. Of 56 responses, 45 distinct organisations in 25 countries were identified for further assessment. Eight met the criteria for sustained survivor-support activities, six in Europe and two in the United States. The findings describe the limited and uneven availability of survivor organisations and the potential role of non-clinical and peer support in aftercare.",
+    "setting": "Mixed",
+    "design": "Exploratory organisational survey",
+    "country": "Italy",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2025.100986",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40520569/",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12166446"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "domains": [],
+    "normalizedAuthors": [
+      "Gamberini L",
+      "Haywood KL",
+      "Schnaubelt S",
+      "Thyssens M",
+      "Semeraro F",
+      "Monsieurs KG",
+      "Network CS",
+      "Groups ERG2SSLW",
+      "Agarwal S",
+      "Blek-Vehkaluoto M",
+      "Cerchiari E",
+      "Israelsson J",
+      "Newman M",
+      "Swindell P",
+      "Vaes J",
+      "Tinguely P",
+      "Bignami EG",
+      "Böttiger BW"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2025.101200",
     "doi": "10.1016/j.resplu.2025.101200",
     "title": "Out-of-Hospital Cardiac Arrest in Qatar: Epidemiology, Management, and Outcomes from a National Registry Study",
@@ -16061,6 +16126,40 @@
       "Ramsay T",
       "Kimura M",
       "Wegier P"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.3877/cma.j.issn.1674-0785.2022.09.006",
+    "doi": "10.3877/cma.j.issn.1674-0785.2022.09.006",
+    "title": "Quality of life of caregivers of cardiac arrest survivors",
+    "authors": [
+      "Yalin Han",
+      "Ding Luo",
+      "Pengfei Cheng",
+      "Ming Zhou",
+      "Hua Zhang"
+    ],
+    "journal": "Chinese Journal of Clinicians (Electronic Edition)",
+    "year": 2022,
+    "date": "2022-09-15",
+    "abstract": "Curatorial summary (publisher-verified; not indexed by the Crossref lookup used by the importer): This Chinese-language review discusses the quality of life of caregivers of cardiac arrest survivors. It summarises research on caregivers’ circumstances and factors influencing their quality of life, to inform interventions that may improve caregiver wellbeing.",
+    "setting": "Mixed",
+    "design": "Narrative review",
+    "country": "China",
+    "links": {
+      "doi": "https://doi.org/10.3877/cma.j.issn.1674-0785.2022.09.006"
+    },
+    "domains": [
+      "Qol",
+      "Caregiver"
+    ],
+    "normalizedAuthors": [
+      "Han Y",
+      "Luo D",
+      "Cheng P",
+      "Zhou M",
+      "Zhang H"
     ],
     "isAbstractTruncated": false
   },
