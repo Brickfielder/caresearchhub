@@ -4329,7 +4329,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "country": "Chung Shan Medical University"
+    "country": "Taiwan",
+    "corrCountryCode": "TW",
+    "corrCountryName": "Taiwan"
   },
   {
     "id": "40491773",
@@ -4811,7 +4813,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "country": "Boston MA"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "40811046",
@@ -5212,7 +5216,9 @@
       "Denmark",
       "Survivors"
     ],
-    "country": "Aarhus Universitetshospital"
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark"
   },
   {
     "id": "38819460",
@@ -5464,7 +5470,9 @@
       "Female",
       "Middle Aged"
     ],
-    "country": "Pennsylvania (Dr Elmer)"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "38950727",
@@ -5733,7 +5741,9 @@
       "Sleep Wake Disorders",
       "Stress, Psychological"
     ],
-    "country": "New York"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "38452994",
@@ -6484,7 +6494,9 @@
       "Withholding Treatment",
       "Interviews as Topic"
     ],
-    "country": "New York"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "39492967",
@@ -7494,7 +7506,9 @@
       "Out-of-Hospital Cardiac Arrest",
       "Cardiopulmonary Resuscitation"
     ],
-    "country": "Department of Emergency Medicine National Taiwan University Medical College and Hospital Taipei Taiwan"
+    "country": "Taiwan",
+    "corrCountryCode": "TW",
+    "corrCountryName": "Taiwan"
   },
   {
     "id": "37013814",
@@ -7709,7 +7723,9 @@
       "Death, Sudden, Cardiac",
       "Treatment Outcome"
     ],
-    "country": "New York"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "37043200",
@@ -13430,7 +13446,9 @@
       "has_fulltext": true
     },
     "pmcid": "PMC8710626",
-    "country": "Oregon"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "34536560",
@@ -14088,7 +14106,9 @@
       "has_fulltext": true
     },
     "pmcid": "PMC12443335",
-    "country": "Department of Emergency Medicine USA"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "32562686",
@@ -15076,7 +15096,9 @@
       "Secondary Prevention",
       "Stroke Volume"
     ],
-    "country": "Washington"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "34223329",
@@ -15174,7 +15196,9 @@
       "Humans",
       "Survivorship"
     ],
-    "country": "MN"
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States"
   },
   {
     "id": "10.1177/2057158520932348",
