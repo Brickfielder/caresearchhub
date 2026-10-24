@@ -6234,7 +6234,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "country": "Chung Shan Medical University",
+    "country": "Taiwan",
+    "corrCountryCode": "TW",
+    "corrCountryName": "Taiwan",
     "domains": [
       "Psychological"
     ],
@@ -6949,7 +6951,9 @@
       "open_access": false,
       "has_fulltext": false
     },
-    "country": "Boston MA",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "Unclear",
     "normalizedAuthors": [
@@ -7553,7 +7557,9 @@
       "Denmark",
       "Survivors"
     ],
-    "country": "Aarhus Universitetshospital",
+    "country": "Denmark",
+    "corrCountryCode": "DK",
+    "corrCountryName": "Denmark",
     "domains": [
       "Cognitive"
     ],
@@ -7903,7 +7909,9 @@
       "Female",
       "Middle Aged"
     ],
-    "country": "Pennsylvania (Dr Elmer)",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -8262,7 +8270,9 @@
       "Sleep Wake Disorders",
       "Stress, Psychological"
     ],
-    "country": "New York",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Psychological"
     ],
@@ -9321,7 +9331,9 @@
       "Withholding Treatment",
       "Interviews as Topic"
     ],
-    "country": "New York",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "IHCA",
     "design": "Retrospective cohort",
@@ -10708,7 +10720,9 @@
       "Out-of-Hospital Cardiac Arrest",
       "Cardiopulmonary Resuscitation"
     ],
-    "country": "Department of Emergency Medicine National Taiwan University Medical College and Hospital Taipei Taiwan",
+    "country": "Taiwan",
+    "corrCountryCode": "TW",
+    "corrCountryName": "Taiwan",
     "domains": [
       "Qol"
     ],
@@ -11033,7 +11047,9 @@
       "Death, Sudden, Cardiac",
       "Treatment Outcome"
     ],
-    "country": "New York",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Psychological"
     ],
@@ -19147,7 +19163,9 @@
       "has_fulltext": true
     },
     "pmcid": "PMC8710626",
-    "country": "Oregon",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Psychological",
       "Qol"
@@ -20065,7 +20083,9 @@
       "has_fulltext": true
     },
     "pmcid": "PMC12443335",
-    "country": "Department of Emergency Medicine USA",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Cognitive",
       "Psychological",
@@ -21445,7 +21465,9 @@
       "Secondary Prevention",
       "Stroke Volume"
     ],
-    "country": "Washington",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [
       "Cognitive",
       "Psychological"
@@ -21590,7 +21612,9 @@
       "Humans",
       "Survivorship"
     ],
-    "country": "MN",
+    "country": "United States",
+    "corrCountryCode": "US",
+    "corrCountryName": "United States",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [

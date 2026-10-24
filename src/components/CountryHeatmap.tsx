@@ -2,61 +2,24 @@
 import React, { useEffect, useRef } from 'react';
 import Plotly from 'plotly.js-dist';
 import papers from '@data/papers.normalized.json';
+import { aggregateByCountry } from '../utils/countryHeatmap';
 
-type Paper = {
-  country?: string;
-  corrCountryName?: string;
-};
-
-const COUNTRY_NORMALIZATION: Record<string, string> = {
-  'republic of singapore': 'Singapore',
-  'singapore, singapore': 'Singapore',
-  sg: 'Singapore'
-};
-
-function normalizeCountryName(rawCountry: string): string {
-  const trimmed = rawCountry.trim();
-  if (!trimmed) return '';
-
-  const normalized = COUNTRY_NORMALIZATION[trimmed.toLowerCase()];
-  return normalized ?? trimmed;
-}
-
-function aggregateByCountry(papers: Paper[]) {
-  const counts = new Map<string, number>();
-
-  for (const p of papers) {
-    const country = normalizeCountryName(p.corrCountryName || p.country || '');
-    if (!country) continue;
-
-    counts.set(country, (counts.get(country) ?? 0) + 1);
-  }
-
-  const locations: string[] = [];
-  const z: number[] = [];
-
-  for (const [country, count] of counts.entries()) {
-    locations.push(country);
-    z.push(count);
-  }
-
-  return { locations, z };
-}
+const { locations, z, text, unmappedCount } = aggregateByCountry(papers);
 
 const CountryHeatmap: React.FC = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const { locations, z } = aggregateByCountry(papers as Paper[]);
-
     if (!containerRef.current || locations.length === 0) return;
 
     const data = [
       {
         type: 'choropleth',
-        locationmode: 'country names',
+        locationmode: 'ISO-3',
         locations,
         z,
+        text,
+        hovertemplate: '%{text}<br>Papers: %{z}<extra></extra>',
         colorscale: 'Viridis',
         reversescale: true,
         colorbar: {
@@ -91,7 +54,15 @@ const CountryHeatmap: React.FC = () => {
     };
   }, []);
 
-  return <div ref={containerRef} style={{ width: '100%', height: '500px' }} />;
+  return (
+    <div>
+      <div ref={containerRef} style={{ width: '100%', height: '500px' }} />
+      <p className="text-center text-sm text-slate-600">
+        {papers.length - unmappedCount} papers mapped across {locations.length} countries.
+        {unmappedCount > 0 && ` ${unmappedCount} papers have no usable country information.`}
+      </p>
+    </div>
+  );
 };
 
 export default CountryHeatmap;
