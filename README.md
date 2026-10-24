@@ -4,6 +4,10 @@ A static Astro site that curates literature on survivorship after out-of-hospita
 
 ## Getting started
 
+Use Node.js 24.22.1 or a later patched 24.x release. The `.nvmrc` file pins the
+validated development and GitHub Actions version; update it when adopting newer
+security releases. With nvm installed, run `nvm install && nvm use` first.
+
 ```bash
 npm install
 npm run dev
@@ -21,6 +25,7 @@ Open <http://localhost:4321> to explore the development build. Use `npm run buil
 - `npm run merge data/papers.to-merge.json` – merge curated additions into `data/papers.json`
 - `npm run add:paper -- --doi <doi>|--pmid <pmid>` – fetch metadata for a DOI or PMID and append it to the dataset
 - `npm run test` – run Jest unit tests for data hygiene helpers
+- `npm run test:api` – run the submission service authentication tests
 - `npm run lint` – run ESLint
 - `npm run typecheck` – run the TypeScript compiler in no-emit mode
 - `npm run lighthouse` – execute Lighthouse CI assertions

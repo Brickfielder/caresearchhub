@@ -37,9 +37,9 @@ jobs:
             echo "::notice::Add a fine-grained personal access token with Contents: Read & Write and Pull requests: Read & Write scopes to secrets as ACTIONS_PR_TOKEN so workflows can open pull requests without additional repository settings."
             echo "::notice::Alternatively, enable the repository setting 'Allow GitHub Actions to create and approve pull requests' to allow the fallback token to create PRs."
           fi
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version-file: .nvmrc
           cache: 'npm'
       - run: npm ci
       - run: npm run validate
@@ -47,6 +47,7 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm run test
+      - run: npm run test:api
       - run: npm run build
       - run: npm run lighthouse
       - name: Generate changelog entry

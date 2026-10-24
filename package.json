@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "20.x"
+    "node": ">=24.22.1 <25"
   },
   "scripts": {
     "dev": "astro dev",
@@ -25,8 +25,9 @@
     "refresh:metadata": "node --import tsx scripts/refresh-paper-metadata.ts",
     "prep:update": "npm run validate && npm run normalize",
     "lighthouse": "lhci autorun",
-    "check:ci": "npm run validate && npm run normalize && git diff --exit-code -- data/papers.normalized.json && npm run audit:metadata -- --strict --report-dir=/tmp/caresearchhub-metadata-audit && npm run lint && npm run typecheck && npm run test -- --runInBand && npm run build && npm run lighthouse",
-    "changelog": "tsx scripts/changelog.ts"
+    "check:ci": "npm run validate && npm run normalize && git diff --exit-code -- data/papers.normalized.json && npm run audit:metadata -- --strict --report-dir=/tmp/caresearchhub-metadata-audit && npm run lint && npm run typecheck && npm run test -- --runInBand && npm run test:api && npm run build && npm run lighthouse",
+    "changelog": "tsx scripts/changelog.ts",
+    "test:api": "node --test api/*.test.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^4.0.0",
