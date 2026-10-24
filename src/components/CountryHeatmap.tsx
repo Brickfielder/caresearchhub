@@ -38,7 +38,8 @@ const CountryHeatmap: React.FC = () => {
       title: 'Survivorship Research by Country',
       geo: {
         projection: { type: 'natural earth' },
-        resolution: 110,
+        // The 110m boundaries omit Singapore and other small countries.
+        resolution: 50,
         showcountries: true,
         countrycolor: '#94a3b8'
       },

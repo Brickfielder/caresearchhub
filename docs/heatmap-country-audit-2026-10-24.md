@@ -13,6 +13,10 @@ names to country polygons. Four separate entries resolved to the US: `United Sta
 entry obscure the larger US count. No other country had multiple aliases resolving
 to the same polygon in this snapshot.
 
+There was a second rendering issue: the 110m world boundaries omit Singapore,
+despite its eight papers being counted. The map now uses Plotly's 50m boundaries,
+which include Singapore (verified against both official TopoJSON boundary files).
+
 The map now resolves exact country aliases/codes before aggregation and passes one
 ISO-3 identifier per country to Plotly. Counts, hover text, and colours therefore
 refer to the same aggregate. Regression tests cover aliases, record order,
@@ -44,7 +48,7 @@ Both source and generated data were updated.
 
 374 papers map to 31 countries; 47 records have no country information and remain
 unassigned. Previously 10 papers with populated but unrecognised country fields
-were absent from the rendered map. The long Taiwan affiliation and the US
+and Singapore's eight papers were absent from the rendered map. The long Taiwan affiliation and the US
 department label already matched Plotly's fuzzy resolver; their correction cleans
 the metadata without adding another paper.
 
@@ -62,7 +66,7 @@ the metadata without adding another paper.
 | France | 11 | Count unchanged |
 | Norway | 11 | Count unchanged |
 | Switzerland | 8 | Count unchanged |
-| Singapore | 8 | Count unchanged |
+| Singapore | 8 | Count unchanged; previously absent from the coarse map geometry |
 | South Korea | 6 | Count unchanged |
 | China | 5 | Count unchanged |
 | Japan | 5 | Count unchanged |
