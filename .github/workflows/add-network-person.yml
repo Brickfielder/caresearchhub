@@ -80,9 +80,9 @@ jobs:
             echo "::notice::Alternatively, enable the repository setting 'Allow GitHub Actions to create and approve pull requests' to allow the fallback token to create PRs."
           fi
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version-file: .nvmrc
           cache: 'npm'
 
       - run: npm ci
