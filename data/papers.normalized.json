@@ -113,6 +113,61 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/s0300-9572(26)00856-7",
+    "doi": "10.1016/s0300-9572(26)00856-7",
+    "title": "A Stepped-Care Model for Bystander Support After Out-of-Hospital Cardiac Arrest: Findings from the RescQ Pilot",
+    "authors": [
+      "Uzma Sajjad",
+      "Marco Mion",
+      "Rupert Simpson",
+      "Liz Sharpe",
+      "Jean Davis",
+      "Haroun Butt",
+      "Luke Roberts-Andreou",
+      "Justine DiFede",
+      "Gareth Grier",
+      "Paul Swindell",
+      "Stuart Menzies",
+      "Michael Watts",
+      "Nilesh Pareek",
+      "Thomas Keeble"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00856-7"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Sajjad U",
+      "Mion M",
+      "Simpson R",
+      "Sharpe L",
+      "Davis J",
+      "Butt H",
+      "Roberts-Andreou L",
+      "DiFede J",
+      "Grier G",
+      "Swindell P",
+      "Menzies S",
+      "Watts M",
+      "Pareek N",
+      "Keeble T"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "42191078",
     "pmid": "42191078",
     "doi": "10.1016/j.resuscitation.2026.111148",
@@ -395,6 +450,46 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42931327",
+    "pmid": "42931327",
+    "doi": "10.3390/nursrep16100354",
+    "title": "Bystanders and Close Ones in Unsuccessful Resuscitation: An Overlooked Population in Out-of-Hospital Cardiac Arrest.",
+    "authors": [
+      "Guglielmo Imbriaco",
+      "Nino Fijačko",
+      "Sergio Cazorla-Calderón",
+      "Kristin Alm-Kruse",
+      "Marco Mion"
+    ],
+    "journal": "Nursing reports (Pavia, Italy)",
+    "year": 2026,
+    "date": "2026-10-08",
+    "abstract": "Bystanders, lay rescuers, and close ones involved in out-of-hospital cardiac arrest resuscitation attempts that end in death represent an often-overlooked population within emergency care. As community-centered resuscitation systems increasingly promote dispatcher-assisted cardiopulmonary resuscitation (CPR), community first responder programs, and public CPR training, more individuals are becoming directly involved in resuscitation attempts, many of which are unsuccessful. Such experiences can be associated with emotional distress, intrusive memories, guilt, and post-traumatic stress symptoms. The impact may differ according to the person's relationship with the patient and their involvement in the resuscitation. This perspective paper discusses the psychological impact of unsuccessful resuscitation and considers the role of emergency nurses in providing support across dispatch, prehospital, and hospital settings. Approaches such as supportive follow-up contact and referral for psychological support, as distinct from formal psychological debriefing protocols, could help address some of these needs, although current evidence on their effectiveness remains preliminary. Greater recognition of people involved in unsuccessful resuscitation and their support needs may represent a further step in the development of community-centered resuscitation systems.",
+    "links": {
+      "doi": "https://doi.org/10.3390/nursrep16100354",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42931327",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13708547"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC13708547",
+    "country": "United Kingdom",
+    "domains": [
+      "Psychological"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Imbriaco G",
+      "Fijačko N",
+      "Cazorla-Calderón S",
+      "Alm-Kruse K",
+      "Mion M"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resplu.2026.101270",
     "doi": "10.1016/j.resplu.2026.101270",
     "title": "Cardiac Arrest Recovery Enablement and Supported Self-management (CARESS): a study protocol for the feasibility testing of an online psychosocial and exercise rehabilitation programme for cardiac arrest survivors and co-survivors",
@@ -475,6 +570,65 @@
       "Yousaf R",
       "Long J",
       "Ellard D"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)00865-8",
+    "doi": "10.1016/s0300-9572(26)00865-8",
+    "title": "Cardiac Arrest Recovery Enablement through Supported Self-management (CARESS) Feasibility Study: Interim Results from a Facilitator-Led, Online, Complex Intervention for Survivors and Co-Survivors",
+    "authors": [
+      "Nathan Pearson",
+      "Gordon McGregor",
+      "Stuart Ennis",
+      "Harbinder Sandhu",
+      "Shilpa Patel",
+      "Sofie Power",
+      "Jeanne Reilly",
+      "Paul Swindell",
+      "Keith Couper",
+      "Julie Bruce",
+      "David Ellard",
+      "Dave Cleland",
+      "Stuart Menzies",
+      "Rebecca Kandiyali",
+      "Anower Hossain",
+      "Kirstie Haywood"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00865-8"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Pearson N",
+      "McGregor G",
+      "Ennis S",
+      "Sandhu H",
+      "Patel S",
+      "Power S",
+      "Reilly J",
+      "Swindell P",
+      "Couper K",
+      "Bruce J",
+      "Ellard D",
+      "Cleland D",
+      "Menzies S",
+      "Kandiyali R",
+      "Hossain A",
+      "Haywood K"
     ],
     "isAbstractTruncated": false
   },
@@ -866,6 +1020,89 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1016/s0300-9572(26)00866-x",
+    "doi": "10.1016/s0300-9572(26)00866-x",
+    "title": "Early Implementation of a Hub-and-Spoke Survivorship Pathway for Out-of-Hospital Cardiac Arrest Survivors: a 12-Month Process Evaluation of the REVIVE Project",
+    "authors": [
+      "Laura Calabrese",
+      "Marco Mion",
+      "Roberto Primi",
+      "Sara Bendotti",
+      "Leila Ulmanova",
+      "Alice Mandrini",
+      "Alessia Currao",
+      "Arianna Morena",
+      "Leonardo Fogagnolo",
+      "Dossi Filippo",
+      "Federica Pizzi",
+      "Cristian Fava",
+      "Daniele Ghiraldin",
+      "Alessio Battioni",
+      "Elena Madonini",
+      "Diego Maffeo",
+      "Cinzia Dossenza",
+      "Silvia Affinito",
+      "Giovanni Bertazzoli",
+      "Marta Pellegrino",
+      "Cecilia Fantoni",
+      "Matteo Della Torre",
+      "Silvia Frattini",
+      "Giole Papi",
+      "Angelica Praderio",
+      "Luca Tarantino",
+      "Simone Savastano",
+      "Enrico Baldi"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00866-x"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Calabrese L",
+      "Mion M",
+      "Primi R",
+      "Bendotti S",
+      "Ulmanova L",
+      "Mandrini A",
+      "Currao A",
+      "Morena A",
+      "Fogagnolo L",
+      "Filippo D",
+      "Pizzi F",
+      "Fava C",
+      "Ghiraldin D",
+      "Battioni A",
+      "Madonini E",
+      "Maffeo D",
+      "Dossenza C",
+      "Affinito S",
+      "Bertazzoli G",
+      "Pellegrino M",
+      "Fantoni C",
+      "Torre MD",
+      "Frattini S",
+      "Papi G",
+      "Praderio A",
+      "Tarantino L",
+      "Savastano S",
+      "Baldi E"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "41671002",
     "pmid": "41671002",
     "doi": "10.1001/jamanetworkopen.2026.0872",
@@ -888,6 +1125,37 @@
     "domains": [],
     "setting": "Unclear",
     "normalizedAuthors": [],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)00970-6",
+    "doi": "10.1016/s0300-9572(26)00970-6",
+    "title": "Evaluation of Real-World Psychological Impact and Aftercare Needs of Rescuers Following Out-of-Hospital Cardiac Arrest: Insights from the OHCAD Model",
+    "authors": [
+      "Jordan Ellis",
+      "Helen Goodwin"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00970-6"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Ellis J",
+      "Goodwin H"
+    ],
     "isAbstractTruncated": false
   },
   {
@@ -938,6 +1206,92 @@
       "Liu M",
       "Liu H",
       "Li S"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)01109-3",
+    "doi": "10.1016/s0300-9572(26)01109-3",
+    "title": "Experiences of Family Members of Out-of-Hospital Cardiac Arrest Patients during the First Year after Hospital Discharge",
+    "authors": [
+      "Kasumi Shirasaki",
+      "Yohei Okada",
+      "Shutaro Isokawa",
+      "Masaki Okajima",
+      "Norio Otani"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)01109-3"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "Japan",
+    "corrCountryName": "Japan",
+    "corrCountryCode": "JP",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Shirasaki K",
+      "Okada Y",
+      "Isokawa S",
+      "Okajima M",
+      "Otani N"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)00854-3",
+    "doi": "10.1016/s0300-9572(26)00854-3",
+    "title": "Experiences of Implementing European Guidelines for Post-Cardiac Arrest Follow-up in Sweden",
+    "authors": [
+      "Johan Israelsson",
+      "Annette Waldemar",
+      "Therese Djärv",
+      "Gunilla Edholm",
+      "Stefan Jutterdal",
+      "Anna Lybeck",
+      "Per Nordberg",
+      "Sten Rubertsson",
+      "Helene Silfver",
+      "Ewa Wallin",
+      "Gisela Lilja"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00854-3"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Israelsson J",
+      "Waldemar A",
+      "Djärv T",
+      "Edholm G",
+      "Jutterdal S",
+      "Lybeck A",
+      "Nordberg P",
+      "Rubertsson S",
+      "Silfver H",
+      "Wallin E",
+      "Lilja G"
     ],
     "isAbstractTruncated": false
   },
@@ -1070,6 +1424,49 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42901371",
+    "pmid": "42901371",
+    "doi": "10.1016/j.resuscitation.2026.111359",
+    "title": "Fatigue, anxiety and depression 12 months after out-of-hospital cardiac arrest: a population based cohort study.",
+    "authors": [
+      "Daniel O Okyere",
+      "Emily Nehme",
+      "Janet Bray",
+      "Katie N Dainty",
+      "Ashanti Dantanarayana",
+      "Ziad Nehme"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-10-20",
+    "abstract": "AIM: To determine the prevalence and factors associated with fatigue, anxiety, and depression 12 months after out-of-hospital cardiac arrest (OHCA); examine their associations with health-related quality of life (HRQoL) and functional recovery; and compare symptom burden with population norms.\nMETHODS: This prospective, population-based cohort study included adults (≥18 years) who received EMS-attempted resuscitation and survived to hospital discharge following non-traumatic OHCA in Victoria, Australia, between July 2019 and June 2022. Survivors were identified from a statewide OHCA registry and completed a 12-month telephone interview. Primary outcomes were fatigue (Modified Fatigue Impact Scale), anxiety and depression (Hospital Anxiety and Depression Scale). Secondary outcomes included HRQoL (EQ-5D, SF-12), functional recovery (GOSE), living arrangement, and return to work.\nRESULTS: Of 1068 eligible 12-month survivors, 728 (68.2%) completed follow-up (median age 61 years; 555 [76.2%] male). Fatigue was reported by 35.8% (250/699), anxiety by 22.6% (162/716), and depression by 18.0% (129/716). Higher symptom burden was associated with lower EQ-5D and SF-12 scores, worse GOSE outcomes (all p < 0.001) and reduced return-to-work rates. Compared with population norms, survivors reported greater fatigue (SMD 0.64; 95%CI, 0.50-0.78; p < 0.001), and depression (SMD, 0.12; 95%CI, 0.02-0.21; p = 0.02) but lower anxiety (SMD, -0.27; 95%CI, -0.35 to -0.18; p < 0.001). In adjusted models, younger age, preexisting anxiety or depression, diabetes and initial non-shockable arrest were associated with higher symptom burden, whereas EMS-witnessed arrests were associated with lower symptom burden.\nCONCLUSIONS: Fatigue, anxiety, and depression were common at 12 months after OHCA and are associated with poorer recovery. Fatigue exceeded population norms and may be an under-recognised component of cardiac arrest survivorship.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111359",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42901371"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Australia",
+    "domains": [
+      "Psychological",
+      "Qol",
+      "Participation"
+    ],
+    "setting": "OHCA",
+    "design": "Prospective cohort",
+    "normalizedAuthors": [
+      "Okyere DO",
+      "Nehme E",
+      "Bray J",
+      "Dainty KN",
+      "Dantanarayana A",
+      "Nehme Z"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "42774765",
     "doi": "10.15420/icr.2026.18",
     "title": "Five Practical Considerations for the Management of Out-of-hospital Cardiac Arrest: Reflections from the British Cardiovascular Intervention Society Out-of-hospital Cardiac Arrest Focus Group.",
@@ -1122,6 +1519,59 @@
       "Davies JR",
       "Pareek N",
       "Keeble TR"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)01127-5",
+    "doi": "10.1016/s0300-9572(26)01127-5",
+    "title": "From Guidelines to Practice: A Global Survey of Rehabilitation and Follow-Up for Survivors and Co-Survivors of Out-of-Hospital Cardiac Arrest",
+    "authors": [
+      "Shir Lynn Lim",
+      "Mette Kirstine Wagner",
+      "Yee How Lau",
+      "Kai Lee Woo",
+      "Kristin Alm-Kruse",
+      "Leonie Hannappel",
+      "Wen Zheng",
+      "Johan Israelsson",
+      "Jodie Ingles",
+      "Theresa Mariero Olasveengen",
+      "Eloi Marijon",
+      "Bo Gregers Winkel",
+      "Marcus EH Ong"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)01127-5"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "Singapore",
+    "corrCountryName": "Singapore",
+    "corrCountryCode": "SG",
+    "domains": [],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Lim SL",
+      "Wagner MK",
+      "Lau YH",
+      "Woo KL",
+      "Alm-Kruse K",
+      "Hannappel L",
+      "Zheng W",
+      "Israelsson J",
+      "Ingles J",
+      "Olasveengen TM",
+      "Marijon E",
+      "Winkel BG",
+      "Ong ME"
     ],
     "isAbstractTruncated": false
   },
@@ -1330,6 +1780,49 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "42960064",
+    "pmid": "42960064",
+    "doi": "10.1016/j.resplu.2026.101521",
+    "title": "Life satisfaction and self-rated health in long-term survivors after extracorporeal cardiopulmonary resuscitation (ECPR): associations with functional outcome, cognition, anxiety, depression, fatigue, and physical activity.",
+    "authors": [
+      "Anna Henningsson",
+      "Pia Watson",
+      "Magnus Segerström",
+      "Petra Redfors",
+      "Bengt Redfors"
+    ],
+    "journal": "Resuscitation plus",
+    "year": 2026,
+    "date": "2026-10-07",
+    "abstract": "BACKGROUND: The goal of extracorporeal cardiopulmonary resuscitation (ECPR) is not only survival, but long-term satisfaction with life. Whether functional outcome (modified Rankin Scale; mRS), cognition, emotional symptoms, fatigue, and physical activity relate to life satisfaction in ECPR survivors remain unknown. We evaluated these aspects of health and their association with life satisfaction and self-rated health.\nMETHODS: This cross-sectional follow-up included survivors ≥1 year after ECPR at Sahlgrenska University Hospital, Gothenburg, Sweden (2010-2021). Primary outcomes were life satisfaction (World Values Survey) and self-rated health (EQ-5D-5L VAS). Secondary outcomes were mRS, Montreal Cognitive Assessment (MoCA), Hospital Anxiety and Depression Scale (HADS), Mental Fatigue Scale (MFS), and self-reported physical activity. Exploratory multivariable linear regression assessed associations with primary outcomes.\nRESULTS: Of 34 survivors, 26 (76.5%) participated; median follow-up was 5 [IQR 2-7] years; 96% had mRS 0-3. Median life satisfaction was 8 [6-9]/10 and self-rated health 81 [70-90]/100, similar to population reference values (7.55 and 80). Positive screen for cognitive impairment (MoCA < 26) was present in 56%, anxiety (HADS-A ≥ 8) 42%, depression (HADS-D ≥ 8) 15%, and fatigue (MFS ≥ 10.5) 50%. In exploratory multivariable analysis, moderate physical activity was associated with life satisfaction (0.36 per day/week; 95% CI 0.06-0.67; = 0.023) and self-rated health (4.60; 0.71-8.50; = 0.024).\nCONCLUSION: Long-term ECPR survivors reported life satisfaction and self-rated health similar to population reference values. In exploratory multivariable analysis, moderate physical activity was the only variable associated with both. This supports assessing life satisfaction and physical activity in post-ECPR follow-up.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resplu.2026.101521",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42960064",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13717885"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC13717885",
+    "country": "Sweden",
+    "domains": [
+      "Cognitive",
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "Unclear",
+    "design": "Cross-sectional study",
+    "normalizedAuthors": [
+      "Henningsson A",
+      "Watson P",
+      "Segerström M",
+      "Redfors P",
+      "Redfors B"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resuscitation.2026.111165",
     "doi": "10.1016/j.resuscitation.2026.111165",
     "title": "Long-term functional and quality of life outcomes for survivors of asystolic out-of-hospital cardiac arrest",
@@ -1351,6 +1844,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "Australia",
+    "corrCountryName": "Australia",
+    "corrCountryCode": "AU",
     "domains": [
       "Qol",
       "Participation"
@@ -1653,6 +2149,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "New Zealand",
+    "corrCountryName": "New Zealand",
+    "corrCountryCode": "NZ",
     "domains": [
       "Qol"
     ],
@@ -1711,6 +2210,9 @@
       "Cognitive"
     ],
     "setting": "OHCA",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
     "normalizedAuthors": [
       "Mion M",
       "Lilja G",
@@ -1731,6 +2233,43 @@
       "Cronberg T",
       "Keeble T",
       "Nordstrom E"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)00965-2",
+    "doi": "10.1016/s0300-9572(26)00965-2",
+    "title": "Mapping Health-Related Quality of Life Instruments and Follow-Up Timing in Cardiac Arrest Survivorship: A Scoping Review",
+    "authors": [
+      "Marco Mion",
+      "Claudine Keelan",
+      "Uzma Sajjad",
+      "Thomas Keeble"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)00965-2"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [
+      "Qol"
+    ],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Mion M",
+      "Keelan C",
+      "Sajjad U",
+      "Keeble T"
     ],
     "isAbstractTruncated": false
   },
@@ -1816,6 +2355,48 @@
       "Moeller J",
       "Kjaergaard J",
       "Hassager C"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "42838499",
+    "pmid": "42838499",
+    "doi": "10.1016/j.resuscitation.2026.111343",
+    "title": "Non-enrolment and non-completion of cardiac rehabilitation among survivors of out-of-hospital cardiac arrest with ischaemic aetiology: a nationwide register-based cohort study.",
+    "authors": [
+      "Lola Qvist Kristensen",
+      "Lisa Gregersen Oestergaard",
+      "Marie Louise Svendsen",
+      "Birgitte Bitsch Gadager",
+      "Hans Eiskjær",
+      "Maurits van Tulder",
+      "Thomas Maribo"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-10-06",
+    "abstract": "BACKGROUND: Survival after out-of-hospital cardiac arrest (OHCA) of ischaemic aetiology is increasing, yet access to and completion of cardiac rehabilitation remain uncertain.\nAIM: To investigate non-enrolment in and non-completion of cardiac rehabilitation among OHCA survivors of ischaemic aetiology including temporal trends, and to examine sociodemographic characteristics associated with non-participation and non-completion.\nMETHODS: This nationwide Danish register-based cohort study included adults surviving ≥30 days after a first-time OHCA between 2019 and 2023. Multivariable logistic regression models were used to examine the association between non-enrolment and non-completion, respectively, and sociodemographic parameters of age, sex, cohabitation, comorbidity, education, and employment.\nRESULTS: A total of 1684 OHCA survivors were included. Overall, 55% did not enrol in CR, and among those who enrolled, 50% did not complete the programme. Non-enrolment was highest in 2020-2022 (60-62%) and declined to 43% in 2023. Survivors who were retired had higher odds of non-enrolment (OR 1.74, 95% CI 1.42-2.44), whereas higher education (OR 0.76, 95% CI 0.55-0.98) and moderate/severe comorbidity (OR 0.53, 95% CI 0.43-0.65) were associated with lower odds of non-enrolment. No sociodemographic characteristics were significantly associated with non-completion.\nCONCLUSION: A large proportion of OHCA survivors of ischaemic aetiology either did not enrol in or did not complete cardiac rehabilitation. The findings underscore the need for systematic referral to cardiac rehabilitation after OHCA and more tailored rehabilitation approaches.",
+    "links": {
+      "doi": "https://doi.org/10.1016/j.resuscitation.2026.111343",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42838499"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "Denmark",
+    "domains": [
+      "Participation"
+    ],
+    "setting": "OHCA",
+    "normalizedAuthors": [
+      "Kristensen LQ",
+      "Oestergaard LG",
+      "Svendsen ML",
+      "Gadager BB",
+      "Eiskjær H",
+      "Tulder MV",
+      "Maribo T"
     ],
     "isAbstractTruncated": false
   },
@@ -2373,6 +2954,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT",
     "domains": [
       "Cognitive",
       "Psychological",
@@ -2392,6 +2976,64 @@
       "Scapigliati A",
       "Semeraro F",
       "Gamberini L"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "41731712",
+    "pmid": "41731712",
+    "doi": "10.1111/jan.70555",
+    "title": "Psychological Outcomes of Family Members Related to a Loved One's Resuscitation in the Emergency Department: A Cross-Sectional Study.",
+    "authors": [
+      "Ira Rahmawati",
+      "Tamara Page",
+      "Lisa Conlon",
+      "Anggun Setyarini",
+      "Frank Donnelly"
+    ],
+    "journal": "Journal of advanced nursing",
+    "year": 2026,
+    "date": "2026-02-23",
+    "abstract": "AIMS: This study aimed to assess the psychological outcomes of family members of patients who were resuscitated in the Emergency Department (ED) and analyse factors associated with these outcomes.\nDESIGN: This study utilised a cross-sectional design.\nMETHODS: Data were collected using a self-reported questionnaire sent to family members of patients who had undergone resuscitation in the ED from February 2024 to January 2025. Instruments for data collection included The Impact of Event Scale-Revised (IES-R), the short version of The Depression, Anxiety and Stress Scale-21 items (DASS-21), the Multicultural Quality of Life Index (MQLI) and questions related to demographic variables and the resuscitation event.\nRESULTS: A total of 106 family members completed the questionnaire. Of this, 64.2% (n = 68) reported witnessing the resuscitation attempt, and 35.8% (n = 38) did not witness the event. Family members who witnessed the resuscitation displayed more symptoms of post-traumatic stress disorder (PTSD), measured by the IES-R, compared to those who did not witness the event. A statistically significant negative correlation was found between the IES-R and the MQLI scores, indicating that higher PTSD symptoms correlate with lower quality of life (QoL) ratings.\nCONCLUSION: The findings of this study indicated that witnessing the resuscitation of a loved one in the ED is associated with increased PTSD symptoms.\nIMPLICATIONS FOR HEALTH PROFESSIONALS AND PATIENT CARE: Patients' and family members' cultural and religious needs should be acknowledged by the health care providers. Study findings indicate that family members prefer to be with the patient during the patient's resuscitation. However, without adequate support from hospital staff, this experience may cause adverse psychological effects. Strategies to support family members during and after resuscitation should be developed and integrated into the management of in-hospital resuscitation.\nREPORTING METHOD: This study followed the STROBE guidelines.\nPATIENT OR PUBLIC CONTRIBUTION: No patient or public contribution.",
+    "links": {
+      "doi": "https://doi.org/10.1111/jan.70555",
+      "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41731712",
+      "pmc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576782"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "pmcid": "PMC13576782",
+    "mesh": [
+      "Humans",
+      "Cross-Sectional Studies",
+      "Female",
+      "Male",
+      "Family",
+      "Middle Aged",
+      "Emergency Service, Hospital",
+      "Adult",
+      "Quality of Life",
+      "Aged",
+      "Surveys and Questionnaires",
+      "Stress Disorders, Post-Traumatic",
+      "Resuscitation",
+      "Aged, 80 and over"
+    ],
+    "country": "Australia",
+    "domains": [
+      "Psychological",
+      "Qol"
+    ],
+    "setting": "IHCA",
+    "design": "Cross-sectional study",
+    "normalizedAuthors": [
+      "Rahmawati I",
+      "Page T",
+      "Conlon L",
+      "Setyarini A",
+      "Donnelly F"
     ],
     "isAbstractTruncated": false
   },
@@ -2633,6 +3275,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "OHCA",
     "design": "Prospective cohort",
@@ -2707,6 +3352,45 @@
       "Wittig J",
       "Olasveengen TM",
       "Greif R"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)01056-7",
+    "doi": "10.1016/s0300-9572(26)01056-7",
+    "title": "Self-Reported Health Problems Among Family Members of Cardiac Arrest Survivors",
+    "authors": [
+      "Johan Israelsson",
+      "Kristofer Årestedt",
+      "Susanna Ågren",
+      "Carina Hjelm",
+      "Liselott Årestedt",
+      "Anders Bremer"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)01056-7"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Israelsson J",
+      "Årestedt K",
+      "Ågren S",
+      "Hjelm C",
+      "Årestedt L",
+      "Bremer A"
     ],
     "isAbstractTruncated": false
   },
@@ -2846,6 +3530,60 @@
     "isAbstractTruncated": false
   },
   {
+    "id": "10.1684/afmu.2026.0763",
+    "doi": "10.1684/afmu.2026.0763",
+    "title": "Summary of the 2025 European Resuscitation Council guidelines for the management of cardiac arrest patients in France",
+    "authors": [
+      "N. Segond",
+      "M. Heidet",
+      "P. Cassan",
+      "D. Jost",
+      "C. Derkenne",
+      "T. Chouhied",
+      "D. Jaeger",
+      "M. Recher",
+      "S. Lagadec",
+      "A. Hutin",
+      "L. Lamhaut",
+      "F. Javaudin",
+      "D. Savary",
+      "G. Debaty"
+    ],
+    "journal": "Annales françaises de médecine d’urgence",
+    "year": 2026,
+    "date": "2026-07",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1684/afmu.2026.0763"
+    },
+    "flags": {
+      "open_access": false,
+      "has_fulltext": false
+    },
+    "country": "France",
+    "corrCountryName": "France",
+    "corrCountryCode": "FR",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Segond N",
+      "Heidet M",
+      "Cassan P",
+      "Jost D",
+      "Derkenne C",
+      "Chouhied T",
+      "Jaeger D",
+      "Recher M",
+      "Lagadec S",
+      "Hutin A",
+      "Lamhaut L",
+      "Javaudin F",
+      "Savary D",
+      "Debaty G"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
     "id": "10.1016/j.resuscitation.2026.111150",
     "doi": "10.1016/j.resuscitation.2026.111150",
     "title": "Symptoms of anxiety and depression after out-of-hospital cardiac arrest: an exploratory dyadic analysis of survivors and their cohabiting spouses or partners from the BOX trial",
@@ -2900,6 +3638,65 @@
       "Mølstrøm S",
       "Møller JE",
       "Borregaard B"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)01181-0",
+    "doi": "10.1016/s0300-9572(26)01181-0",
+    "title": "The Cardiac Arrest Recovery Enablement through Supported Self-management (CARESS) Feasibility Study: Interim Findings from a Process Evaluation",
+    "authors": [
+      "Nathan Pearson",
+      "Sofie Power",
+      "Gordon McGregor",
+      "David Ellard",
+      "Harbinder Sandhu",
+      "Stuart Ennis",
+      "Shilpa Patel",
+      "Jeanne Reilly",
+      "Paul Swindell",
+      "Keith Couper",
+      "Julie Bruce",
+      "Dave Cleland",
+      "Stuart Menzies",
+      "Rebecca Kandiyali",
+      "Anower Hossain",
+      "Kirstie Haywood"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)01181-0"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Pearson N",
+      "Power S",
+      "McGregor G",
+      "Ellard D",
+      "Sandhu H",
+      "Ennis S",
+      "Patel S",
+      "Reilly J",
+      "Swindell P",
+      "Couper K",
+      "Bruce J",
+      "Cleland D",
+      "Menzies S",
+      "Kandiyali R",
+      "Hossain A",
+      "Haywood K"
     ],
     "isAbstractTruncated": false
   },
@@ -3197,6 +3994,45 @@
       "Henriksen FL",
       "Stenager E",
       "Pankiewicz-Dulacz M"
+    ],
+    "isAbstractTruncated": false
+  },
+  {
+    "id": "10.1016/s0300-9572(26)01180-9",
+    "doi": "10.1016/s0300-9572(26)01180-9",
+    "title": "Towards a Cardiac Arrest Survivor-Reported Outcome Measure: Exploring What Matters to Survivors and Co-Survivors",
+    "authors": [
+      "Charlotte Southern",
+      "Elizabeth Tutton",
+      "Nathan Pearson",
+      "Sofie Power",
+      "Paul Swindell",
+      "Kirstie Haywood"
+    ],
+    "journal": "Resuscitation",
+    "year": 2026,
+    "date": "2026-09",
+    "abstract": "",
+    "links": {
+      "doi": "https://doi.org/10.1016/s0300-9572(26)01180-9"
+    },
+    "flags": {
+      "open_access": true,
+      "has_fulltext": true
+    },
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
+    "domains": [],
+    "setting": "Mixed",
+    "normalizedAuthors": [
+      "Southern C",
+      "Tutton E",
+      "Pearson N",
+      "Power S",
+      "Swindell P",
+      "Haywood K"
     ],
     "isAbstractTruncated": false
   },
