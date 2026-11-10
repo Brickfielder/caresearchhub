@@ -14,5 +14,175 @@
     "reason": "The stored value was an Aarhus University Hospital affiliation, not a country.",
     "source": "https://pubmed.ncbi.nlm.nih.gov/41181996/",
     "verifiedAt": "2026-08-27"
+  },
+  "10.1016/j.ccrj.2026.100212": {
+    "values": {
+      "country": "New Zealand",
+      "corrCountryName": "New Zealand",
+      "corrCountryCode": "NZ"
+    },
+    "reason": "Corresponding author Rachael Parke: University of Auckland / Auckland City Hospital, New Zealand.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13579685/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/j.resuscitation.2026.111165": {
+    "values": {
+      "country": "Australia",
+      "corrCountryName": "Australia",
+      "corrCountryCode": "AU"
+    },
+    "reason": "Corresponding and last-author affiliations: Monash University / Ambulance Victoria, Australia.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42264171/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/j.resplu.2026.101445": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Corresponding author Thomas Keeble: Essex Cardiothoracic Centre, UK.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13506535/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/j.resplu.2026.101450": {
+    "values": {
+      "country": "Italy",
+      "corrCountryName": "Italy",
+      "corrCountryCode": "IT"
+    },
+    "reason": "Corresponding author Federico Semeraro and last author Lorenzo Gamberini: Bologna, Italy.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13559835/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00963-9": {
+    "values": {
+      "country": "Sweden",
+      "corrCountryName": "Sweden",
+      "corrCountryCode": "SE"
+    },
+    "reason": "Last author Erik Nordstrom: Clinical Sciences Lund / Neurology, Skane University Hospital, Sweden. International collaboration; country is an author-affiliation proxy.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/58/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00856-7": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Last author Thomas Keeble: Essex Cardiothoracic Centre / Anglia Ruskin University, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/3/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)01056-7": {
+    "values": {
+      "country": "Sweden",
+      "corrCountryName": "Sweden",
+      "corrCountryCode": "SE"
+    },
+    "reason": "Last author Anders Bremer: Linnaeus University, Kalmar, Sweden.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/105/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)01109-3": {
+    "values": {
+      "country": "Japan",
+      "corrCountryName": "Japan",
+      "corrCountryCode": "JP"
+    },
+    "reason": "Last author Norio Otani: St Luke’s International Hospital, Tokyo, Japan.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/131/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00865-8": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Last author Kirstie Haywood: University of Warwick, Coventry, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/12/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00970-6": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Helen Goodwin: East of England Ambulance Service, East of England, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/63/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00965-2": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Last author Thomas Keeble: Essex Cardiothoracic Centre / Anglia Ruskin University, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/61/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)01127-5": {
+    "values": {
+      "country": "Singapore",
+      "corrCountryName": "Singapore",
+      "corrCountryCode": "SG"
+    },
+    "reason": "Last author Marcus EH Ong: Duke-NUS Medical School, Singapore. Global survey; country is an author-affiliation proxy.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/140/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00854-3": {
+    "values": {
+      "country": "Sweden",
+      "corrCountryName": "Sweden",
+      "corrCountryCode": "SE"
+    },
+    "reason": "Last author Gisela Lilja: Skane University Hospital / Lund University, Sweden.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/2/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)00866-x": {
+    "values": {
+      "country": "Italy",
+      "corrCountryName": "Italy",
+      "corrCountryCode": "IT"
+    },
+    "reason": "Last author Enrico Baldi: Fondazione IRCCS Policlinico San Matteo, Pavia, Italy.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/13/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)01180-9": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Last author Kirstie Haywood: University of Warwick, Coventry, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/166/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1016/s0300-9572(26)01181-0": {
+    "values": {
+      "country": "United Kingdom",
+      "corrCountryName": "United Kingdom",
+      "corrCountryCode": "GB"
+    },
+    "reason": "Last author Kirstie Haywood: University of Warwick, Coventry, UK.",
+    "source": "https://erc-abstracts-2026.elsevierdigitaledition.com/166/",
+    "verifiedAt": "2026-11-10"
+  },
+  "10.1684/afmu.2026.0763": {
+    "values": {
+      "country": "France",
+      "corrCountryName": "France",
+      "corrCountryCode": "FR"
+    },
+    "reason": "Last author G. Debaty: CHU Grenoble / Universite Grenoble Alpes. Country inferred from the institutional location in France; publisher affiliation text unavailable.",
+    "source": "https://www.univ-grenoble-alpes.fr/guillaume-debaty-543392.kjsp",
+    "verifiedAt": "2026-11-10"
   }
 }

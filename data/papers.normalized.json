@@ -144,6 +144,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -604,6 +607,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -1059,6 +1065,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -1138,6 +1147,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -1220,6 +1232,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "Japan",
+    "corrCountryName": "Japan",
+    "corrCountryCode": "JP",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -1260,6 +1275,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -1535,6 +1553,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "Singapore",
+    "corrCountryName": "Singapore",
+    "corrCountryCode": "SG",
     "domains": [],
     "setting": "OHCA",
     "normalizedAuthors": [
@@ -1823,6 +1844,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "Australia",
+    "corrCountryName": "Australia",
+    "corrCountryCode": "AU",
     "domains": [
       "Qol",
       "Participation"
@@ -2125,6 +2149,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "New Zealand",
+    "corrCountryName": "New Zealand",
+    "corrCountryCode": "NZ",
     "domains": [
       "Qol"
     ],
@@ -2183,6 +2210,9 @@
       "Cognitive"
     ],
     "setting": "OHCA",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
     "normalizedAuthors": [
       "Mion M",
       "Lilja G",
@@ -2228,6 +2258,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [
       "Qol"
     ],
@@ -2921,6 +2954,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT",
     "domains": [
       "Cognitive",
       "Psychological",
@@ -3239,6 +3275,9 @@
       "open_access": true,
       "has_fulltext": true
     },
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "OHCA",
     "design": "Prospective cohort",
@@ -3340,6 +3379,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -3518,6 +3560,9 @@
       "open_access": false,
       "has_fulltext": false
     },
+    "country": "France",
+    "corrCountryName": "France",
+    "corrCountryCode": "FR",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -3630,6 +3675,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [
@@ -3973,6 +4021,9 @@
       "has_fulltext": true
     },
     "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB",
     "domains": [],
     "setting": "Mixed",
     "normalizedAuthors": [

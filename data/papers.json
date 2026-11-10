@@ -108,7 +108,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "42191078",
@@ -443,7 +446,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "10.2196/84432",
@@ -753,7 +759,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT"
   },
   {
     "id": "41671002",
@@ -795,7 +804,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "42700090",
@@ -861,7 +873,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "Japan",
+    "corrCountryName": "Japan",
+    "corrCountryCode": "JP"
   },
   {
     "id": "10.1016/s0300-9572(26)00854-3",
@@ -891,7 +906,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE"
   },
   {
     "id": "42285023",
@@ -1085,7 +1103,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "Singapore",
+    "corrCountryName": "Singapore",
+    "corrCountryCode": "SG"
   },
   {
     "id": "42038943",
@@ -1292,7 +1313,10 @@
     "flags": {
       "open_access": true,
       "has_fulltext": true
-    }
+    },
+    "country": "Australia",
+    "corrCountryName": "Australia",
+    "corrCountryCode": "AU"
   },
   {
     "id": "41953986",
@@ -1488,7 +1512,10 @@
     "flags": {
       "open_access": true,
       "has_fulltext": true
-    }
+    },
+    "country": "New Zealand",
+    "corrCountryName": "New Zealand",
+    "corrCountryCode": "NZ"
   },
   {
     "id": "10.1016/s0300-9572(26)00963-9",
@@ -1530,7 +1557,10 @@
     "domains": [
       "Cognitive"
     ],
-    "setting": "OHCA"
+    "setting": "OHCA",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE"
   },
   {
     "id": "10.1016/s0300-9572(26)00965-2",
@@ -1553,7 +1583,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "10.1016/j.jpainsymman.2026.04.454",
@@ -2011,7 +2044,10 @@
     "flags": {
       "open_access": true,
       "has_fulltext": true
-    }
+    },
+    "country": "Italy",
+    "corrCountryName": "Italy",
+    "corrCountryCode": "IT"
   },
   {
     "id": "41731712",
@@ -2240,7 +2276,10 @@
     "flags": {
       "open_access": true,
       "has_fulltext": true
-    }
+    },
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "42005613",
@@ -2301,7 +2340,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "Sweden",
+    "corrCountryName": "Sweden",
+    "corrCountryCode": "SE"
   },
   {
     "id": "42507344",
@@ -2434,7 +2476,10 @@
     "flags": {
       "open_access": false,
       "has_fulltext": false
-    }
+    },
+    "country": "France",
+    "corrCountryName": "France",
+    "corrCountryCode": "FR"
   },
   {
     "id": "10.1016/j.resuscitation.2026.111150",
@@ -2513,7 +2558,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "41857604",
@@ -2732,7 +2780,10 @@
       "open_access": true,
       "has_fulltext": true
     },
-    "design": "Published conference abstract"
+    "design": "Published conference abstract",
+    "country": "United Kingdom",
+    "corrCountryName": "United Kingdom",
+    "corrCountryCode": "GB"
   },
   {
     "id": "41565214",
