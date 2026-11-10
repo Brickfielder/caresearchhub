@@ -14,5 +14,22 @@
     "reason": "The stored value was an Aarhus University Hospital affiliation, not a country.",
     "source": "https://pubmed.ncbi.nlm.nih.gov/41181996/",
     "verifiedAt": "2026-08-27"
+  },
+  "10.1186/s13049-026-01689-z": {
+    "values": {
+      "abstract": "Background\nNearly 5,000 out-of-hospital cardiac arrests occur annually in Denmark. Three in four take place in the patient’s home, often witnessed by relatives. In 60–70% of out-of-hospital cardiac arrests, the patient dies at the scene despite treatment. This study investigates the relatives´ perspective when resuscitation is unsuccessful, identifying their needs with a view to enhancing the quality of care provided to those left behind when resuscitation attempts are unsuccessful.\n\nMethod\nFifteen semi-structured interviews were conducted with relatives who were present during the resuscitation attempts at out-of-hospital cardiac arrests where the patient was declared dead at the scene. The interviews were recorded and transcribed. Data were analysed using Systematic Text Condensation.\n\nResults\nThree phases were identified, each with distinct needs of the relatives. Initially, the guidance from the Emergency Medical Dispatch Centre was highly valued. Once community first responders or prehospital staff arrived, two main and contrasting responses emerged: a need to withdraw from the event or a desire to personally assist in the treatment. After unsuccessful resuscitation, compassionate and unhurried communication was considered crucial.\n\nConclusion\nThe study highlights how relatives’ needs shift across the phases of unsuccessful prehospital resuscitation. Community first responders fulfil an important emotional support role beyond providing basic life support. Individually tailored and transparent communication with the relatives during and after resuscitation can ease the psychological impact of the shift from the resuscitation phase, where the relatives may have hope, to the phase of termination of resuscitation attempts and the subsequent pronouncement of death of their relative.",
+      "country": "Denmark",
+      "setting": "OHCA",
+      "design": "Qualitative interview study",
+      "keywords": [
+        "Out-of-hospital cardiac arrest",
+        "Empathy",
+        "Care for relatives",
+        "Community first responders"
+      ]
+    },
+    "reason": "Crossref and Europe PMC provided no abstract. Transcribed the publisher’s abstract verbatim, preserving its section headings and text. Publisher licence: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/). Country, setting, design and keywords verified against the same publisher page.",
+    "source": "https://link.springer.com/article/10.1186/s13049-026-01689-z",
+    "verifiedAt": "2026-11-10"
   }
 }
