@@ -1,0 +1,341 @@
+{
+  "screened_on": "2026-11-10",
+  "selection_rule": "Final adjudication overrides individual votes; retain final Include or Maybe; otherwise retain agreed Include or Maybe.",
+  "selected_count": 32,
+  "new_count": 17,
+  "already_present_count": 15,
+  "studies": [
+    {
+      "id": "ST-0155",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1080/13548506.2026.2729847",
+      "title": "Parenting after critical illness: a biopsychosocial review of post-intensive care syndrome, family systems, and child outcomes.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0156",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.ccrj.2026.100212",
+      "title": "Long-term outcomes of out-of-hospital cardiac arrest survivors in New Zealand: A prospective, longitudinal cohort study.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0001",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1177/13674935251355323",
+      "title": "A pilot study to explore children's experiences of intensive care post-cardiac arrest using art-based participatory methods.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0004",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.encep.2025.10.007",
+      "title": "Psychological sequalae of patients experiencing aborted sudden cardiac death and their relatives.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0006",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1111/jan.70555",
+      "title": "Psychological Outcomes of Family Members Related to a Loved One's Resuscitation in the Emergency Department: A Cross-Sectional Study.",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0014",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111165",
+      "title": "Long-term functional and quality of life outcomes for survivors of asystolic out-of-hospital cardiac arrest.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0016",
+      "Marco": "Exclude",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111175",
+      "title": "Dispatching the community to save children in cardiac arrest: the psychological cost of activating community first responders.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0020",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111202",
+      "title": "A scoping review of support interventions for bystanders involved in out-of-hospital cardiac arrest.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0028",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1097/JCN.0000000000001372",
+      "title": "The Lived Experience of Sudden Cardiac Arrest Survivors: A Descriptive Phenomenological Study.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0035",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111277",
+      "title": "Cognition, quality of life, and psychological outcomes in out-of-hospital cardiac arrest survivors - Results from the German Cardiac Arrest Registry (G-CAR).",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0036",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resplu.2026.101445",
+      "title": "RescQ™: Study protocol for a feasibility pilot of structured support for bystanders/lay-rescuers following out-of-hospital cardiac arrest.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0039",
+      "Marco": "Maybe",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1097/MD.0000000000050530",
+      "title": "Experiences and perceptions of lay bystanders responding to out-of-hospital cardiac arrest: A qualitative systematic review.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0044",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resplu.2026.101450",
+      "title": "Psychological and cognitive support after cardiac arrest: a systematic review.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0050",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111311",
+      "title": "Structured diagnostic strategies for psychological problems in cardiac arrest survivors: an important knowledge gap.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0058",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.15420/icr.2026.18",
+      "title": "Five Practical Considerations for the Management of Out-of-hospital Cardiac Arrest: Reflections from the British Cardiovascular Intervention Society Out-of-hospital Cardiac Arrest Focus Group.",
+      "doi_source": "Screening website",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0070",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111343",
+      "title": "Non-enrolment and non-completion of cardiac rehabilitation among survivors of out-of-hospital cardiac arrest with ischaemic aetiology: a nationwide register-based cohort study.",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0081",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resuscitation.2026.111359",
+      "title": "Fatigue, anxiety and depression 12 months after out-of-hospital cardiac arrest: a population based cohort study.",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0089",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.3390/nursrep16100354",
+      "title": "Bystanders and Close Ones in Unsuccessful Resuscitation: An Overlooked Population in Out-of-Hospital Cardiac Arrest.",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0094",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/j.resplu.2026.101521",
+      "title": "Life satisfaction and self-rated health in long-term survivors after extracorporeal cardiopulmonary resuscitation (ECPR): associations with functional outcome, cognition, anxiety, depression, fatigue, and physical activity.",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0104",
+      "Marco": "Include",
+      "Vicky": "Maybe",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00963-9",
+      "title": "115 - Longitudinal Cognitive Change After Out-of-Hospital Cardiac Arrest: 7- to 24-Month Neuropsychological Follow-up.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900963-9",
+      "already_in_dataset": true
+    },
+    {
+      "id": "ST-0108",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00856-7",
+      "title": "453 - A Stepped-Care Model for Bystander Support After Out-of-Hospital Cardiac Arrest: Findings from the RescQ Pilot.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900856-7",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0110",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)01056-7",
+      "title": "218 - Self-Reported Health Problems Among Family Members of Cardiac Arrest Survivors.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2901056-7",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0112",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)01109-3",
+      "title": "277 - Experiences of Family Members of Out-of-Hospital Cardiac Arrest Patients during the First Year after Hospital Discharge.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2901109-3",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0126",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00865-8",
+      "title": "361 - Cardiac Arrest Recovery Enablement through Supported Self-management (CARESS) Feasibility Study: Interim Results from a Facilitator-Led, Online, Complex Intervention for Survivors and Co-Survivors.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900865-8",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0127",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00970-6",
+      "title": "125 - Evaluation of Real-World Psychological Impact and Aftercare Needs of Rescuers Following Out-of-Hospital Cardiac Arrest: Insights from the OHCAD Model.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900970-6",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0128",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00965-2",
+      "title": "117 - Mapping Health-Related Quality of Life Instruments and Follow-Up Timing in Cardiac Arrest Survivorship: A Scoping Review.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900965-2",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0130",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)01127-5",
+      "title": "303 - From Guidelines to Practice: A Global Survey of Rehabilitation and Follow-Up for Survivors and Co-Survivors of Out-of-Hospital Cardiac Arrest.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2901127-5",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0131",
+      "Marco": "Maybe",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00854-3",
+      "title": "214 - Experiences of Implementing European Guidelines for Post-Cardiac Arrest Follow-up in Sweden.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900854-3",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0136",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)00866-x",
+      "title": "433 - Early Implementation of a Hub-and-Spoke Survivorship Pathway for Out-of-Hospital Cardiac Arrest Survivors: a 12-Month Process Evaluation of the REVIVE Project.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2900866-x",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0137",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)01180-9",
+      "title": "363 - Towards a Cardiac Arrest Survivor-Reported Outcome Measure: Exploring What Matters to Survivors and Co-Survivors.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2901180-9",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0146",
+      "Marco": "Include",
+      "Vicky": "Include",
+      "decision": "Include",
+      "doi": "10.1016/s0300-9572(26)01181-0",
+      "title": "364 - The Cardiac Arrest Recovery Enablement through Supported Self-management (CARESS) Feasibility Study: Interim Findings from a Process Evaluation.",
+      "doi_source": "Crossref exact normalized title match",
+      "doi_source_url": "https://api.crossref.org/works/10.1016%2Fs0300-9572%2826%2901181-0",
+      "already_in_dataset": false
+    },
+    {
+      "id": "ST-0149",
+      "Marco": "Maybe",
+      "Vicky": "Maybe",
+      "decision": "Maybe",
+      "doi": "10.1684/afmu.2026.0763",
+      "title": "Summary of the guidelines for the management of cardiac arrest patients in France",
+      "doi_source": "Screening website",
+      "already_in_dataset": false
+    }
+  ]
+}
